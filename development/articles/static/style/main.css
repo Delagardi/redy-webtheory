@@ -234,3 +234,157 @@ th {
 /*=======================================================*/
 /* Normalize.css & REDY.IO styleguide END */
 /*=======================================================*/
+
+.wrapper {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background: #496ea0;
+  background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
+  box-shadow: 0 1px 3px #080909;
+}
+
+.header-content {
+  height: 60px;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header-content__logo {
+  display: block;
+  height: 24px;
+  width: 114px;
+  margin-top: 20px;
+  background: url("../img/logo.png") 0 0;
+  float: left;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 46px;
+  height: 60px;
+}
+
+nav li {
+  float: left;
+  padding-right: 20px;
+}
+
+nav a {
+  line-height: 60px;
+  color: #acc5db;
+  font-family: "Open sans", arial;
+  font-size: 13px;
+}
+
+.user {
+  float: right;
+  height: 60px;
+}
+
+.user-icons {
+  line-height: 16px;
+}
+
+.user-iconmenu {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin: 22px 15px 0 0;
+  background: url("../img/sprite.png") -353px 0 no-repeat;
+}
+
+.user-msg {
+  display: inline-block;
+  margin: 22px 16px 0 0;
+  height: 16px;
+  width: 50px;
+}
+
+.user-msg__icon {
+  float: left;
+  height: 16px;
+  width: 22px;
+  background: url("../img/sprite.png") -331px 0 no-repeat;
+}
+
+.user-msg__unread {
+  float: left;
+  display: inline-block;
+  margin-left: 5px;
+  height: 16px;
+  width: 16px;
+  background: #e14c64;
+  color: #fff;
+  font-size: 11px;
+  font-family: Arial;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.user-data {
+  display: inline-block;
+  height: 60px;
+  width: 150px;
+  padding-top: 3px;
+  background: #40608b;
+  background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40608b', endColorstr='#365379',GradientType=0 );
+}
+
+.user-data__login {
+  display: inline;
+  line-height: 60px;
+  padding-left: 16px;
+  font-family: "Open sans", arial;
+  font-size: 13px;
+  color: #fff;
+}
+
+.user-data__photo {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin: 7px 10px;
+  background: url("../img/userphoto.jpg") 0 0 no-repeat;
+  border-radius: 4px;
+}
+
+.user-data:hover {
+  box-shadow: 0 -3px 0 #e94d66 inset;
+}
+/* TODO: 
+ * 1. user-msg__unread, user-data__login - vertical center
+ * 2. Hover effects for icons
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
