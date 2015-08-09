@@ -431,6 +431,7 @@ nav a:hover {
 }
 
 .item-rating {
+  position: relative;
   display: inline-block;
   padding-left: 8px;
 }
@@ -439,17 +440,18 @@ nav a:hover {
   font-family: "Arial";
   font-size: 12px;
   color: #a4c549;
-  position: relative;
+  position: absolute;
   margin-left: 10px;
+  top: -12px;
 }
 
 .item-rating__number:before {
-  content: ''; 
+  content: '';
   position: absolute;
-  left: -12px;
-  top: -2px;
-  border: 5px solid transparent; 
-  border-bottom: 5px solid #a4c549;
+  left: -13px;
+  top: 0px;
+  border: 4px solid transparent;
+  border-bottom: 4px solid #a4c549;
 }
 
 .item-category__link,
