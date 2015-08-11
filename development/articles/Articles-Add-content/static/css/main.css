@@ -1,0 +1,142 @@
+@font-face {
+	font-family: "OpenSans";
+	src: url(/Open_Sans.ttf);
+}
+.article-add {
+color: #333333;
+	font: 300 18px OpenSans;
+	position: absolute;
+	top: 101px;
+	left: 159px;
+}
+.add-form {
+width: 145px;
+	height: 28px;
+	position: absolute;
+	top: 136px;
+	left: 160px;
+	background-color: #e3e8ee;
+	border-radius: 3px;
+	border: 1px solid #e3e3e3;
+	color: #747d8a;
+	font: 400 13px / 22px Arial;
+	text-align: center;
+	padding-top: 6px;
+	cursor: pointer;
+}
+.public-rules {
+width: 128px;
+	height: 13px;
+	position: absolute;
+	top: 144px;
+	left: 324px;
+	color: #96a3b4;
+	font: 400 13px / 22px Arial;
+	cursor: pointer;
+}
+.article-name-input {
+width: 449px;
+	height: 45px;
+	position: absolute;
+	top: 192px;
+	left: 161px;
+	color: #666666;
+	font: 400 13px OpenSans;
+	padding-left: 10px;
+	border: 1px solid #e3e3e3;
+}
+.input-list-icon {
+width: 16px;
+	height: 14px;
+	position: absolute;
+	top: 209px;
+  left: 590px;
+	background: url(images/list-icon3.png);
+	cursor: pointer;
+}
+.article-tags-input {
+	width: 449px;
+	height: 45px;
+	position: absolute;
+	top: 248px;
+	left: 161px;
+	border: 1px solid #e3e3e3;
+	padding-left: 10px;
+	color: #666666;
+	font: 400 13px OpenSans;
+}
+.article-tag-icon {
+	background: url(images/tag-icon.png);
+width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 262px;
+	left: 590px;
+	cursor: pointer;
+}
+.choose-category-btn {
+width: 229px;
+	height: 33px;
+	position: absolute;
+	top: 192px;
+	left: 630px;
+	background-color: #f8f8f8;
+	border: 1px solid #e3e3e3;
+	color: #707070;
+	font: 400 13px OpenSans;
+	padding-top: 14px;
+	padding-left: 10px;
+}
+.choose-category-pic {
+background: url(images/Polygon-2.png);
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 213px;
+	left: 846px;
+}
+.article-type-btn {
+width: 229px;
+	height: 33px;
+	position: absolute;
+	top: 248px;
+	left: 630px;
+	background-color: #f8f8f8;
+	border: 1px solid #e3e3e3;
+	color: #707070;
+	font: 400 13px Open Sans;
+	padding-top: 14px;
+	padding-left: 10px;
+}
+.article-type-pic {
+background: url(images/Polygon-2.png);
+	width: 9px;
+	height: 5px;
+	position: absolute;
+	top: 269px;
+	left: 846px;
+}
+.article-text-editor {
+width: 708px;
+	height: 300px;
+	position: absolute;
+	top: 303px;
+	left: 161px;
+	background-color: #ffffff;
+	border: 1px solid #e3e3e3;
+}
+.edit-menu {
+width: 698px;
+	height: 30px;
+	background: -webkit-linear-gradient(90deg, #efefef 0%, #f4f4f4 100%);
+	background: -moz-linear-gradient(90deg, #efefef 0%, #f4f4f4 100%);
+	background: -o-linear-gradient(90deg, #efefef 0%, #f4f4f4 100%);
+	background: -ms-linear-gradient(90deg, #efefef 0%, #f4f4f4 100%);
+	background: linear-gradient(0deg, #efefef 0%, #f4f4f4 100%);
+	border-bottom: 1px solid #e3e3e3;
+	color: #666666;
+	font: 400 12px Arial;
+	text-align: right;
+	padding-top: 14px;
+	padding-right: 10px;
+}
