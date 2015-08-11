@@ -199,12 +199,6 @@
 	box-sizing:border-box;
 }
 
-.option{
-  border: none;
-  box-shadow: none;
-  width: 220px;
-}
-
 .triangle{
   position: absolute;
 	margin: 16px 15px 0 195px;
