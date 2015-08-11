@@ -3,14 +3,14 @@
     src: url("Open_Sans.ttf");
 }
 
-.side-bar-navigation{
+.sidebar-navigation{
 	list-style: none;
 	color: #333333;
 	font-size: 18px;
 	font-family: "Open Sans";
 }
 
-.side-bar-navigation__icon1{
+.sidebar-navigation__icon1{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat;
@@ -18,7 +18,7 @@
 	top: 12px;
 	left: 0px;
 }
-.side-bar-navigation__number-active{
+.sidebar-navigation__number-active{
 	float: right;
 	width: 19px;
 	height: 19px;
@@ -31,7 +31,7 @@
 	color: #fff
 }
 
-.side-bar-navigation__number{
+.sidebar-navigation__number{
 	float: right;
 	width: 19px;
 	height: 19px;
@@ -42,7 +42,7 @@
 	border-radius: 3px;
 	font-size: 12px;
 }
-.side-bar-navigation__icon2{
+.sidebar-navigation__icon2{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -16px 0;
@@ -51,7 +51,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon3{
+.sidebar-navigation__icon3{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -32px 0;
@@ -60,7 +60,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon4{
+.sidebar-navigation__icon4{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -48px 0;
@@ -69,7 +69,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon5{
+.sidebar-navigation__icon5{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -64px 0;
@@ -78,7 +78,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon6{
+.sidebar-navigation__icon6{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -80px 0;
@@ -87,7 +87,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon7{
+.sidebar-navigation__icon7{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -96px 0;
@@ -96,7 +96,7 @@
 	left: 0px;
 	
 }
-.side-bar-navigation__icon8{
+.sidebar-navigation__icon8{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -112px 0;
@@ -107,7 +107,7 @@
 }
 
 
-.side-bar-navigation__links{
+.sidebar-navigation__links{
 	display: block;
 	width: 220px;
 	height: 38px;
@@ -122,11 +122,11 @@
 	font-size: 13px;
 }
 
-.side-bar-navigation__links:hover{
+.sidebar-navigation__links:hover{
   background: #f0f0f0;
 }
 
-.side-bar-navigation__links-last{
+.sidebar-navigation__links-last{
 	display: block;
 	width: 220px;
 	height: 38px;
@@ -141,26 +141,26 @@
 	font-size: 13px;
 }
 
-.side-bar-navigation__links-last:hover{
+.sidebar-navigation__links-last:hover{
   background: #f0f0f0;
 }
-.side-bar-sorting{
+.sidebar-sorting{
 	list-style: none;
 	color: #333333;
 	font-size: 18px;
 	font-family: "Open Sans";
 }
 
-.side-bar-sorting__item{
+.sidebar-sorting__item{
 	font-size: 13px;	
 	color: #333333;
 }
 
-.side-bar-sorting__item:first-child{
+.sidebar-sorting__item:first-child{
 	margin-top: 15px;
 }
 
-.side-bar-sorting__links{
+.sidebar-sorting__links{
 	display: block;
 	width: 220px;
 	height: 38px;
@@ -177,7 +177,7 @@
 
 
 
-.side-bar-sorting__menu{
+.sidebar-sorting__menu{
 	display: block;
 	width: 220px;
 	height: 36px;
@@ -193,7 +193,7 @@
 	margin: 10px 0 20px 0
 }
 
-.side-bar-sorting__menu:hover{
+.sidebar-sorting__menu:hover{
   background: #e3e3e3;
 }
 
@@ -207,21 +207,21 @@
 	border-right: 5px solid transparent;
 }
 
-.side-bar-help{
+.sidebar-help{
 	list-style: none;
 	font-family: "Open Sans";
 	font-size: 18px;
 
 }
 
-.side-bar-help__description{
+.sidebar-help__description{
 	width: 220px;
 	font-size: 13px;	
 	color: #333333;
 	margin: 25px 0 20px 0;
 }
 
-.side-bar-help__donate{
+.sidebar-help__donate{
 	height: 45px;
 	width: 220px;
 	background: #8ecf6e;
@@ -234,11 +234,11 @@
 	text-decoration: none;
 }
 
-.side-bar-help__donate:hover{
+.sidebar-help__donate:hover{
   background: #7cb560;
 }
 
-.side-bar-help__donate-bag{
+.sidebar-help__donate-bag{
 	float: left;
 	width: 35px;
 	height: 45px;
@@ -246,12 +246,12 @@
 	margin: 0 15px 0 0 ;
 }
 
-.side-bar-social{
+.sidebar-social{
 	list-style: none;
 	color: #333333;
 }
 
-.side-bar-social__icon1{
+.sidebar-social__icon1{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -190px 3px;
@@ -260,7 +260,7 @@
 	left: 0px;
 }
 
-.side-bar-social__icon2{
+.sidebar-social__icon2{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -207px 3px;
@@ -270,7 +270,7 @@
 }
 
 
-.side-bar-social__icon3{
+.sidebar-social__icon3{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -223px 3px;
@@ -280,7 +280,7 @@
 }
 
 
-.side-bar-social__icon4{
+.sidebar-social__icon4{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -239px 3px;
@@ -288,7 +288,7 @@
 	top: 8px;
 	left: 0px;
 }
-.side-bar-social__icon5{
+.sidebar-social__icon5{
 	width: 16px;
 	height: 100%;
 	background: url("sprite.png") no-repeat -255px 3px;
@@ -298,7 +298,7 @@
 }
 
 
-.side-bar-social__item{
+.sidebar-social__item{
 	display: block;
 	width: 220px;
 	height: 38px;
@@ -313,11 +313,11 @@
 	font-size: 13px;
 }
 
-.side-bar-social__item:hover{
+.sidebar-social__item:hover{
   background: #f0f0f0;
 }
 
-.side-bar-social__item-last{
+.sidebar-social__item-last{
 	display: block;
 	width: 220px;
 	height: 38px;
@@ -332,7 +332,7 @@
 	font-size: 13px;
 }
 
-.side-bar-social__item-last:hover{
+.sidebar-social__item-last:hover{
   background: #f0f0f0;
 }
 
