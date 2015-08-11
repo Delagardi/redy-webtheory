@@ -1,6 +1,6 @@
 @font-face{
 	font-family: "Open Sans"; 
-    src: url("Open_Sans.ttf");
+  src: url("Open_Sans.ttf");
 }
 
 .sidebar-navigation{
@@ -18,6 +18,7 @@
 	top: 12px;
 	left: 0px;
 }
+
 .sidebar-navigation__number-active{
 	float: right;
 	width: 19px;
@@ -42,6 +43,7 @@
 	border-radius: 3px;
 	font-size: 12px;
 }
+
 .sidebar-navigation__icon2{
 	width: 16px;
 	height: 100%;
@@ -49,8 +51,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon3{
 	width: 16px;
 	height: 100%;
@@ -58,8 +60,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon4{
 	width: 16px;
 	height: 100%;
@@ -67,8 +69,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon5{
 	width: 16px;
 	height: 100%;
@@ -76,8 +78,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon6{
 	width: 16px;
 	height: 100%;
@@ -85,8 +87,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon7{
 	width: 16px;
 	height: 100%;
@@ -94,8 +96,8 @@
 	position: absolute;
 	top: 12px;
 	left: 0px;
-	
 }
+
 .sidebar-navigation__icon8{
 	width: 16px;
 	height: 100%;
@@ -103,9 +105,7 @@
 	position: absolute;
 	top: 8px;
 	left: 0px;
-	
 }
-
 
 .sidebar-navigation__links{
 	display: block;
@@ -144,6 +144,7 @@
 .sidebar-navigation__links-last:hover{
   background: #f0f0f0;
 }
+
 .sidebar-sorting{
 	list-style: none;
 	color: #333333;
@@ -174,8 +175,6 @@
 	line-height: 38px;
 	font-size: 13px;
 }
-
-
 
 .sidebar-sorting__menu{
 	display: block;
@@ -211,7 +210,6 @@
 	list-style: none;
 	font-family: "Open Sans";
 	font-size: 18px;
-
 }
 
 .sidebar-help__description{
@@ -269,7 +267,6 @@
 	left: 0px;
 }
 
-
 .sidebar-social__icon3{
 	width: 16px;
 	height: 100%;
@@ -279,7 +276,6 @@
 	left: 0px;
 }
 
-
 .sidebar-social__icon4{
 	width: 16px;
 	height: 100%;
@@ -288,6 +284,7 @@
 	top: 8px;
 	left: 0px;
 }
+
 .sidebar-social__icon5{
 	width: 16px;
 	height: 100%;
@@ -296,7 +293,6 @@
 	top: 8px;
 	left: 0px;
 }
-
 
 .sidebar-social__item{
 	display: block;
