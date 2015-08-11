@@ -254,19 +254,21 @@ th {
   width: 100%;
 }
 
-ul {
-  list-style: none;
-  margin-top: 0;
-}
-
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .clr {
   clear: both;
 }
+
 header {
+  position: relative;
+  z-index: 2;
   height: 60px;
   width: 100%;
   background: #496ea0;
@@ -378,11 +380,11 @@ nav a:hover {
 
 .user-data__photo {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  /*height: 40px;
+  width: 40px;*/
   float: right;
   margin: 7px 10px;
-  background: url("../img/userphoto.jpg") 0 0 no-repeat;
+  /*background: url("../img/userphoto.jpg") 0 0 no-repeat;*/
   border-radius: 4px;
 }
 
@@ -391,8 +393,6 @@ nav a:hover {
 }
 
 .subheader {
-  position: relative;
-  z-index: -1;
   background: url("../img/bg-subheader.png");
   height: 250px;
   display: block;
@@ -408,6 +408,11 @@ nav a:hover {
   float: left;
 }
 
+.articles-list {
+  padding: 0;
+  margin-left: 0;
+}
+
 .subheader-content h2 {
   margin-top: 35px;
   font-family: "Open Sans light", arial;
@@ -418,11 +423,12 @@ nav a:hover {
 
 .item {
   display: inline-block;
-  width: 243px;
+  width: 33%;
   margin-top: 15px;
+  float: left;
 }
 
-.item-header__link,
+.item-header,
 .person__name {
   color: #fff;
   font-family: "Arial Bold";
@@ -461,6 +467,11 @@ nav a:hover {
   font-size: 12px;
 }
 
+.authors {
+  width: 220px;
+  float: left;
+}
+
 .person {
   margin-top: 15px;
   display: inline-block;
@@ -475,40 +486,14 @@ nav a:hover {
   display: inline-block;
 }
 
-.person__photo1 {
-  height: 40px;
-  width: 40px;
+.person__photo img {
   border-radius: 3px;
   display: inline-block;
   margin-left: -40px;
   float: left;
-  background: url("../img/author1.jpg");
 }
 
-.person__photo2 {
-  height: 40px;
-  width: 40px;
-  border-radius: 3px;
-  display: inline-block;
-  margin-left: -40px;
-  float: left;
-  background: url("../img/author2.jpg");
-}
 
-.person__photo3 {
-  height: 40px;
-  width: 40px;
-  border-radius: 3px;
-  display: inline-block;
-  margin-left: -40px;
-  float: left;
-  background: url("../img/author3.jpg");
-}
-
-.authors {
-  width: 220px;
-  float: left;
-}
 
 
 

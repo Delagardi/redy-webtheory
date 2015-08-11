@@ -63,7 +63,7 @@ width: 40px;
 height: 40px;
 	background-color: #f3f3f3;
 	border-radius: 3px;
-	background: url(/static/img/Layer-20.png);
+	background: url(../img/Layer-20.png);
 }
 .user1-name {
 	color: #3b3b3b;
@@ -164,7 +164,7 @@ width: 124px;
 .like {
 width: 14px;
 	height: 16px;
-background: url(/static/img/sprite.png);
+background: url(../img/sprite.png);
 	background-position: -316px 0px;
 	float: left;
 	margin: 10px;
@@ -186,7 +186,7 @@ padding-top: 8px;
 .dislike {
 width: 14px;
 	height: 17px;
-background: url(/static/img/sprite.png);
+background: url(../img/sprite.png);
 	background-position: -303px 0px;
 	display: inline-block;
 	margin-left: 10px;
@@ -195,7 +195,7 @@ background: url(/static/img/sprite.png);
 .views-pic {
 width: 17px;
 	height: 15px;
-background: url(/static/img/sprite.png);
+background: url(../img/sprite.png);
 	background-position: -285px 1px;
 	display: inline-block;
 	margin-left: 15px;
@@ -210,7 +210,7 @@ width: 35px;
 	margin-left: 8px;
 }
 .comments-pic {
-	background: url(/static/img/sprite.png);
+	background: url(../img/sprite.png);
 	width: 14px;
 	height: 11px;
 	display: inline-block;
@@ -246,7 +246,7 @@ display: inline-block;
 	margin-right: -9px;
 }
 .vk-btn-pic {
-	background-image: url(/static/img/sprite.png);
+	background-image: url(../img/sprite.png);
 	background-position: -128px 1px;
 	width: 10px;
 	height: 15px;
@@ -271,7 +271,7 @@ display: inline-block;
 	display: inline-block;
 }
 .fb-btn-pic {
-background-image: url(/static/img/sprite.png);
+background-image: url(../img/sprite.png);
 background-position: -138px 1px;
 	width: 8px;
 	height: 20px;
@@ -288,7 +288,7 @@ background-position: -138px 1px;
 	margin-bottom: -5px;
 }
 .tw-btn-pic {
-background-image: url(/static/img/sprite.png);
+background-image: url(../img/sprite.png);
 background-position: -146px 0px;
 	width: 17px;
 	height: 15px;
@@ -313,7 +313,7 @@ display: inline-block;
 	overflow: hidden;
 }
 .g-btn-pic {
-background-image: url(/static/img/sprite.png);
+background-image: url(../img/sprite.png);
 background-position: -163px 0px;
 	width: 24px;
 	height: 21px;
@@ -360,7 +360,7 @@ width: 127px;
 	height: 40px;
 	background-color: #f3f3f3;
 	border-radius: 3px;
-	background: url(/static/img/Layer-22.png);
+	background: url(../img/Layer-22.png);
 	
 }
 .user2-name {
@@ -458,7 +458,7 @@ width: 127px;
 .dislike2 {
 	width: 13px;
 	height: 25px;
-	background: url(/static/img/sprite.png);
+	background: url(../img/sprite.png);
 	background-position: -303px;
 	display: inline-block;
 	margin-bottom: -12px;
@@ -467,7 +467,7 @@ width: 127px;
 .views-pic2 {
 width: 18px;
 	height: 15px;
-background: url(/static/img/sprite.png);
+background: url(../img/sprite.png);
 	background-position: -285px 1px;
 	display: inline-block;
 	margin-left: 10px;
@@ -481,7 +481,7 @@ width: 40px;
 	margin-left: 330px;
 }
 .comments-pic2 {
-	background: url(/static/img/sprite.png);
+	background: ur../img/sprite.png);
 	width: 14px;
 	height: 14px;
 	
@@ -521,7 +521,7 @@ ul.social-btns2 li {
 	margin-top: -12px;
 }
 .vk-btn2-pic {
-background-image: url(/static/img/sprite.png);
+background-image: ur../img/sprite.png);
 background-position: -128px;
 	width: 10px;
 	height: 25px;
@@ -550,7 +550,7 @@ background-position: -128px;
 	border-radius: 3px;
 }
 .fb-btn2-pic {
-background-image: url(/static/img/sprite.png);
+background-image: ur../img/sprite.png);
 background-position: -138px;
 	width: 8px;
 	height: 25px;
@@ -578,7 +578,7 @@ background-position: -138px;
 	margin-top: -12px;
 }
 .tw-btn2-pic {
-	background-image: url(/static/img/sprite.png);
+	background-image: ur../img/sprite.png);
 	background-position: -146px 0px;
 	width: 17px;
 	height: 15px;
@@ -605,7 +605,7 @@ background-position: -138px;
 	margin-top: -12px;
 }
 .g-btn2-pic {
-background-image: url(/static/img/sprite.png);
+background-image: url(../img/sprite.png);
 background-position: -163px 0px;
 	width: 24px;
 	height: 21px;

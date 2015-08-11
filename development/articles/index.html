@@ -6,7 +6,6 @@
   <link href="static/style/main.css" rel="stylesheet" >
 </head>
 <body>
-  <div class="wrapper">
     <header>
       <div class="header-content">
         <a href="#" class="header-content__logo"></a>
@@ -28,7 +27,7 @@
           </div>
           <div class="user-data">
             <a href="#" class="user-data__login">webtheory</a>
-            <a href="#" class="user-data__photo"></a>
+            <a href="#" class="user-data__photo"><img alt="" width="40" height="40" src="upload/userphoto.jpg"></a>
           </div>
         </div>
       </div>
@@ -37,99 +36,100 @@
       <div class="subheader-content">
         <div class="articles">
           <h2>Топ статей за месяц:</h2>
-          <ul></ul>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Изучаем С++. Часть 1.</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">349</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Программирование</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link"  href="#">Изучаем С++. Часть 1.</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">349</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Программирование</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link"  href="#">Изучаем С++. Часть 1.</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">349</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Программирование</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link"  href="#">Оживление</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Оживление</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Оживление</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Изучение Ruby #1</a></div>
-            <div class="item-rating">
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Изучение Ruby #1</a></div>
-            <div class="item-rating">
-              <div class="item-rating__icon"></div>
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
-          </li>
-          <li class="item">
-            <div class="item-header"><a class="item-header__link" href="#">Изучение Ruby #1</a></div>
-            <div class="item-rating">
-              <div class="item-rating__icon"></div>
-              <div class="item-rating__number">173</div>
-            </div>
-            <div class="clr"></div>
-            <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
-          </li>
+          <ul class="articles-list">
+            <li class="item">
+              <a class="item-header" href="#">Изучаем С++. Часть 1.</a>
+              <div class="item-rating">
+                <div class="item-rating__number">349</div>
+              </div>
+              <div class="clr"></div>
+              <a class="item-category__link" href="#">Программирование</a>
+            </li>
+            <li class="item">
+              <a class="item-header"  href="#">Изучаем С++. Часть 1.</a>
+              <div class="item-rating">
+                <div class="item-rating__number">349</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Программирование</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header"  href="#">Изучаем С++. Часть 1.</a>
+              <div class="item-rating">
+                <div class="item-rating__number">349</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Программирование</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header"  href="#">Оживление</a>
+              <div class="item-rating">
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header" href="#">Оживление</a>
+              <div class="item-rating">
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header" href="#">Оживление</a>
+              <div class="item-rating">
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Новости</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header" href="#">Изучение Ruby #1</a>
+              <div class="item-rating">
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header" href="#">Изучение Ruby #1</a>
+              <div class="item-rating">
+                <div class="item-rating__icon"></div>
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
+            </li>
+            <li class="item">
+              <a class="item-header" href="#">Изучение Ruby #1</a>
+              <div class="item-rating">
+                <div class="item-rating__icon"></div>
+                <div class="item-rating__number">173</div>
+              </div>
+              <div class="clr"></div>
+              <div class="item-category"><a class="item-category__link" href="#">Веб-разработка</a></div>
+            </li>
+          </ul>
         </div>
         <div class="authors">
           <h2>Топ публикующих за месяц:</h2>
           <ul>
             <li class="person">
-              <div class="person__photo1"></div>
-              <div class="person__name">Андрей Шеньшин</div>
-              <div class="person__amount">48 публикаций</div>
+              <a class="person__photo" href="#"><img alt="" width="40" height="40" src="upload/author1.jpg"></a>
+              <a class="person__name" href="#">Андрей Шеньшин</a>
+              <a class="person__amount" href="#">48 публикаций</a>
             </li>
             <li class="person">
-              <div class="person__photo2"></div>
-              <div class="person__name">Глеб Цырульников</div>
-              <div class="person__amount">19 публикаций</div>
+              <a class="person__photo" href="#"><img alt="" width="40" height="40" src="upload/author2.jpg"></a>
+              <a class="person__name" href="#">Глеб Цырульников</a>
+              <a class="person__amount" href="#">19 публикаций</a>
             </li>
             <li class="person">
-              <div class="person__photo3"></div>
-              <div class="person__name">Дмитрий Хлудеев</div>
-              <div class="person__amount">2 публикации</div>
+              <a class="person__photo" href="#"><img alt="" width="40" height="40" src="upload/author3.jpg"></a>
+              <a class="person__name" href="#">Дмитрий Хлудеев</a>
+              <a class="person__amount" href="#">2 публикации</a>
             </li>
           </ul>
         </div>
