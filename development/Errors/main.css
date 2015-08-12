@@ -16,7 +16,9 @@ html{
 .error{
   height: 200px;
   width: 300px;
-  margin: 30% auto 0;
+  position: absolute;
+  top:45%;
+  left: 42%;
 }
 
 .error403{
