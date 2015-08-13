@@ -520,10 +520,14 @@ body {
 a {
   text-decoration: none;
 }
+.main{
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+  width: 960px;
+}
 
 #content {
   width: 720px;
-  margin: 34px 0px 0px 160px;
 }
 
 .article-name {
@@ -532,6 +536,10 @@ a {
   display: inline;
   float: left;
   margin: 0px 0px 20px 0px;
+}
+
+.article1{
+  width: 720px;
 }
 
 .article-name:after {
@@ -704,7 +712,7 @@ list-style: none;
   width: 192px;
   height: 24px;
   display: inline-block;
-  margin: 0px 0px 0px 75px;
+  float: right;
 }
 
 .social-btns.block2 {
@@ -717,7 +725,7 @@ display: inline-block;
 }
 
 .vk-btn {
-  background-color: #48729e;
+  background: #48729e;
   width: 48px;
   height: 24px;
   border-radius: 3px;
@@ -730,8 +738,8 @@ display: inline-block;
   vertical-align: top;
 }
 
-.vk-btn-pic {
-  background-image: url(/static/img/sprite.png) -128px 1px;
+.vk-btn__pic {
+  background: url("../img/sprite.png") -128px 1px;
   width: 10px;
   height: 15px;
   float: left;
@@ -907,10 +915,10 @@ display: inline-block;
 
 .sidebar{
   float: right;
-  margin: 20px 145px 0 0;
 } 
 
 .sidebar-navigation{
+  margin-top: 0px;
   list-style: none;
   color: #333333;
   font-size: 18px;
