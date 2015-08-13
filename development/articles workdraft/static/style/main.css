@@ -509,18 +509,6 @@ header {
   float: left;
 }
 
-@font-face {
-  font-family: OpenSans;
-  src: url("Open_Sans.ttf");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Arial;
-  src: url("Arial.ttf");
-  font-weight: normal;
-}
-
 body {
   margin: 0;
 }
@@ -535,13 +523,15 @@ a {
 
 #content {
   width: 720px;
-  margin: 40 0 0 150px;
+  margin: 34px 0px 0px 160px;
 }
 
 .article-name {
   color: #333333;
   font: 300 18px / 22px OpenSans;
   display: inline;
+  float: left;
+  margin: 0px 0px 20px 0px;
 }
 
 .article-name:after {
@@ -557,7 +547,8 @@ a {
 }
 
 .article-tags {
-margin: -25px 570px -20px 0px;
+  margin: 0px -10px 0px 0px;
+  float: right
 }
 
 .article-tags li{
@@ -581,7 +572,9 @@ margin: -25px 570px -20px 0px;
 
 .article-author {
   width: 180px;
-  margin-top: 20px;
+  float: left;
+  margin: 0px 0px 20px 0px;
+  clear: left;
 }
 
 .article-author-pic {
@@ -605,13 +598,20 @@ margin: -25px 570px -20px 0px;
 }
 
 .article-text {
-  width: 704px;
+  width: 710px;
   color: #484747;
   font: 400 13px / 22px OpenSans;
+  clear: left;
+  margin: 0px 0px 0px 0px;
 }
 
-.article-text_list {
+.article-text_lists {
 list-style: none;
+}
+
+.article_bottom-nav {
+  margin: 28px 0px 0px 0px;
+  width: 710px;
 }
 
 .read-continue {
@@ -628,8 +628,7 @@ list-style: none;
   width: 124px;
   height: 38px;
   display: inline-block;
-  margin-left: 10px;
-  margin-top: 1px;
+  margin: 1px 0px 0px 10px;
   background: #f5f5f5;
   border-radius: 4px;
   border: 1px solid #e3e3e3;
@@ -702,14 +701,15 @@ list-style: none;
 }
 
 .social-btns {
-  width: 230px;
+  width: 192px;
   height: 24px;
   display: inline-block;
-  margin-left: 86px;
+  margin: 0px 0px 0px 75px;
 }
 
 .social-btns.block2 {
-  margin-left: 54px;
+  width: 226px;
+  margin: 0px 0px 0px 41px;
 }
 
 .social-btns li {
@@ -731,7 +731,7 @@ display: inline-block;
 }
 
 .vk-btn-pic {
-  background-image: url("../img/sprite.png") -128px 1px;
+  background-image: url(/static/img/sprite.png) -128px 1px;
   width: 10px;
   height: 15px;
   float: left;
@@ -837,16 +837,16 @@ display: inline-block;
 
 .bottom-line {
   height: 1px;
-  width: 705px;
+  width: 700px;
   background-color:#ececec;
-  margin: 10px 0px 44px 0px;
+  margin: 20px 0px 44px 0px;
 }
 
 .bottom-line2 {
-  width: 705px;
+  width: 700px;
   height: 1px;
   background: #ececec;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .previous-page {
