@@ -278,6 +278,7 @@ header {
   z-index: 2;
   height: 60px;
   width: 100%;
+  min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
