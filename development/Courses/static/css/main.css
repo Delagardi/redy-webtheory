@@ -472,15 +472,13 @@ header {
   margin-top: 18px;
 }
 
-.table-up-course {
-  border: 1px solid;
+.table-course {
   width: 234px;
   float: left;
-  margin-left: 5px;
-  margin-bottom: 25px;
+  margin: 0 5px 25px 0;
 }
 
-.table-up-course__name {
+.table-course__name {
   margin-top: 12px;
   display: block;
   font-family: Arial;
@@ -489,7 +487,7 @@ header {
   font-weight: 800;
 }
 
-.table-up-course__dffclty {
+.table-course__dffclty {
   display: inline-block;
   margin-top: 8px;
   font-family: Arial;
@@ -497,10 +495,16 @@ header {
   color: #999;
 }
 
-/*.table-up-course__link img {
-  float: left;
-  display: block;
-}*/
+.table-down {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.table-down-header {
+  color: #333333;
+  font-size: 18px;
+  font-family: "Open Sans"; /*Articles has sidebar header in OS*/
+}
 
 /*=======================================================*/
 /* CONTENT START */
@@ -603,24 +607,6 @@ header {
   left: 0px;
 }
 
-.sidebar-navigation__icon7{
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -96px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
-}
-
-.sidebar-navigation__icon8{
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -112px 0;
-  position: absolute;
-  top: 8px;
-  left: 0px;
-}
-
 .sidebar-navigation__links{
   display: block;
   width: 220px;
@@ -659,7 +645,7 @@ header {
   background: #f0f0f0;
 }
 
-.sidebar-sorting{
+/*.sidebar-sorting{
   list-style: none;
   color: #333333;
   font-size: 18px;
@@ -760,7 +746,7 @@ header {
   height: 45px;
   background: url("../img/bag.png") 36px 0;
   margin: 0 15px 0 0 ;
-}
+}*/
 
 .sidebar-social{
   list-style: none;
