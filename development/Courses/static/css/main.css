@@ -507,6 +507,49 @@ header {
   font-family: "Open Sans"; /*Articles has sidebar header in OS*/
 }
 
+/* Below styles for Courses-What-To-Learn page */
+.main {
+  display: inline-block;
+  width: 720px;
+}
+
+.main-article {
+  box-shadow: 9px 0 5px -4px #f3f3f3;
+}
+
+.main-article h1 {
+  display: inline-block;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #333;
+  margin-top: 18px;
+}
+
+.main-article__edit {
+  color: #3676b1;
+  text-decoration: underline;
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.main-article h2 {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  color: #666;
+  margin: 45px 0;
+}
+
+.main-article p {
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  font-size: 12px;
+  color: #666;
+  padding-right: 8px;
+}
+
+
+
 /*=======================================================*/
 /* CONTENT END */
 /*=======================================================*/
