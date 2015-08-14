@@ -548,7 +548,51 @@ header {
   padding-right: 8px;
 }
 
+.main-article-linktag {  
+  padding: 2px;
+  border-radius: 3px;
+}
 
+.javascript {
+  color: #3787a4;
+  background: #c3dfec;
+  border-left: 2px solid #4ea7c8;
+}
+
+.html5css3 {
+  color: #b99c81;
+  background: #ecd7c3;
+  border-left: 2px solid #e1a062;
+}
+
+.jquery {
+  color: #ad5ba8;
+  background: #ecc3e9;
+  border-left: 2px solid #c56dbf;
+}
+
+.coffeescript {
+  color: #88a257;
+  background: #e6ecc3;
+  border-left: 2px solid #a5c56d;
+}
+
+.php {
+  color: #88a257;
+  background: #e6ecc3;
+  border-left: 2px solid #a5c56d;
+}
+
+.mysql {
+  color: #ae4646;
+  background: #ecc3c3;
+  border-left: 2px solid #cf7a7a;
+}
+
+.main-article-link__simple {
+  color: #3676b1;
+  text-decoration: underline;
+}
 
 /*=======================================================*/
 /* CONTENT END */
