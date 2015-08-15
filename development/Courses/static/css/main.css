@@ -461,7 +461,7 @@ header {
 /*=======================================================*/
 /* CONTENT START */
 /*=======================================================*/
-.table {
+.main {
   display: inline-block;
   width: 720px;
 }
@@ -508,10 +508,6 @@ header {
 }
 
 /* Below styles for Courses-What-To-Learn page */
-.main {
-  display: inline-block;
-  width: 720px;
-}
 
 .main-article {
   box-shadow: 9px 0 5px -4px #f3f3f3;
@@ -594,6 +590,96 @@ header {
   text-decoration: underline;
 }
 
+/* Below styles for Courses-full page */
+.video-head {
+  margin: 20px 0;
+  line-height: 18px;
+}
+
+.video-header {
+  font-family: "Open Sans";
+  font-size: 18px;
+  display: inline-block;
+}
+
+.video-views {
+  font-family: "Open Sans";
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 12px;
+  float: right;
+}
+
+.main-info-wrapper {
+  display: inline-block;
+  border-bottom: 2px solid #e3e3e3;
+  width: 100%;
+  min-width: 720px;
+  height: 53px;
+}
+
+.main-info-tab {
+  display: inline-block;
+  float: left;
+}
+
+.main-info-tab__link {
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  color: #999;
+  margin: 10px 10px 10px 0;
+  padding-bottom: 10px;
+}
+
+.main-info-tab__link:hover {
+  color: #333;
+  border-bottom: 2px solid #4f87c7;
+}
+
+.main-info-likes {
+  float: right;
+  margin-top: 0;
+}
+
+.main-info-like {
+  display: inline-block;
+  float: left;
+}
+
+.main-info-like__number {
+  color: #666;
+}
+
+.main-info-like__link {
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  color: #4f87c7;
+  margin: 10px 0 10px 20px;
+  padding-bottom: 10px;
+}
+
+.main-info-like__link:hover {
+  border-bottom: 2px solid #4f87c7;
+}
+
+.main-info-text {
+  margin-top: 10px;
+}
+
+.main-info-text p {
+  font-family: Arial;
+  font-size: 13px;
+  color: #666;
+}
+
+.main-comments h3 {
+  font-family: Arial;
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
 /*=======================================================*/
 /* CONTENT END */
 /*=======================================================*/
