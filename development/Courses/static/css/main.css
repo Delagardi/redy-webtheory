@@ -405,6 +405,7 @@ header {
 .subheader-courses {
   height: 40px;
   background: #f4f4f4;
+  min-width: 960px;
 }
 
 .subheader-wrapper {
@@ -818,11 +819,44 @@ header {
   float: right;
 } 
 
-.sidebar-navigation{
+.sidebar-navigation {
   list-style: none;
   color: #333333;
   font-size: 18px;
   font-family: "Open Sans";
+  float: left;
+  position: relative;
+}
+
+.lesson-fullpage {
+  margin-top: 0px;
+}
+
+.sidebar-navigation h2 {
+  color: #333333;
+  font-size: 18px;
+  font-family: "Open Sans";
+  float: left;
+}
+
+.sidebar-navigation__videonumber {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 13px;
+  color: #666;
+  float: right;
+  position: absolute;
+  top: 22px;
+  right: 0px;
+}
+
+.sidebar-navigation__lesson {
+  font-size: 13px;
+  font-family: Arial;
+  color: #999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 .sidebar-navigation__icon1{
@@ -857,6 +891,22 @@ header {
   margin: 10px 2px 0 0;
   border-radius: 3px;
   font-size: 12px;
+}
+
+.btn-next {
+  line-height: 13px;
+}
+
+.btn-nextvideo {
+  display: inline-block;
+  width: 220px;
+  height: 40px;
+  padding: 13px 50px 10px 50px;
+  border-radius: 3px;
+  font-family: "Open Sans", Arial;
+  font-size: 13px;
+  color: #fff;
+  background: #4f7ab4;
 }
 
 .sidebar-navigation__icon2{
@@ -904,7 +954,7 @@ header {
   left: 0px;
 }
 
-.sidebar-navigation__links{
+.sidebar-navigation__links {
   display: block;
   width: 220px;
   height: 38px;
@@ -919,8 +969,16 @@ header {
   font-size: 13px;
 }
 
+.lesson {
+  color: #666;
+}
+
 .sidebar-navigation__links:hover{
   background: #f0f0f0;
+}
+
+.lesson:hover {
+  color: #4f83ca;
 }
 
 .sidebar-navigation__links-last{
@@ -968,6 +1026,42 @@ header {
 
 .sidebar-best li:last-child {
   border-bottom: none;
+}
+
+.sidebar-navigation li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-course-discription h2 {
+  font-family: Arial;
+  font-size: 18px;
+  color: #333;
+  margin-top: 35px;
+}
+
+.sidebar-course-discription__dffclty,
+.sidebar-course-discription__skills {
+  font-family: Arial;
+  font-size: 13px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.sidebar-course-discription__text {
+  font-family: Arial;
+  font-size: 13px;
+  color: #666;
+  width: 220px;
+}
+
+.sidebar-course-discription__skills a {
+  color: #4f7ab4;
+}
+
+.sidebar-course-discription__dffclty span {
+  font-family: Arial;
+  font-size: 13px;
+  color: #cfa913;
 }
 
 .sidebar-social{
