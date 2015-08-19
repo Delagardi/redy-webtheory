@@ -544,7 +544,8 @@ header {
   color: #333;
 }
 
-.main-article p {
+.main-article p,
+.main-article-text-list {
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 12px;
   color: #666;
