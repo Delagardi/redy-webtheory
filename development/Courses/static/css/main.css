@@ -685,6 +685,130 @@ header {
   text-decoration: underline;
 }
 
+/* Social buttons, courses page tabs */
+.social-btns {
+  width: 250px;
+  height: 24px;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  margin: 8px 0px 0px 0px;
+}
+
+.social-btns li {
+display: inline-block;
+}
+
+.vk-btn {
+  background: #48729e;
+  width: 64px;
+  height: 24px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: -9px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #ffffff;
+  padding: 4px 0px 0px 0px;
+  vertical-align: top;
+}
+
+.vk-btn_pic {
+  background: url("../img/sprite.png") -128px 7px;
+  width: 10px;
+  height: 25px;
+  padding: 0px;
+  float: left;
+  margin: -6px 10px 0px 8px;
+}
+
+.fb-btn {
+  width: 57px;
+  height: 24px;
+  background: #3c5a98;
+  border-radius: 3px;
+  margin: 0px 0px -5px 10px;
+  padding: 2px 4px 0px 0px;
+  vertical-align: top;
+  color: #fff;
+  font-size: 14px;
+}
+
+.fb-btn-pic {
+  background: url("../img/sprite.png") -139px 1px;
+  width: 7px;
+  height: 20px;
+  margin: -1px 10px 0px 8px;
+  float: left;
+}
+
+.tw-btn {
+  width: 56px;
+  height: 24px;
+  background: #00aced;
+  border-radius: 3px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #ffffff;
+  padding: 4px 0px 0px 5px;
+  vertical-align: top;
+}
+
+.tw-btn-pic {
+  background: url("../img/sprite.png") -146px 0px;
+  width: 17px;
+  height: 15px;
+  float: left;
+  margin: 0px 6px 0px 0px;
+}
+
+.google-btn {
+  width: 55px;
+  height: 24px;
+  background: #c25234;
+  border-radius: 3px;
+  padding-top: 3px;
+  margin-bottom: -5px;
+  overflow: hidden;
+  vertical-align: top;
+  color: #fff;
+  font-size: 13px;
+}
+
+.google-btn_pic {
+  background: url("../img/sprite.png") -163px 0px;
+  width: 24px;
+  height: 21px;
+  float: left;
+  margin-right: 3px;
+}
+
+.main-info-text__or {
+  font-family: Arial;
+  font-size: 13px;
+  color: #666;
+  line-height: 37px;
+  margin: 0 10px;
+  display: inline-block;
+  float: left;
+}
+
+.main-info-text__textarea {
+  margin-top: 6px;
+  display: inline-block;
+  color: #666;
+  font-size: 13px;
+}
+
+.main-info-text__textarea textarea {
+  width: 260px;
+  height: 30px;
+  padding: 7px;
+  border-color: #dcdcdc;
+  border-radius: 2px;
+}
+
+/* Comments block, courses.html page */
 .comments-block {
   width: 710px;
   margin-top: 18px;
