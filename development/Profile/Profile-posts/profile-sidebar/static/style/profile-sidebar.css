@@ -481,7 +481,6 @@ header {
 .sidebar-heading {
   font: 400 16px / normal "Open Sans", arial;
   color: #333333;
-
 }
 
 .sidebar-heading__count {
@@ -583,7 +582,6 @@ header {
   padding: 0;
   margin: 0;
   color: #333333;
-
 }
 
 .about-me__item {
@@ -710,3 +708,4 @@ header {
 .profile-footer li:last-child a::after {
   content: "";
 }
+
