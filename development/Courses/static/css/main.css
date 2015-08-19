@@ -793,18 +793,18 @@ display: inline-block;
   float: left;
 }
 
-.main-info-text__textarea {
+.main-info-text__sharelink {
   margin-top: 6px;
   display: inline-block;
   color: #666;
   font-size: 13px;
 }
 
-.main-info-text__textarea textarea {
+.main-info-text__sharelink input {
   width: 260px;
   height: 30px;
   padding: 7px;
-  border-color: #dcdcdc;
+  border: 1px solid #dcdcdc;
   border-radius: 2px;
 }
 
