@@ -538,6 +538,12 @@ header {
   margin: 45px 0;
 }
 
+.main-article h3 {
+  font-size: 14px;
+  font-family: "Open Sans", arial;
+  color: #333;
+}
+
 .main-article p {
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 12px;
@@ -937,6 +943,26 @@ display: inline-block;
   padding: 0px 0px 0px 0px;
 }
 
+/* Courses.html test page */
+.main-article-test-btns__go {
+  display: inline-block;
+  padding: 15px;
+  background: #64b44f;
+  border-radius: 3px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
+  color: #fff;
+}
+
+.main-article-test-btns__back {
+  display: inline-block;
+  padding: 15px;
+  background: #b44f4f;
+  border-radius: 3px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
+  color: #fff;
+}
 /*=======================================================*/
 /* CONTENT END */
 /*=======================================================*/
