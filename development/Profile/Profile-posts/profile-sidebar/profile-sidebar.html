@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>profile sidebar</title>
+  <meta charset="UTF-8">
+  <link href="static/style/profile-sidebar.css" rel="stylesheet" >
+</head>
+<body>
+<header>
+  <div class="header-content">
+    <a href="#" class="header-content__logo"></a>
+    <nav class="header-navigation">
+      <ul class="header-navigation-list">
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Главная</a></li>
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Курсы</a></li>
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Статьи</a></li>
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Дизайн</a></li>
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Люди</a></li>
+        <li class="header-navigation-list__item"><a class="header-navigation-list__link"href="#">Сообщества</a></li>
+      </ul>
+    </nav>
+    <ul class="invite-entrance">
+      <li><a class="invite-entrance__item" href="#">Получить приглашение</a></li>
+      <li><a class="invite-entrance__item" href="#">Войти</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="proflie-sidebar">
+<div class="proflie-sidebar-wrapper">
+  <div class="user-profile"></div>
+  <img src="upload/userprofiilephoto.jpg">
+</div>
+<div class="user-name">
+  Артемка Алаяров<br>
+  <span class="user-status__bottom">Веб-дизайнер</span>
+</div>
+<div class="user-salary">
+  35 000 руб / меc<br>
+  <span class="user-status__bottom">Готов работать!</span>
+</div>
+<div class="user-rating">
+  382 балла<br>
+  <span class="user-rating__bottom">28 в <a class="user-rating__link" href="#">рейтинге</a></span>
+</div>
+<a class="send-message" href="#">Отправить сообщение</a>
+<a class="unsubscribe" href="#">Отписаться</a>
+
+<div class="followers">
+  <div class="sidebar-heading">
+    Подписчики 
+    <div class="sidebar-heading__count">4 523</div>
+  </div>
+  <ul>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+  </ul>
+</div>
+
+<div class="subscriptions">
+    <div class="sidebar-heading">
+    Подписки
+    <div class="sidebar-heading__count">2</div>
+  </div>
+  <ul>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+    <li class="follower-profile"><img src="upload/user-profile-photo.jpg"></li>
+  </ul>
+</div>
+
+<div class="skill">
+  <div class="sidebar-heading">
+    Навыки
+    <div class="sidebar-heading__count"><a class="edit" href="#"></a></div>
+  </div>
+  <div class="skill-from-curses">
+    Исходя из курсов:
+    <div class="skill-from-curses__item">
+      HTML5 / CSS3
+      <div class="skill-from-curses__item-percent">100%</div>
+    </div>
+    <div class="skill-from-curses__item">
+      PHP
+      <div class="skill-from-curses__item-percent">85%</div>
+    </div>
+  </div>
+  <div class="skill-claimed">
+    <div class="sidebar-heading">Заявленные:</div>
+    <ul>  
+      <li class="skill-claimed__item"> 
+        Веб-дизайн
+        <div class="skill-claimed__item-count">0</div>
+      </li>
+      <li class="skill-claimed__item">
+        Java
+        <div class="skill-claimed__item-count">0</div>
+      </li>
+      <li class="skill-claimed__item">
+        Python
+        <div class="skill-claimed__item-count">0</div>
+      </li>
+      <li class="skill-claimed__item">
+        Photoshop
+        <div class="skill-claimed__item-count">4</div>
+      </li>
+      <li class="skill-claimed__item">
+        Social Media Marketing
+        <div class="skill-claimed__item-count">2</div>
+      </li>
+      <li class="skill-claimed__item">
+        Node.js
+        <div class="skill-claimed__item-count">2</div>
+      </li>
+      <li class="skill-claimed__item">
+        HTML5
+        <div class="skill-claimed__item-count">37</div>
+      </li>
+    </ul> 
+  </div>
+</div>
+  <ul class="about-me">
+    О себе
+    <li class="about-me__item"><div class="about-me__item-icon1"></div>Россия, Артемовский</li>
+    <li class="about-me__item"><div class="about-me__item-icon2"></div>Самоучка</li>
+    <li class="about-me__item"><div class="about-me__item-icon3"></div>Возраст: 17</li>
+    <li class="about-me__item"><div class="about-me__item-icon4"></div>Опыт: 2года</li>
+    <li class="about-me__item">Профессиональный дизайнер, работал в Google над дизайном Drive. Являюсь одним из основателей Dribbble.</li>
+  </ul> 
+
+  <ul class="contacts">
+    <span class="contacts__title">Контакты</span>
+    <li><a class="contacts__item" href="#"><span class="contacts__item-icon1"></span>artemka</a></li>
+    <li><a class="contacts__item" href="#"><span class="contacts__item-icon2"></span>@Developer_at_google</a></li>
+    <li><a class="contacts__item" href="#"><span class="contacts__item-icon3"></span>russian_medved</a></li>
+    <li><a class="contacts__item" href="#"><span class="contacts__item-icon4"></span>pussies_video</a></li>
+  </ul>
+
+<ul class="profile-footer">
+  <span class="profile-footer__title">webtheory.net © 2014</span>
+  <li><a class="profile-footer__item" href="#">Контакты</a></li>
+  <li><a class="profile-footer__item" href="#">Правила</a></li>
+  <li><a class="profile-footer__item" href="#">О нас</a></li>
+  <li><a class="profile-footer__item" href="#">Реклама </a></li>
+  <li><a class="profile-footer__item" href="#">Помочь проекту</a></li>
+  <li><a class="profile-footer__item" href="#">Баг-трекер</a></li>
+</ul>
+
+
+<br>
+<br>
+<br>
+
+
+</div>
+</body>
+</html>
