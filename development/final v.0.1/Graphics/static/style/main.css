@@ -424,12 +424,12 @@ header {
 .dashed-underline{
   border-bottom: 1px dashed;
 }
+
 .subheader-slider{
   list-style: none;
   width: 800px;
   padding: 0;
 }
-
 
 .slide1,
 .slide2,
@@ -441,19 +441,15 @@ header {
   margin: 0 0 0 10px;
   display: block;
   float: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1) inset;
 }
 
 .slide1:hover,
 .slide2:hover,
 .slide3:hover,
 .slide4:hover {
-  box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, .4) inset;
+  outline: 2px solid rgba(255,255,255,.3);
 }
-
-.slide1{background: url("../img/slide1.jpg");}
-.slide2{background: url("../img/slide2.jpg");}
-.slide3{background: url("../img/slide3.jpg");}
-.slide4{background: url("../img/slide4.jpg");}
 
 .next-btn{
   width: 35px;
