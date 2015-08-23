@@ -439,6 +439,7 @@ header {
   color: #6f6f6f;
 }
 
+.course-checked,
 .subheader-menu__link:hover {
   color: #3676b1;
 }
@@ -899,7 +900,7 @@ display: inline-block;
 }
 
 .comment-for {
-  text-decoration: underline;
+  color: #4f7ab4;
 }
 
 .ilike-btn-pressed {
@@ -1035,6 +1036,15 @@ display: inline-block;
   float: left;
 }
 
+/*.class li, because it using for many pages*/
+.sidebar li {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar li:last-child {
+  border-bottom: none;
+}
+
 .sidebar-navigation__videonumber {
   display: inline-block;
   font-family: Arial;
@@ -1105,6 +1115,10 @@ display: inline-block;
   background: #4f7ab4;
 }
 
+.btn-nextvideo:hover {
+  background: #3566A9; 
+}
+ 
 .sidebar-navigation__icon2{
   width: 16px;
   height: 100%;
@@ -1172,6 +1186,7 @@ display: inline-block;
   background: #f0f0f0;
 }
 
+.lesson-checked,
 .lesson:hover {
   color: #4f83ca;
 }
@@ -1223,14 +1238,6 @@ display: inline-block;
   border-bottom: none;
 }
 
-.sidebar-navigation__item {
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.sidebar-navigation__item:last-child {
-  border-bottom: none;
-}
-
 .sidebar-course-discription h2 {
   font-family: Arial;
   font-size: 18px;
@@ -1255,6 +1262,7 @@ display: inline-block;
 
 .sidebar-course-discription__skills a {
   color: #4f7ab4;
+  text-decoration: underline;
 }
 
 .sidebar-course-discription__dffclty span {
@@ -1318,7 +1326,6 @@ display: inline-block;
   display: block;
   width: 220px;
   height: 38px;
-  border-bottom: 1px solid #f0f0f0;
   text-decoration: none;
   text-align: left;
   padding-left: 30px;
@@ -1333,32 +1340,17 @@ display: inline-block;
   background: #f0f0f0;
 }
 
-.sidebar-social__item-last{
-  display: block;
-  width: 220px;
-  height: 38px;
-  border-bottom: none;
-  text-decoration: none;
-  text-align: left;
-  padding-left: 30px;
-  color: #666666;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 38px;
-  font-size: 13px;
-}
-
-.sidebar-social__item-last:hover{
-  background: #f0f0f0;
-}
-
-.footer{
+.footer {
   width: 220px;
   color: #999999;
   font-family: "Open Sans"; 
   list-style: none;
   font-size: 13px;
   text-align: center;
+}
+
+.footer li {
+  border-bottom: none;
 }
 
 .makers{
