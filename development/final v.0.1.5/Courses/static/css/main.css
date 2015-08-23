@@ -523,6 +523,11 @@ header {
   margin-top: 18px;
 }
 
+.main-article ul {
+  list-style: disc;
+  padding-left: 22px;
+}
+
 .main-article__edit {
   color: #3676b1;
   text-decoration: underline;
