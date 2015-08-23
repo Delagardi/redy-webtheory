@@ -296,7 +296,7 @@ header {
   height: 24px;
   width: 114px;
   margin-top: 20px;
-  background: url("../img/logo.png") 0 0;
+  background: url("../img/logo.png") 0 0 no-repeat;
   float: left;
 }
 
@@ -1154,7 +1154,6 @@ display: inline-block;
   display: block;
   width: 220px;
   height: 38px;
-  border-bottom: 1px solid #f0f0f0;
   text-decoration: none;
   text-align: left;
   padding-left: 30px;
@@ -1224,7 +1223,11 @@ display: inline-block;
   border-bottom: none;
 }
 
-.sidebar-navigation li:last-child {
+.sidebar-navigation__item {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar-navigation__item:last-child {
   border-bottom: none;
 }
 
