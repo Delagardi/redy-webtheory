@@ -281,7 +281,6 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
   box-shadow: 0 1px 3px #080909;
 }
 
@@ -378,7 +377,6 @@ header {
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40608b', endColorstr='#365379',GradientType=0 );
 }
 
 .user-data__login {
