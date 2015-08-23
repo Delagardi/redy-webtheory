@@ -966,6 +966,10 @@ display: inline-block;
   color: #fff;
 }
 
+.main-article-test-btns__go:hover {
+  background: #5BA747;
+}
+
 .main-article-test-btns__back {
   display: inline-block;
   padding: 15px;
@@ -974,6 +978,10 @@ display: inline-block;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
+}
+
+.main-article-test-btns__back:hover {
+  background: #923838
 }
 
 .main-article-test-btns__next {
@@ -985,6 +993,10 @@ display: inline-block;
   font-size: 13px;
   color: #fff;
   margin-top: 20px;
+}
+
+.main-article-test-btns__next:hover {
+  background: #3566A9;
 }
 
 .main-article-test-btns__answ {
