@@ -6,6 +6,9 @@
 ОК 2. Шрифт в форме, сменить с Times New Roman
 
 
+---x---x---x---x---x---x---x---x---x---x---x---x
+
+
 Articles
 1. Добавить ховеры в субхедери
 2. Исправить шрифт в контенте на Open Sans
@@ -43,11 +46,30 @@ Articles-full
 1. Проверить ошибки указанные для предыдущих страниц Aricle.
 
 
+---x---x---x---x---x---x---x---x---x---x---x---x
+
+
 Courses
 OK 1. Убрать в сайдбаре, в навигации, в последнем элементе бордер-боттом
 2. Добавить к лого в хидере no-repeat, чтобы не дублировалось лого (проверить ВЕЗДЕ)
 OK (Никита сказал проблема не имеет решения) 3. В хидере поправить отображение "квадратиков" (проверить ВЕЗДЕ)
 OK - CSS validation
+
+
+Courses-full-share
+OK - исправить ошибки указанные для Courses-full
+1. Сделать кнопки соц сетей "резиновыми", чтобы при увеличении числа, все отображалось норм
+OK - CSS validation
+- HTML validation
+
+
+Courses-full-test
+OK - проверить на ошибки предыдущих страниц.
+1. Добавить расстояние до радиоточек
+2. Стилизовать радиоточки
+3. Добавить хувер к кнопке "Ответить на вопрос".
+OK - CSS validation
+- HTML validation
 
 
 OK Courses-full
@@ -58,31 +80,19 @@ OK 4. Кнопка "Следующее видео" должна быть с ху
 OK 5. Урок 01 должен быть с хувером по умолчанию
 OK 6. Сменить цвет ссылок в комментариях (edited)
 OK - CSS validation
+OK - HTML validation
 
 
 OK Сourses-full-about
 OK - исправить ошибки указанные для Courses-full
 OK - CSS validation
-
+OK - HTML validation
 
 
 OK Сourses-full-attachments
 OK - исправить ошибки указанные для Courses-full
 OK - CSS validation
-
-
-Courses-full-share
-OK - исправить ошибки указанные для Courses-full
-1. Сделать кнопки соц сетей "резиновыми", чтобы при увеличении числа, все отображалось норм
-OK - CSS validation
-
-
-Courses-full-test
-OK - проверить на ошибки предыдущих страниц.
-1. Добавить расстояние до радиоточек
-2. Стилизовать радиоточки
-3. Добавить хувер к кнопке "Ответить на вопрос".
-OK - CSS validation
+OK - HTML validation
 
 
 OK Courses-full-test-result
@@ -90,12 +100,17 @@ OK - исправить ошибки указанные для Courses-full
 OK 1. Исправить списки в статье
 OK 2. Исправить кнопку "Следующее видео в статье" (добавить хувер)
 OK - CSS validation
+OK - HTML validation
 
 
 OK Courses-full-test-start
 OK - исправить ошибки указанные для Courses-full
 OK 1. Добавить хувер к кнопкам
 OK - CSS validation
+OK - HTML validation
+
+
+---x---x---x---x---x---x---x---x---x---x---x---x
 
 
 Graphics
@@ -110,10 +125,16 @@ Graphics-add
 2. Кнопка "Выбрать файл", видна на макете.
 
 
+---x---x---x---x---x---x---x---x---x---x---x---x
+
+
 Landing
 1. Уменьшить отступ до "Статистика"
 2. Заверстать окошко "Авторизация"
 3. Заверстать "получение приглашения" (edited)
+
+
+---x---x---x---x---x---x---x---x---x---x---x---x
 
 
 Profile
@@ -140,12 +161,18 @@ Profile-update-photo-error
 - проверить ошибки Profile-update-photo
 
 
+---x---x---x---x---x---x---x---x---x---x---x---x
+
+
 ЗАВЕРСТАТЬ:
 1. People-giveInvite.psd
 2. People-giveInvite-results.psd
 3. Redirect.psd
 4. Register.psd
 5. Upload.psd
+
+
+---x---x---x---x---x---x---x---x---x---x---x---x
 
 
 Для всех файлов:

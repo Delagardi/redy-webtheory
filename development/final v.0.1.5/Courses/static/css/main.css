@@ -608,6 +608,10 @@ header {
 }
 
 /* Below styles for Courses-full page */
+.video iframe {
+  border: none;
+}
+
 .video-head {
   margin: 20px 0;
   line-height: 18px;
@@ -1036,19 +1040,17 @@ display: inline-block;
   color: #333333;
   font-size: 18px;
   font-family: "Open Sans";
-  float: left;
-  position: relative;
 }
 
 .lesson-fullpage {
   margin-top: 0px;
 }
 
-.sidebar-navigation h2 {
+.sidebar-header {
   color: #333333;
   font-size: 18px;
   font-family: "Open Sans";
-  float: left;
+  display: inline-block;
 }
 
 /*.class li, because it using for many pages*/
@@ -1065,10 +1067,7 @@ display: inline-block;
   font-family: Arial;
   font-size: 13px;
   color: #666;
-  float: right;
-  position: absolute;
-  top: 22px;
-  right: 0px;
+  margin-left: 110px;
 }
 
 .sidebar-navigation__lesson {
