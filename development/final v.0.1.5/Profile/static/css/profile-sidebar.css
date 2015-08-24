@@ -274,9 +274,7 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
-  box-shadow: 0 1px 3px #080909;
-}
+ }
 
 .header-content {
   height: 60px;
@@ -476,7 +474,7 @@ header {
 }
 
 .sidebar-heading {
-  margin: 35px 0 0 0;
+  margin: 35px 0 20px 0;
   font: 400 16px / normal "Open Sans", arial;
   color: #333333;
 
@@ -558,9 +556,12 @@ header {
   float: left;
   background: #e7ebf1;
   text-align: center;
+  border-radius: 5px;
+}
+
+.skill-claimed__link {
   font: 400 12px / 30px "Open Sans", arial;
   color: #7f8897;
-  border-radius: 5px;
 }
 
 .skill-claimed__item-count {
@@ -581,7 +582,6 @@ header {
   padding: 0;
   margin: 0;
   color: #333333;
-
 }
 
 .about-me__item {
@@ -677,13 +677,6 @@ header {
   padding: 0;
   width: 200px;
   height: 80px;
-}
-
-.profile-footer__title {
-  font: 400 12px / normal "Open Sans", arial;
-  color: #666666;
-  display: block;
-  margin: 30px 0 30px 0;
 }
 
 .profile-footer li {
