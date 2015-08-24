@@ -274,7 +274,6 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
   box-shadow: 0 1px 3px #080909;
 }
 
@@ -416,7 +415,7 @@ header {
 .content-list2{
   margin: 0px auto 0;
   width: 960px;
-  height: 550px;
+  height: 500px;
   padding: 0;
   text-align: center;
 }
@@ -648,4 +647,244 @@ header {
 .landing-footer__item:hover {
   color: #333;
   text-shadow: 0px 0px 15px #333;
+}
+
+.authorization-window {
+  margin: 0 auto;
+  width: 295px;
+  height: 240px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.authorization-window-header {
+  width: 295px;
+  height: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  background: #466fa7;
+  font: 400 13px / 50px "Open Sans", arial;
+}
+
+.close {
+  width: 55px;
+  height: 50px;
+  display: block;
+  float: right;
+  color: #a9bed9;
+  font: 400 13px / 50px "Open Sans", arial;
+}
+
+.close:hover {
+  text-decoration: underline;
+}
+
+.authorization-form {
+  margin: 0 auto 10px;
+  width: 250px;
+  height: 35px;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+}
+
+input[placeholder] {
+  color: #999999;
+}
+
+input[name="login"],
+input[name="password"] {
+  width: 210px;
+  height: 33px;
+  padding: 0 5px 0 5px;
+  float: right;
+  border: none;
+  border-radius:  0 5px 5px 0;
+}
+
+.login-icon,
+.password-icon {
+  width: 35px;
+  height: 34px;
+  float: left;
+  border-radius: 5px 0 0 5px;
+  background: #f5f5f5;
+  border-right: 1px solid #d5d5d5; 
+}
+
+.login-icon:before {
+  content: " ";
+  display: block;
+  margin: 11px auto;
+  width: 12px;
+  height: 12px;
+  background: url("../img/landing-sprite.png") no-repeat;
+}
+
+.password-icon:before {
+  content: "";
+  display: block;
+  margin: 11px auto;
+  width: 12px;
+  height: 12px;
+  background: url("../img/landing-sprite.png") no-repeat -12px 0 ;
+}
+
+.authorization-btn {
+  margin: 0 auto 5px;
+  width: 250px;
+  height: 35px;
+  display: block;
+  background: #466fa7;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  font: 400 13px / 33px "Open Sans", arial;  
+}
+
+.authorization-btn:hover {
+  background-color: #325f9b;
+}
+
+.forgot-password {
+  margin: 0 auto;
+  width: 100px;
+  display: block;
+  border-radius: 5px;
+  color: #999999;
+  text-align: center;
+  font: 400 12px / 33px "Open Sans", arial;  
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #666666;
+}
+
+.get-invite-window {
+  margin: 0 auto;
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.get-invite-window-header {
+  width: 599px;
+  height: 50px;
+  margin: 0 0 20px 0;
+  padding: 0 20px 0 20px;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  background: #466fa7;
+  font: 400 13px / 50px "Open Sans", arial;
+}
+
+.get-invite-forms-cover {
+  margin: 0 auto;
+  width: 560px;
+}
+
+.get-invite-form {
+  width: 176px;
+  height: 36px;
+  margin: 0 15px 0 0 ;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  float: left;
+}
+
+.get-invite-form:nth-child(3) {
+  margin: 0;
+}
+
+.select-cover {
+  width: 130px;
+  height: 36px;
+  overflow: hidden;
+}
+
+.your-sex {
+  width: 160px;
+  height: 36px;
+  border: none;
+  color: #707070;
+  border-radius: 5px;
+  background: transparent;
+  color: #999999;
+  font: 400 12px / 36px "Open Sans", arial; 
+}
+
+input[name="your-name"],
+input[name="your-email"] {
+  width: 135px;
+  height: 33px;
+  float: right;
+  border: none;
+  border-radius:  0 5px 5px 0;
+  font: 400 12px / 35px "Open Sans", arial;
+  color: #999999;
+}
+
+.login-icon,
+.password-icon {
+  width: 35px;
+  height: 34px;
+  float: left;
+  border-radius:  5px 0 0 5px;
+  background: #f5f5f5;
+  border-right: 1px solid #d5d5d5; 
+}
+
+.choose-btn {
+  width: 35px;
+  height: 34px;
+  float: right;
+  border-radius:  0 5px 5px 0;
+  background: #f5f5f5;
+  border-left: 1px solid #d5d5d5; 
+  position: relative;
+}
+
+.triangle{
+  position: absolute;
+  right: -4px;
+  margin: 16px 15px 0 195px;
+  float: right;
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid #d3d3d3;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.text-field {
+  width: 558px;
+  height: 118px;
+  margin: 20px auto 0;
+  padding: 15px 12px 12px 12px;
+  float: left;
+  background: #fff;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #d5d5d5;
+  overflow: auto;
+  resize: none;
+  color: #999999; 
+}
+
+.text-field__footer {
+  width: 558px;
+  height: 35px;
+  margin: 0 auto;
+  padding: 0 0 0 10px;
+  border: 1px solid #d5d5d5;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  margin: 0 0 0 0; 
+  background: #f1f1f1;
+  color: #999999;
+  float: left;
+  font: 400 12px / 35px "Open Sans", arial;
 }
