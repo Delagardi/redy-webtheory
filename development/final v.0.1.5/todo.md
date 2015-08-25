@@ -1,6 +1,6 @@
 # To do
 - [ ] Post to Hacker News
-- [ ] Share HN post on Twitter
+- [x] Share HN post on Twitter
 
 
 ## Next
