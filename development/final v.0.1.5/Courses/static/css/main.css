@@ -561,6 +561,31 @@ header {
   margin-top: 18px;
 }
 
+.test-radio-btn:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+
+.test-radio-btn:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 30px;
+  line-height: 25px;
+}
+
+.test-radio-btn:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: url("../img/sprite_radio_btn.png") 0 0 no-repeat;
+}
+
+.test-radio-btn:checked + label:before {
+  background: url("../img/sprite_radio_btn.png") -14px 0 no-repeat;
+}
+
 .main-article-linktag {  
   padding: 2px;
   border-radius: 3px;
@@ -707,7 +732,6 @@ header {
 
 /* Social buttons, courses page tabs */
 .social-btns {
-  /*width: 250px;*/
   height: 24px;
   display: inline-block;
   float: left;
@@ -721,7 +745,6 @@ header {
 
 .vk-btn {
   background: #48729e;
-/*  width: 64px;*/
   height: 24px;
   border-radius: 3px;
   display: inline-block;
@@ -743,8 +766,7 @@ header {
 }
 
 .fb-btn {
-/*  width: 57px;
-*/  height: 24px;
+  height: 24px;
   background: #3c5a98;
   border-radius: 3px;
   margin: 0px 0px -5px 10px;
@@ -763,7 +785,6 @@ header {
 }
 
 .tw-btn {
-  /*width: 56px;*/
   height: 24px;
   background: #00aced;
   border-radius: 3px;
@@ -783,7 +804,6 @@ header {
 }
 
 .google-btn {
-  /*width: 55px;*/
   height: 24px;
   background: #c25234;
   border-radius: 3px;
@@ -1010,6 +1030,10 @@ header {
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
+}
+
+.main-article-test-btns__answ:hover {
+  background: #3B649A;
 }
 
 .main-article-headerblock__number {
