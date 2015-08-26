@@ -157,7 +157,9 @@
 # ЗАВЕРСТАТЬ:
 - [ ] 1. People-giveInvite.psd
 - [ ] 2. People-giveInvite-results.psd
-- [ ] 3. Redirect.psd
+- [x] 3. Redirect.psd
+    - [x] CSS validation
+    - [x] HTML validation
 - [ ] 4. Register.psd
 - [ ] 5. Upload.psd
 
