@@ -155,7 +155,9 @@
 
 
 # ЗАВЕРСТАТЬ:
-- [ ] 1. People-giveInvite.psd
+- [x] 1. People-giveInvite.psd
+    - [x] CSS validation
+    - [x] HTML validation
 - [ ] 2. People-giveInvite-results.psd
 - [x] 3. Redirect.psd
     - [x] CSS validation

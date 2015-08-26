@@ -1,11 +1,261 @@
-@font-face{
-  font-family: "PFBeauSansPro"; 
-  src: url("../fonts/PFBeauSansPro.ttf");
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide START */
+/*=======================================================*/
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+/* REDY.IO styleguide 10.3 */
+  box-sizing: border-box;
 }
+
+/* REDY.IO styleguide 10.3 */
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide END */
+/*=======================================================*/
 
 @font-face{
   font-family: "Open Sans"; 
-  src: url("../fonts/Open_Sans.ttf");
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face{
+  font-family:"Open Sans light";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face{
+  font-family:"Arial Bold";
+  src: url("../fonts/Arial Bold.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+  clear: both;
 }
 
 html {
@@ -17,7 +267,7 @@ html {
 .pop-up-window{
   width: 450px;
   height: 225px;
-  margin: 0 auto;
+  margin: 15% auto;
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 0 1px rgba(0,0,0,.25);
@@ -26,7 +276,6 @@ html {
 .pop-up-window__header{
   width: 100%;
   height: 50px;
-  box-sizing:border-box;
   padding: 0 0 0 25px;
   background: url("../img/pop-up-window-header.jpg");
   border-radius: 3px 3px 0 0;
@@ -47,6 +296,13 @@ html {
   text-decoration: underline;
 }
 
+.pop-up-window__step {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 3px 8px 3px 9px;
+  margin-right: 10px;
+}
+
 .link-for-friend{
   width: 410px;
   height: 40px;
@@ -60,6 +316,7 @@ html {
   color: #666666;
   font:  13px/40px "Open Sans", arial;
   text-align: left;
+  overflow: hidden;
 }
 
 .link-todo{
@@ -127,3 +384,73 @@ html {
   line-height: 45px;
   text-align: center;
 }
+
+.invite-checkbox + label {
+  cursor: pointer;
+}
+
+.invite-checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+
+.invite-checkbox:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 30px;
+  line-height: 25px;
+}
+
+.invite-checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: url("../img/sprite_invite_icons.png") -27px 0 no-repeat;
+}
+
+.invite-checkbox:checked + label:before {
+  background: url("../img/sprite_invite_icons.png") -12px 0 no-repeat;
+}
+
+.invite-text {
+  font-family: "Open Sans", arial;
+  font-size: 12px;
+  color: #666;
+  width: 410px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.invite-link-forgot {
+  margin: 10px 40px;
+}
+
+.invite-link-for__link {
+  color: #427ec1;
+  font-size: 12px;
+  font-family: "Open Sans", arial;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
