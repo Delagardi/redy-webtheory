@@ -829,7 +829,7 @@ content: "15:29, 18 сен";
 
 .ilike_btn-pressed {
   height: 11px;
-  width: 97px;
+  width: 100px;
   color: #7fa1ce;
   font: 400 11px / 18px Arial;
   float: right;
@@ -843,7 +843,7 @@ content: "15:29, 18 сен";
 
 .ilike_btn {
   height: 11px;
-  width: 97px;
+  width: 100px;
   color: #b1c0c8;
   font: 400 11px / 18px Arial;
   float: right;
