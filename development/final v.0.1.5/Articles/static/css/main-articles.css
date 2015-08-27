@@ -274,7 +274,6 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
   box-shadow: 0 1px 3px #080909;
 }
 
@@ -371,7 +370,6 @@ header {
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40608b', endColorstr='#365379',GradientType=0 );
 }
 
 .user-data__login {
@@ -695,12 +693,6 @@ a {
   background: url("../img/sprite.png") -369px 0px;
 }
 
-/*.like:hover {
-
-  background: url("../img/sprite.png") -370px 0px;
-
-}
-*/
 .likes-number {
   background-color: #ffffff;
   width: 42px;
@@ -715,19 +707,26 @@ a {
 }
 
 .dislike {
-  width: 14px;
-  height: 17px;
-  background: url("../img/sprite.png") -303px 0px;
-  display: inline-block;
+  width: 40px;
+  height: 40px;
+  display: block;
   float: right;
-  margin: 11px 13px 0px 0px;
 }
 
-.dislike:hover {
-  width: 15px;
+.like-thumb-down {
+  width: 14px;
+  height: 15px;
+  margin: 12px 0 0 12px;
+  display: block;
+  background: url("../img/sprite.png") -303px 0px;
+}
+
+.dislike:hover .like-thumb-down{
+  width: 16px;
   height: 18px;
+  margin: 11px 0 0 12px;
   background: url("../img/sprite.png") -385px 0px;
-  display: inline-block;
+  display: block;
 }
 
 .views-number:before {
@@ -914,20 +913,26 @@ display: inline-block;
   width: 700px;
   height: 1px;
   background: #ececec;
-  margin-top: 20px;
+  margin: 20px 0 35px 0 ;
+}
+
+.content_bottom {
+  padding:  20px 0 10px 0;
+
+  margin: 0 0 100px 0;
 }
 
 .previous-page {
   width: 109px;
-  height: 31px;
+  height: 31px; 
+  display: block;
   background: #f5f5f5;
   border-radius: 3px;
   border: 1px solid #e3e3e3;
   color: #acacac;
   font: 400 13px / 30px Arial;
   text-align: center;
-  margin-top: 34px;
-  display: inline-block;
+  float: left;
 }
 
 .previous-page:hover {
@@ -935,51 +940,66 @@ display: inline-block;
   height: 31px;
   background: #71a5da;
   border-radius: 3px;
-  border: 0px solid #e3e3e3;
+  border: 1px solid #e3e3e3;
   color: #ffffff;
   font: 400 13px / 30px Arial;
   text-align: center;
-  margin-top: 34px;
-  display: inline-block;
 }
 
 .page_btn {
+  display: block;
+  width: 20px;
+  height: 30px;
   color: #333333;
   font: 400 13px / 30px Arial;
 }
 
 .page-numbers {
+  margin: -5px 20px 0 20px;
+  padding: 0;
+  width: 286px;
+  height: 32px;
+  float: left;
   list-style: none;
-  display: inline-block;
-  vertical-align: top;
-  width: 350px;
-  height: 11px;
-  margin: 30px 0px 0px -1px;
+  border-bottom: 2px solid #d9e0e8;
 }
 
 .page-numbers li {
-  display: inline;
-  margin-left: -5px;
-  border-bottom: 2px solid #d9e0e8;
-  padding: 0px 9px 6px 9px;
+  padding: 0 3px;
+  float: left;
+  text-align: center;
+}
+
+.page-numbers li:last-child {
+  margin: 0;
 }
 
 .page-numbers li:hover {
   border-bottom: 2px solid #609ad4;
 }
 
+.page_btn-active {
+  border-bottom: 2px solid #609ad4;
+}
+
 .next-page {
   width: 109px;
   height: 33px;
-  display: inline-block;
-  margin-left: -10px;
-  background: #719bda;
+  display: block;
+  background: #f5f5f5;
   border-radius: 3px;
-  color: #ffffff;
-  font: 400 13px / 30px Arial;
+  color: #acacac;
+  font: 400 13px / 33px Arial;
   text-align: center;
+  float: left;
+  border: 1px solid #e3e3e3;
 }
 
+.next-page:hover {
+  background: #719bda;
+  color: #fff;
+  border: 1px solid #e3e3e3;
+}
 
 @font-face{
   font-family: "Open Sans"; 
@@ -989,6 +1009,12 @@ display: inline-block;
 .sidebar{
   float: right;
 } 
+
+.sidebar-heading {
+  padding:0 0 0 40px; 
+  font: 100 18px/normal "Open Sans", arial;
+  color: #333;
+}
 
 .sidebar-navigation{
   margin-top: 0px;
@@ -1352,23 +1378,3 @@ display: inline-block;
 .footer__link:hover{
   color: #333333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
