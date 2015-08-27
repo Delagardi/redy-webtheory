@@ -270,7 +270,6 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
   box-shadow: 0 1px 3px #080909;
 }
 
@@ -280,19 +279,22 @@ header {
   height: 60px;
   margin: 0px 0px -60px 155px;
   color: #ffffff;
-  font: 400 13px OpenSans;
+  font: 400 13px "Open Sans";
   padding: 20px 0px 0px 30px;
   display: block;
 }
 
-.go-back_btn > span::before {
-  width: 5px;
-  height: 8px;
-  content: url(images/Polygon-4.png);
+.triangle-rotated {
   position: absolute;
-  margin: 0px 0px 0px -12px;
+  margin: 8px 0 0 -20px;
+  float: right;
+  width: 0px;
+  height: 0px;
+  border-top: 7px solid #d3d3d3;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transform: rotate(-28deg);
 }
-
 
 .header-content {
   height: 60px;
@@ -308,8 +310,6 @@ header {
   background: url("../img/logo.png") 0 0;
   float: left;
 }
-
-
 
 .user {
   float: right;
@@ -364,7 +364,6 @@ header {
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40608b', endColorstr='#365379',GradientType=0 );
 }
 
 .user-data__login {
@@ -410,7 +409,7 @@ a {
 
 .article-name {
   color: #333333;
-  font: 300 18px / 22px OpenSans;
+  font: 300 18px / 22px "Open Sans", arial;
   display: inline;
   float: left;
   margin: 0px 0px 20px 0px;
@@ -458,7 +457,7 @@ a {
 
 .tag:hover {
   background-color: #71a6da;
-  border: 0px solid #e3e3e3;
+  border: 1px solid #e3e3e3;
   border-radius: 3px;
   color: #ffffff;
   font: 400 13px / 22px Arial;
@@ -495,9 +494,17 @@ a {
 .article-text {
   width: 710px;
   color: #484747;
-  font: 400 13px / 22px OpenSans;
+  font: 400 13px / 22px "Open Sans", arial;
   clear: left;
   margin: 0px 0px 0px 0px;
+}
+
+.article-text a {
+  color: #3676b1;
+}
+
+.article-text a:hover {
+  text-decoration: underline;
 }
 
 .article-text_lists {
@@ -507,29 +514,29 @@ a {
 
 h3 {
   color: #448acd;
-  font: 20px / 22px OpenSans;
+  font: 20px / 22px "Open Sans", arial;
 }
 
 h4 {
   color: #6e7987;
-  font: 700 13px / 22px OpenSans;
+  font: 700 13px / 22px "Open Sans", arial;
 }
 
 h4::before {
   width: 24px;
   height: 28px;
-  content: url(images/head.png);
+  content: url(../img/head.png);
   margin: 0px 12px 0px -40px;
 }
 
 .task1_text {
   color: #6e7987;
-  font: 400 13px / 20px OpenSans;
+  font: 400 13px / 20px "Open Sans", arial;
 }
 
 .task_solution {
   color: #4985d1;
-  font: 400 13px / 22px OpenSans;
+  font: 400 13px / 22px "Open Sans", arial;
   border-bottom: 1px dashed #4084c4;
 }
 
@@ -549,21 +556,25 @@ h4::before {
 }
 
 .like {
-  width: 14px;
-  height: 16px;
-  background: url("../img/sprite.png") -316px 0px;
+  width: 40px;
+  height: 40px;
+  display: block;
   float: left;
-  margin: 10px;
-  margin-right: 15.5px;
 }
 
-.like:hover {
+.like-thumb-up {
   width: 15px;
-  height: 18px;
-  background: url("../img/sprite.png") -370px 0px;
-  float: left;
-  margin: 10px;
-  margin-right: 14.5px;
+  height: 15px;
+  margin: 10px 0 0 12px;
+  display: block;
+  background: url("../img/sprite.png") -317px 0px;
+}
+
+.like:hover .like-thumb-up {
+  margin: 9px 0 0 12px;
+  width: 16px;
+  height: 20px;
+  background: url("../img/sprite.png") -369px 0px;
 }
 
 .likes-number {
@@ -580,20 +591,28 @@ h4::before {
 }
 
 .dislike {
-  width: 14px;
-  height: 17px;
-  background: url("../img/sprite.png") -303px 0px;
-  display: inline-block;
+  width: 40px;
+  height: 40px;
+  display: block;
   float: right;
-  margin: 11px 13px 0px 0px;
 }
 
-.dislike:hover {
-  width: 15px;
-  height: 18px;
-  background: url("../img/sprite.png") -385px 0px;
-  display: inline-block;
+.like-thumb-down {
+  width: 14px;
+  height: 15px;
+  margin: 12px 0 0 12px;
+  display: block;
+  background: url("../img/sprite.png") -303px 0px;
 }
+
+.dislike:hover .like-thumb-down{
+  width: 16px;
+  height: 18px;
+  margin: 11px 0 0 12px;
+  background: url("../img/sprite.png") -385px 0px;
+  display: block;
+}
+
 
 .views-number:before {
   content: "";
@@ -818,7 +837,7 @@ content: "15:29, 18 сен";
 }
 
 .ilike_btn-pressed::after {
-  content: url(images/Shape-17-copy.png);
+  content: url(../img/Shape-17-copy.png);
   margin-left: 8px;
 }
 
@@ -832,13 +851,20 @@ content: "15:29, 18 сен";
 }
 
 .ilike_btn::after {
-  content: url(images/Shape-17-copy-2.png);
+  content: url(../img/Shape-17-copy-2.png);
   margin-left: 8px;
 }
 
 .sidebar{
   float: right;
 } 
+
+.sidebar-heading {
+  margin: 0;
+  padding:0 0 0 40px; 
+  font: 100 18px/normal "Open Sans", arial;
+  color: #333;
+}
 
 .sidebar-navigation{
   margin-top: 0px;

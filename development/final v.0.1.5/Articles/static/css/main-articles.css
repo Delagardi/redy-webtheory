@@ -1011,6 +1011,7 @@ display: inline-block;
 } 
 
 .sidebar-heading {
+  margin: 0;
   padding:0 0 0 40px; 
   font: 100 18px/normal "Open Sans", arial;
   color: #333;

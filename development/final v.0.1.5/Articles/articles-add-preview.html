@@ -5,36 +5,34 @@
   <link rel="stylesheet" href="static/css/main-articles-add-preview.css">
   <link href="rainbow-dev-custom/themes/github.css" rel="stylesheet">
   <script src="/rainbow-dev-custom/rainbow.min.js"></script>
-<script src="/rainbow-dev-custom/language/php.js"></script> <title>webtheory</title>
+  <script src="/rainbow-dev-custom/language/php.js"></script> 
+  <title>Articles preview</title>
 </head>
 <body>
- <header>
-      <div class="header-content">
-        <a href="#" class="header-content__logo"></a>
-        <a href="#" class="go-back_btn">    
-      <span>Вернуться назад</span>
-        </a>
-        <div class="user">
-          <a href="#" class="user-iconmenu"></a>
-          <div class="user-msg">
-            <a href="#" class="user-msg__icon"></a>
-            <a href="#" class="user-msg__unread">2</a>
-          </div>
-          <div class="user-data">
-            <a href="#" class="user-data__login">webtheory</a>
-            <a href="#" class="user-data__photo"><img alt="" width="40" height="40" src="upload/img/userphoto.jpg"></a>
-          </div>
-        </div>
+<header>
+  <div class="header-content">
+    <a href="#" class="header-content__logo"></a>
+    <a href="#" class="go-back_btn"><span class="triangle-rotated"></span>Вернуться назад</a>
+    <div class="user">
+      <a href="#" class="user-iconmenu"></a>
+      <div class="user-msg">
+        <a href="#" class="user-msg__icon"></a>
+        <a href="#" class="user-msg__unread">2</a>
       </div>
+      <div class="user-data">
+        <a href="#" class="user-data__login">webtheory</a>
+        <a href="#" class="user-data__photo"><img alt="user photo" width="40" height="40" src="upload/img/userphoto.jpg"></a>
+      </div>
+    </div>
+  </div>
 </header>
-
 <div class="main">
 <div class="sidebar">
+  <h3 class="sidebar-heading">Навигация</h3>
   <ul class="sidebar-navigation">
-    Навигация
     <li>
       <a href="#" class="sidebar-navigation__links">
-        <span  class="sidebar-navigation__icon1"></span>
+        <span class="sidebar-navigation__icon1"></span>
         Моя страница
       </a>
     </li>
@@ -83,9 +81,8 @@
       </a>
     </li>
   </ul>
-
+  <h3 class="sidebar-heading">Поможем проекту?</h3>
   <ul class="sidebar-help"> 
-    Поможем проекту?
     <li class="sidebar-help__description">
       Для поддержания и развития проекта необходимы денежные
   средства, которые у нас заканчиваются.
@@ -97,8 +94,8 @@
       </a>
     </li>
   </ul>
+  <h3 class="sidebar-heading">Мы в соц. сетях</h3>
   <ul class="sidebar-social">
-    Мы в соц.сетях
     <li>
       <a href="#" class="sidebar-social__item">
         <span class="sidebar-social__icon1"></span>
@@ -137,12 +134,9 @@
     <li><a href="#" class="footer__link">Контакты</a></li>
   </ul>
 </div>
-
-
 <div id="content">
   <div class="article1">
     <h2 class="article-name">Изучение Ruby #1</h2>
-
     <ul class="article-tags">
       <li><a href="#" class="tag">Ruby</a></li>
       <li><a href="#" class="tag">Урок</a></li>
@@ -161,25 +155,26 @@
       <br>
       Переходим на данный сайт, нажимаем на кнопочку Downloads (Скачать). На открывшейся странице мы можем увидеть 3 разных подхода для инсталяции интерпретатора:
       <ul class="article-text_lists">
-      <li>- Компиляция исходников </li>
-      <li>- Использование сторонних инструментов</li>
-      <li>- Установка через системы управления пакетами</li>
+        <li>- Компиляция исходников </li>
+        <li>- Использование сторонних инструментов</li>
+        <li>- Установка через системы управления пакетами</li>
       </ul>
       <h3>Windows</h3>
       Для установки на операционных системах Windows нам понадобится утилита RubyInstaller. Официальный сайт - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a>. Заходим на данный сайт, затем в раздел Downloads. Если вы знаете английский, то сможете понять, что нам рекомендуют установить Ruby версии 1.9.3. Устанавливаем данную версию. (У меня установлена именно эта версия).
       <h3>UNIX-like OS</h3>
       Для установки на unix-like ОС мы можем установить RVM (Ruby Version Manager). Команда:
-            <pre><code data-language="php">
-              ?php
-              function just_do_it() {
-              echo 'Test';
-              }
-            </code></pre>
+        <pre>
+          <code data-language="php">
+          ?php
+          function just_do_it() {
+          echo 'Test';
+          }
+          </code>
+        </pre>
       Подведем итог:
       <ul class="article-text_lists">
         <li>- Сегодня мы установили интерпретатор Ruby</li>
-        <li>- Написали хеллоу ворлд
-</li>
+        <li>- Написали хеллоу ворлд</li>
         <li>- Вскользь и тайно пробежались по следующему уроку (только цсс).</li>
       </ul>
       <ul>
@@ -192,9 +187,9 @@
     </div>
     <div class="article_bottom-nav"> 
       <div class="likes-block">
-        <a href="#" class="like"></a>
+        <a href="#" class="like"><span class="like-thumb-up"></span></a>
         <span class="likes-number">+82</span>
-        <a href="#" class="dislike"></a>
+        <a href="#" class="dislike"><span class="like-thumb-down"></span></a>
       </div>
       <div class="views-number">2 864</div>
       <div class="comments-number">39</div>
@@ -236,46 +231,42 @@
        <a class="ilike_btn" href="#">Мне нравиться</a>
      </div>
    </div>
-      <div class="comment">
+  <div class="comment">
     <a href="#">
       <img src="upload/img/Layer-27.png" alt="">
     </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Eva Bozhinsky</a>
-       <div class="comment_text">
+    <div class="comment_content">
+      <a class="commenter_name" href="#">Eva Bozhinsky</a>
+      <div class="comment_text">
        Thank you very much!!! It helped me a lot!!!
-       </div>
-       <div class="comment_menu">
+      </div>
+      <div class="comment_menu">
         <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-     </div>
-     <a class="ilike_btn-pressed" href="#">Мне нравиться</a>
-   </div>
-      <div class="comment">
-    <a href="#">
-      <img src="upload/img/Layer-28.png" alt="">
-    </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Анатолий Кураченко</a>
-       <div class="comment_text">
-       <a href="#" class="comment-for">Никита</a>, это все без сомнений, и даже (после просмотров видео и погуляв еще по сайту) я статьи прочел. Но я имел ввиду принудительного информирования пользователя ( как у вас сейчас уже и сделано) :)
-       </div>
-       <div class="comment_menu">
+        <div class="point"></div>
+        <a href="">Удалить</a>
+      </div>
+    </div>
+    <a class="ilike_btn-pressed" href="#">Мне нравиться</a>
+  </div>
+    <div class="comment">
+      <a href="#">
+        <img src="upload/img/Layer-28.png" alt="">
+      </a>
+      <div class="comment_content">
+        <a class="commenter_name" href="#">Анатолий Кураченко</a>
+        <div class="comment_text">
+        <a href="#" class="comment-for">Никита</a>, это все без сомнений, и даже (после просмотров видео и погуляв еще по сайту) я статьи прочел. Но я имел ввиду принудительного информирования пользователя ( как у вас сейчас уже и сделано) :)
+        </div>
+        <div class="comment_menu">
         <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-     </div>
-     <a class="ilike_btn" href="#">Мне нравиться</a>
-   </div>
-   
+          <div class="point"></div>
+        <a href="">Удалить</a>
+        </div>
+      </div>
+      <a class="ilike_btn" href="#">Мне нравиться</a>
+    </div>
   </div>
 </div>
 </div>
-  
 </body>
 </html>
