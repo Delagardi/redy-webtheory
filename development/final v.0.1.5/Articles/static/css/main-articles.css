@@ -439,6 +439,10 @@ header {
   float: left;
 }
 
+.item-header:hover {
+  text-decoration: underline;
+}
+
 .item-rating {
   position: relative;
   display: inline-block;
@@ -580,7 +584,7 @@ a {
 
 .tag:hover {
   background-color: #71a6da;
-  border: 0px solid #e3e3e3;
+  border: 1px solid #e3e3e3;
   border-radius: 3px;
   color: #ffffff;
   font: 400 13px / 22px Arial;
@@ -622,7 +626,7 @@ a {
 .article-text {
   width: 710px;
   color: #484747;
-  font: 400 13px / 22px OpenSans;
+  font: 400 13px / 22px "Open Sans", arial;
   clear: left;
   margin: 0px 0px 0px 0px;
 }
@@ -630,6 +634,14 @@ a {
 .article-text_lists {
   list-style: none;
   padding: 0;
+}
+
+.article-text a {
+  color: #3676b1;
+}
+
+.article-text a:hover {
+  text-decoration: underline;
 }
 
 .article_bottom-nav {
@@ -647,6 +659,10 @@ a {
   font: 400 13px / 22px Arial;
 }
 
+.read-continue:hover {
+  background: #5094d4;
+}
+
 .likes-block {
   width: 124px;
   height: 38px;
@@ -658,23 +674,33 @@ a {
 }
 
 .like {
-  width: 14px;
-  height: 16px;
-  background: url("../img/sprite.png") -316px 0px;
+  width: 40px;
+  height: 40px;
+  display: block;
   float: left;
-  margin: 10px;
-  margin-right: 15.5px;
 }
 
-.like:hover {
+.like-thumb-up {
   width: 15px;
-  height: 18px;
-  background: url("../img/sprite.png") -370px 0px;
-  float: left;
-  margin: 10px;
-  margin-right: 14.5px;
+  height: 15px;
+  margin: 10px 0 0 12px;
+  display: block;
+  background: url("../img/sprite.png") -317px 0px;
 }
 
+.like:hover .like-thumb-up {
+  margin: 9px 0 0 12px;
+  width: 16px;
+  height: 20px;
+  background: url("../img/sprite.png") -369px 0px;
+}
+
+/*.like:hover {
+
+  background: url("../img/sprite.png") -370px 0px;
+
+}
+*/
 .likes-number {
   background-color: #ffffff;
   width: 42px;
