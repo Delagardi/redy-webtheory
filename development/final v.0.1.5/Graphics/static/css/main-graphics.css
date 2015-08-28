@@ -1136,7 +1136,8 @@ display: inline-block;
   height: 250px;
 }
 
-.previous-page {
+.previous-page,
+.next-page {
   width: 109px;
   height: 31px;
   background: #f5f5f5;
@@ -1149,17 +1150,11 @@ display: inline-block;
   display: inline-block;
 }
 
-.previous-page:hover {
-  width: 109px;
-  height: 31px;
+.previous-page:hover,
+.next-page:hover {
   background: #71a5da;
-  border-radius: 3px;
-  border: 0px solid #e3e3e3;
+  border: 1px solid #71a5da;
   color: #ffffff;
-  font: 400 13px / 30px Arial;
-  text-align: center;
-  margin-top: 34px;
-  display: inline-block;
 }
 
 .page_btn {
@@ -1183,21 +1178,11 @@ display: inline-block;
   padding: 0px 9px 6px 9px;
 }
 
-.page-numbers li:hover {
+.page-numbers li:hover,
+#page-checked {
   border-bottom: 2px solid #609ad4;
 }
 
-.next-page {
-  width: 109px;
-  height: 33px;
-  display: inline-block;
-  margin-left: -10px;
-  background: #719bda;
-  border-radius: 3px;
-  color: #ffffff;
-  font: 400 13px / 30px Arial;
-  text-align: center;
-}
 
 .sidebar {
   float: right;
