@@ -237,12 +237,12 @@ th {
 
 @font-face{
   font-family: "Open Sans"; 
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/"Open Sans"-Regular.ttf");
 }
 
 @font-face{
   font-family:"Open Sans light";
-  src: url("../fonts/OpenSans-Light.ttf");
+  src: url("../fonts/"Open Sans"-Light.ttf");
 }
 
 @font-face{
@@ -508,7 +508,8 @@ header {
 .subheader-best-of-date__heading{
   margin: 0 0 0 10px;
   font: 400 13px / normal "Open_Sans", arial;
-  font-weight: 400; 
+  font-weight: 400;
+  color: #fff; 
 }
 
 .date {
@@ -650,12 +651,17 @@ header {
 }
 
 .authors {
+  margin: 35px 0 5px 0;
   width: 220px;
   float: left;
 }
 
+.authors ul {
+  margin: 10px 0 0 0;
+}
+
 .person {
-  margin-top: 15px;
+  margin-top: 10px;
   display: inline-block;
 }
 
@@ -866,7 +872,7 @@ a {
 
 .article-name {
   color: #333333;
-  font: 300 18px / 22px OpenSans;
+  font: 300 18px / 22px "Open Sans";
   display: inline;
   float: left;
   margin: 0px 0px 20px 0px;
@@ -954,7 +960,7 @@ a {
 .article-text {
   width: 710px;
   color: #484747;
-  font: 400 13px / 22px OpenSans;
+  font: 400 13px / 22px "Open Sans";
   clear: left;
   margin: 0px 0px 0px 0px;
 }
@@ -1246,16 +1252,14 @@ display: inline-block;
 .previous-page:hover,
 .next-page:hover {
   background: #71a5da;
-<<<<<<< HEAD
   border-radius: 3px;
   border: 1px solid #e3e3e3;
   color: #ffffff;
   font: 400 13px / 30px Arial;
   text-align: center;
-=======
   border: 1px solid #71a5da;
   color: #ffffff;
->>>>>>> origin/master
+
 }
 
 .page_btn {
@@ -1291,7 +1295,6 @@ display: inline-block;
   border-bottom: 2px solid #609ad4;
 }
 
-<<<<<<< HEAD
 .page_btn-active {
   border-bottom: 2px solid #609ad4;
 }
@@ -1314,8 +1317,6 @@ display: inline-block;
   color: #fff;
   border: 1px solid #e3e3e3;
 }
-=======
->>>>>>> origin/master
 
 .sidebar {
   float: right;
