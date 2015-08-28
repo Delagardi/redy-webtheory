@@ -281,7 +281,6 @@ header {
   min-width: 960px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#496ea0', endColorstr='#3e5f8b',GradientType=0 );
   box-shadow: 0 1px 3px #080909;
 }
 
@@ -379,7 +378,6 @@ header {
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40608b', endColorstr='#365379',GradientType=0 );
 }
 
 .user-data__login {
@@ -414,7 +412,7 @@ header {
   width: 186px;
   height: 18px;
   color: #333333;
-  font: 18px OpenSans;
+  font: 18px "Open Sans";
 }
 
 .add-form_btn {
@@ -453,31 +451,34 @@ header {
   margin: 22px 0px 0px 0px;
   width: 459px;
   height: 45px;
-  font: 13px OpenSans;
+  font: 400 13px /43px "Open Sans";
   padding: 0px 0px 0px 16px;
   border: 1px solid #dbdbdb;
   float: left;
+  resize:none;
 }
 
 .add-article-heading2 {
   margin: 8px 0px 0px 0px;
   width: 706px;
   height: 45px;
-  font: 13px OpenSans;
+  font: 400 13px/43px "Open Sans";
   padding: 0px 0px 0px 16px;
   border: 1px solid #dbdbdb;
   float: left;
+  resize:none;
 }
 
 ::-webkit-input-placeholder {
   color: #666666;
-  font: 400 13px OpenSans;
+  font: 400 13px "Open Sans";
 }
 
 .list_icon {
   width: 16px;
   height: 14px;
-  background: url(/static/img/sprite-2.png) 91px;
+  display: block;
+  background: url(../img/sprite-2.png) 91px;
   position: absolute;
   margin: 37px 0px 0px 430px;
 }
@@ -485,30 +486,44 @@ header {
 .tag_icon {
   width: 16px;
   height: 16px;
-  background: url(/static/img/sprite-2.png) 75px;
+  display: block;
+  background: url(../img/sprite-2.png) 75px;
   position: absolute;
   margin: 90px 0px 0px 664px;
 }
 
-.choose-category_list1 {
+.choose-category_list1,
+.choose-category_list2 {
   width: 239px;
   height: 45px;
   background-color: #f8f8f8;
   float: left;
   color: #707070;
-  font: 13px OpenSans;
+  font: 13px "Open Sans";
   border: 1px solid #dbdbdb;
   margin: 22px 0px 0px 8px;
-  padding: 12px 0px 0px 15px;
+  overflow: hidden;
 }
 
+.select-category__menu{
+  width: 260px;
+  height: 45px;
+  padding: 0 0 0 15px;
+  border: none;
+  color: #707070;
+  border-radius: 5px;
+  background: transparent;
+  font-size: 13px;
+  box-sizing:border-box;
+  cursor: pointer;
+}
 
 .triangle {
   width: 9px;
   height: 5px;
-  background: url(/static/img/sprite-2.png) 59px 0px;
+  background: url(../img/sprite-2.png) 59px 0px;
   position: absolute;
-  margin: 7px 0px 0px 50px;
+  margin: 20px 0px 0px 210px;
 }
 
 .img-upload_field {
@@ -522,7 +537,7 @@ header {
 .cloud_img {
   width: 111px;
   height: 95px;
-  background: url(images/CLOUD-/-UPLOAD-copy.png);
+  background: url(../img/-UPLOAD-copy.png);
   margin: 150px auto;
 }
 
@@ -540,20 +555,32 @@ header {
   font: 14px Arial;
 }
 
-.img-upload_field > form > input {
+.input-wrapper {
   width: 230px;
-  height: 45px;
-  background-color: #4e79b3;
+  height: 45px; 
+  margin: 40px 0px 0px 240px;
+  background: #4e79b3;
   border-radius: 3px;
   color: #ffffff;
   font: 400 13px / 14px Arial;
-  padding: 14px 0px 0px 34px;
-  margin: 25px 0px 0px 240px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 1px #3e689f; 
 }
 
+.choose-phography {
+  font: 400 13px/45px arial;
+  text-align: center;
+}
 
-
-
+input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(20);
+    opacity: 0;
+    cursor: pointer
+}
 
 .article-edit__block {
   width: 706px;
@@ -583,28 +610,28 @@ header {
 .symbol1 {
   height: 10px;
   width: 10px;
-  background: url(/static/img/sprite-2.png) -183px 0px;
+  background: url(../img/sprite-2.png) -183px 0px;
   display: inline-block;
 }
 
 .symbol2 {
   width: 8px;
   height: 10px;
-  background: url(/static/img/sprite-2.png) -175px 0px;
+  background: url(../img/sprite-2.png) -175px 0px;
   display: inline-block;
 }
 
 .symbol3 {
   width: 14px;
   height: 10px;
-  background: url(/static/img/sprite-2.png) -161px -1px;
+  background: url(../img/sprite-2.png) -161px -1px;
   display: inline-block;
 }
 
 .symbol4 {
   width: 10px;
   height: 12px;
-  background: url(/static/img/sprite-2.png) -151px 0px;
+  background: url(../img/sprite-2.png) -151px 0px;
   vertical-align: -1px;
   display: inline-block;
 }
@@ -612,13 +639,12 @@ header {
 .symbol10 {
   width: 15px;
   height: 12px;
-  background: url(/static/img/sprite-2.png) -68px 0px;
+  background: url(../img/sprite-2.png) -68px 0px;
   display: inline-block;
 }
 
-
-.article-edit__symbols-block > span {
-  width: 119px;
+.all-symbols {
+  width: 120px;
   height: 11px;
   color: #666666;
   font: 12px Arial;
@@ -630,13 +656,14 @@ header {
   border: none;
   width: 703px;
   height: 125px;
-  padding: 0px 0px 70px 15px;
+  padding: 10px;
+  overflow: auto;
 }
 
 .article_input-size-slider {
   width: 7px;
   height: 7px;
-  background: url(/static/img/sprite-2.png) 50px -1px;
+  background: url(../img/sprite-2.png) 50px -1px;
   margin: -6px 0px 0px 697px;
   position: absolute;
 }
@@ -654,12 +681,16 @@ header {
   float: left;
 }
 
+.article_publish-btn:hover {
+  background: #4d8ed0;
+} 
+
 .checkmark_icon {
   width: 16px;
   height: 12px;
   position: absolute;
-  background: url(/static/img/sprite-2.png) 42px 0px;
-  margin: 0px 0px 0px -24px;
+  background: url(../img/sprite-2.png) 42px 0px;
+  margin: 4px 0px 0px -24px;
 }
 
 .article_preview-btn {
@@ -674,12 +705,15 @@ header {
   padding: 11px 0px 0px 35px;
 }
 
+.article_preview-btn:hover {
+  background: #96b825;
+}
 .view_icon {
   width: 18px;
   height: 10px;
   position: absolute;
-  background: url(/static/img/sprite-2.png) 18px 0px;
-    margin: 3px 0px 0px -24px;
+  background: url(../img/sprite-2.png) 18px 0px;
+  margin: 3px 0px 0px -24px;
 }
 
 .add_by {
@@ -693,7 +727,7 @@ header {
 .cancel_icon {
   width: 10px;
   height: 10px;
-  background: url(/static/img/sprite-2.png) 26px 0px;
+  background: url(../img/sprite-2.png) 26px 0px;
   position: absolute;
   margin: 20px 0px 0px -25px;
   display: block;
@@ -713,9 +747,19 @@ header {
   margin: 16px 0px 0px -5px;
 }
 
+.add_bottom_btns {
+  margin: 0 0 150px 0;
+}
+
 .sidebar{
   float: right;
 } 
+
+.sidebar-heading {
+  margin-top: 0; 
+  font: 100 18px/normal "Open Sans", arial;
+  color: #333;
+}
 
 .sidebar-navigation{
   margin-top: 0px;
