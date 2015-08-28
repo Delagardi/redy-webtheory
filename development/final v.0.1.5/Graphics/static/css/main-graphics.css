@@ -1229,7 +1229,8 @@ display: inline-block;
   margin: 0 0 100px 0;
 }
 
-.previous-page {
+.previous-page,
+.next-page {
   width: 109px;
   height: 31px; 
   display: block;
@@ -1242,15 +1243,19 @@ display: inline-block;
   float: left;
 }
 
-.previous-page:hover {
-  width: 109px;
-  height: 31px;
+.previous-page:hover,
+.next-page:hover {
   background: #71a5da;
+<<<<<<< HEAD
   border-radius: 3px;
   border: 1px solid #e3e3e3;
   color: #ffffff;
   font: 400 13px / 30px Arial;
   text-align: center;
+=======
+  border: 1px solid #71a5da;
+  color: #ffffff;
+>>>>>>> origin/master
 }
 
 .page_btn {
@@ -1281,10 +1286,12 @@ display: inline-block;
   margin: 0;
 }
 
-.page-numbers li:hover {
+.page-numbers li:hover,
+#page-checked {
   border-bottom: 2px solid #609ad4;
 }
 
+<<<<<<< HEAD
 .page_btn-active {
   border-bottom: 2px solid #609ad4;
 }
@@ -1307,6 +1314,8 @@ display: inline-block;
   color: #fff;
   border: 1px solid #e3e3e3;
 }
+=======
+>>>>>>> origin/master
 
 .sidebar {
   float: right;

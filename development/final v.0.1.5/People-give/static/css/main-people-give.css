@@ -264,9 +264,18 @@ html {
   height: 100%;
 }
 
-.pop-up-window{
+.pop-up-window {
   width: 450px;
   height: 225px;
+  margin: 15% auto;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgba(0,0,0,.25);
+}
+
+.pop-up-window-registration {
+  width: 450px;
+  height: 445px;
   margin: 15% auto;
   background: #fff;
   border-radius: 3px;
@@ -374,7 +383,8 @@ html {
   background: #DEDEDE;  
 }
 
-.link-for-invite__link {
+.link-for-invite__link,
+.link-for-photo {
   display: block;
   text-decoration: none;
   font-family: Arial;
@@ -434,14 +444,82 @@ html {
   text-decoration: underline;
 }
 
+.pop-up-name-field {
+  width: 410px;
+  height: 40px;
+  margin: 15px auto;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  text-align: left;
+  overflow: hidden;
+}
 
+.pop-up-name-field-iconblock {
+  background: #f5f5f5;
+  width: 40px;
+  height: 40px;
+  float: left;
+  border-right: 1px solid #d5d5d5;
+}
 
+.pop-up-name-field-iconblock__icon {
+  display: block;
+  width: 13px;
+  height: 14px;
+  margin: 11px auto;
+}
 
+.surname {
+  background: url("../img/sprite_register_icons.png") 0 0 no-repeat;
+}
 
+.login {
+  background: url("../img/sprite_register_icons.png") -13px 0 no-repeat;
+}
 
+.password {
+  background: url("../img/sprite_register_icons.png") -26px 0 no-repeat;
+}
 
+.pop-up-name-field__placeholder{
+  color: #666666;
+  font:  13px/40px "Open Sans", arial;
+  padding: 0 0 0 12px;
+}
 
+.pop-up-name-field__descr {
+  font-family: "Open Sans", arial;
+  font-size: 12px;
+  color: #999;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
 
+.link-for-signup {
+  width: 410px;
+  height: 45px;
+  border: 1px solid #733c8c;
+  border-radius: 3px;
+  background: linear-gradient(to bottom, #1e5799 0%,#9d3687 0%,#763084 100%);
+  margin: 10px auto;
+  padding-bottom: 10px;
+}
+
+.link-for-signup:hover {
+  background: #763084;  
+}
+
+.link-for-end {
+  display: block;
+  text-decoration: none;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+}
 
 
 
