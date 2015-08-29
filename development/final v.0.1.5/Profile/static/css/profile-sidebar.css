@@ -632,18 +632,18 @@ header {
   border-bottom: none;
 }
 
-.contacts {
-  padding: 0;
-  margin: 40px 0 0;
-  width: 200px;
-  height: 200px;
-}
-
 .contacts__title {
   font: 400 16px / normal "Open Sans", arial;
   color: #333333;
   display: block;
-  margin: 20px 0 20px 0;
+  margin: 0px 0 0px 0;
+}
+
+.contacts {
+  padding: 0;
+  margin: 15px 0 0;
+  width: 200px;
+  height: 200px;
 }
 
 .contacts li {
