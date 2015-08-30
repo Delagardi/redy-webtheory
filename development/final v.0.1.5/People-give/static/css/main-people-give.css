@@ -276,7 +276,7 @@ html {
 .pop-up-window-registration {
   width: 450px;
   height: 445px;
-  margin: 15% auto;
+  margin: 10% auto;
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 0 1px rgba(0,0,0,.25);
@@ -328,6 +328,23 @@ html {
   overflow: hidden;
 }
 
+.link-for-friend1{
+  width: 410px;
+  height: 40px;
+  display: block;
+  margin: 20px auto;
+  padding: 0 0 0 12px;
+  box-sizing:border-box;
+  background: #fff;
+  border: 1px solid #e293d3;
+  box-shadow: 0 0 15px rgba(163, 70, 146,.25), inset 0 1px 3px rgba(0,0,0,.05);
+  border-radius: 5px;
+  color: #666666;
+  font:  13px/40px "Open Sans", arial;
+  text-align: left;
+  overflow: hidden;
+}
+
 .link-todo{
   width: 410px;
   height: 30px;
@@ -357,7 +374,8 @@ html {
 
 .invite-rules {
   text-align: center;
-  margin: 15px 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .invite-checkbox__label {
@@ -445,14 +463,23 @@ html {
 }
 
 .pop-up-name-field {
-  width: 410px;
+  margin: 10px 19px 0 19px;
+}
+
+.pop-up-name-field-input {
+  width: 370px;
   height: 40px;
-  margin: 15px auto;
+  margin: 10px auto;
   background: #fff;
   border: 1px solid #d5d5d5;
-  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
   text-align: left;
   overflow: hidden;
+  color: #666666;
+  font:  13px/40px "Open Sans", arial;
+  padding: 0 0 0 12px;
 }
 
 .pop-up-name-field-iconblock {
@@ -460,7 +487,13 @@ html {
   width: 40px;
   height: 40px;
   float: left;
+  margin: 10px auto;
+  border: 1px solid #d5d5d5;
   border-right: 1px solid #d5d5d5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: left;
+  overflow: hidden;
 }
 
 .pop-up-name-field-iconblock__icon {
@@ -480,12 +513,6 @@ html {
 
 .password {
   background: url("../img/sprite_register_icons.png") -26px 0 no-repeat;
-}
-
-.pop-up-name-field__placeholder{
-  color: #666666;
-  font:  13px/40px "Open Sans", arial;
-  padding: 0 0 0 12px;
 }
 
 .pop-up-name-field__descr {

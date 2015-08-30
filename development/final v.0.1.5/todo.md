@@ -162,11 +162,15 @@
 - [x] 1. People-giveInvite.psd
     - [x] CSS validation
     - [x] HTML validation
-- [ ] 2. People-giveInvite-results.psd
+- [x] 2. People-giveInvite-results.psd
+    - [x] CSS validation
+    - [x] HTML validation
 - [x] 3. Redirect.psd
     - [x] CSS validation
     - [x] HTML validation
-- [ ] 4. Register.psd
+- [x] 4. Register.psd
+    - [x] CSS validation
+    - [x] HTML validation
 - [ ] 5. Upload.psd
 
 
