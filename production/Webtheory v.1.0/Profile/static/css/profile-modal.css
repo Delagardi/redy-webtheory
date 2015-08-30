@@ -1,0 +1,527 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide START */
+/*=======================================================*/
+
+html {
+  /* REDY.IO styleguide 10.3 */
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* REDY.IO styleguide 10.3 */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+mark {
+  color: #000;
+  background: #ff0;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0; /* 3 */
+  font: inherit; /* 2 */
+  color: inherit; /* 1 */
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+/* 1 */
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer; /* 3 */
+
+  -webkit-appearance: button; /* 2 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  box-sizing: content-box; /* 2 */
+
+  -webkit-appearance: textfield; /* 1 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+  border: 1px solid #c0c0c0;
+}
+
+legend {
+  padding: 0; /* 2 */
+  border: 0; /* 1 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide END */
+/*=======================================================*/
+
+@font-face {
+  font-family: "Open Sans";
+
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans light";
+
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Arial Bold";
+
+  src: url("../fonts/Arial Bold.ttf");
+}
+
+.wrapper {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.dialogue {
+  width: 450px;
+  height: 180px;
+  margin: 20% auto;
+  font: 400 13px / normal "Open sans", arial;
+  text-align: center;
+  color: #666;
+}
+
+.oops {
+  display: block;
+  font: 400 48px / normal "Open sans", arial;
+  text-align: center;
+  color: #4978cd;
+}
+
+.unlucky-user {
+  color: #333;
+}
+
+.back-to-main {
+  display: block;
+  width: 175px;
+  height: 40px;
+  margin: 20px auto;
+  font: 400 13px / 40px "Open sans", arial;
+  color: #666;
+  border-radius: 5px;
+  background: #f7f7f7;
+}
+
+.back-to-main:hover {
+  background: #d4d4d4;
+}
+
+.liked-users {
+  width: 520px;
+  height: 390px;
+  margin: 19% auto;
+  padding: 27px;
+  border-radius: 5px;
+}
+
+.liked-users__title {
+  margin: 0 0 25px 0;
+  font: 400 20px / normal "Open sans", arial;
+  color: #333;
+}
+
+.close-icon {
+  display: block;
+  float: right;
+  width: 14px;
+  height: 14px;
+  margin: 7px 0 0 0;
+  background: url("../img/close.png");
+}
+
+.users-list {
+  margin: 0;
+  padding: 0;
+}
+
+.users-list li {
+  float: left;
+  width: 90px;
+  height: 110px;
+  margin: 0 3px 12px 0;
+}
+
+.users-list li:nth-child(5n) {
+  margin: 0 0 12px 0;
+}
+
+.users-list__user img {
+  width: 90px;
+  height: 90px;
+}
+
+.users-list__name {
+  display: block;
+  width: 90px;
+  height: 20px;
+  font: 400 11px / normal "Open sans", arial;
+  text-align: center;
+  color: #666;
+}
+
+.show-more-users {
+  display: block;
+  clear: left;
+  width: 460px;
+  height: 45px;
+  font: 400 12px / 45px "Open sans", arial;
+  text-align: center;
+  color: #8495a5;
+  border-radius: 5px;
+  background: #e7eaee;
+}
+
+.show-more-users:hover {
+  background: #cddaeb;
+}
+
+.message-all {
+  width: 515px;
+  height: 420px;
+  margin: 19% auto;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.message-error {
+  width: 515px;
+  height: 45px;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 10px;
+  font: 400 13px / 45px "Open sans", arial;
+  color: #fff;
+  border-radius: 5px;
+  background: #d7565f;
+}
+
+.message-done {
+  width: 515px;
+  height: 45px;
+  margin: 0 0 15px 0;
+  padding: 0 0 0 10px;
+  font: 400 13px / 45px "Open sans", arial;
+  color: #fff;
+  border-radius: 5px;
+  background: #5693d7;
+}
+
+.close-mini {
+  display: block;
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin: 18px 30px 0 0;
+  background: url("../img/close-mini.png");
+}
+
+.done {
+  display: block;
+  float: right;
+  width: 10px;
+  height: 8px;
+  margin: 18px 30px 0 0;
+  background: url("../img/done.png");
+}
+
+.new-message {
+  width: 515px;
+  height: 375px;
+  padding: 28px 25px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.new-message__title {
+  width: 465px;
+  height: 20px;
+  margin: 0 0 25px 0;
+  font: 400 20px / 20px "Open sans", arial;
+  color: #333;
+}
+
+.close {
+  display: block;
+  float: right;
+  width: 14px;
+  height: 14px;
+  margin: 3px 0 0 0;
+  background: url("../img/close.png");
+}
+
+.user-info {
+  overflow: hidden;
+  width: 465px;
+  height: 50px;
+  margin: 0 0 20px 0;
+}
+
+.user-info img {
+  float: left;
+  width: 50px;
+  margin: 0 15px 0 0;
+}
+
+.user-info__name {
+  font: 400 15px / normal "Open sans", arial;
+  color: #333;
+}
+
+.user-info__profession {
+  font: 400 13px / normal "Open sans", arial;
+  color: #919191;
+}
+
+.user-info__status {
+  float: right;
+  margin: -20px  0 0;
+  font: 400 11px / normal "Open sans", arial;
+  color: #919191;
+}
+
+.message-text {
+  overflow: auto;
+  width: 460px;
+  height: 155px;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  font: 400 13px / normal "Open sans", arial;
+  cursor: text;
+  color: #666;
+  border: 1px solid #d7d7d7;
+  box-shadow: 0 0 2px #d7d7d7 inset;
+}
+
+.close2 {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: -42px 0 0 9px;
+  background: url("../img/close.png");
+}
+
+.new-message-footer {
+  width: 460px;
+  height: 35px;
+  font: 400 13px / 35px "Open sans", arial;
+  text-align: right;
+  color: #9a9a9a;
+}
+
+.new-message-footer__send {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 35px;
+  font: 400 13px / 35px "Open sans", arial;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  background: #4a7bba;
+}
+
+.new-message-footer__send:hover {
+  background: #3a71b8;
+}
