@@ -171,11 +171,10 @@
 - [x] 4. Register.psd
     - [x] CSS validation
     - [x] HTML validation
-- [ ] 5. Upload.psd
 
 
 
 # Для всех файлов:
-- [ ] 1. Проверить на валидность html
-- [ ] 2. Проверить на валидность css
-- [ ] 3. Проверить на соответствие styleguide (html/css)
+- [x] 1. Проверить на валидность html
+- [x] 2. Проверить на валидность css
+- [x] 3. Проверить на соответствие styleguide (html/css)
