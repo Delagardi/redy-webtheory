@@ -2,29 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="static/css/main-profile-update-photo-error.css"> <title>webtheory</title>
+  <link rel="stylesheet" href="static/css/main-profile-update-photo-error.css"> 
+  <title>webtheory</title>
 </head>
 <body>
   <div class="profile_update-photo">
-    <a href="#" class="eror">Ошибка: неверный формат фотографии
+    <div class="error">Ошибка: неверный формат фотографии
     <a href="#" class="cancel"></a>
-    </a>
-    
+    </div>
     <div class="update-photo">
       <h2>Загрузка фотографии<a href="#"></a></h2>
       <p>Предпочтительно загружать квадратные фотографии (200x200, 400x400). 
 Вес не должен превышать 1мб.</p>
-   <div class="update-photo_field">
-     <div class="cloud_icon"></div>
-     <div class="drag_here">Перетащите фотографию сюда</div>
-     <div class="or">или</div>
-     <form action="">
-       <input type="file">
-       <a href="" class="upload_btn">
-         Выберите фотографию
-       </a>
-     </form>
-   </div>
+      <div class="update-photo_field">
+        <div class="cloud_icon"></div>
+        <div class="drag_here">Перетащите фотографию сюда</div>
+        <div class="or">или</div>
+        <form class="update-file" action="#">
+          <input class="update-file-input" type="file">
+          <a href="" class="upload_btn">Выберите фотографию</a>
+        </form>
+      </div>
     </div>
   </div>
 </body>
