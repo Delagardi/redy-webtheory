@@ -5,17 +5,17 @@
 /*=======================================================*/
 
 html {
+  /* REDY.IO styleguide 10.3 */
+  box-sizing: border-box;
   font-family: sans-serif;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-
-/* REDY.IO styleguide 10.3 */
-  box-sizing: border-box;
 }
 
 /* REDY.IO styleguide 10.3 */
-*, 
-*:before, 
+*,
+*:before,
 *:after {
   box-sizing: inherit;
 }
@@ -81,13 +81,13 @@ dfn {
 }
 
 h1 {
+  margin: .67em 0;
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 mark {
-  background: #ff0;
   color: #000;
+  background: #ff0;
 }
 
 small {
@@ -96,18 +96,18 @@ small {
 
 sub,
 sup {
+  position: relative;
   font-size: 75%;
   line-height: 0;
-  position: relative;
   vertical-align: baseline;
 }
 
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 
 img {
@@ -144,9 +144,9 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
   margin: 0; /* 3 */
+  font: inherit; /* 2 */
+  color: inherit; /* 1 */
 }
 
 button {
@@ -159,11 +159,13 @@ select {
 }
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
+/* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
+
+  -webkit-appearance: button; /* 2 */
 }
 
 button[disabled],
@@ -173,8 +175,8 @@ html input[disabled] {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
   padding: 0;
+  border: 0;
 }
 
 input {
@@ -193,8 +195,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
   box-sizing: content-box; /* 2 */
+
+  -webkit-appearance: textfield; /* 1 */
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -203,14 +206,14 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-  border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: .35em .625em .75em;
+  border: 1px solid #c0c0c0;
 }
 
 legend {
-  border: 0; /* 1 */
   padding: 0; /* 2 */
+  border: 0; /* 1 */
 }
 
 textarea {
@@ -222,8 +225,8 @@ optgroup {
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 td,
@@ -235,18 +238,21 @@ th {
 /* Normalize.css & REDY.IO styleguide END */
 /*=======================================================*/
 
-@font-face{
-  font-family: "Open Sans"; 
+@font-face {
+  font-family: "Open Sans";
+
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
-@font-face{
-  font-family:"Open Sans light";
+@font-face {
+  font-family: "Open Sans light";
+
   src: url("../fonts/OpenSans-Light.ttf");
 }
 
-@font-face{
-  font-family:"Arial Bold";
+@font-face {
+  font-family: "Arial Bold";
+
   src: url("../fonts/Arial Bold.ttf");
 }
 
@@ -260,9 +266,9 @@ a {
 }
 
 ul {
-  list-style: none;
   margin-left: 0;
   padding: 0;
+  list-style: none;
 }
 
 .clearfix {
@@ -276,33 +282,33 @@ ul {
 header {
   position: relative;
   z-index: 2;
-  height: 60px;
   width: 100%;
   min-width: 960px;
+  height: 60px;
   background: #496ea0;
   background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
   box-shadow: 0 1px 3px #080909;
 }
 
 .header-content {
-  height: 60px;
   width: 960px;
+  height: 60px;
   margin: 0 auto;
 }
 
 .header-content__logo {
   display: block;
-  height: 24px;
+  float: left;
   width: 114px;
+  height: 24px;
   margin-top: 20px;
   background: url("../img/logo.png") 0 0 no-repeat;
-  float: left;
 }
 
 .header-navigation {
   display: inline-block;
-  margin-left: 46px;
   height: 60px;
+  margin-left: 46px;
 }
 
 .header-navigation-list {
@@ -315,10 +321,10 @@ header {
 }
 
 .header-navigation-list__link {
-  line-height: 60px;
-  color: #acc5db;
   font-family: "Open sans", arial;
   font-size: 13px;
+  line-height: 60px;
+  color: #acc5db;
 }
 
 .header-navigation-list__link:hover {
@@ -335,45 +341,45 @@ header {
 
 .user-iconmenu {
   display: inline-block;
-  height: 16px;
   width: 16px;
+  height: 16px;
   margin: 22px 15px 0 0;
   background: url("../img/sprite.png") -353px 0 no-repeat;
 }
 
 .user-msg {
   display: inline-block;
-  margin: 22px 16px 0 0;
-  height: 16px;
   width: 50px;
+  height: 16px;
+  margin: 22px 16px 0 0;
 }
 
 .user-msg__icon {
   float: left;
-  height: 16px;
   width: 22px;
+  height: 16px;
   background: url("../img/sprite.png") -331px 0 no-repeat;
 }
 
 .user-msg__unread {
-  float: left;
   display: inline-block;
-  margin-left: 5px;
-  height: 16px;
+  float: left;
   width: 16px;
-  background: #e14c64;
-  color: #fff;
-  font-size: 11px;
+  height: 16px;
+  margin-left: 5px;
   font-family: Arial;
-  border-radius: 2px;
-  text-align: center;
+  font-size: 11px;
   line-height: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  background: #e14c64;
 }
 
 .user-data {
   display: inline-block;
-  height: 60px;
   width: 150px;
+  height: 60px;
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
@@ -381,10 +387,10 @@ header {
 
 .user-data__login {
   display: inline;
-  line-height: 60px;
   padding-left: 16px;
   font-family: "Open sans", arial;
   font-size: 13px;
+  line-height: 60px;
   color: #fff;
 }
 
@@ -401,9 +407,9 @@ header {
 
 
 .subheader-courses {
+  min-width: 960px;
   height: 40px;
   background: #f4f4f4;
-  min-width: 960px;
 }
 
 .subheader-wrapper {
@@ -450,7 +456,6 @@ header {
 .rightfix {
   float: right;
   padding-left: 20px;
-
 }
 
 /*=======================================================*/
@@ -467,25 +472,25 @@ header {
 }
 
 .table-up-header {
-  color: #333333;
-  font-size: 18px;
-  font-family: "Open Sans"; /*Articles has sidebar header in OS*/
   margin-top: 18px;
+  font-family: "Open Sans"; /*Articles has sidebar header in OS*/
+  font-size: 18px;
+  color: #333;
 }
 
 .table-course {
-  width: 234px;
   float: left;
+  width: 234px;
   margin: 0 5px 25px 0;
 }
 
 .table-course__name {
-  margin-top: 12px;
   display: block;
+  margin-top: 12px;
   font-family: Arial;
   font-size: 14px;
-  color: #333;
   font-weight: 800;
+  color: #333;
 }
 
 .table-course__dffclty {
@@ -502,9 +507,9 @@ header {
 }
 
 .table-down-header {
-  color: #333333;
-  font-size: 18px;
   font-family: "Open Sans"; /*Articles has sidebar header in OS*/
+  font-size: 18px;
+  color: #333;
 }
 
 /* Below styles for Courses-What-To-Learn page */
@@ -515,46 +520,46 @@ header {
 
 .main-article h1 {
   display: inline-block;
+  margin-top: 18px;
   font-family: "Open Sans";
   font-size: 18px;
   color: #333;
-  margin-top: 18px;
 }
 
 .main-article ul {
-  list-style: disc;
   padding-left: 22px;
+  list-style: disc;
 }
 
 .main-article__edit {
-  color: #3676b1;
-  text-decoration: underline;
+  margin-left: 15px;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 12px;
-  margin-left: 15px;
+  text-decoration: underline;
+  color: #3676b1;
 }
 
 .main-article h2 {
+  margin: 45px 0;
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 18px;
   font-weight: 100;
-  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   color: #666;
-  margin: 45px 0;
 }
 
 .main-article h3 {
-  font-size: 14px;
   font-family: "Open Sans", arial;
+  font-size: 14px;
   color: #333;
 }
 
 .main-article p,
 .main-article-text-list,
 .main-article-text__questions {
+  padding-right: 8px;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 12px;
   color: #666;
-  padding-right: 8px;
 }
 
 .main-article-text__questions input {
@@ -573,7 +578,7 @@ header {
 }
 
 .test-radio-btn:not(checked) + label:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -586,50 +591,50 @@ header {
   background: url("../img/sprite_radio_btn.png") -14px 0 no-repeat;
 }
 
-.main-article-linktag {  
+.main-article-linktag {
   padding: 2px;
   border-radius: 3px;
 }
 
 .javascript {
   color: #3787a4;
-  background: #c3dfec;
   border-left: 2px solid #4ea7c8;
+  background: #c3dfec;
 }
 
 .html5css3 {
   color: #b99c81;
-  background: #ecd7c3;
   border-left: 2px solid #e1a062;
+  background: #ecd7c3;
 }
 
 .jquery {
   color: #ad5ba8;
-  background: #ecc3e9;
   border-left: 2px solid #c56dbf;
+  background: #ecc3e9;
 }
 
 .coffeescript {
   color: #88a257;
-  background: #e6ecc3;
   border-left: 2px solid #a5c56d;
+  background: #e6ecc3;
 }
 
 .php {
   color: #88a257;
-  background: #e6ecc3;
   border-left: 2px solid #a5c56d;
+  background: #e6ecc3;
 }
 
 .mysql {
   color: #ae4646;
-  background: #ecc3c3;
   border-left: 2px solid #cf7a7a;
+  background: #ecc3c3;
 }
 
 .main-article-link__simple {
-  color: #3676b1;
   text-decoration: underline;
+  color: #3676b1;
 }
 
 /* Below styles for Courses-full page */
@@ -643,25 +648,25 @@ header {
 }
 
 .video-header {
+  display: inline-block;
   font-family: "Open Sans";
   font-size: 18px;
-  display: inline-block;
 }
 
 .video-views {
+  display: inline-block;
+  float: right;
+  margin-top: 12px;
   font-family: "Open Sans";
   font-size: 18px;
-  display: inline-block;
-  margin-top: 12px;
-  float: right;
 }
 
 .main-info-wrapper {
   display: inline-block;
-  border-bottom: 2px solid #e3e3e3;
   width: 100%;
   min-width: 720px;
   height: 53px;
+  border-bottom: 2px solid #e3e3e3;
 }
 
 .main-info-tab {
@@ -671,11 +676,11 @@ header {
 
 .main-info-tab__link {
   display: block;
+  margin: 10px 10px 10px 0;
+  padding-bottom: 10px;
   font-family: Arial;
   font-size: 13px;
   color: #999;
-  margin: 10px 10px 10px 0;
-  padding-bottom: 10px;
 }
 
 .main-info-tab__link:hover {
@@ -704,11 +709,11 @@ header {
 
 .main-info-like__link {
   display: block;
+  margin: 10px 0 10px 20px;
+  padding-bottom: 10px;
   font-family: Arial;
   font-size: 13px;
   color: #4f87c7;
-  margin: 10px 0 10px 20px;
-  padding-bottom: 10px;
 }
 
 .main-info-like__link:hover {
@@ -726,17 +731,17 @@ header {
 }
 
 .main-info-text a {
-  color: #4f87c7;
   text-decoration: underline;
+  color: #4f87c7;
 }
 
 /* Social buttons, courses page tabs */
 .social-btns {
-  height: 24px;
   display: inline-block;
   float: left;
+  height: 24px;
+  margin: 8px 0 0 0;
   vertical-align: top;
-  margin: 8px 0px 0px 0px;
 }
 
 .social-btns li {
@@ -744,100 +749,100 @@ header {
 }
 
 .vk-btn {
-  background: #48729e;
-  height: 24px;
-  border-radius: 3px;
   display: inline-block;
+  height: 24px;
   margin-right: -9px;
-  font-size: 13px;
+  padding: 4px 7px 0 0;
   font-family: sans-serif;
-  color: #ffffff;
-  padding: 4px 7px 0px 0px;
+  font-size: 13px;
   vertical-align: top;
+  color: #fff;
+  border-radius: 3px;
+  background: #48729e;
 }
 
 .vk-btn_pic {
-  background: url("../img/sprite.png") -128px 7px;
+  float: left;
   width: 10px;
   height: 25px;
-  padding: 0px;
-  float: left;
-  margin: -6px 10px 0px 8px;
+  margin: -6px 10px 0 8px;
+  padding: 0;
+  background: url("../img/sprite.png") -128px 7px;
 }
 
 .fb-btn {
   height: 24px;
-  background: #3c5a98;
-  border-radius: 3px;
-  margin: 0px 0px -5px 10px;
-  padding: 2px 6px 0px 0px;
+  margin: 0 0 -5px 10px;
+  padding: 2px 6px 0 0;
+  font-size: 14px;
   vertical-align: top;
   color: #fff;
-  font-size: 14px;
+  border-radius: 3px;
+  background: #3c5a98;
 }
 
 .fb-btn-pic {
-  background: url("../img/sprite.png") -139px 1px;
+  float: left;
   width: 7px;
   height: 20px;
-  margin: -1px 10px 0px 8px;
-  float: left;
+  margin: -1px 10px 0 8px;
+  background: url("../img/sprite.png") -139px 1px;
 }
 
 .tw-btn {
   height: 24px;
-  background: #00aced;
-  border-radius: 3px;
-  font-size: 13px;
+  padding: 4px 6px 0 5px;
   font-family: sans-serif;
-  color: #ffffff;
-  padding: 4px 6px 0px 5px;
+  font-size: 13px;
   vertical-align: top;
+  color: #fff;
+  border-radius: 3px;
+  background: #00aced;
 }
 
 .tw-btn-pic {
-  background: url("../img/sprite.png") -146px 0px;
+  float: left;
   width: 17px;
   height: 15px;
-  float: left;
-  margin: 0px 6px 0px 0px;
+  margin: 0 6px 0 0;
+  background: url("../img/sprite.png") -146px 0;
 }
 
 .google-btn {
-  height: 24px;
-  background: #c25234;
-  border-radius: 3px;
-  padding: 3px 4px 0 0;
-  margin-bottom: -5px;
   overflow: hidden;
+  height: 24px;
+  margin-bottom: -5px;
+  padding: 3px 4px 0 0;
+  font-size: 13px;
   vertical-align: top;
   color: #fff;
-  font-size: 13px;
+  border-radius: 3px;
+  background: #c25234;
 }
 
 .google-btn_pic {
-  background: url("../img/sprite.png") -163px 0px;
+  float: left;
   width: 24px;
   height: 21px;
-  float: left;
   margin-right: 3px;
+  background: url("../img/sprite.png") -163px 0;
 }
 
 .main-info-text__or {
-  font-family: Arial;
-  font-size: 13px;
-  color: #666;
-  line-height: 37px;
-  margin: 0 10px;
   display: inline-block;
   float: left;
+  margin: 0 10px;
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 37px;
+  color: #666;
 }
 
 .main-info-text__sharelink {
-  margin-top: 6px;
   display: inline-block;
-  color: #666;
+  margin-top: 6px;
   font-size: 13px;
+  color: #666;
 }
 
 .main-info-text__sharelink input {
@@ -855,33 +860,33 @@ header {
 }
 
 .comments-heading {
-  color: #333333;
+  margin: 30px 0 30px 0;
   font: 600 16px / 18px Arial;
-  margin: 30px 0px 30px 0px;
+  color: #333;
 }
 
 .comment-input {
   width: 645px;
   height: 50px;
-  border: 1px solid #dcdcdc;
-  color: #999999;
+  margin: 0 0 0 14px;
+  padding: 0 0 15px 10px;
   font: 400 12px / 18px Arial;
-  padding: 0px 0px 15px 10px;
-  margin: 0px 0px 0px 14px;
+  color: #999;
+  border: 1px solid #dcdcdc;
 }
 
 .comment-person {
+  float: left;
   width: 50px;
   height: 50px;
-  margin: 0px 0px 0px 0px;
-  float: left;
+  margin: 0 0 0 0;
 }
 
 .comment {
   width: 710px;
   height: 100%;
-  margin: 20px 0px 0px 0px;
-  padding: 0px 0px 10px 0px;
+  margin: 20px 0 0 0;
+  padding: 0 0 10px 0;
   border-bottom: 1px solid #f0f0f0;
 }
 
@@ -890,40 +895,40 @@ header {
 }
 
 .comment-content {
-  margin: 0px 0px 0px 64px;
+  margin: 0 0 0 64px;
 }
 
 .commenter-name {
-  color: #4f7ab4;
-  font: 700 12px / 18px Arial;
   display: block;
+  font: 700 12px / 18px Arial;
+  color: #4f7ab4;
 }
 
 .commenter-name:after {
   content: "15:29, 18 сен";
-  color: #999999;
+  margin-left: 12px;
   font: 400 11px / 18px Arial;
-  margin-left: 12px
+  color: #999;
 }
 
 .comment-text {
-  color: #666666;
   font: 400 12px / 18px Arial;
+  color: #666;
 }
 
 .comment-menu a {
-  color: #999999;
-  font: 400 11px / 18px Arial;
   display: inline-block;
+  font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .point {
+  display: inline-block;
   width: 3px;
   height: 3px;
-  background: #999999;
-  display: inline-block;
+  margin: 0 0 2px 0;
   border-radius: 5px;
-  margin: 0px 0px 2px 0px;
+  background: #999;
 }
 
 .comment-for {
@@ -931,12 +936,12 @@ header {
 }
 
 .ilike-btn-pressed {
-  height: 11px;
-  width: 97px;
-  color: #7fa1ce;
-  font: 400 11px / 18px Arial;
   float: right;
-  margin: -18px 0px 0px 0px;
+  width: 97px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  font: 400 11px / 18px Arial;
+  color: #7fa1ce;
 }
 
 .ilike-btn-pressed::after {
@@ -945,12 +950,12 @@ header {
 }
 
 .ilike-btn {
-  height: 11px;
-  width: 97px;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
   float: right;
-  margin: -18px 0px 0px 0px;
+  width: 97px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  font: 400 11px / 18px Arial;
+  color: #b1c0c8;
 }
 
 .ilike-btn::after {
@@ -959,12 +964,12 @@ header {
 }
 
 .ilike-btn-number {
-  height: 11px;
-  width: 110px;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
   float: right;
-  margin: -18px 0px 0px 0px;
+  width: 110px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  font: 400 11px / 18px Arial;
+  color: #b1c0c8;
 }
 
 .ilike-btn-number span {
@@ -974,74 +979,74 @@ header {
 .ilike-btn-number::after {
   content: url(../img/Shape-17-copy-2.png);
   margin-left: 8px;
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
 }
 
 /* Courses.html test page */
 .main-article-test-btns__go {
   display: inline-block;
   padding: 15px;
-  background: #64b44f;
-  border-radius: 3px;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
+  border-radius: 3px;
+  background: #64b44f;
 }
 
 .main-article-test-btns__go:hover {
-  background: #5BA747;
+  background: #5ba747;
 }
 
 .main-article-test-btns__back {
   display: inline-block;
   padding: 15px;
-  background: #b44f4f;
-  border-radius: 3px;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
+  border-radius: 3px;
+  background: #b44f4f;
 }
 
 .main-article-test-btns__back:hover {
-  background: #923838
+  background: #923838;
 }
 
 .main-article-test-btns__next {
   display: inline-block;
+  margin-top: 20px;
   padding: 15px 35px;
-  background: #4f7ab4;
-  border-radius: 3px;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
-  margin-top: 20px;
+  border-radius: 3px;
+  background: #4f7ab4;
 }
 
 .main-article-test-btns__next:hover {
-  background: #3566A9;
+  background: #3566a9;
 }
 
 .main-article-test-btns__answ {
   display: inline-block;
-  padding: 15px 30px;
   margin-top: 20px;
-  background: #4f7ab4;
-  border-radius: 3px;
+  padding: 15px 30px;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
+  border-radius: 3px;
+  background: #4f7ab4;
 }
 
 .main-article-test-btns__answ:hover {
-  background: #3B649A;
+  background: #3b649a;
 }
 
 .main-article-headerblock__number {
-  color: #999;
+  display: inline;
+  margin-left: 15px;
   font-family: "Open Sans", Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
-  margin-left: 15px;
-  display: inline;
+  color: #999;
 }
 
 /*=======================================================*/
@@ -1060,21 +1065,21 @@ header {
 } 
 
 .sidebar-navigation {
-  list-style: none;
-  color: #333333;
-  font-size: 18px;
   font-family: "Open Sans";
+  font-size: 18px;
+  list-style: none;
+  color: #333;
 }
 
 .lesson-fullpage {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .sidebar-header {
-  color: #333333;
-  font-size: 18px;
-  font-family: "Open Sans";
   display: inline-block;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #333;
 }
 
 /*.class li, because it using for many pages*/
@@ -1088,53 +1093,53 @@ header {
 
 .sidebar-navigation__videonumber {
   display: inline-block;
+  margin-left: 110px;
   font-family: Arial;
   font-size: 13px;
   color: #666;
-  margin-left: 110px;
 }
 
 .sidebar-navigation__lesson {
-  font-size: 13px;
-  font-family: Arial;
-  color: #999;
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
+  font-family: Arial;
+  font-size: 13px;
+  color: #999;
 }
 
-.sidebar-navigation__icon1{
+.sidebar-navigation__icon1 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
-.sidebar-navigation__number-active{
+.sidebar-navigation__number-active {
   float: right;
   width: 19px;
   height: 19px;
+  margin: 10px 2px 0 0;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
   background: #74aded;
-  line-height: 19px;
-  text-align: center;
-  margin: 10px 2px 0 0;
-  border-radius: 3px;
-  font-size: 12px;
-  color: #fff
 }
 
-.sidebar-navigation__number{
+.sidebar-navigation__number {
   float: right;
   width: 19px;
   height: 19px;
-  background: transparent;
+  margin: 10px 2px 0 0;
+  font-size: 12px;
   line-height: 19px;
   text-align: center;
-  margin: 10px 2px 0 0;
   border-radius: 3px;
-  font-size: 12px;
+  background: transparent;
 }
 
 .btn-next {
@@ -1146,81 +1151,81 @@ header {
   width: 220px;
   height: 40px;
   padding: 13px 50px 10px 50px;
-  border-radius: 3px;
   font-family: "Open Sans", Arial;
   font-size: 13px;
   color: #fff;
+  border-radius: 3px;
   background: #4f7ab4;
 }
 
 .btn-nextvideo:hover {
-  background: #3566A9; 
+  background: #3566a9;
 }
- 
-.sidebar-navigation__icon2{
+
+.sidebar-navigation__icon2 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -16px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
-.sidebar-navigation__icon3{
+.sidebar-navigation__icon3 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -32px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
-.sidebar-navigation__icon4{
+.sidebar-navigation__icon4 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -48px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
-.sidebar-navigation__icon5{
+.sidebar-navigation__icon5 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -64px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
-.sidebar-navigation__icon6{
+.sidebar-navigation__icon6 {
+  position: absolute;
+  top: 12px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -80px 0;
-  position: absolute;
-  top: 12px;
-  left: 0px;
 }
 
 .sidebar-navigation__links {
+  position: relative;
   display: block;
+  box-sizing: border-box;
   width: 220px;
   height: 38px;
-  text-decoration: none;
-  text-align: left;
   padding-left: 30px;
-  color: #8f8f8f;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 38px;
   font-size: 13px;
+  line-height: 38px;
+  text-align: left;
+  text-decoration: none;
+  color: #8f8f8f;
 }
 
 .lesson {
   color: #666;
 }
 
-.sidebar-navigation__links:hover{
+.sidebar-navigation__links:hover {
   background: #f0f0f0;
 }
 
@@ -1229,30 +1234,30 @@ header {
   color: #4f83ca;
 }
 
-.sidebar-navigation__links-last{
+.sidebar-navigation__links-last {
+  position: relative;
   display: block;
+  box-sizing: border-box;
   width: 220px;
   height: 38px;
-  border-bottom: none;
-  text-decoration: none;
-  text-align: left;
   padding-left: 30px;
-  color: #8f8f8f;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 38px;
   font-size: 13px;
+  line-height: 38px;
+  text-align: left;
+  text-decoration: none;
+  color: #8f8f8f;
+  border-bottom: none;
 }
 
-.sidebar-navigation__links-last:hover{
+.sidebar-navigation__links-last:hover {
   background: #f0f0f0;
 }
 
 .sidebar-best-header {
   display: inline-block;
-  color: #333333;
-  font-size: 18px;
   font-family: "Open Sans";
+  font-size: 18px;
+  color: #333;
 }
 
 .sidebar-best li {
@@ -1260,16 +1265,16 @@ header {
 }
 
 .sidebar-best__links {
+  position: relative;
   display: block;
+  box-sizing: border-box;
   width: 220px;
   height: 38px;
-  text-align: left;
-  color: #3676b1;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 38px;
   font-size: 13px;
+  line-height: 38px;
+  text-align: left;
   text-decoration: underline;
+  color: #3676b1;
 }
 
 .sidebar-best li:last-child {
@@ -1277,30 +1282,30 @@ header {
 }
 
 .sidebar-course-discription h2 {
+  margin-top: 35px;
   font-family: Arial;
   font-size: 18px;
   color: #333;
-  margin-top: 35px;
 }
 
 .sidebar-course-discription__dffclty,
 .sidebar-course-discription__skills {
+  margin-top: 8px;
   font-family: Arial;
   font-size: 13px;
   color: #333;
-  margin-top: 8px;
 }
 
 .sidebar-course-discription__text {
+  width: 220px;
   font-family: Arial;
   font-size: 13px;
   color: #666;
-  width: 220px;
 }
 
 .sidebar-course-discription__skills a {
-  color: #4f7ab4;
   text-decoration: underline;
+  color: #4f7ab4;
 }
 
 .sidebar-course-discription__dffclty span {
@@ -1309,105 +1314,105 @@ header {
   color: #cfa913;
 }
 
-.sidebar-social{
-  list-style: none;
-  color: #333333;
+.sidebar-social {
   font-family: "Open Sans";
+  list-style: none;
+  color: #333;
 }
 
-.sidebar-social__icon1{
+.sidebar-social__icon1 {
+  position: absolute;
+  top: 8px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -190px 3px;
-  position: absolute;
-  top: 8px;
-  left: 0px;
 }
 
-.sidebar-social__icon2{
+.sidebar-social__icon2 {
+  position: absolute;
+  top: 8px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -207px 3px;
-  position: absolute;
-  top: 8px;
-  left: 0px;
 }
 
-.sidebar-social__icon3{
+.sidebar-social__icon3 {
+  position: absolute;
+  top: 8px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -223px 3px;
-  position: absolute;
-  top: 8px;
-  left: 0px;
 }
 
-.sidebar-social__icon4{
+.sidebar-social__icon4 {
+  position: absolute;
+  top: 8px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -239px 3px;
-  position: absolute;
-  top: 8px;
-  left: 0px;
 }
 
-.sidebar-social__icon5{
+.sidebar-social__icon5 {
+  position: absolute;
+  top: 8px;
+  left: 0;
   width: 16px;
   height: 100%;
   background: url("../img/sprite.png") no-repeat -255px 3px;
-  position: absolute;
-  top: 8px;
-  left: 0px;
 }
 
-.sidebar-social__item{
+.sidebar-social__item {
+  position: relative;
   display: block;
+  box-sizing: border-box;
   width: 220px;
   height: 38px;
-  text-decoration: none;
-  text-align: left;
   padding-left: 30px;
-  color: #666666;
-  box-sizing: border-box;
-  position: relative;
-  line-height: 38px;
   font-size: 13px;
+  line-height: 38px;
+  text-align: left;
+  text-decoration: none;
+  color: #666;
 }
 
-.sidebar-social__item:hover{
+.sidebar-social__item:hover {
   background: #f0f0f0;
 }
 
 .footer {
   width: 220px;
-  color: #999999;
-  font-family: "Open Sans"; 
-  list-style: none;
+  font-family: "Open Sans";
   font-size: 13px;
+  list-style: none;
   text-align: center;
+  color: #999;
 }
 
 .footer li {
   border-bottom: none;
 }
 
-.makers{
+.makers {
   width: 220px;
-  color: #999999;
   text-align: center;
+  color: #999;
 }
 
-.footer__link{
-  font-size: 11px;
-  color: #999999;
+.footer__link {
   float: left;
-  text-decoration: none;
   margin: 0 10px 0 0;
   margin: 0 -20px 0 33px;
+  font-size: 11px;
+  text-decoration: none;
+  color: #999;
 }
 
-.footer__link:hover{
-  color: #333333;
+.footer__link:hover {
+  color: #333;
 }
 
 /*=======================================================*/

@@ -5,17 +5,17 @@
 /*=======================================================*/
 
 html {
+  /* REDY.IO styleguide 10.3 */
+  box-sizing: border-box;
   font-family: sans-serif;
+
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-
-/* REDY.IO styleguide 10.3 */
-  box-sizing: border-box;
 }
 
 /* REDY.IO styleguide 10.3 */
-*, 
-*:before, 
+*,
+*:before,
 *:after {
   box-sizing: inherit;
 }
@@ -81,13 +81,13 @@ dfn {
 }
 
 h1 {
+  margin: .67em 0;
   font-size: 2em;
-  margin: 0.67em 0;
 }
 
 mark {
-  background: #ff0;
   color: #000;
+  background: #ff0;
 }
 
 small {
@@ -96,18 +96,18 @@ small {
 
 sub,
 sup {
+  position: relative;
   font-size: 75%;
   line-height: 0;
-  position: relative;
   vertical-align: baseline;
 }
 
 sup {
-  top: -0.5em;
+  top: -.5em;
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -.25em;
 }
 
 img {
@@ -144,9 +144,9 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
   margin: 0; /* 3 */
+  font: inherit; /* 2 */
+  color: inherit; /* 1 */
 }
 
 button {
@@ -159,11 +159,13 @@ select {
 }
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
+/* 1 */
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
   cursor: pointer; /* 3 */
+
+  -webkit-appearance: button; /* 2 */
 }
 
 button[disabled],
@@ -173,8 +175,8 @@ html input[disabled] {
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
-  border: 0;
   padding: 0;
+  border: 0;
 }
 
 input {
@@ -193,8 +195,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
   box-sizing: content-box; /* 2 */
+
+  -webkit-appearance: textfield; /* 1 */
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -203,14 +206,14 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 fieldset {
-  border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  padding: .35em .625em .75em;
+  border: 1px solid #c0c0c0;
 }
 
 legend {
-  border: 0; /* 1 */
   padding: 0; /* 2 */
+  border: 0; /* 1 */
 }
 
 textarea {
@@ -222,8 +225,8 @@ optgroup {
 }
 
 table {
-  border-collapse: collapse;
   border-spacing: 0;
+  border-collapse: collapse;
 }
 
 td,
@@ -235,18 +238,21 @@ th {
 /* Normalize.css & REDY.IO styleguide END */
 /*=======================================================*/
 
-@font-face{
-  font-family: "Open Sans"; 
+@font-face {
+  font-family: "Open Sans";
+
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
-@font-face{
-  font-family:"Open Sans light";
+@font-face {
+  font-family: "Open Sans light";
+
   src: url("../fonts/OpenSans-Light.ttf");
 }
 
-@font-face{
-  font-family:"Arial Bold";
+@font-face {
+  font-family: "Arial Bold";
+
   src: url("../fonts/Arial Bold.ttf");
 }
 
@@ -259,17 +265,17 @@ a {
 }
 
 html {
+  height: 100%;
   background: url("../img/403.jpg") 100% 100% no-repeat;
   background-size: cover;
-  height: 100%;
 }
 
 .pop-up-window {
   width: 450px;
   height: 225px;
   margin: 15% auto;
-  background: #fff;
   border-radius: 3px;
+  background: #fff;
   box-shadow: 0 0 1px rgba(0,0,0,.25);
 }
 
@@ -277,89 +283,88 @@ html {
   width: 450px;
   height: 445px;
   margin: 10% auto;
-  background: #fff;
   border-radius: 3px;
+  background: #fff;
   box-shadow: 0 0 1px rgba(0,0,0,.25);
 }
 
-.pop-up-window__header{
+.pop-up-window__header {
   width: 100%;
   height: 50px;
   padding: 0 0 0 25px;
-  background: url("../img/pop-up-window-header.jpg");
-  border-radius: 3px 3px 0 0;
-  color: #fff;
-  text-align: left;
   font: 14px/50px "Open Sans", arial;
-}
-
-.pop-up-window__header-comeback{
-  padding: 0 30px 0 0;
-  float: right;
+  text-align: left;
   color: #fff;
-  text-decoration: none;
-  font: 13px/50px "Open Sans", arial;
+  border-radius: 3px 3px 0 0;
+  background: url("../img/pop-up-window-header.jpg");
 }
 
-.pop-up-window__header-comeback:hover{
+.pop-up-window__header-comeback {
+  float: right;
+  padding: 0 30px 0 0;
+  font: 13px/50px "Open Sans", arial;
+  text-decoration: none;
+  color: #fff;
+}
+
+.pop-up-window__header-comeback:hover {
   text-decoration: underline;
 }
 
 .pop-up-window__step {
+  margin-right: 10px;
+  padding: 3px 8px 3px 9px;
   border: 2px solid #fff;
   border-radius: 50%;
-  padding: 3px 8px 3px 9px;
-  margin-right: 10px;
 }
 
-.link-for-friend{
+.link-for-friend {
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
   width: 410px;
   height: 40px;
-  display: block;
   margin: 20px auto;
   padding: 0 0 0 12px;
-  box-sizing:border-box;
-  background: #fff;
-  border: 1px solid #e293d3;
-  box-shadow: 0 0 15px rgba(163, 70, 146,.25), inset 0 1px 3px rgba(0,0,0,.05);
-  border-radius: 5px;
-  color: #666666;
-  font:  13px/40px "Open Sans", arial;
+  font: 13px/40px "Open Sans", arial;
   text-align: left;
-  overflow: hidden;
+  color: #666;
+  border: 1px solid #e293d3;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(163, 70, 146,.25), inset 0 1px 3px rgba(0,0,0,.05);
 }
 
-.link-todo{
+.link-todo {
   width: 410px;
   height: 30px;
   margin: 0 auto 30px;
-  color: #666666;
-  border-top: 1px solid #e2e2e2;
+  font: 12px/14px "Open Sans", arial;
   text-align: center;
-  font: 12px/14px "Open Sans", arial; 
-
+  color: #666;
+  border-top: 1px solid #e2e2e2;
 }
 
-.forget-link{
+.forget-link {
+  display: block;
   width: 410px;
   height: 30px;
-  display: block;
   margin: 0 auto;
+  font: 12px/19px "Open Sans", arial;
+  text-align: center;
+  text-decoration: underline solid #d9e2f0;
   color: #427ec1;
   border-top: 1px solid #e2e2e2;
-  text-align: center;
-  font: 12px/19px "Open Sans", arial;
-  text-decoration: underline solid #d9e2f0;
 }
 
-.forget-link:hover{
+.forget-link:hover {
   text-decoration: underline solid #427ec1;
 }
 
 .invite-rules {
-  text-align: center;
   margin-top: 5px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .invite-checkbox__label {
@@ -375,26 +380,26 @@ html {
 .link-for-invite {
   width: 410px;
   height: 45px;
+  margin: 0 auto;
   border: 1px solid #d4d4d4;
   border-radius: 3px;
   background: #f5f5f5;
-  margin: 0 auto;
 }
 
 .link-for-invite:hover {
-  background: #DEDEDE;  
+  background: #dedede;
 }
 
 .link-for-invite__link,
 .link-for-photo {
   display: block;
-  text-decoration: none;
   font-family: Arial;
   font-size: 13px;
   font-weight: bold;
-  color: #666;
   line-height: 45px;
   text-align: center;
+  text-decoration: none;
+  color: #666;
 }
 
 .invite-checkbox + label {
@@ -413,7 +418,7 @@ html {
 }
 
 .invite-checkbox:not(checked) + label:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -427,12 +432,12 @@ html {
 }
 
 .invite-text {
+  width: 410px;
+  margin: 0 auto;
   font-family: "Open Sans", arial;
   font-size: 12px;
-  color: #666;
-  width: 410px;
   text-align: center;
-  margin: 0 auto;
+  color: #666;
 }
 
 .invite-link-forgot {
@@ -440,10 +445,10 @@ html {
 }
 
 .invite-link-for__link {
-  color: #427ec1;
-  font-size: 12px;
   font-family: "Open Sans", arial;
+  font-size: 12px;
   text-decoration: underline;
+  color: #427ec1;
 }
 
 .pop-up-name-field {
@@ -451,33 +456,33 @@ html {
 }
 
 .pop-up-name-field-input {
+  overflow: hidden;
   width: 370px;
   height: 40px;
   margin: 10px auto;
-  background: #fff;
+  padding: 0 0 0 12px;
+  font: 13px/40px "Open Sans", arial;
+  text-align: left;
+  color: #666;
   border: 1px solid #d5d5d5;
+  border-left: none;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  border-left: none;
-  text-align: left;
-  overflow: hidden;
-  color: #666666;
-  font:  13px/40px "Open Sans", arial;
-  padding: 0 0 0 12px;
+  background: #fff;
 }
 
 .pop-up-name-field-iconblock {
-  background: #f5f5f5;
+  float: left;
+  overflow: hidden;
   width: 40px;
   height: 40px;
-  float: left;
   margin: 10px auto;
+  text-align: left;
   border: 1px solid #d5d5d5;
   border-right: 1px solid #d5d5d5;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  text-align: left;
-  overflow: hidden;
+  background: #f5f5f5;
 }
 
 .pop-up-name-field-iconblock__icon {
@@ -500,36 +505,36 @@ html {
 }
 
 .pop-up-name-field__descr {
+  margin-bottom: 15px;
+  margin-left: 20px;
   font-family: "Open Sans", arial;
   font-size: 12px;
   color: #999;
-  margin-left: 20px;
-  margin-bottom: 15px;
 }
 
 .link-for-signup {
   width: 410px;
   height: 45px;
+  margin: 10px auto;
+  padding-bottom: 10px;
   border: 1px solid #733c8c;
   border-radius: 3px;
   background: linear-gradient(to bottom, #1e5799 0%,#9d3687 0%,#763084 100%);
-  margin: 10px auto;
-  padding-bottom: 10px;
 }
 
 .link-for-signup:hover {
-  background: #763084;  
+  background: #763084;
 }
 
 .link-for-end {
   display: block;
-  text-decoration: none;
   font-family: "Open Sans", arial;
   font-size: 13px;
   font-weight: bold;
-  color: #fff;
   line-height: 45px;
   text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 

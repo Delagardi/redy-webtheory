@@ -4,68 +4,68 @@
 }
 
 * {
-text-decoration: none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .error {
   display: block;
   width: 515px;
   height: 45px;
-  background: #d7565f;
-  border-radius: 3px;
-  color: #ffffff;
+  margin-bottom: 15px;
+  padding-top: 13px;
   font: 400 13px / 18px Arial;
   text-align: center;
-  padding-top: 13px;
-  margin-bottom: 15px;
+  color: #fff;
+  border-radius: 3px;
+  background: #d7565f;
 }
 
 .cancel {
-  width: 10px;
-  height: 10px;
   display: block;
   float: right;
+  width: 10px;
+  height: 10px;
+  margin: 4px 22px 0 0;
   background: url("../img/CLOSE-copy.png");
-  margin: 4px 22px 0px 0px;
 }
 
 .update-photo {
   width: 515px;
   height: 430px;
-  background-color: #ffffff;
-  border-radius: 3px;
   border: 1px solid #404b67;
+  border-radius: 3px;
+  background-color: #fff;
 }
 
 h2 {
-  color: #333333;
-  font: 400 20px / 18px OpenSans;
   margin-left: 20px;
+  font: 400 20px / 18px OpenSans;
+  color: #333;
 }
 
 h2 > a {
-  width: 14px;
-  height: 14px;
   display: block;
   float: right;
-  background: url("../img/CLOSE.png");
+  width: 14px;
+  height: 14px;
   margin-right: 20px;
+  background: url("../img/CLOSE.png");
 }
 
 p {
-  color: #666666;
-  font: 400 13px / 18px OpenSans;
   margin: 20px;
+  font: 400 13px / 18px OpenSans;
+  color: #666;
 }
 
 .update-photo_field {
   width: 461px;
   height: 276px;
   margin: auto;
-  border-radius: 3px;
   border: 2px dashed #e6ecf1;
-  background-color: rgba(230, 236, 241, 0.4);
+  border-radius: 3px;
+  background-color: rgba(230, 236, 241, .4);
 }
 
 .cloud_icon {
@@ -76,16 +76,16 @@ p {
 }
 
 .drag_here {
-  color: #a7b5c2;
-  font: 400 14px / 14px Arial;
   padding-left: 130px;
+  font: 400 14px / 14px Arial;
+  color: #a7b5c2;
 }
 
 .or {
-  color: #c3c8cc;
-  font: 400 14px / 14px Arial;
-  padding-left: 218px;
   padding-top: 10px;
+  padding-left: 218px;
+  font: 400 14px / 14px Arial;
+  color: #c3c8cc;
 }
 
 .update-file {
@@ -94,23 +94,23 @@ p {
 
 .update-file-input {
   position: absolute;
-  margin-left: 120px;
-  opacity: 0;
   width: 230px;
   height: 45px;
+  margin-left: 120px;
   cursor: pointer;
+  opacity: 0;
 }
 
 .upload_btn {
+  display: block;
   width: 230px;
   height: 45px;
-  border-radius: 3px;
-  background-color: #4e79b3;
-  color: #ffffff;
-  font: 400 13px / 14px Arial;
-  text-align: center;
-  line-height: 45px;
   margin-top: 20px;
   margin-left: 120px;
-  display: block;
+  font: 400 13px / 14px Arial;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #4e79b3;
 }
