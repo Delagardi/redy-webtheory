@@ -315,22 +315,6 @@ html {
 .link-for-friend{
   width: 410px;
   height: 40px;
-  margin: 20px auto;
-  padding: 0 0 0 12px;
-  box-sizing:border-box;
-  background: #fff;
-  border: 1px solid #e293d3;
-  box-shadow: 0 0 15px rgba(163, 70, 146,.25), inset 0 1px 3px rgba(0,0,0,.05);
-  border-radius: 5px;
-  color: #666666;
-  font:  13px/40px "Open Sans", arial;
-  text-align: left;
-  overflow: hidden;
-}
-
-.link-for-friend1{
-  width: 410px;
-  height: 40px;
   display: block;
   margin: 20px auto;
   padding: 0 0 0 12px;

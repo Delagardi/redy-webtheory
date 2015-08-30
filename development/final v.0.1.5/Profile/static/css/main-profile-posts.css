@@ -951,3 +951,226 @@ width: 645px;
   border: 1px solid #d5d5d5;
   color: #8a96a1;
 }
+
+
+
+.user-menu {
+  width: 340px;
+  height: 273px;
+  margin: 61px 0 0 507px;
+  padding: 0;
+  position: absolute;  
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 8px -1px #000;
+}
+
+.triangle-white {
+  position: absolute;
+  margin: -5px 0 0 162px;
+  float: right;
+  width: 0px;
+  height: 0px;
+  border-bottom: 5px solid #fff;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.user-menu-list {
+  margin-left: -40px;
+  margin-bottom: 0;
+}
+
+.user-menu-header {
+  font-family: Arial;
+  font-weight: 200;
+  font-size: 16px;
+  color: #333;
+  float: left;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.user-menu-header__unread {
+  font-family: Arial;
+  font-size: 12px;
+  color: #5a81b7;
+  float: right;
+  margin-top: 32px;
+  margin-right: 15px;
+  text-decoration: underline;
+}
+
+.user-menu-item {
+  position: relative;
+  width: 340px;
+  height: 72px;
+  display: block;
+  padding: 10px 20px 0 20px;
+  color: #333;
+  font: 400 13px / 40px "Open Sans", arial;
+  border-top: 1px solid #ddd;
+}
+
+.user-menu-item:hover {
+  background: #eceff3;
+}
+
+.user-menu-item__photo {
+  float: left;
+}
+
+.user-menu-item-header {
+  margin-left: 60px;
+  height: 20px;
+}
+
+.user-menu-item__name {
+  font-family: Arial bold;
+  font-size: 12px;
+  color: #5a81b7;
+  float: left;
+  margin-top: -14px;
+}
+
+.user-menu-item__friend {
+  position: relative;
+  font-family: Arial bold;
+  font-size: 12px;
+  margin-top: -14px;
+  margin-left: 16px;
+  color: #a6adb6;
+  float: left;
+}
+
+.user-menu-item__friend:before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: -15px;
+  margin: 5px;
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-left: 6px solid #dadada;
+  border-bottom: 4px solid transparent;
+}
+
+.user-menu-msg {
+  position: absolute;
+  top: 21px;
+  left: 79px;
+  font-family: Arial;
+  font-size: 12px;
+  color: #666;
+}
+
+.user-menu-msg-footer {
+  position: absolute;
+  top: 42px;
+  left: 79px;
+  font-family: Arial;
+  font-size: 10px;
+  color: #999;
+}
+
+.user-menu-time {
+  float: left;
+}
+
+.user-menu-reply {
+  position: relative;
+  margin-left: 14px;
+  color: #999;
+}
+
+.user-menu-reply:before {
+  content: ""; 
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  top: 5px;
+  left: -9px;
+  background: #999;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.user-menu-allmsg {
+  border-top: 1px solid #ddd;
+  width: 340px;
+  height: 67px;
+  text-align: center;
+}
+
+.user-menu-allmsg__link {
+  font-family: Arial;
+  font-size: 12px;
+  color: #a3a3a3;
+  display: block;
+  width: 340px;
+  height: 67px;
+  padding-top: 26px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.user-menu-allmsg__link:hover {
+  background: #eee;
+}
+/*.user-menu__item:hover {
+  background: #547db5;
+  color: #fff;
+}*/
+
+/*.user-menu__item:hover .user-menu__icon1 {
+  background: url("../img/sprite5.png") 0px 0;
+}
+.user-menu__item:hover .user-menu__icon2 {
+  background: url("../img/sprite5.png") -18px 0;
+}
+.user-menu__item:hover .user-menu__icon3 {
+  background: url("../img/sprite5.png") -36px 0;
+}
+.user-menu__item:hover .user-menu__icon4 {
+  background: url("../img/sprite5.png") -123px 0;
+}
+
+.user-menu__item:nth-child(2):hover {
+  border-radius: 5px 5px 0 0;
+}
+
+.user-menu__item:last-child:hover {
+  border-radius: 0 0 5px 5px;
+}
+
+.user-menu__icon1,
+.user-menu__icon2,
+.user-menu__icon3,
+.user-menu__icon4 {
+  width: 18px;
+  height: 18px;
+  margin: 15px 0 0 15px;
+  position: absolute;
+  background: url("../img/sprite4.png");
+  display: block;
+  float: left;
+}
+
+.user-menu__icon2 {
+  background: url("../img/sprite4.png") -18px 0;
+}
+
+.user-menu__icon3 {
+  width: 16px;
+  margin: 13px 0 0 15px;
+  background: url("../img/sprite4.png") -36px 0;
+}
+
+.user-menu__icon4 {
+  width: 19px;
+  height: 19px;
+  margin: 14px 0 0 15px;
+  background: url("../img/sprite4.png") -52px 0;
+}*/
