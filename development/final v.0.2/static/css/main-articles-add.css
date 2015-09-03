@@ -331,6 +331,7 @@ header {
 .header-navigation-list__link:hover {
   color: #fff;
 }
+
 .user {
   display: inline-block;
   float: right;
@@ -792,7 +793,6 @@ header {
 
 .sidebar-heading {
   margin: 0;
-  padding: 0 0 0 40px;
   font: 100 18px/normal "Open Sans", arial;
   color: #333;
 }
@@ -1217,8 +1217,6 @@ header {
   background-color: #71a7da;
 }
 
-
-
 .article-tags {
   float: right;
   width: 290px;
@@ -1636,3 +1634,71 @@ header {
   margin-left: 8px;
 }
 
+/*=======================================================*/
+/* MAIN-ARTICLES-ADD-PREVIEW END */
+/*=======================================================*/
+
+
+
+/*=======================================================*/
+/* MAIN-ARTICLES-FULL START */
+/*=======================================================*/
+
+
+.edit-delete_btns {
+  float: right;
+  width: 194px;
+  height: 14px;
+}
+
+.edit-delete_btns a {
+  margin: 0 0 0 0;
+  font: 400 13px / 22px Arial;
+  color: #7396c1;
+}
+
+.delete_btn:hover,
+.edit_btn:hover {
+  text-decoration: underline;
+}
+
+.edit_btn::before {
+  content: url(../img/pencil-icon.png);
+  width: 12px;
+  height: 12px;
+  margin-right: 7px;
+}
+
+.delete_btn {
+  float: right;
+}
+
+.delete_btn::before {
+  content: url(../img/Shape-26.png);
+  width: 9px;
+  height: 12px;
+  margin-right: 7px;
+}
+
+.ilike_btn-number {
+  float: right;
+  width: 110px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  font: 400 11px / 18px Arial;
+  color: #b1c0c8;
+}
+
+.ilike_btn-number span {
+  float: right;
+}
+
+.ilike_btn-number::after {
+  content: url(../img/Shape-17-copy-2.png);
+  margin-left: 8px;
+  padding: 0 0 0 0;
+}
+
+/*=======================================================*/
+/* MAIN-ARTICLES-FULL END */
+/*=======================================================*/
