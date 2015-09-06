@@ -35,26 +35,18 @@
   </header>
   <div class="subheader-courses">
     <div class="subheader-wrapper">
-      <div class="subheader-widthfix">
-        <div class="subheader-menu leftfix">
-          <ul class="subheader-menu__list leftfix">
-            <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link leftfix" href="#">Курсы</a></li>
-            <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link leftfix" href="#">Что мне учить?</a></li>
-          </ul>
-        </div>
-        <div class="subheader-menu rightfix">
-          <ul class="subheader-menu__list rightfix">
-            <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix" href="#">Популярные</a></li>
-            <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix clearfix" href="#">Новые</a></li>
-          </ul>
-        </div>
-      </div>
+      <ul class="subheader-menu-list leftfix">
+        <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link leftfix" href="#">Курсы</a></li>
+        <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link leftfix" href="#">Что мне учить?</a></li>
+      </ul>
+      <ul class="subheader-menu-list rightfix">
+        <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix" href="#">Популярные</a></li>
+        <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix clearfix" href="#">Новые</a></li>
+      </ul>
     </div>
   </div>
-  <div class="wrapper clearfix">
-
-    <div class="courses-main">
-        <div class="sidebar">
+  <div class="courses-main">
+    <div class="sidebar">
       <ul class="sidebar-navigation">
         Навигация
         <li>
@@ -164,9 +156,10 @@
         <li><a href="#" class="footer__link">Контакты</a></li>
       </ul>
     </div>
+    <div class="courses-content">
       <div class="table-up">
         <h2 class="table-up-header">Front-End</h2>
-        <ul>
+        <ul class="table-course-list">
           <li class="table-course">
             <a href="#"><img src="upload/img/html5.jpg" alt="HTML5" width="234" height="160"></a>
             <span class="table-course__name">HTML5 / CSS3</span>
@@ -201,7 +194,7 @@
       </div>
       <div class="table-down">
         <h2 class="table-down-header">Back-end</h2>
-        <ul>
+        <ul class="table-course-list">
           <li class="table-course">
             <a href="#"><img src="upload/img/default_image.jpg" alt="HTML5" width="234" height="160"></a>
             <span class="table-course__name">PHP</span>

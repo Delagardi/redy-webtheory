@@ -1,3 +1,456 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide START */
+/*=======================================================*/
+
+html {
+  /* REDY.IO styleguide 10.3 */
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* REDY.IO styleguide 10.3 */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+
+mark {
+  color: #000;
+  background: #ff0;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  position: relative;
+  font-size: 75%;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -.5em;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0; /* 3 */
+  font: inherit; /* 2 */
+  color: inherit; /* 1 */
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+/* 1 */
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer; /* 3 */
+
+  -webkit-appearance: button; /* 2 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  box-sizing: content-box; /* 2 */
+
+  -webkit-appearance: textfield; /* 1 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+  border: 1px solid #c0c0c0;
+}
+
+legend {
+  padding: 0; /* 2 */
+  border: 0; /* 1 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*=======================================================*/
+/* Normalize.css & REDY.IO styleguide END */
+/*=======================================================*/
+
+@font-face {
+  font-family: "Open Sans";
+
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans light";
+
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Arial Bold";
+
+  src: url("../fonts/Arial Bold.ttf");
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+/*=======================================================*/
+/* HEADER START */
+/*=======================================================*/
+
+
+header {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  min-width: 960px;
+  height: 60px;
+  background: #496ea0;
+  background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
+  box-shadow: 0 1px 3px #080909;
+}
+
+.header-content {
+  width: 960px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.header-content__logo {
+  display: block;
+  float: left;
+  width: 114px;
+  height: 24px;
+  margin-top: 20px;
+  background: url("../img/logo.png") 0 0;
+}
+
+.header-navigation {
+  display: inline-block;
+  height: 60px;
+  margin-left: 46px;
+}
+
+.header-navigation-list {
+  margin-top: 0;
+}
+
+.header-navigation-list__item {
+  float: left;
+  padding-right: 20px;
+}
+
+.header-navigation-list__link {
+  font-family: "Open sans", arial;
+  font-size: 13px;
+  line-height: 60px;
+  color: #acc5db;
+}
+
+.header-navigation-list__link:hover {
+  color: #fff;
+}
+
+.header-navigation-list__active {
+  color: #fff;
+}
+
+.user {
+  float: right;
+  height: 60px;
+}
+
+.user-icons {
+  line-height: 16px;
+}
+
+.user-iconmenu {
+  display: inline-block;
+  width: 23px;
+  height: 15px;
+  margin: 22px 15px 0 0;
+  background: url("../img/sprite-3.png") -94px 0 no-repeat;
+}
+
+.user-iconmenu:hover .pop-up {
+  display: block;
+}
+
+.pop-up {
+  position: absolute;
+  display: none;
+  width: 140px;
+  height: 30px;
+  margin: 30px 0 0 -60px;
+  font: 400 12px/30px "Open Sans", arial;
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+  background: rgba(0,0,0,.85);
+  box-shadow: 0 3px 9px rgba(0,0,0,.25);
+}
+
+.pop-up__triangle {
+  position: absolute;
+  display: block;
+  float: right;
+  width: 0;
+  height: 0;
+  margin: -5px 0 0 67px;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid rgba(0,0,0,.5);
+  border-left: 5px solid transparent;
+}
+
+.user-msg {
+  display: inline-block;
+  width: 50px;
+  height: 16px;
+  margin: 22px 0 0 0;
+}
+
+.user-msg__icon {
+  float: left;
+  width: 22px;
+  height: 16px;
+  background: url("../img/sprite.png") -331px 0 no-repeat;
+}
+
+.user-msg__icon2 {
+  float: left;
+  width: 15px;
+  height: 17px;
+  background: url("../img/sprite-3.png") -79px 1px no-repeat;
+}
+
+.user-msg__unread {
+  display: inline-block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  background: #e14c64;
+}
+
+.user-data {
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  padding-top: 3px;
+  background: #40608b;
+  background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
+}
+
+.user-data__login {
+  display: inline;
+  padding-left: 16px;
+  font-family: "Open sans", arial;
+  font-size: 13px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.user-data__photo {
+  display: inline-block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin: 8px 8px;
+  border-bottom: 1px solid;
+  border-radius: 30px;
+}
+
+.user-data:hover {
+  box-shadow: 0 -3px 0 #e94d66 inset;
+}
+
+/*=======================================================*/
+/* HEADER END */
+/*=======================================================*/
+
 /*=======================================================*/
 /* Curses START */
 /*=======================================================*/
@@ -13,26 +466,22 @@
   margin: 0 auto;
 }
 
-.subheader-widthfix {
-  width: 720px;
-}
-
-.subheader-menu__list,
-.subheader-menu__list {
+.subheader-menu-list {
   height: 40px;
   margin-top: 0;
   line-height: 40px;
+  padding-left: 0;
 }
 
-.subheader-menu,
-.subheader-menu {
-  font-family: Arial;
-  font-size: 13px;
+.subheader-menu-list:nth-of-type(2) {
+  margin-right: 250px;
 }
 
 .subheader-menu__item {
   display: inline-block;
   float: left;
+  font-family: Arial;
+  font-size: 13px;
 }
 
 .subheader-menu__link {
@@ -63,9 +512,20 @@
   width: 960px;
 }
 
+.courses-content {
+  width: 720px;
+  float: left;
+  padding-right: 10px; 
+}
+
 .table-up {
   width:710px;
   height: 500px;
+}
+
+.table-course-list {
+  padding-left: 0;
+  width: 710px;
 }
 
 .table-up-header {
@@ -78,7 +538,11 @@
 .table-course {
   float: left;
   width: 234px;
-  margin: 0 5px 25px 0;
+  margin: 0 4px 25px 0;
+}
+
+.table-course:nth-child(3n) {
+  margin-right: 0;
 }
 
 .table-course__name {
@@ -110,10 +574,6 @@
 }
 
 /* Below styles for Courses-What-To-Learn page */
-
-.main-article {
-  box-shadow: 9px 0 5px -4px #f3f3f3;
-}
 
 .main-article h1 {
   display: inline-block;
@@ -261,7 +721,7 @@
 .main-info-wrapper {
   display: inline-block;
   width: 100%;
-  min-width: 720px;
+  min-width: 710px;
   height: 53px;
   border-bottom: 2px solid #e3e3e3;
 }
@@ -659,6 +1119,8 @@
 
 .sidebar {
   float: right;
+  width: 240px;
+  padding-left: 20px;
 } 
 
 .sidebar-navigation {
@@ -670,6 +1132,7 @@
 
 .lesson-fullpage {
   margin-top: 0;
+  padding-left: 0;
 }
 
 .sidebar-header {

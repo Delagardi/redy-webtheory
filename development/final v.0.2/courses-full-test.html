@@ -34,21 +34,33 @@
   </header>
   <div class="subheader-courses">
     <div class="subheader-wrapper">
-      <div class="subheader-widthfix">
-        <div class="subheader-menu leftfix">
-          <ul class="subheader-menu__list leftfix">
-            <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link course-checked leftfix" href="#">Курсы по CoffeeScript</a></li>
-          </ul>
-        </div>
-        <div class="subheader-menu rightfix">
-          <ul class="subheader-menu__list rightfix">
-            <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix clearfix" href="#">Автор: Sorax</a></li>
-          </ul>
-        </div>
-      </div>
+      <ul class="subheader-menu__list leftfix">
+        <li class="subheader-menu__item leftfix"><a  class="subheader-menu__link course-checked leftfix" href="#">Курсы по CoffeeScript</a></li>
+      </ul>
+      <ul class="subheader-menu__list rightfix">
+        <li class="subheader-menu__item rightfix"><a  class="subheader-menu__link rightfix clearfix" href="#">Автор: Sorax</a></li>
+      </ul>
     </div>
   </div>
-  <div class="wrapper clearfix">
+  <div class="courses-main">
+    <div class="courses-content">
+      <article class="main-article">
+        <div class="main-article-headerblock">
+          <h1>Тест к уроку</h1>
+          <div class="main-article-headerblock__number">Вопрос #1 из 20</div>
+        </div>
+        <h3>Компилятор CoffeeScript устанавливается:</h3>
+        <div class="main-article-text__questions">
+          <input type="radio" id="radio1" class="test-radio-btn" name="test1" value="var1"><label for="radio1">Автоматически вместе с Node.js</label><br>
+          <input type="radio" id="radio2" class="test-radio-btn" name="test1" value="var2"><label for="radio2">При помощи инсталлятора который можно найти на офсайте</label><br>
+          <input type="radio" id="radio3" class="test-radio-btn" checked name="test1" value="var3"><label for="radio3">Через Node Package Manager</label><br>
+          <input type="radio" id="radio4" class="test-radio-btn" name="test1" value="var4"><label for="radio4">Через Ruby Gems</label>
+        </div>
+        <div class="main-article-test-btns">
+          <a class="main-article-test-btns__answ" href="#">Ответить на вопрос</a>
+        </div>
+      </article>
+    </div>
     <div class="sidebar">
       <h2 class="sidebar-header">Уроки</h2>
       <span class="sidebar-navigation__videonumber clearfix">9 видео</span>
@@ -128,24 +140,6 @@
         <li><a href="#" class="footer__link">О нас</a></li>
         <li><a href="#" class="footer__link">Контакты</a></li>
       </ul>
-    </div>
-    <div class="courses-main">
-      <article class="main-article">
-        <div class="main-article-headerblock">
-          <h1>Тест к уроку</h1>
-          <div class="main-article-headerblock__number">Вопрос #1 из 20</div>
-        </div>
-        <h3>Компилятор CoffeeScript устанавливается:</h3>
-        <div class="main-article-text__questions">
-          <input type="radio" id="radio1" class="test-radio-btn" name="test1" value="var1"><label for="radio1">Автоматически вместе с Node.js</label><br>
-          <input type="radio" id="radio2" class="test-radio-btn" name="test1" value="var2"><label for="radio2">При помощи инсталлятора который можно найти на офсайте</label><br>
-          <input type="radio" id="radio3" class="test-radio-btn" checked name="test1" value="var3"><label for="radio3">Через Node Package Manager</label><br>
-          <input type="radio" id="radio4" class="test-radio-btn" name="test1" value="var4"><label for="radio4">Через Ruby Gems</label>
-        </div>
-        <div class="main-article-test-btns">
-          <a class="main-article-test-btns__answ" href="#">Ответить на вопрос</a>
-        </div>
-      </article>
     </div>
   </div>
 </body>
