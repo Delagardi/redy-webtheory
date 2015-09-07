@@ -256,6 +256,7 @@ a {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 .clearfix {
@@ -2441,6 +2442,7 @@ header {
 .user-menu-list {
   margin-bottom: 0;
   margin-left: -40px;
+  padding-left: 40px;
 }
 
 .user-menu-header {
@@ -3599,6 +3601,7 @@ header {
 
 .authors ul {
   margin: 10px 0 0 0;
+  padding-left: 40px;
 }
 
 .person {
