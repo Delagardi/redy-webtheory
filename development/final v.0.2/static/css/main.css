@@ -3085,7 +3085,7 @@ header {
   text-align: left;
   color: #fff;
   border-radius: 3px 3px 0 0;
-  background: url("../img/pop-up-window-header.jpg");
+  background: url("../img/error-window-header.jpg");
 }
 
 .pop-up-window__header-comeback {
@@ -3372,16 +3372,16 @@ header {
 }
 
 .graphics-user-menu__item:hover .graphics-user-menu__icon1 {
-  background: url("../img/sprite5.png") 0 0;
+  background: url("../img/sprite-main.png") -272px -68px;
 }
 .graphics-user-menu__item:hover .graphics-user-menu__icon2 {
-  background: url("../img/sprite5.png") -18px 0;
+  background: url("../img/sprite-main.png") -290px -68px;
 }
 .graphics-user-menu__item:hover .graphics-user-menu__icon3 {
-  background: url("../img/sprite5.png") -36px 0;
+  background: url("../img/sprite-main.png") -308px -68px;
 }
 .graphics-user-menu__item:hover .graphics-user-menu__icon4 {
-  background: url("../img/sprite5.png") -123px 0;
+  background: url("../img/sprite-main.png") -324px -68px;
 }
 
 .graphics-user-menu__item:nth-child(2):hover {
@@ -3402,31 +3402,24 @@ header {
   width: 18px;
   height: 18px;
   margin: 15px 0 0 15px;
-  background: url("../img/sprite4.png");
+  background: url("../img/sprite-main.png") -200px -68px;
 }
 
 .graphics-user-menu__icon2 {
-  background: url("../img/sprite4.png") -18px 0;
+  background: url("../img/sprite-main.png") -218px -68px;
 }
 
 .graphics-user-menu__icon3 {
   width: 16px;
   margin: 13px 0 0 15px;
-  background: url("../img/sprite4.png") -36px 0;
+  background: url("../img/sprite-main.png") -236px -68px;
 }
 
 .graphics-user-menu__icon4 {
   width: 19px;
   height: 19px;
   margin: 14px 0 0 15px;
-  background: url("../img/sprite4.png") -52px 0;
-}
-
-.subheader {
-  display: block;
-  min-width: 960px;
-  height: 250px;
-  background: url("../img/bg-subheader.png");
+  background: url("../img/sprite-main.png") -253px -68px;
 }
 
 .graphics-user-menu__item:first-child:hover {
@@ -3504,14 +3497,15 @@ header {
   right: 11px;
   width: 11px;
   height: 21px;
-  background: url("../img/next-btn1.png");
+  background: url("../img/sprite-main.png") -274px -118px;
 }
+
 .next-btn:hover {
   background: rgba(0,0,0,.5);
 }
 
 .next-btn:hover .next-btn__icon {
-  background: url("../img/next-btn.png");
+  background: url("../img/sprite-main.png") -257px -118px;
 }
 
 .articles {
@@ -3695,7 +3689,7 @@ header {
   width: 15px;
   height: 13px;
   margin: 0 7px 0 0;
-  background: url("../img/sprite2.png");
+  background: url("../img/sprite-main.png") -202px -98px;
 }
 
 .content-item__views {
@@ -3714,7 +3708,7 @@ header {
   width: 19px;
   height: 13px;
   margin: 0 5px 0 0;
-  background: url("../img/sprite2.png") -15px 0;
+  background: url("../img/sprite-main.png") -217px -98px;
 }
 
 .content-item__comments {
@@ -3730,10 +3724,10 @@ header {
   content: " ";
   display: block;
   float: left;
-  width: 16px;
+  width: 15px;
   height: 13px;
   margin: 0 5px 0 0;
-  background: url("../img/sprite2.png") -33px 0;
+  background: url("../img/sprite-main.png") -236px -98px;
 }
 
 .content-item__add {
@@ -3742,7 +3736,7 @@ header {
   float: right;
   width: 11px;
   height: 13px;
-  background: url("../img/sprite2.png") -49px 0;
+  background: url("../img/sprite-main.png") -251px -98px;
 }
 
 .content-item__author {
@@ -3894,8 +3888,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat;
 }
 
 .sidebar-navigation__number-active {
@@ -3928,8 +3922,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -16px 0;
+  height: 20px;
+  background: url("../img/sprite-main.png") no-repeat -16px 0;
 }
 
 .sidebar-navigation__icon3 {
@@ -3937,8 +3931,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -32px 0;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat -32px 0;
 }
 
 .sidebar-navigation__icon4 {
@@ -3946,8 +3940,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -48px 0;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat -48px 0;
 }
 
 .sidebar-navigation__icon5 {
@@ -3955,8 +3949,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -64px 0;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat -64px 0;
 }
 
 .sidebar-navigation__icon6 {
@@ -3964,8 +3958,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -80px 0;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat -80px 0;
 }
 
 .sidebar-navigation__icon7 {
@@ -3973,8 +3967,8 @@ header {
   top: 12px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -96px 0;
+  height: 17px;
+  background: url("../img/sprite-main.png") no-repeat -96px 0;
 }
 
 .sidebar-navigation__icon8 {
@@ -3982,8 +3976,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -112px 0;
+  height: 24px;
+  background: url("../img/sprite-main.png") no-repeat -112px 0;
 }
 
 .sidebar-navigation__links {
@@ -4156,7 +4150,7 @@ header {
   float: right;
   width: 15px;
   height: 13px;
-  background: url("../img/sprite2.png");
+  background: url("../img/sprite-main.png") -202px -98px;
 }
 
 .sidebar-help {
@@ -4195,7 +4189,7 @@ header {
   width: 35px;
   height: 45px;
   margin: 0 15px 0 0 ;
-  background: url("../img/bag.png") 36px 0;
+  background: url("../img/sprite-main.png") -216px -169px;
 }
 
 .sidebar-social {
@@ -4210,8 +4204,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -190px 3px;
+  height: 18px;
+  background: url("../img/sprite-main.png") no-repeat -190px 0;
 }
 
 .sidebar-social__icon2 {
@@ -4219,8 +4213,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -207px 3px;
+  height: 16px;
+  background: url("../img/sprite-main.png") no-repeat -207px 0;
 }
 
 .sidebar-social__icon3 {
@@ -4228,8 +4222,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -223px 3px;
+  height: 16px;
+  background: url("../img/sprite-main.png") no-repeat -223px 0;
 }
 
 .sidebar-social__icon4 {
@@ -4237,8 +4231,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -239px 3px;
+  height: 16px;
+  background: url("../img/sprite-main.png") no-repeat -239px 0;
 }
 
 .sidebar-social__icon5 {
@@ -4246,8 +4240,8 @@ header {
   top: 8px;
   left: 0;
   width: 16px;
-  height: 100%;
-  background: url("../img/sprite.png") no-repeat -255px 3px;
+  height: 16px;
+  background: url("../img/sprite-main.png") no-repeat -255px 0;
 }
 
 .sidebar-social__item {
@@ -5629,7 +5623,8 @@ input[name="graphics-add-upload"] {
   display: block;
   min-width: 960px;
   height: 250px;
-  background: url("../img/bg-subheader.png");
+
+  background: url("../img/subheader-pattern.jpg");
 }
 
 .subheader-content {

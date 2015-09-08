@@ -1,19 +1,16 @@
 @font-face {
   font-family: "PFBeauSansPro";
-
   src: url("../fonts/PFBeauSansPro.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
-
   src: url("../fonts/Open_Sans.ttf");
 }
 
 html {
   height: 100%;
-  background: url("../img/403.jpg") 100% 100% no-repeat;
-  background-size: cover;
+  background: url("../img/error-bg.jpg") 100% 100% / cover no-repeat;
 }
 
 .error {
@@ -26,26 +23,26 @@ html {
 
 .error-code[data-code="403"] {
   float: left;
-  width: 100%;
+  width: 255px;
   height: 105px;
   margin: 0 0 30px 0;
-  background: url("../img/403.png") no-repeat;
+  background: url("../img/sprite-error.png") no-repeat ;
 }
 
 .error-code[data-code="404"] {
   float: left;
-  width: 100%;
+  width: 255px;
   height: 105px;
   margin: 0 0 30px 0;
-  background: url("../img/404.png") no-repeat;
+  background: url("../img/sprite-error.png") no-repeat -257px 0;
 }
 
 .error-code[data-code="503"] {
   float: left;
-  width: 100%;
+  width: 255px;
   height: 105px;
   margin: 0 0 30px 15px;
-  background: url("../img/503.png") no-repeat;
+  background: url("../img/sprite-error.png") no-repeat -512px 0;
 }
 
 .error-message {
@@ -86,7 +83,7 @@ html {
   text-align: left;
   color: #fff;
   border-radius: 3px 3px 0 0;
-  background: url("../img/pop-up-window-header.jpg");
+  background: url("../img/error-window-header.jpg");
 }
 
 .pop-up-window__header-comeback {

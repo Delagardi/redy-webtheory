@@ -355,7 +355,7 @@ header {
   width: 1280px;
   height: 500px;
   margin-left: -660px;
-  background: url("../img/subheader_bg.png") no-repeat;
+  background: url("../img/lp-under-bg.png") no-repeat;
 }
 
 .landing-subheader {
@@ -405,7 +405,7 @@ header {
   width: 800px;
   height: 220px;
   margin: 0 auto;
-  background: url("../img/landing-back-page.png");
+  background: url("../img/lp-example-page.png");
 }
 
 .content-list {
@@ -456,36 +456,35 @@ header {
 }
 
 .content-list-item__img1 {
-  width: 90px;
-  background: url("../img/sprite3.png") 0 0;
+  background: url("../img/sprite-lp.png") 0 0;
 }
 
 .content-list-item__img2 {
   width: 109px;
-  background: url("../img/sprite3.png") -90px 0;
+  background: url("../img/sprite-lp.png") -90px 0;
 }
 
 .content-list-item__img3 {
   width: 105px;
-  background: url("../img/sprite3.png") -199px 0;
+  background: url("../img/sprite-lp.png") -199px 0;
 }
 
 .content-list-item__img4 {
   width: 96px;
   height: 129px;
-  background: url("../img/sprite3.png") -304px 0;
+  background: url("../img/sprite-lp.png") -304px 0;
 }
 
 .content-list-item__img5 {
   width: 129px;
   height: 129px;
-  background: url("../img/sprite3.png") -400px 0;
+  background: url("../img/sprite-lp.png") -400px 0;
 }
 
 .content-list-item__img6 {
   width: 129px;
   height: 129px;
-  background: url("../img/sprite3.png") -529px 0;
+  background: url("../img/sprite-lp.png") -529px 0;
 }
 
 .content-list-item__name {
@@ -521,8 +520,16 @@ header {
   float: left;
   width: 473px;
   height: 350px;
-  border: 0 solid black;
-  background: url("../img/videos.png") no-repeat;
+  background: url("../img/Education-video-bg.jpg") no-repeat 0 37px;
+}
+
+.education-video-link {
+  display: block;
+  width: 310px;
+  height: 351px;
+  margin: 0 auto;
+  background: url("../img/education-video-link.jpg") no-repeat;
+
 }
 
 .education-about {
@@ -707,10 +714,9 @@ input[name="password"] {
 }
 
 .login-icon,
+.email-icon,
 .password-icon {
   float: left;
-  width: 35px;
-  height: 34px;
   border-right: 1px solid #d5d5d5;
   border-radius: 5px 0 0 5px;
   background: #f5f5f5;
@@ -722,16 +728,25 @@ input[name="password"] {
   width: 12px;
   height: 12px;
   margin: 11px auto;
-  background: url("../img/landing-sprite.png") no-repeat;
+  background: url("../img/sprite-lp.png") no-repeat -658px 0;
 }
 
 .password-icon:before {
   content: "";
   display: block;
+  width: 11px;
+  height: 12px;
+  margin: 11px auto;
+  background: url("../img/sprite-lp.png") no-repeat -670px 0 ;
+}
+
+.email-icon:before  {
+  content: " ";
+  display: block;
   width: 12px;
   height: 12px;
   margin: 11px auto;
-  background: url("../img/landing-sprite.png") no-repeat -12px 0 ;
+  background: url("../img/sprite-lp.png") no-repeat -681px 0;
 }
 
 .authorization-btn {
@@ -832,6 +847,7 @@ input[name="your-email"] {
 }
 
 .login-icon,
+.email-icon,
 .password-icon {
   float: left;
   width: 35px;
