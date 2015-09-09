@@ -988,63 +988,7 @@ header {
   color: #4f7ab4;
 }
 
-.ilike-btn-pressed {
-  float: right;
-  width: 97px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  color: #7fa1ce;
-  font: 400 11px / 18px Arial;
-}
 
-.ilike-btn-pressed::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 0 -4px 4px;
-  background: url("../img/sprite-main.png") -241px -154px no-repeat;
-}
-
-.ilike-btn {
-  float: right;
-  width: 97px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
-}
-
-.ilike-btn::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 0 -4px 4px;
-  background: url("../img/sprite-main.png") -260px -152px no-repeat;
-}
-
-.ilike-btn-number {
-  float: right;
-  width: 110px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
-}
-
-.ilike-btn-number span {
-  float: right;
-}
-
-.ilike-btn-number::after {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin: 0 0 -4px 4px;
-  background: url("../img/sprite-main.png") -260px -152px no-repeat;
-}
 
 /* Courses.html test page */
 .main-article-test-btns__go {
@@ -1563,33 +1507,6 @@ header {
   margin: 0 0 2px 0;
   border-radius: 5px;
   background: #999;
-}
-
-.ilike_btn-number {
-  float: right;
-  width: 112px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  opacity: .7;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
-}
-
-.ilike_btn-number:hover {
-  opacity: 1;
-}
-
-.ilike_btn-number span {
-  float: right;
-}
-
-.ilike_btn-number::after {
-  content: "";
-  display: inline-block;
-  width: 11px;
-  height: 10px;
-  padding: 0 0 0 0;
-  background: url("../img/like.png");
 }
 
 .comments__block {
@@ -4301,7 +4218,7 @@ header {
 }
 
 .article-add__block > h2 {
-  width: 186px;
+  width: 186px !important;
   height: 18px;
   color: #333;
   font: 18px "Open Sans";
@@ -4372,7 +4289,7 @@ header {
   width: 16px;
   height: 14px;
   margin: 37px 0 0 430px;
-  background: url(../img/sprite-2.png) 91px;
+  background: url(/static/img/sprite-main.png) -193px -25px;
 }
 
 .tag_icon {
@@ -4422,7 +4339,7 @@ header {
   width: 111px;
   height: 95px;
   margin: 150px auto;
-  background: url(../img/-UPLOAD-copy.png);
+  background: url(/static/img/sprite-main.png) -286px -144px;
 }
 
 .upload_description {
@@ -4730,7 +4647,7 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 14px;
   margin: 37px 0 0 430px;
-  background: url(/static/img/list-icon3.png);
+  background: url(/static/img/sprite-main.png) -193px -25px;
 }
 
 .tag_icon {
@@ -4738,7 +4655,7 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 16px;
   margin: 90px 0 0 430px;
-  background: url(/static/img/tag-icon.png);
+  background: url(/static/img/sprite-main.png) -210px -25px;
 }
 
 .choose-category_list1,
@@ -4820,21 +4737,21 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: url(../img/sprite-2.png) -183px 0;
+  background: url(/static/img/sprite-main.png) -183px -25px;
 }
 
 .symbol2 {
   display: inline-block;
   width: 8px;
   height: 10px;
-  background: url(../img/sprite-2.png) -175px 0;
+  background: url(/static/img/sprite-main.png) -175px -25px;
 }
 
 .symbol3 {
   display: inline-block;
   width: 14px;
   height: 10px;
-  background: url(../img/sprite-2.png) -161px -1px;
+  background: url(/static/img/sprite-main.png) -161px -26px;
 }
 
 .symbol4 {
@@ -4842,7 +4759,7 @@ input[name="graphics-add-upload"] {
   width: 10px;
   height: 12px;
   vertical-align: -1px;
-  background: url(../img/sprite-2.png) -151px 0;
+  background: url(/static/img/sprite-main.png) -151px -25px;
 }
 
 .symbol5 {
@@ -4850,7 +4767,7 @@ input[name="graphics-add-upload"] {
   width: 13px;
   height: 13px;
   vertical-align: -1px;
-  background: url(../img/sprite-2.png) -138px 0;
+  background: url(/static/img/sprite-main.png) -138px -25px;
 }
 
 .symbol6 {
@@ -4858,70 +4775,70 @@ input[name="graphics-add-upload"] {
   width: 13px;
   height: 14px;
   vertical-align: -1px;
-  background: url(../img/sprite-2.png) -125px 0;
+  background: url(/static/img/sprite-main.png) -125px -25px;
 }
 
 .symbol7 {
   display: inline-block;
   width: 14px;
   height: 8px;
-  background: url(../img/sprite-2.png) -111px 0;
+  background: url(/static/img/sprite-main.png) -111px -25px;
 }
 
 .symbol8 {
   display: inline-block;
   width: 14px;
   height: 8px;
-  background: url(../img/sprite-2.png) -97px 0;
+  background: url(/static/img/sprite-main.png) -97px -25px;
 }
 
 .symbol9 {
   display: inline-block;
   width: 14px;
   height: 8px;
-  background: url(../img/sprite-2.png) -83px 0;
+  background: url(/static/img/sprite-main.png) -83px -25px;
 }
 
 .symbol10 {
   display: inline-block;
   width: 15px;
   height: 12px;
-  background: url(../img/sprite-2.png) -68px 0;
+  background: url(/static/img/sprite-main.png) -68px -25px;
 }
 
 .symbol11 {
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: url(../img/sprite-2.png) -54px 0;
+  background: url(/static/img/sprite-main.png) -54px -25px;
 }
 
 .symbol12 {
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: url(../img/sprite-2.png) -40px 0;
+  background: url(/static/img/sprite-main.png) -40px -25px;
 }
 
 .symbol13 {
   display: inline-block;
   width: 14px;
   height: 11px;
-  background: url(../img/sprite-2.png) -26px 0;
+  background: url(/static/img/sprite-main.png) -26px -25px;
 }
 
 .symbol14 {
   display: inline-block;
   width: 12px;
   height: 16px;
-  background: url(../img/sprite-2.png) -14px 0;
+  background: url(/static/img/sprite-main.png) -14px -25px;
 }
 
 .symbol15 {
   display: inline-block;
   width: 14px;
   height: 15px;
-  background: url(../img/sprite-2.png) 0 0;
+  background: url(/static/img/sprite-main.png) 0 -25px;
 }
 
 .article-edit__symbols-block > span {
@@ -4942,10 +4859,10 @@ input[name="graphics-add-upload"] {
 
 .article_input-size-slider {
   position: absolute;
-  width: 7px;
-  height: 7px;
-  margin: -7px 0 0 698px;
-  background: url(../img/sprite-2.png) 32px 1px;
+  width: 10px;
+  height: 10px;
+  margin: -9px 0 0 694px;
+  background: url(/static/img/sprite-main.png) -230px -25px;
 }
 
 .article_publish-btn {
@@ -4970,7 +4887,7 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 12px;
   margin: 15px 0 0 -24px;
-  background: url(../img/sprite-2.png) 42px 0;
+  background: url(/static/img/sprite-main.png) -242px -25px;
 }
 
 .article_preview-btn {
@@ -4995,7 +4912,7 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 10px;
   margin: 15px 0 0 -24px;
-  background: url(../img/sprite-2.png) 16px 0;
+  background: url(/static/img/sprite-main.png) -268px -25px;
 }
 
 .add_by {
@@ -5012,7 +4929,7 @@ input[name="graphics-add-upload"] {
   width: 10px;
   height: 10px;
   margin: 20px 0 0 -25px;
-  background: url(../img/sprite-2.png) 26px 0;
+  background: url(/static/img/sprite-main.png) -258px -25px;
 }
 
 .profile-login__icon {
@@ -5087,12 +5004,6 @@ input[name="graphics-add-upload"] {
   border-radius: 3px;
   background-color: #71a7da;
   font: 400 13px / 20px Arial;
-}
-
-.article-tags {
-  float: right;
-  width: 290px;
-  margin: 37px -10px 0 0;
 }
 
 .article-tags li {
@@ -5178,7 +5089,7 @@ input[name="graphics-add-upload"] {
 }
 
 .article-text h4::before {
-  content: url(../img/head.png);
+  content: url(/static/img/sprite-main.png) -220px -120px;
   width: 24px;
   height: 28px;
   margin: 0 12px 0 -40px;
@@ -5222,14 +5133,14 @@ input[name="graphics-add-upload"] {
   width: 15px;
   height: 15px;
   margin: 10px 0 0 12px;
-  background: url("../img/sprite.png") -317px 0;
+  background: url(/static/img/sprite-main.png) -316px -0px;
 }
 
 .like:hover .like-thumb-up {
   width: 16px;
   height: 20px;
   margin: 9px 0 0 12px;
-  background: url("../img/sprite.png") -369px 0;
+  background: url(/static/img/sprite-main.png) -369px -0px;
 }
 
 
@@ -5258,7 +5169,7 @@ input[name="graphics-add-upload"] {
   width: 14px;
   height: 15px;
   margin: 12px 0 0 12px;
-  background: url("../img/sprite.png") -303px 0;
+  background: url(/static/img/sprite-main.png) -303px -0px;
 }
 
 .dislike:hover .like-thumb-down {
@@ -5266,22 +5177,22 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 18px;
   margin: 11px 0 0 12px;
-  background: url("../img/sprite.png") -385px 0;
+  background: url(/static/img/sprite-main.png) -385px -0px;
 }
 
 
 .views-number:before {
   content: "";
   display: inline-block;
-  width: 17px;
+  width: 18px;
   height: 15px;
   margin: 0 10px -3px 15px;
-  background: url("../img/sprite.png") -285px 1px;
+  background: url(/static/img/sprite-main.png) -285px 0px;
 }
 
 .views-number {
   display: inline-block;
-  width: 82px;
+  width: 83px;
   height: 11px;
   color: #a3a1a1;
   font: 400 13px / 22px Arial;
@@ -5293,7 +5204,7 @@ input[name="graphics-add-upload"] {
   width: 14px;
   height: 11px;
   margin: 0 10px 0 0;
-  background: url("../img/sprite.png") -271px .5px;
+  background: url(/static/img/sprite-main.png) -271px 0px;
 }
 
 .comments-number {
@@ -5334,11 +5245,11 @@ input[name="graphics-add-upload"] {
 
 .vk-btn_pic {
   float: left;
-  width: 10px;
+  width: 12px;
   height: 25px;
-  margin: -6px 10px 0 8px;
+  margin: -6px 5px 0 8px;
   padding: 0;
-  background: url("../img/sprite.png") -128px 0;
+  background: url(/static/img/sprite-main.png) -128px 0px;
 }
 
 .fb-btn {
@@ -5355,7 +5266,7 @@ input[name="graphics-add-upload"] {
   float: right;
   width: 7px;
   height: 20px;
-  background: url("../img/sprite.png") -139px 1px;
+  background: url(/static/img/sprite-main.png) -141px 0px;
 }
 
 .tw-btn {
@@ -5375,7 +5286,7 @@ input[name="graphics-add-upload"] {
   width: 17px;
   height: 15px;
   margin: 0 6px 0 0;
-  background: url("../img/sprite.png") -146px 0;
+  background: url(/static/img/sprite-main.png) -148px 0px;
 }
 
 .google-btn {
@@ -5393,7 +5304,7 @@ input[name="graphics-add-upload"] {
   float: right;
   width: 24px;
   height: 21px;
-  background: url("../img/sprite.png") -163px 0;
+  background: url(/static/img/sprite-main.png) -165px 0px;
 }
 
 .comments_block {
@@ -5488,7 +5399,7 @@ input[name="graphics-add-upload"] {
 }
 
 .ilike_btn-pressed::after {
-  content: url(../img/Shape-17-copy.png);
+  content:  url(/static/img/sprite-main.png) -378px -23px;
   margin-left: 8px;
 }
 
@@ -5502,7 +5413,7 @@ input[name="graphics-add-upload"] {
 }
 
 .ilike_btn::after {
-  content: url(../img/Shape-17-copy-2.png);
+  content: url(/static/img/sprite-main.png) -378px -23px;
   margin-left: 8px;
 }
 
@@ -5565,11 +5476,6 @@ input[name="graphics-add-upload"] {
   float: right;
 }
 
-.ilike_btn-number::after {
-  content: url(../img/Shape-17-copy-2.png);
-  margin-left: 8px;
-  padding: 0 0 0 0;
-}
 
 /*=======================================================*/
 /* MAIN-ARTICLES-FULL END */
@@ -5862,109 +5768,6 @@ input[name="graphics-add-upload"] {
   background: #5094d4;
 }
 
-.likes-block {
-  display: inline-block;
-  width: 124px;
-  height: 38px;
-  margin: 1px 0 0 10px;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  background: #f5f5f5;
-}
-
-.like {
-  display: block;
-  float: left;
-  width: 40px;
-  height: 40px;
-}
-
-.like-thumb-up {
-  display: block;
-  width: 15px;
-  height: 15px;
-  margin: 10px 0 0 12px;
-  background: url("../img/sprite.png") -317px 0;
-}
-
-.like:hover .like-thumb-up {
-  width: 16px;
-  height: 20px;
-  margin: 9px 0 0 12px;
-  background: url("../img/sprite.png") -369px 0;
-}
-
-.likes-number {
-  display: inline-block;
-  width: 42px;
-  height: 38px;
-  margin: -1px 0 0 0;
-  padding-top: 8px;
-  text-align: center;
-  color: #5fac39;
-  border: 1px solid #e3e3e3;
-  background-color: #fff;
-  font: 700 13px / 22px Arial;
-}
-
-.dislike {
-  display: block;
-  float: right;
-  width: 40px;
-  height: 40px;
-}
-
-.like-thumb-down {
-  display: block;
-  width: 14px;
-  height: 15px;
-  margin: 12px 0 0 12px;
-  background: url("../img/sprite.png") -303px 0;
-}
-
-.dislike:hover .like-thumb-down {
-  display: block;
-  width: 16px;
-  height: 18px;
-  margin: 11px 0 0 12px;
-  background: url("../img/sprite.png") -385px 0;
-}
-
-.views-number:before {
-  content: "";
-  display: inline-block;
-  width: 17px;
-  height: 15px;
-  margin: 0 10px -3px 15px;
-  background: url("../img/sprite.png") -285px 1px;
-}
-
-.views-number {
-  display: inline-block;
-  width: 82px;
-  height: 11px;
-  color: #a3a1a1;
-  font: 400 13px / 22px Arial;
-}
-
-.comments-number:before {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 11px;
-  margin: 0 10px 0 0;
-  background: url("../img/sprite.png") -271px .5px;
-}
-
-.comments-number {
-  display: inline-block;
-  width: 46px;
-  height: 11px;
-  margin-left: 8px;
-  color: #a3a1a1;
-  font: 400 13px / 22px Arial;
-}
-
 .social-btns {
   display: inline-block;
   float: right;
@@ -5981,46 +5784,6 @@ input[name="graphics-add-upload"] {
 
 .social-btns li {
   display: inline-block;
-}
-
-.vk-btn {
-  display: inline-block;
-  width: 48px;
-  height: 24px;
-  margin-right: -9px;
-  padding: 4px 0 0 0;
-  vertical-align: top;
-  color: #fff;
-  border-radius: 3px;
-  background: #48729e;
-  font-family: sans-serif;
-  font-size: 13px;
-}
-
-.vk-btn_pic {
-  float: left;
-  width: 10px;
-  height: 25px;
-  margin: -6px 10px 0 8px;
-  padding: 0;
-  background: url("../img/sprite.png") -128px 0;
-}
-
-.fb-btn {
-  width: 24px;
-  height: 24px;
-  margin: 0 0 -5px 10px;
-  padding: 2px 4px 0 0;
-  vertical-align: top;
-  border-radius: 3px;
-  background: #3c5a98;
-}
-
-.fb-btn-pic {
-  float: right;
-  width: 7px;
-  height: 20px;
-  background: url("../img/sprite.png") -139px 1px;
 }
 
 .fb-btn2 {
@@ -6041,45 +5804,7 @@ input[name="graphics-add-upload"] {
   width: 7px;
   height: 20px;
   margin: -2px 8px 0 8px;
-  background: url("../img/sprite.png") -139px 1px;
-}
-
-.tw-btn {
-  width: 40px;
-  height: 24px;
-  padding: 4px 0 0 5px;
-  vertical-align: top;
-  color: #fff;
-  border-radius: 3px;
-  background: #00aced;
-  font-family: sans-serif;
-  font-size: 13px;
-}
-
-.tw-btn-pic {
-  float: left;
-  width: 17px;
-  height: 15px;
-  margin: 0 6px 0 0;
-  background: url("../img/sprite.png") -146px 0;
-}
-
-.google-btn {
-  overflow: hidden;
-  width: 24px;
-  height: 24px;
-  margin-bottom: -5px;
-  padding-top: 3px;
-  vertical-align: top;
-  border-radius: 3px;
-  background: #c25234;
-}
-
-.google-btn_pic {
-  float: right;
-  width: 24px;
-  height: 21px;
-  background: url("../img/sprite.png") -163px 0;
+  background: url(/static/img/sprite-main.png) -141px 0px;
 }
 
 .google-btn2 {
@@ -6100,7 +5825,7 @@ input[name="graphics-add-upload"] {
   width: 24px;
   height: 21px;
   margin: 0 4px 0 -5px;
-  background: url("../img/sprite.png") -163px 0;
+  background: url(/static/img/sprite-main.png) -165px 0px;
 }
 
 .bottom-line {
