@@ -240,14 +240,17 @@ th {
 
 @font-face {
   font-family: "Open Sans";
-
   src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "Open Sans light";
-
   src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "Arial bold";
+  src: url("../fonts/Arial Bold.ttf");
 }
 
 a {
@@ -337,10 +340,10 @@ header {
 
 .user-iconmenu {
   display: inline-block;
-  width: 23px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   margin: 22px 15px 0 0;
-  background: url("../img/sprite-3.png") -94px 0 no-repeat;
+  background: url("../img/sprite-main.png") -353px 0 no-repeat;
 }
 
 .user-iconmenu:hover .pop-up {
@@ -384,14 +387,14 @@ header {
   float: left;
   width: 22px;
   height: 16px;
-  background: url("../img/sprite.png") -331px 0 no-repeat;
+  background: url("../img/sprite-main.png") -331px 0 no-repeat;
 }
 
 .user-msg__icon2 {
   float: left;
   width: 15px;
   height: 17px;
-  background: url("../img/sprite-3.png") -79px 1px no-repeat;
+  background: url("../img/sprite-main.png") -281px -42px no-repeat;
 }
 
 .user-msg__unread {
@@ -631,11 +634,11 @@ header {
   left: 0;
   width: 14px;
   height: 14px;
-  background: url("../img/sprite_courses_radio_btn.png") 0 0 no-repeat;
+  background: url("../img/sprite-main.png") -200px -226px no-repeat;
 }
 
 .test-radio-btn:checked + label:before {
-  background: url("../img/sprite_courses_radio_btn.png") -14px 0 no-repeat;
+  background: url("../img/sprite-main.png") -214px -226px no-repeat;
 }
 
 .main-article-linktag {
@@ -783,7 +786,7 @@ header {
 }
 
 /* Social buttons, courses page tabs */
-.social-btns {
+.courses-social-btns {
   display: inline-block;
   float: left;
   height: 24px;
@@ -791,11 +794,11 @@ header {
   vertical-align: top;
 }
 
-.social-btns li {
+.courses-social-btns li {
   display: inline-block;
 }
 
-.vk-btn {
+.courses-vk-btn {
   display: inline-block;
   height: 24px;
   margin-right: -9px;
@@ -808,16 +811,16 @@ header {
   background: #48729e;
 }
 
-.vk-btn_pic {
+.courses-vk-btn_pic {
   float: left;
   width: 10px;
   height: 25px;
   margin: -6px 10px 0 8px;
   padding: 0;
-  background: url("../img/sprite_courses.png") -128px 7px;
+  background: url("../img/sprite-main.png") -130px 0;
 }
 
-.fb-btn {
+.courses-fb-btn {
   height: 24px;
   margin: 0 0 -5px 10px;
   padding: 2px 6px 0 0;
@@ -828,15 +831,15 @@ header {
   background: #3c5a98;
 }
 
-.fb-btn-pic {
+.courses-fb-btn-pic {
   float: left;
   width: 7px;
   height: 20px;
   margin: -1px 10px 0 8px;
-  background: url("../img/sprite_courses.png") -139px 1px;
+  background: url("../img/sprite-main.png") -141px 0;
 }
 
-.tw-btn {
+.courses-tw-btn {
   height: 24px;
   padding: 4px 6px 0 5px;
   font-family: sans-serif;
@@ -847,15 +850,15 @@ header {
   background: #00aced;
 }
 
-.tw-btn-pic {
+.courses-tw-btn-pic {
   float: left;
   width: 17px;
   height: 15px;
   margin: 0 6px 0 0;
-  background: url("../img/sprite_courses.png") -146px 0;
+  background: url("../img/sprite-main.png") -148px 0;
 }
 
-.google-btn {
+.courses-google-btn {
   overflow: hidden;
   height: 24px;
   margin-bottom: -5px;
@@ -867,12 +870,12 @@ header {
   background: #c25234;
 }
 
-.google-btn_pic {
+.courses-google-btn_pic {
   float: left;
   width: 24px;
   height: 21px;
   margin-right: 3px;
-  background: url("../img/sprite_courses.png") -163px 0;
+  background: url("../img/sprite-main.png") -164px 0;
 }
 
 .main-info-text__or {
@@ -992,8 +995,12 @@ header {
 }
 
 .ilike-btn-pressed::after {
-  content: url(../img/Shape-17-copy.png);
-  margin-left: 8px;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("../img/sprite-main.png") -241px -154px no-repeat;
+  margin: 0px 0px -4px 4px;
+  display: inline-block;
 }
 
 .ilike-btn {
@@ -1006,8 +1013,12 @@ header {
 }
 
 .ilike-btn::after {
-  content: url(../img/Shape-17-copy-2.png);
-  margin-left: 8px;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("../img/sprite-main.png") -260px -152px no-repeat;
+  margin: 0px 0px -4px 4px;
+  display: inline-block;
 }
 
 .ilike-btn-number {
@@ -1024,9 +1035,12 @@ header {
 }
 
 .ilike-btn-number::after {
-  content: url(../img/Shape-17-copy-2.png);
-  margin-left: 8px;
-  padding: 0 0 0 0;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("../img/sprite-main.png") -260px -152px no-repeat;
+  margin: 0px 0px -4px 4px;
+  display: inline-block;
 }
 
 /* Courses.html test page */
@@ -1151,15 +1165,6 @@ header {
   color: #999;
 }
 
-.sidebar-navigation__icon1 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat;
-}
-
 .sidebar-navigation__number-active {
   float: right;
   width: 19px;
@@ -1203,51 +1208,6 @@ header {
 
 .btn-nextvideo:hover {
   background: #3566a9;
-}
-
-.sidebar-navigation__icon2 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat -16px 0;
-}
-
-.sidebar-navigation__icon3 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat -32px 0;
-}
-
-.sidebar-navigation__icon4 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat -48px 0;
-}
-
-.sidebar-navigation__icon5 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat -64px 0;
-}
-
-.sidebar-navigation__icon6 {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  width: 16px;
-  height: 100%;
-  background: url("../img/sprite_courses.png") no-repeat -80px 0;
 }
 
 .sidebar-navigation__links {
@@ -2421,7 +2381,7 @@ header {
   position: absolute;
   width: 340px;
   height: 273px;
-  margin: 61px 0 0 507px;
+  margin: -2px 0 0 507px;
   padding: 0;
   border-radius: 5px;
   background: #fff;
@@ -3059,6 +3019,14 @@ header {
 /* People give START */
 /*=======================================================*/
 
+.pop-up-bg {
+  background: url("../img/error-bg.jpg") 100% 100% no-repeat;
+  background-size: cover;  
+  position:fixed;
+  min-width:100%;
+  min-height:100%;
+}
+
 .pop-up-window {
   width: 450px;
   height: 225px;
@@ -3213,11 +3181,11 @@ header {
   left: 0;
   width: 15px;
   height: 15px;
-  background: url("../img/sprite_invite_icons.png") -27px 0 no-repeat;
+  background: url("../img/sprite-main.png") -200px -112px no-repeat;
 }
 
 .invite-checkbox:checked + label:before {
-  background: url("../img/sprite_invite_icons.png") -12px 0 no-repeat;
+  background: url("../img/sprite-main.png") -200px -127px no-repeat;
 }
 
 .invite-text {
@@ -3282,15 +3250,15 @@ header {
 }
 
 .surname {
-  background: url("../img/sprite_register_icons.png") 0 0 no-repeat;
+  background: url("../img/sprite-main.png") -201px -150px no-repeat;
 }
 
 .login {
-  background: url("../img/sprite_register_icons.png") -13px 0 no-repeat;
+  background: url("../img/sprite-main.png") -214px -150px no-repeat;
 }
 
 .password {
-  background: url("../img/sprite_register_icons.png") -26px 0 no-repeat;
+  background: url("../img/sprite-main.png") -227px -150px no-repeat;
 }
 
 .pop-up-name-field__descr {
@@ -3587,13 +3555,13 @@ header {
   color: #c4c7ca;
 }
 
-.authors {
+.graphics-authors {
   float: left;
   width: 220px;
   margin: 35px 0 5px 0;
 }
 
-.authors ul {
+.graphics-authors ul {
   margin: 10px 0 0 0;
   padding-left: 40px;
 }
@@ -5623,8 +5591,7 @@ input[name="graphics-add-upload"] {
   display: block;
   min-width: 960px;
   height: 250px;
-
-  background: url("../img/subheader-pattern.jpg");
+  background: url("../img/subheader-pattern.jpg") repeat-x;
 }
 
 .subheader-content {
@@ -5718,6 +5685,11 @@ input[name="graphics-add-upload"] {
 .authors {
   float: left;
   width: 220px;
+}
+
+.authors ul {
+  margin: 10px 0 0 0;
+  padding-left: 40px;
 }
 
 .person {
