@@ -1712,7 +1712,7 @@ header {
   z-index: 2;
   width: 200px;
   height: 200px;
-  background: url("../img/user-main-photo-wrapper.png") no-repeat;
+  background: url("../img/sprite-main.png") no-repeat 0 -40px;
 }
 
 .user-name {
@@ -1747,7 +1747,7 @@ header {
   width: 26px;
   height: 26px;
   margin: 3px 10px 0 15px;
-  background: url("../img/sprite4_profile.png");
+  background: url("../img/sprite-main.png") -337px -33px;
 }
 
 
@@ -1767,7 +1767,7 @@ header {
   width: 26px;
   height: 26px;
   margin: 3px 10px 0 15px;
-  background: url("../img/sprite4_profile.png") -26px 0;
+  background: url("../img/sprite-main.png") -363px -41px;
 }
 
 .user-rating__bottom {
@@ -1950,7 +1950,7 @@ header {
   width: 11px;
   height: 16px;
   margin: 10px 10px 0 0;
-  background: url("../img/sprite_3.png") -289px 0;
+  background: url("../img/sprite-main.png") -391px -20px;
 }
 
 .about-me__item-icon2 {
@@ -1958,7 +1958,7 @@ header {
   width: 12px;
   height: 16px;
   margin: 15px 10px 0 0;
-  background: url("../img/sprite_3.png") -300px 0;
+  background: url("../img/sprite-main.png") -343px -74px;
 }
 
 .about-me__item-icon3 {
@@ -1966,7 +1966,7 @@ header {
   width: 11px;
   height: 16px;
   margin: 13px 10px 0 1px;
-  background: url("../img/sprite_3.png") -312px 0;
+  background: url("../img/sprite-main.png") -355px -74px;
 }
 
 .about-me__item-icon4 {
@@ -1974,7 +1974,7 @@ header {
   width: 12px;
   height: 16px;
   margin: 13px 10px 0 1px;
-  background: url("../img/sprite_3.png") -322px 0;
+  background: url("../img/sprite-main.png") -366px -74px;
 }
 
 .about-me__item:last-child {
@@ -2022,16 +2022,16 @@ header {
 }
 
 .contacts__item-icon1 {
-  background: url("../img/sprite_3.png") -59px 0 ;
+  background: url("../img/sprite-main.png") -262px -43px;
 }
 .contacts__item-icon2 {
-  background: url("../img/sprite_3.png") -39px 0 ;
+  background: url("../img/sprite-main.png") -240px -43px ;
 }
 .contacts__item-icon3 {
-  background: url("../img/sprite_3.png") -19px 0 ;
+  background: url("../img/sprite-main.png") -221px -43px;
 }
 .contacts__item-icon4 {
-  background: url("../img/sprite_3.png") 1px 0 ;
+  background: url("../img/sprite-main.png") -201px -43px ;
 }
 
 .profile-footer {
@@ -2734,7 +2734,7 @@ header {
   width: 14px;
   height: 14px;
   margin: 7px 0 0 0;
-  background: url("../img/close.png");
+  background: url("../img/sprite-main.png") -271px -100px;
 }
 
 .users-list {
@@ -2819,7 +2819,7 @@ header {
   width: 10px;
   height: 10px;
   margin: 18px 30px 0 0;
-  background: url("../img/close-mini.png");
+  background: url("../img/sprite-main.png") -290px -104px;
 }
 
 .done {
@@ -2828,7 +2828,7 @@ header {
   width: 10px;
   height: 8px;
   margin: 18px 30px 0 0;
-  background: url("../img/done.png");
+  background: url("../img/sprite-main.png") -290px -92px;
 }
 
 .new-message {
@@ -2854,7 +2854,7 @@ header {
   width: 14px;
   height: 14px;
   margin: 3px 0 0 0;
-  background: url("../img/close.png");
+  background: url("../img/sprite-main.png") -271px -100px;
 }
 
 .user-info {
