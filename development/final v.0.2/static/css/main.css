@@ -988,6 +988,10 @@ header {
   color: #4f7ab4;
 }
 
+.comment-menu_block {
+  margin-top: 290px;
+}
+
 .ilike-btn-pressed {
   float: right;
   width: 97px;
@@ -1026,7 +1030,7 @@ header {
 
 .ilike-btn-number {
   float: right;
-  width: 111px;
+  width: 118px;
   height: 11px;
   margin: -18px 0 0 0;
   color: #b1c0c8;
@@ -1042,7 +1046,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0 0 -4px 4px;
+  margin: 0px 0px -4px 4px;
   background: url("../img/sprite-main.png") -260px -152px no-repeat;
 }
 
