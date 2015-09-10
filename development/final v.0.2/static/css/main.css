@@ -5189,14 +5189,14 @@ input[name="graphics-add-upload"] {
   width: 15px;
   height: 15px;
   margin: 10px 0 0 12px;
-  background: url(/static/img/sprite-main.png) -316px -0px;
+  background: url("../img/sprite-main.png") -316px -0px;
 }
 
 .like:hover .like-thumb-up {
   width: 16px;
   height: 20px;
   margin: 9px 0 0 12px;
-  background: url(/static/img/sprite-main.png) -369px -0px;
+  background: url("../img/sprite-main.png") -369px -0px;
 }
 
 
