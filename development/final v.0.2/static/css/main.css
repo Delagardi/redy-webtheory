@@ -988,7 +988,63 @@ header {
   color: #4f7ab4;
 }
 
+.ilike-btn-pressed {
+  float: right;
+  width: 97px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  color: #7fa1ce;
+  font: 400 11px / 18px Arial;
+}
 
+.ilike-btn-pressed::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 -4px 4px;
+  background: url("../img/sprite-main.png") -241px -154px no-repeat;
+}
+
+.ilike-btn {
+  float: right;
+  width: 97px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  color: #b1c0c8;
+  font: 400 11px / 18px Arial;
+}
+
+.ilike-btn::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 -4px 4px;
+  background: url("../img/sprite-main.png") -260px -152px no-repeat;
+}
+
+.ilike-btn-number {
+  float: right;
+  width: 110px;
+  height: 11px;
+  margin: -18px 0 0 0;
+  color: #b1c0c8;
+  font: 400 11px / 18px Arial;
+}
+
+.ilike-btn-number span {
+  float: right;
+}
+
+.ilike-btn-number::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: 0 0 -4px 4px;
+  background: url("../img/sprite-main.png") -260px -152px no-repeat;
+}
 
 /* Courses.html test page */
 .main-article-test-btns__go {
