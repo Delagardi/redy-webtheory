@@ -1026,7 +1026,7 @@ header {
 
 .ilike-btn-number {
   float: right;
-  width: 110px;
+  width: 111px;
   height: 11px;
   margin: -18px 0 0 0;
   color: #b1c0c8;
@@ -5445,33 +5445,7 @@ input[name="graphics-add-upload"] {
   text-decoration: underline;
 }
 
-.ilike_btn-pressed {
-  float: right;
-  width: 100px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  color: #7fa1ce;
-  font: 400 11px / 18px Arial;
-}
 
-.ilike_btn-pressed::after {
-  content:  url(/static/img/sprite-main.png) -378px -23px;
-  margin-left: 8px;
-}
-
-.ilike_btn {
-  float: right;
-  width: 100px;
-  height: 11px;
-  margin: -18px 0 0 0;
-  color: #b1c0c8;
-  font: 400 11px / 18px Arial;
-}
-
-.ilike_btn::after {
-  content: url(/static/img/sprite-main.png) -378px -23px;
-  margin-left: 8px;
-}
 
 /*=======================================================*/
 /* MAIN-ARTICLES-ADD-PREVIEW END */
