@@ -5225,7 +5225,7 @@ input[name="graphics-add-upload"] {
   width: 14px;
   height: 15px;
   margin: 12px 0 0 12px;
-  background: url(/static/img/sprite-main.png) -303px -0px;
+  background: url("../img/sprite-main.png") -303px 0;
 }
 
 .dislike:hover .like-thumb-down {
@@ -5233,7 +5233,7 @@ input[name="graphics-add-upload"] {
   width: 16px;
   height: 18px;
   margin: 11px 0 0 12px;
-  background: url(/static/img/sprite-main.png) -385px -0px;
+  background: url("../img/sprite-main.png") -385px 0;
 }
 
 
