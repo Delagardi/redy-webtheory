@@ -5556,7 +5556,7 @@ input[name="graphics-add-upload"] {
   display: block;
   min-width: 960px;
   height: 250px;
-  background: url("../img/subheader-pattern.jpg") repeat-x;
+  background: url("../img/subheader-pattern.jpg") 100% 100% / 20% repeat-x;
 }
 
 .subheader-content {
