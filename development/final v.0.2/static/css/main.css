@@ -319,7 +319,7 @@ header {
 
 .header-navigation-list__link {
   color: #acc5db;
-  font-family: "Open sans", arial;
+  font-family: "Open Sans", arial;
   font-size: 13px;
   line-height: 60px;
 }
@@ -428,7 +428,7 @@ header {
   display: inline;
   padding-left: 16px;
   color: #fff;
-  font-family: "Open sans", arial;
+  font-family: "Open Sans", arial;
   font-size: 13px;
   line-height: 60px;
 }
@@ -2572,7 +2572,7 @@ header {
 .photo-upload {
   margin-left: 20px;
   color: #333;
-  font: 400 20px / 18px "Open sans";
+  font: 400 20px / 18px "Open Sans";
 }
 
 .photo-upload-link {
@@ -2587,7 +2587,7 @@ header {
 .photo-upload p {
   margin: 20px;
   color: #666;
-  font: 400 13px / 18px "Open sans";
+  font: 400 13px / 18px "Open Sans";
 }
 
 .update-photo_field {
@@ -2662,14 +2662,14 @@ header {
   margin: 20% auto;
   text-align: center;
   color: #666;
-  font: 400 13px / normal "Open sans", arial;
+  font: 400 13px / normal "Open Sans", arial;
 }
 
 .oops {
   display: block;
   text-align: center;
   color: #4978cd;
-  font: 400 48px / normal "Open sans", arial;
+  font: 400 48px / normal "Open Sans", arial;
 }
 
 .unlucky-user {
@@ -2684,7 +2684,7 @@ header {
   color: #666;
   border-radius: 5px;
   background: #f7f7f7;
-  font: 400 13px / 40px "Open sans", arial;
+  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .back-to-main:hover {
@@ -2702,7 +2702,7 @@ header {
 .liked-users__title {
   margin: 0 0 25px 0;
   color: #333;
-  font: 400 20px / normal "Open sans", arial;
+  font: 400 20px / normal "Open Sans", arial;
 }
 
 .close-icon {
@@ -2741,7 +2741,7 @@ header {
   height: 20px;
   text-align: center;
   color: #666;
-  font: 400 11px / normal "Open sans", arial;
+  font: 400 11px / normal "Open Sans", arial;
 }
 
 .show-more-users {
@@ -2753,7 +2753,7 @@ header {
   color: #8495a5;
   border-radius: 5px;
   background: #e7eaee;
-  font: 400 12px / 45px "Open sans", arial;
+  font: 400 12px / 45px "Open Sans", arial;
 }
 
 .show-more-users:hover {
@@ -2776,7 +2776,7 @@ header {
   color: #fff;
   border-radius: 5px;
   background: #d7565f;
-  font: 400 13px / 45px "Open sans", arial;
+  font: 400 13px / 45px "Open Sans", arial;
 }
 
 .message-done {
@@ -2787,7 +2787,7 @@ header {
   color: #fff;
   border-radius: 5px;
   background: #5693d7;
-  font: 400 13px / 45px "Open sans", arial;
+  font: 400 13px / 45px "Open Sans", arial;
 }
 
 .close-mini {
@@ -2822,7 +2822,7 @@ header {
   height: 20px;
   margin: 0 0 25px 0;
   color: #333;
-  font: 400 20px / 20px "Open sans", arial;
+  font: 400 20px / 20px "Open Sans", arial;
 }
 
 .close {
@@ -2849,19 +2849,19 @@ header {
 
 .user-info__name {
   color: #333;
-  font: 400 15px / normal "Open sans", arial;
+  font: 400 15px / normal "Open Sans", arial;
 }
 
 .user-info__profession {
   color: #919191;
-  font: 400 13px / normal "Open sans", arial;
+  font: 400 13px / normal "Open Sans", arial;
 }
 
 .user-info__status {
   float: right;
   margin: -20px  0 0;
   color: #919191;
-  font: 400 11px / normal "Open sans", arial;
+  font: 400 11px / normal "Open Sans", arial;
 }
 
 .message-text {
@@ -2874,7 +2874,7 @@ header {
   color: #666;
   border: 1px solid #d7d7d7;
   box-shadow: 0 0 2px #d7d7d7 inset;
-  font: 400 13px / normal "Open sans", arial;
+  font: 400 13px / normal "Open Sans", arial;
 }
 
 .close2 {
@@ -2891,7 +2891,7 @@ header {
   height: 35px;
   text-align: right;
   color: #9a9a9a;
-  font: 400 13px / 35px "Open sans", arial;
+  font: 400 13px / 35px "Open Sans", arial;
 }
 
 .new-message-footer__send {
@@ -2903,7 +2903,7 @@ header {
   color: #fff;
   border-radius: 5px;
   background: #4a7bba;
-  font: 400 13px / 35px "Open sans", arial;
+  font: 400 13px / 35px "Open Sans", arial;
 }
 
 .new-message-footer__send:hover {
@@ -5681,7 +5681,7 @@ input[name="graphics-add-upload"] {
   width: 420px;
   margin: 0 0 20px 0;
   color: #333;
-  font: 300 18px / 22px "Open sans";
+  font: 300 18px / 22px "Open Sans";
 }
 
 .article1 {
