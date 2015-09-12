@@ -250,6 +250,12 @@ th {
   src: url("../fonts/OpenSans-Light.ttf");
 }
 
+@font-face {
+  font-family: "Arial bold";
+
+  src: url("../fonts/ArialBold.ttf");
+}
+
 a {
   text-decoration: none;
 }
@@ -2427,8 +2433,7 @@ header {
   float: left;
   margin-top: -14px;
   color: #5a81b7;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
+  font-family: Arial bold;
   font-size: 12px;
 }
 
@@ -2438,9 +2443,7 @@ header {
   margin-top: -14px;
   margin-left: 16px;
   color: #a6adb6;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
-
+  font-family: Arial bold;
   font-size: 12px;
 }
 
@@ -3482,8 +3485,7 @@ header {
 .person__name {
   float: left;
   color: #fff;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Arial Bold";
   font-size: 13px;
 }
 
@@ -5569,8 +5571,7 @@ input[name="graphics-add-upload"] {
 .person__name {
   float: left;
   color: #fff;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
+  font-family: "Arial Bold";
   font-size: 13px;
 }
 
