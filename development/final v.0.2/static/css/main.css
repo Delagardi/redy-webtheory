@@ -343,7 +343,8 @@ header {
 }
 
 .user-iconmenu {
-  display: inline-block;
+  display: block;
+  float: left;
   width: 16px;
   height: 16px;
   margin: 22px 15px 0 0;
@@ -381,10 +382,11 @@ header {
 }
 
 .user-msg {
-  display: inline-block;
+  display: block;
+  float: left;
   width: 50px;
   height: 16px;
-  margin: 22px 0 0 0;
+  margin: 22px 4px 0 0;
 }
 
 .user-msg__icon {
@@ -433,12 +435,14 @@ header {
 }
 
 .user-data__login {
-  display: inline;
+  display: block;
+  width: 92px;
+  float: left;
+  margin: 18px 0;
   padding-left: 16px;
   color: #fff;
   font-family: "Open Sans", arial;
   font-size: 13px;
-  line-height: 60px;
 }
 
 .user-data__photo {
