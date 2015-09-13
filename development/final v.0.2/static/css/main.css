@@ -277,8 +277,15 @@ header {
   min-width: 960px;
   height: 60px;
   background: #496ea0;
-  background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  box-shadow: 0 1px 3px #080909;
+  background: linear-gradient(to bottom, #2d6ea3 0%,
+                                         #2c6b9f 25%,
+                                         #296b9e 27%,
+                                         #2c699d 34%,
+                                         #29699c 36%,
+                                         #296597 56%,
+                                         #256495 64%,
+                                         #235f8e 100%);
+  box-shadow: 0 1px 3px rgba(8, 9, 9, .15);
 }
 
 .header-content {
@@ -415,7 +422,14 @@ header {
   height: 60px;
   padding-top: 3px;
   background: #40608b;
-  background: linear-gradient(to bottom,  #40608b 0%,#365379 100%);
+  background: linear-gradient(to bottom, #27608e 0%,
+                                         #265d8b 25%,
+                                         #235d8a 27%,
+                                         #255b89 34%,
+                                         #205b87 42%,
+                                         #21537e 78%,
+                                         #1c537d 90%,
+                                         #1d527b 100%);
 }
 
 .user-data__login {
@@ -5525,7 +5539,7 @@ input[name="graphics-add-upload"] {
   display: block;
   min-width: 960px;
   height: 250px;
-  background: url("../img/subheader-pattern.jpg") 100% 100% / 20% repeat-x;
+  background: url("../img/subheader-pattern.jpg") 100% 100% / 14% repeat;
 }
 
 .subheader-content {
