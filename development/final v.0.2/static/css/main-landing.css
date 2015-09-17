@@ -532,9 +532,26 @@ header {
 .education-video-link {
   display: block;
   width: 310px;
-  height: 351px;
+  height: 220px;
   margin: -10px auto 0;
   background: url("../img/education-video-link.jpg") no-repeat;
+}
+
+.education-video-text {
+  width: 310px;
+  height: 130px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #e3eaed;
+  padding: 20px 15px;
+  font: 400 13px "Open Sans", arial;
+  color: #666;
+}
+
+.education-video-text__heading {
+  font: 400 14px "Open Sans", arial;
+  color: #333;
 }
 
 .education-about {
