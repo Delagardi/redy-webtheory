@@ -15,8 +15,8 @@ html {
 
 .error {
   position: absolute;
-  top: 45%;
-  left: 42%;
+  top: 42%;
+  left: 39%;
   width: 300px;
   height: 200px;
 }
@@ -25,7 +25,7 @@ html {
   float: left;
   width: 255px;
   height: 105px;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   background: url("../img/sprite-error.png") no-repeat ;
 }
 
@@ -33,7 +33,7 @@ html {
   float: left;
   width: 255px;
   height: 105px;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   background: url("../img/sprite-error.png") no-repeat -257px 0;
 }
 
@@ -41,7 +41,7 @@ html {
   float: left;
   width: 255px;
   height: 105px;
-  margin: 0 0 30px 15px;
+  margin: 0 0 20px 15px;
   background: url("../img/sprite-error.png") no-repeat -512px 0;
 }
 

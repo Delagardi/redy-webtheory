@@ -328,7 +328,7 @@ header {
 .invite-entrance {
   float: right;
   width: 250px;
-  margin: 0;
+  margin: 0 -50px 0 0;
   padding: 0;
   list-style: none;
 }
@@ -369,19 +369,19 @@ header {
 .landing-slogan__main {
   width: 520px;
   height: 35px;
-  margin: 80px auto 0;
-  font: bold 26px / 35px "Open Sans", arial;
+  margin: 75px auto 0;
+  font: bold 27px / 38px "Open Sans", arial;
+  text-transform: uppercase;
   text-align: center;
   color: #fff;
 } 
 
 .landing-slogan__secondary {
-  width: 520px;
+  width: 540px;
   height: 35px;
   margin: 10px auto 0;
   font: 400 14px / normal "Open Sans", arial;
   text-align: center;
-  letter-spacing: -1.5px;
   color: #919cad;
 }
 
@@ -389,11 +389,11 @@ header {
   display: block;
   width: 180px;
   height: 40px;
-  margin: 35px auto 45px;
+  margin: 15px auto 45px;
   font: 400 14px / 40px "Open Sans", arial;
   text-align: center;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   background: #4f7ab4;
 }
 
@@ -403,23 +403,23 @@ header {
 
 .landing-back-page {
   width: 800px;
-  height: 220px;
+  height: 245px;
   margin: 0 auto;
   background: url("../img/lp-example-page.png");
 }
 
 .content-list {
   width: 960px;
-  height: 400px;
-  margin: 0 auto 0;
+  height: 390px;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
 }
 
 .content-list2 {
   width: 960px;
-  height: 500px;
-  margin: 0 auto 0;
+  height: 390px;
+  margin: 15px auto 0;
   padding: 0;
   text-align: center;
 }
@@ -427,7 +427,7 @@ header {
 .content-list-item:first-child {
   float: left;
   width: 400px;
-  height: 30px;
+  height: 35px;
   margin: 0 0 0 280px;
 }
 
@@ -440,7 +440,7 @@ header {
   width: 320px;
   height: 270px;
   margin: 50px 0 0 0;
-  font: 400 26px / normal "Open Sans", arial;
+  font: 400 24px / normal "Open Sans", arial;
   background: #fff;
 }
 
@@ -452,11 +452,12 @@ header {
 .content-list-item__img6 {
   width: 90px;
   height: 110px;
-  margin: 0 auto 50px;
+  margin: 0 auto 45px;
 }
 
 .content-list-item__img1 {
   background: url("../img/sprite-lp.png") 0 0;
+  margin-left: 110px;
 }
 
 .content-list-item__img2 {
@@ -467,36 +468,40 @@ header {
 .content-list-item__img3 {
   width: 105px;
   background: url("../img/sprite-lp.png") -199px 0;
+  margin-left: 112px;
 }
 
 .content-list-item__img4 {
   width: 96px;
   height: 129px;
+  margin-left: 107px; 
   background: url("../img/sprite-lp.png") -304px 0;
 }
 
 .content-list-item__img5 {
   width: 129px;
   height: 129px;
+  margin: -1px 0 45px 96px;
   background: url("../img/sprite-lp.png") -400px 0;
 }
 
 .content-list-item__img6 {
   width: 129px;
   height: 129px;
+  margin: -1px 0 45px 101px;
   background: url("../img/sprite-lp.png") -529px 0;
 }
 
 .content-list-item__name {
-  margin: 0 0 30px 0;
-  font: 400 16px / normal "Open Sans", arial;
+  margin: 0 0 20px;
+  font: 400 14px / 1.5em "Open Sans", arial;
   text-align: center;
   color: #333;
 }
 
 .content-list-item__description {
-  padding: 0 15px;
-  font: 400 13px / normal "Open Sans", arial;
+  padding: 0 5px;
+  font: 400 13px / 1.5em "Open Sans", arial;
   text-align: center;
   color: #666;
 }
@@ -504,13 +509,13 @@ header {
 .education {
   width: 960px;
   height: 470px;
-  margin: 55px auto 0;
+  margin: 0 auto;
 }
 
 .education-name {
   width: 100%;
   height: 30px;
-  margin: 0 0 60px 0;
+  margin: 0 0 52px 0;
   font: 400 26px / 30px "Open Sans", arial;
   text-align: center;
   color: #333;
@@ -520,6 +525,7 @@ header {
   float: left;
   width: 473px;
   height: 350px;
+  margin: 12px 0 0 24px;
   background: url("../img/Education-video-bg.jpg") no-repeat 0 37px;
 }
 
@@ -527,27 +533,30 @@ header {
   display: block;
   width: 310px;
   height: 351px;
-  margin: 0 auto;
+  margin: -10px auto 0;
   background: url("../img/education-video-link.jpg") no-repeat;
-
 }
 
 .education-about {
   float: right;
-  width: 350px;
-  height: 100%;
-  font: 400 13px / normal "Open Sans", arial;
+  height: 345px;
+  width: 370px;
+  font: 400 13px / 1.5em "Open Sans", arial;
 }
 
 .education-about ul {
   list-style: disc;
+  padding: 0 0 0 25px;
+  margin: 15px 0;
 }
+
 .education-about__title-main {
   margin: 0 0 20px 0;
   font: 400 20px / normal "Open Sans", arial;
 }
 
 .education-about__title {
+  margin: 24px 0 20px;
   font: 400 16px / normal "Open Sans", arial;
 }
 
@@ -562,7 +571,7 @@ header {
   float: left;
   width: 220px;
   height: 70px;
-  margin: 0 150px 0 0;
+  margin: 2px 62px 0 45px;
   font: 400 13.5px / normal "Open Sans", arial;
   text-align: center;
   color: #333;
@@ -570,7 +579,7 @@ header {
 
 .statistics-item:first-child {
   float: none;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   font: 400 24px / 70px "Open Sans", arial;
 }
 
@@ -579,7 +588,7 @@ header {
 }
 
 .statistics-item:last-child {
-  margin: 0;
+  margin: 2px 0 0 42px;
 }
 
 .statistics-number {
@@ -590,7 +599,7 @@ header {
 .invite-bottom {
   width: 520px;
   height: 200px;
-  margin: 60px auto 0;
+  margin: 71px auto 0;
 }
 
 .invite-bottom__title {
@@ -627,6 +636,7 @@ header {
   min-width: 960px;
   height: 40px;
   padding: 0;
+  margin: 63px 0 0 0;
   border-top: 1px solid #e4e4e4;
   background: #f5f5f5;
 }
