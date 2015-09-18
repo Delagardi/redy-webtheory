@@ -315,7 +315,7 @@ header {
 
 .header-navigation-list__item {
   float: left;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
 .header-navigation-list__link {
@@ -347,7 +347,7 @@ header {
   float: left;
   width: 16px;
   height: 16px;
-  margin: 22px 15px 0 0;
+  margin: 22px 17px 0 0;
   background: url("../img/sprite-main.png") -353px 0 no-repeat;
 }
 
@@ -386,13 +386,14 @@ header {
   float: left;
   width: 50px;
   height: 16px;
-  margin: 22px 4px 0 0;
+  margin: 22px 7px 0 0;
 }
 
 .user-msg__icon {
   float: left;
   width: 22px;
   height: 16px;
+  margin: 0 0px 0px -1px;
   background: url("../img/sprite-main.png") -331px 0 no-repeat;
 }
 
@@ -408,7 +409,7 @@ header {
   float: left;
   width: 16px;
   height: 16px;
-  margin-left: 5px;
+  margin-left: 6px;
   text-align: center;
   color: #fff;
   border-radius: 2px;
@@ -421,6 +422,8 @@ header {
 .user-data {
   display: inline-block;
   width: 150px;
+  margin-left: 1px;
+  margin-right: -2px;
   height: 60px;
   padding-top: 3px;
   background: #40608b;
@@ -436,7 +439,7 @@ header {
 
 .user-data__login {
   display: block;
-  width: 92px;
+  width: 80px;
   float: left;
   margin: 18px 0;
   padding-left: 16px;
@@ -450,9 +453,9 @@ header {
   float: right;
   width: 40px;
   height: 40px;
-  margin: 8px 8px;
-  border-bottom: 1px solid;
-  border-radius: 30px;
+  margin: 7px 14px;
+  /* border-bottom: 1px solid; */
+  border-radius: 3px;
 }
 
 .user-data:hover {
@@ -494,6 +497,7 @@ header {
   float: left;
   font-family: Arial;
   font-size: 13px;
+  padding-top: 2px;
 }
 
 .subheader-menu__link {
@@ -507,17 +511,18 @@ header {
 
 .leftfix {
   float: left;
-  padding-right: 20px;
+  padding-right: 8px;
+  padding-top: 1px;
 }
 
 .rightfix {
   float: right;
-  padding-left: 20px;
+  padding-left: 16px;
 }
 
 .courses-main {
   width: 960px;
-  margin: 30px auto 0;
+  margin: 0 auto;
 }
 
 .courses-content {
@@ -546,7 +551,7 @@ header {
 .table-course {
   float: left;
   width: 234px;
-  margin: 0 4px 25px 0;
+  margin: 0 4px 22px 0;
 }
 
 .table-course:nth-child(3n) {
@@ -555,7 +560,7 @@ header {
 
 .table-course__name {
   display: block;
-  margin-top: 12px;
+  margin: 7px 0 0 1px;
   color: #333;
   font-family: Arial;
   font-size: 14px;
@@ -564,7 +569,8 @@ header {
 
 .table-course__dffclty {
   display: inline-block;
-  margin-top: 8px;
+  margin: 5px 0 0 0px;
+  margin-bottom: 0px;
   color: #999;
   font-family: Arial;
   font-size: 13px;
@@ -572,7 +578,7 @@ header {
 
 .table-down {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 .table-down-header {
@@ -585,19 +591,21 @@ header {
 
 .main-article h1 {
   display: inline-block;
-  margin-top: 18px;
   color: #333;
+  margin: 10px 0;
   font-family: "Open Sans";
   font-size: 18px;
 }
 
 .main-article ul {
-  padding-left: 22px;
+  padding-left: 20px;
   list-style: disc;
+  padding-top: 3px;
 }
 
 .main-article__edit {
-  margin-left: 15px;
+  margin: 0px 0 0px 21px;
+  vertical-align: text-top;
   text-decoration: underline;
   color: #3676b1;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
@@ -621,10 +629,12 @@ header {
 .main-article p,
 .main-article-text-list,
 .main-article-text__questions {
-  padding-right: 8px;
+  padding: 9px 8px 0px 0;
   color: #666;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
-  font-size: 12px;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 12px auto;
 }
 
 .main-article-text__questions input {
@@ -639,7 +649,7 @@ header {
 .test-radio-btn:not(checked) + label {
   position: relative;
   padding: 0 0 0 30px;
-  line-height: 25px;
+  line-height: 28px;
 }
 
 .test-radio-btn:not(checked) + label:before {
@@ -703,13 +713,17 @@ header {
 }
 
 /* Below styles for Courses-full page */
+.courses-content .video  {
+  margin-top: 14px;
+}
+
 .video iframe {
   border: none;
 }
 
 .video-head {
-  margin: 20px 0;
-  line-height: 18px;
+  margin-top: 12px;
+  line-height: 0px;
 }
 
 .video-header {
@@ -730,8 +744,12 @@ header {
   display: inline-block;
   width: 100%;
   min-width: 710px;
-  height: 53px;
-  border-bottom: 2px solid #e3e3e3;
+  height: 45px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.main-info-tabs {
+  margin-top: 8px;
 }
 
 .main-info-tab {
@@ -741,7 +759,7 @@ header {
 
 .main-info-tab__link {
   display: block;
-  margin: 10px 10px 10px 0;
+  margin: 10px 19px 10px 0;
   padding-bottom: 10px;
   color: #999;
   font-family: Arial;
@@ -760,7 +778,7 @@ header {
 
 .main-info-likes {
   float: right;
-  margin-top: 0;
+  margin-top: -8px;
 }
 
 .main-info-like {
@@ -774,7 +792,7 @@ header {
 
 .main-info-like__link {
   display: block;
-  margin: 10px 0 10px 20px;
+  margin: 10px 0 10px 21px;
   padding-bottom: 10px;
   color: #4f87c7;
   font-family: Arial;
@@ -787,12 +805,14 @@ header {
 
 .main-info-text {
   margin-top: 10px;
+  line-height: 18px;
 }
 
 .main-info-text p {
   color: #666;
   font-family: Arial;
   font-size: 13px;
+  margin-bottom: 0px;
 }
 
 .main-info-text a {
@@ -1065,7 +1085,7 @@ header {
 /* Courses.html test page */
 .main-article-test-btns__go {
   display: inline-block;
-  padding: 15px;
+  padding: 11px 12px;
   color: #fff;
   border-radius: 3px;
   background: #64b44f;
@@ -1079,12 +1099,13 @@ header {
 
 .main-article-test-btns__back {
   display: inline-block;
-  padding: 15px;
+  padding: 11px 14px;
   color: #fff;
   border-radius: 3px;
   background: #b44f4f;
   font-family: "Open Sans", arial;
   font-size: 13px;
+  margin: 14px 0px 0 11px;
 }
 
 .main-article-test-btns__back:hover {
@@ -1094,7 +1115,7 @@ header {
 .main-article-test-btns__next {
   display: inline-block;
   margin-top: 20px;
-  padding: 15px 35px;
+  padding: 11px 38px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1108,8 +1129,8 @@ header {
 
 .main-article-test-btns__answ {
   display: inline-block;
-  margin-top: 20px;
-  padding: 15px 30px;
+  margin-top: 10px;
+  padding: 11px 32px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1123,7 +1144,7 @@ header {
 
 .main-article-headerblock__number {
   display: inline;
-  margin-left: 15px;
+  margin-left: 5px;
   color: #999;
   font-family: "Open Sans", Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
@@ -1156,6 +1177,8 @@ header {
   color: #333;
   font-family: "Open Sans";
   font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 
 /*.class li, because it using for many pages*/
@@ -1169,7 +1192,7 @@ header {
 
 .sidebar-navigation__videonumber {
   display: inline-block;
-  margin-left: 110px;
+  margin-left: 114px;
   color: #666;
   font-family: Arial;
   font-size: 13px;
@@ -1217,7 +1240,7 @@ header {
   display: inline-block;
   width: 220px;
   height: 40px;
-  padding: 13px 50px 10px 50px;
+  padding: 13px 50px 10px 54px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1275,6 +1298,10 @@ header {
   background: #f0f0f0;
 }
 
+.sidebar-best {
+  margin: -5px 0 30px 0;
+}
+
 .sidebar-best-header {
   display: inline-block;
   color: #333;
@@ -1284,6 +1311,7 @@ header {
 
 .sidebar-best li {
   border-bottom: 1px solid #f0f0f0;
+  margin-top: -4px;
 }
 
 .sidebar-best__links {
@@ -1312,7 +1340,7 @@ header {
 
 .sidebar-course-discription__dffclty,
 .sidebar-course-discription__skills {
-  margin-top: 8px;
+  margin-top: 10px;
   color: #333;
   font-family: Arial;
   font-size: 13px;
@@ -1323,6 +1351,8 @@ header {
   color: #666;
   font-family: Arial;
   font-size: 13px;
+  margin-top: 21px;
+  line-height: 20px;
 }
 
 .sidebar-course-discription__skills a {
@@ -3532,6 +3562,10 @@ header {
   border-bottom: 4px solid #a4c549;
 }
 
+.item-category {
+  margin-top: -3px;
+}
+
 .item-category__link,
 .person__amount {
   color: #c4c7ca;
@@ -3819,11 +3853,11 @@ header {
 .sidebar {
   float: right;
   width: 220px;
-  margin: 15px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .sidebar-navigation {
-  margin: 0 0 23px 0; 
+  margin: 0px 0 11px 0;
   padding: 0;
   list-style: none;
   color: #333;
@@ -5356,8 +5390,8 @@ input[name="graphics-add-upload"] {
 
 .comments_block {
   width: 710px;
-  margin-top: 18px;
-  border-top: 1px solid #ececec;
+  /* margin-top: 18px; */
+  /* border-top: 1px solid #ececec; */
 }
 
 .comments_heading {
@@ -5550,7 +5584,7 @@ input[name="graphics-add-upload"] {
 .item {
   display: inline-block;
   float: left;
-  width: 33%;
+  width: 240px;
   margin-top: 15px;
 }
 
@@ -5560,7 +5594,8 @@ input[name="graphics-add-upload"] {
 
 .item-rating {
   position: relative;
-  top: -2px;
+  top: -3px;
+  left: 4px;
   display: inline-block;
   margin-left: 10px;
   padding-left: 8px;
@@ -5616,16 +5651,16 @@ input[name="graphics-add-upload"] {
 
 .person {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 .person__name {
-  margin-left: 12px;
+  margin-left: 15px;
 }
 
 .person__amount {
   display: inline-block;
-  margin: 5px 0 0 12px;
+  margin: 4px 0 0 16px;
 }
 
 .person__photo img {
