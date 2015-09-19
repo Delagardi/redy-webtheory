@@ -3324,7 +3324,7 @@ header {
   float: right;
   width: 0;
   height: 0;
-  margin: -4px 0 0 88px;
+  margin: -5px 0 0 96px;
   border-right: 5px solid transparent;
   border-bottom: 5px solid #fff;
   border-left: 5px solid transparent;
@@ -3332,21 +3332,33 @@ header {
 
 .graphics-user-menu {
   position: absolute;
+  top: 60px;
   width: 200px;
-  height: 160px;
-  margin: 0 0 0 620px;
+  height: 156px;
+  margin: 0px 0 0px 627px;
   padding: 0;
   border-radius: 5px;
   background: #fff;
 }
 
+.graphics-user-menu__list {
+  /* padding-left: 43px; */
+  margin: 0;
+}
+
 .graphics-user-menu__item {
+  height: 39px;
+  width: 200px;
+  padding-left: 43px;
+}
+
+.graphics-user-menu__link {
   display: block;
   width: 200px;
   height: 40px;
-  text-align: center;
   color: #333;
   font: 400 13px / 40px "Open Sans", arial;
+  padding-left: 4px;
 }
 
 .graphics-user-menu__item:hover {
@@ -3354,22 +3366,22 @@ header {
   background: #547db5;
 }
 
-.graphics-user-menu__item:hover .graphics-user-menu__icon1 {
+.graphics-user-menu__link:hover .graphics-user-menu__icon1 {
   background: url("../img/sprite-main.png") -272px -68px;
 }
-.graphics-user-menu__item:hover .graphics-user-menu__icon2 {
+.graphics-user-menu__link:hover .graphics-user-menu__icon2 {
   background: url("../img/sprite-main.png") -290px -68px;
 }
-.graphics-user-menu__item:hover .graphics-user-menu__icon3 {
+.graphics-user-menu__link:hover .graphics-user-menu__icon3 {
   background: url("../img/sprite-main.png") -308px -68px;
 }
-.graphics-user-menu__item:hover .graphics-user-menu__icon4 {
+.graphics-user-menu__link:hover .graphics-user-menu__icon4 {
   background: url("../img/sprite-main.png") -324px -68px;
 }
 
-.graphics-user-menu__item:nth-child(2):hover {
+/*.graphics-user-menu__item:nth-child(2):hover {
   border-radius: 5px 5px 0 0;
-}
+}*/
 
 .graphics-user-menu__item:last-child:hover {
   border-radius: 0 0 5px 5px;
@@ -3384,7 +3396,7 @@ header {
   float: left;
   width: 18px;
   height: 18px;
-  margin: 15px 0 0 15px;
+  margin: 18px 0 0 -32px;
   background: url("../img/sprite-main.png") -200px -68px;
 }
 
@@ -3394,14 +3406,14 @@ header {
 
 .graphics-user-menu__icon3 {
   width: 16px;
-  margin: 13px 0 0 15px;
+  margin: 10px 0 0 -31px;
   background: url("../img/sprite-main.png") -236px -68px;
 }
 
 .graphics-user-menu__icon4 {
   width: 19px;
   height: 19px;
-  margin: 14px 0 0 15px;
+  margin: 9px 0 0 -33px;
   background: url("../img/sprite-main.png") -253px -68px;
 }
 
@@ -3425,21 +3437,22 @@ header {
 }
 
 .subheader-best-of-date__heading {
-  margin: 0 0 0 10px;
+  margin: -1px 0 0 0px;
   color: #fff;
-  font: 400 13px / normal "Open_Sans", arial;
+  font: 400 16px / normal "Open Sans light", arial;
   font-weight: 400;
 }
 
 .date {
   color: #fff;
-  border-bottom: 1px dashed;
+  border-bottom: 1px dotted;
 }
 
 .subheader-slider {
   width: 800px;
   padding: 0;
   list-style: none;
+  margin: 19px 0px 0 -9px;
 }
 
 .slide1,
@@ -5585,7 +5598,8 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   float: left;
   width: 240px;
-  margin-top: 15px;
+  margin-top: 11px;
+  margin-bottom: 7px;
 }
 
 .item-header:hover {
@@ -5594,7 +5608,7 @@ input[name="graphics-add-upload"] {
 
 .item-rating {
   position: relative;
-  top: -3px;
+  top: -1px;
   left: 4px;
   display: inline-block;
   margin-left: 10px;
@@ -5651,7 +5665,8 @@ input[name="graphics-add-upload"] {
 
 .person {
   display: inline-block;
-  margin-top: 12px;
+  margin-top: 14px;
+  margin-bottom: -4px;
 }
 
 .person__name {
@@ -5666,7 +5681,7 @@ input[name="graphics-add-upload"] {
 .person__photo img {
   display: inline-block;
   float: left;
-  margin-left: -40px;
+  margin: -2px 0 2px -40px;
   border-radius: 3px;
 }
 
