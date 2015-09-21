@@ -3342,7 +3342,7 @@ header {
 }
 
 .graphics-user-menu__list {
-  /* padding-left: 43px; */
+  padding-top: 5px;
   margin: 0;
 }
 
@@ -3350,6 +3350,7 @@ header {
   height: 39px;
   width: 200px;
   padding-left: 43px;
+  margin-bottom: -3px;
 }
 
 .graphics-user-menu__link {
@@ -3357,7 +3358,7 @@ header {
   width: 200px;
   height: 40px;
   color: #333;
-  font: 400 13px / 40px "Open Sans", arial;
+  font: 400 13px / 40px Arial;
   padding-left: 4px;
 }
 
@@ -3379,14 +3380,6 @@ header {
   background: url("../img/sprite-main.png") -324px -68px;
 }
 
-/*.graphics-user-menu__item:nth-child(2):hover {
-  border-radius: 5px 5px 0 0;
-}*/
-
-.graphics-user-menu__item:last-child:hover {
-  border-radius: 0 0 5px 5px;
-}
-
 .graphics-user-menu__icon1,
 .graphics-user-menu__icon2,
 .graphics-user-menu__icon3,
@@ -3396,7 +3389,7 @@ header {
   float: left;
   width: 18px;
   height: 18px;
-  margin: 18px 0 0 -32px;
+  margin: 13px 0 0 -32px;
   background: url("../img/sprite-main.png") -200px -68px;
 }
 
@@ -3406,19 +3399,15 @@ header {
 
 .graphics-user-menu__icon3 {
   width: 16px;
-  margin: 10px 0 0 -31px;
+  margin: 11px 0 0 -31px;
   background: url("../img/sprite-main.png") -236px -68px;
 }
 
 .graphics-user-menu__icon4 {
   width: 19px;
   height: 19px;
-  margin: 9px 0 0 -33px;
-  background: url("../img/sprite-main.png") -253px -68px;
-}
-
-.graphics-user-menu__item:first-child:hover {
-  border-radius: 5px 5px 0 0;
+  margin: 12px 0 0 -33px;
+  background: url("../img/sprite-main.png") -253px -68px no-repeat;
 }
 
 .subheader-content {
