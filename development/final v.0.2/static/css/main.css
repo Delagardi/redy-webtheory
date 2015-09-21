@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+﻿/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /*=======================================================*/
 /* Normalize.css & REDY.IO styleguide START */
@@ -1160,13 +1160,6 @@ header {
 /*=======================================================*/
 
 
-.sidebar-navigation {
-  list-style: none;
-  color: #333;
-  font: 400 18px "Open Sans", arial;
-  margin: 0;
-}
-
 .lesson-fullpage {
   margin-top: 0;
   padding-left: 0;
@@ -1252,19 +1245,7 @@ header {
   background: #3566a9;
 }
 
-.sidebar-navigation__links {
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-  width: 220px;
-  height: 38px;
-  padding-left: 30px;
-  text-align: left;
-  text-decoration: none;
-  color: #8f8f8f;
-  font-size: 13px;
-  line-height: 38px;
-}
+
 
 .lesson {
   color: #666;
@@ -1843,8 +1824,8 @@ header {
 
 .sidebar-heading {
   color: #333;
-  font: 400 16px / normal "Open Sans", arial;
-  margin: 18px 0 5px 0; 
+  font: 400 18px / normal "Open Sans", arial;
+  margin: 18px 0 0; 
 }
 
 .sidebar-heading__count {
@@ -3425,9 +3406,15 @@ header {
 }
 
 .subheader-best-of-date__heading {
+<<<<<<< HEAD
+  margin: 0;
+  color: #fff;
+  font: 400 16px / normal "Open_Sans", arial;
+=======
   margin: -1px 0 0 0px;
   color: #fff;
   font: 400 16px / normal "Open Sans light", arial;
+>>>>>>> origin/master
   font-weight: 400;
 }
 
@@ -3438,7 +3425,9 @@ header {
 
 .subheader-slider {
   width: 800px;
+  height: 140px;
   padding: 0;
+  margin: 20px 0 16px -9px;
   list-style: none;
   margin: 19px 0px 0 -9px;
 }
@@ -3466,6 +3455,7 @@ header {
 .next-btn {
   position: absolute;
   right: 0;
+  top: 40px;
   width: 35px;
   height: 140px;
   text-align: center;
@@ -3609,13 +3599,13 @@ header {
 .graphics-main {
   width: 960px;
   margin: 0 auto;
-  padding: 50px 0 0 0;
 }
 
 .graphics-content {
   width: 710px;
   height: 1475px;
   border-bottom: 2px solid #e2e2e2;
+  padding: 35px 0 0 0;
 }
 
 .content-item {
@@ -3783,11 +3773,6 @@ header {
   background: #5e9cdb;
 }
 
-.content_bottom {
-  margin: 0 0 100px 0;
-  padding: 20px 0 10px 0;
-}
-
 .previous-page,
 .next-page {
   display: block;
@@ -3823,29 +3808,7 @@ header {
   font: 400 13px / 30px Arial;
 }
 
-.page-numbers {
-  float: left;
-  width: 286px;
-  height: 32px;
-  margin: -5px 20px 0 20px;
-  padding: 0;
-  list-style: none;
-  border-bottom: 2px solid #d9e0e8;
-}
 
-.page-numbers li {
-  float: left;
-  padding: 0 3px;
-  text-align: center;
-}
-
-.page-numbers li:last-child {
-  margin: 0;
-}
-
-.page-numbers li:hover {
-  border-bottom: 2px solid #609ad4;
-}
 
 .page_btn-active {
   border-bottom: 2px solid #609ad4;
@@ -3858,7 +3821,11 @@ header {
 }
 
 .sidebar-navigation {
+<<<<<<< HEAD
+  margin: 5px 0 0; 
+=======
   margin: 0px 0 11px 0;
+>>>>>>> origin/master
   padding: 0;
   list-style: none;
   color: #333;
@@ -3878,7 +3845,7 @@ header {
   float: right;
   width: 19px;
   height: 19px;
-  margin: 13px 0 0 0;
+  margin: 10px 0 0 0;
   text-align: center;
   color: #fff;
   border-radius: 3px;
@@ -3973,8 +3940,7 @@ header {
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: 1px solid #f0f0f0;
-  font-size: 13px;
-  line-height: 38px;
+  font:400 13px / 36px "Open Sans", arial;
 }
 
 .sidebar-navigation__links:hover {
@@ -4005,13 +3971,14 @@ header {
   list-style: none;
   color: #333;
   font: 400 18px "Open Sans", arial;
-  margin: 0 0 40px 0;
+  margin: 12px 0 34px 0;
 }
 
 .sidebar-sorting__item {
+  height: 20px;
+  font: 400 13px / 20px "Open Sans", arial;
+  margin: 0; 
   color: #333;
-  font-size: 13px;
-  margin: 15px 0 5px 0;
 }
 
 .sidebar-sorting__links {
@@ -4031,11 +3998,10 @@ header {
 
 .select-cover {
   overflow: hidden;
-  box-sizing: border-box;
   width: 220px;
   padding: 0 0 0 5px;
   height: 36px;
-  margin: 0 0 20px 0;
+  margin: 8px 0 16px;
   color: #707070;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
@@ -4046,6 +4012,7 @@ header {
   box-sizing: border-box;
   width: 240px;
   height: 36px;
+  margin: 0;
   color: #707070;
   border: none;
   border-radius: 5px;
@@ -4065,6 +4032,7 @@ header {
 }
 
 .sidebar-activity {
+  margin: 10px 0 26px 0;
   padding: 0;
   list-style: none;
   color: #333;
@@ -4074,7 +4042,7 @@ header {
 .sidebar-activity__item {
   width: 220px;
   height: 120px;
-  padding: 0 0 10px 0;
+  margin: 0 0 10px 0;
   border-bottom: 1px solid #e3e3e3;
 }
 
@@ -4102,7 +4070,7 @@ header {
 }
 
 .sidebar-activity__item-text {
-  margin: 8px 0 0 0;
+  margin: 3px 0 0 0;
   padding: 0 0 0 30px;
   color: #666;
   font: 400 12px / normal arial;
@@ -4116,7 +4084,7 @@ header {
 .sidebar-activity__item-author-like {
   overflow: hidden;
   height: 20px;
-  margin: 0 0 10px 0;
+  margin: 0 0 8px 0;
   color: #666;
   font: 400 13px / 20px arial;
 }
@@ -4130,6 +4098,7 @@ header {
   float: right;
   width: 15px;
   height: 13px;
+  margin: 5px 0 0; 
   background: url("../img/sprite-main.png") -202px -98px;
 }
 
@@ -4137,12 +4106,12 @@ header {
   padding: 0;
   list-style: none;
   font: 400 18px / .9em "Open Sans", arial;
-  margin: 0 0 30px;
+  margin: 0 0 28px;
 }
 
 .sidebar-help__description {
   width: 220px;
-  margin: 17px 0 16px 0;
+  margin: 15px 0 15px 0;
   color: #333;
   font-size: 13px;
 }
@@ -4168,7 +4137,7 @@ header {
   float: left;
   width: 35px;
   height: 45px;
-  margin: 0 15px 0 0 ;
+  margin: 0 12px 0 0 ;
   background: url("../img/sprite-main.png") -216px -169px;
 }
 
@@ -5888,8 +5857,9 @@ input[name="graphics-add-upload"] {
 }
 
 .content_bottom {
-  margin: 0 0 100px 0;
-  padding: 20px 0 10px 0;
+  height: 100px;
+  margin: 64px 0 0 0;
+
 }
 
 .previous-page {
@@ -5928,7 +5898,7 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 286px;
   height: 32px;
-  margin: -5px 20px 0 20px;
+  margin: -5px 24px 0 22px;
   padding: 0;
   list-style: none;
   border-bottom: 2px solid #d9e0e8;
