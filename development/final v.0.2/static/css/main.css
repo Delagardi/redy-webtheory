@@ -551,7 +551,7 @@ header {
 .table-course {
   float: left;
   width: 234px;
-  margin: 0 4px 22px 0;
+  margin: 0 4px 21px 0;
 }
 
 .table-course:nth-child(3n) {
@@ -569,7 +569,7 @@ header {
 
 .table-course__dffclty {
   display: inline-block;
-  margin: 5px 0 0 0px;
+  margin: 4px 0 0 2px;
   margin-bottom: 0px;
   color: #999;
   font-family: Arial;
@@ -578,7 +578,7 @@ header {
 
 .table-down {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 11px;
 }
 
 .table-down-header {
@@ -804,15 +804,15 @@ header {
 }
 
 .main-info-text {
-  margin-top: 10px;
-  line-height: 18px;
+  margin: 10px 0 0px 0;
+  line-height: 17px;
 }
 
 .main-info-text p {
   color: #666;
   font-family: Arial;
   font-size: 13px;
-  margin-bottom: 0px;
+  margin-bottom: -8px;
 }
 
 .main-info-text a {
@@ -1028,7 +1028,7 @@ header {
   float: right;
   width: 97px;
   height: 11px;
-  margin: -18px 0 0 0;
+  margin: -18px -7px 0 0px;
   color: #7fa1ce;
   font: 400 11px / 18px Arial;
 }
@@ -1038,7 +1038,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0 0 -4px 4px;
+  margin: 0 0 -4px 0px;
   background: url("../img/sprite-main.png") -241px -154px no-repeat;
 }
 
@@ -1046,7 +1046,7 @@ header {
   float: right;
   width: 97px;
   height: 11px;
-  margin: -18px 0 0 0;
+  margin: -18px -8px 0 0;
   color: #b1c0c8;
   font: 400 11px / 18px Arial;
 }
@@ -1056,7 +1056,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0 0 -4px 4px;
+  margin: 0px 0 -2px 0px;
   background: url("../img/sprite-main.png") -260px -152px no-repeat;
 }
 
@@ -1064,13 +1064,14 @@ header {
   float: right;
   width: 118px;
   height: 11px;
-  margin: -18px 0 0 0;
+  margin: -19px -15px 0 0;
   color: #b1c0c8;
   font: 400 11px / 18px Arial;
 }
 
 .ilike-btn-number span {
   float: right;
+  margin-right: 14px;
 }
 
 .ilike-btn-number::after {
@@ -1078,7 +1079,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0px 0px -4px 4px;
+  margin: 0px 0px -4px -2px;
   background: url("../img/sprite-main.png") -260px -152px no-repeat;
 }
 
@@ -5354,7 +5355,7 @@ input[name="graphics-add-upload"] {
 }
 
 .comments_heading {
-  margin: 30px 0 30px 0;
+  margin: 28px 0 30px 0;
   color: #333;
   font: 600 16px / 18px Arial;
 }
@@ -5363,7 +5364,7 @@ input[name="graphics-add-upload"] {
   width: 645px;
   height: 50px;
   margin: 0 0 0 14px;
-  padding: 0 0 15px 10px;
+  padding: 0 0 18px 10px;
   color: #999;
   border: 1px solid #dcdcdc;
   font: 400 12px / 18px Arial;
@@ -5373,23 +5374,23 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 50px;
   height: 50px;
-  margin: 0 0 0 0;
 }
 
 .comment {
   width: 710px;
   height: 100%;
-  margin: 20px 0 0 0;
-  padding: 0 0 10px 0;
+  margin: 18px 0 -1px 0;
+  padding: 0 0 7px 0;
   border-bottom: 1px solid #f0f0f0;
 }
 
 .comment > a > img {
   float: left;
+  margin-top: 3px;
 }
 
 .comment_content {
-  margin: 0 0 0 64px;
+  margin: 0px 0 0 65px;
 }
 
 .commenter_name {
@@ -5420,7 +5421,7 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   width: 3px;
   height: 3px;
-  margin: 0 0 2px 0;
+  margin: 0 2px 4px 2px;
   border-radius: 5px;
   background: #999;
 }
