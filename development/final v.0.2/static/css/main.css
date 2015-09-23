@@ -490,6 +490,7 @@ header {
 
 .subheader-menu-list:nth-of-type(2) {
   margin-right: 250px;
+  margin-bottom: 0;
 }
 
 .subheader-menu__item {
@@ -513,6 +514,7 @@ header {
   float: left;
   padding-right: 8px;
   padding-top: 1px;
+  margin-bottom: 0;
 }
 
 .rightfix {
@@ -529,6 +531,7 @@ header {
   float: left;
   width: 720px;
   padding-right: 10px;
+  margin-top: 16px;
 }
 
 .table-up {
@@ -1170,8 +1173,7 @@ header {
   display: inline-block;
   color: #333;
   font-family: "Open Sans";
-  font-size: 18px;
-  margin-top: 0px;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
@@ -1186,7 +1188,8 @@ header {
 
 .sidebar-navigation__videonumber {
   display: inline-block;
-  margin-left: 114px;
+  float: right;
+  margin: 17px 0 0 0;
   color: #666;
   font-family: Arial;
   font-size: 13px;
@@ -1235,6 +1238,7 @@ header {
   width: 220px;
   height: 40px;
   padding: 13px 50px 10px 54px;
+  margin-top: 7px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1281,7 +1285,7 @@ header {
 }
 
 .sidebar-best {
-  margin: -5px 0 30px 0;
+  margin: 22px 0 30px 0;
 }
 
 .sidebar-best-header {
@@ -1826,7 +1830,7 @@ header {
 .sidebar-heading {
   color: #333;
   font: 400 18px / normal "Open Sans", arial;
-  margin: 18px 0 0; 
+  margin: 18px 0 0;
 }
 
 .sidebar-heading__count {
