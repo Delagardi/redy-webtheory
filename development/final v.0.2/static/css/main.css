@@ -2384,7 +2384,7 @@ header {
   position: absolute;
   width: 340px;
   height: 273px;
-  margin: -2px 0 0 507px;
+  margin: -4px 0 0 489px;
   padding: 0;
   border-radius: 5px;
   background: #fff;
@@ -2396,22 +2396,21 @@ header {
   float: right;
   width: 0;
   height: 0;
-  margin: -5px 0 0 162px;
+  margin: -5px 0 0 178px;
   border-right: 5px solid transparent;
   border-bottom: 5px solid #fff;
   border-left: 5px solid transparent;
 }
 
 .user-menu-list {
-  margin-bottom: 0;
-  margin-left: -40px;
+  margin: 61px 0 0 -40px;
   padding-left: 40px;
 }
 
 .user-menu-header {
   float: left;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 24px;
+  margin-left: 18px;
   color: #333;
   font-family: Arial;
   font-size: 16px;
@@ -2420,7 +2419,7 @@ header {
 
 .user-menu-header__unread {
   float: right;
-  margin-top: 32px;
+  margin-top: 28px;
   margin-right: 15px;
   text-decoration: underline;
   color: #5a81b7;
@@ -2434,6 +2433,7 @@ header {
   width: 340px;
   height: 72px;
   padding: 10px 20px 0 20px;
+  margin: 8px 0 0px 0;
   color: #333;
   border-top: 1px solid #ddd;
   font: 400 13px / 40px "Open Sans", arial;
@@ -2445,6 +2445,7 @@ header {
 
 .user-menu-item__photo {
   float: left;
+  margin: 0px 0 0px 0;
 }
 
 .user-menu-item-header {
@@ -2454,7 +2455,7 @@ header {
 
 .user-menu-item__name {
   float: left;
-  margin-top: -14px;
+  margin: 9px 0px 0 2px;
   color: #5a81b7;
   font: 700 12px / normal arial;
 }
@@ -2462,8 +2463,7 @@ header {
 .user-menu-item__friend {
   position: relative;
   float: left;
-  margin-top: -14px;
-  margin-left: 16px;
+  margin: 9px 0 0 18px;
   color: #a6adb6;
   font: 700 12px/normal arial;
 }
@@ -2471,7 +2471,7 @@ header {
 .user-menu-item__friend:before {
   content: "";
   position: absolute;
-  top: 11px;
+  top: 21px;
   left: -15px;
   width: 0;
   height: 0;
@@ -2483,8 +2483,8 @@ header {
 
 .user-menu-msg {
   position: absolute;
-  top: 21px;
-  left: 79px;
+  top: 23px;
+  left: 82px;
   color: #666;
   font-family: Arial;
   font-size: 12px;
@@ -2497,28 +2497,30 @@ header {
   color: #999;
   font-family: Arial;
   font-size: 10px;
+  margin-bottom: 0;
 }
 
 .user-menu-time {
   float: left;
+  margin: -1px 0 0 5px;
 }
 
 .user-menu-reply {
   position: relative;
-  margin-left: 14px;
+  margin: 0px 0 0px 17px;
   color: #999;
 }
 
 .user-menu-reply:before {
   content: "";
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: -9px;
   width: 3px;
   height: 3px;
   -webkit-border-radius: 50px;
-     -moz-border-radius: 50px;
-          border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
   background: #999;
 }
 
