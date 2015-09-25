@@ -632,11 +632,11 @@ header {
 .main-article p,
 .main-article-text-list,
 .main-article-text__questions {
-  padding: 9px 8px 0px 0;
+  padding: 4px 8px 0px 0;
   color: #666;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 18px;
   margin: 12px auto;
 }
 
@@ -815,7 +815,7 @@ header {
   color: #666;
   font-family: Arial;
   font-size: 13px;
-  margin-bottom: -8px;
+  margin-bottom: 0;
 }
 
 .main-info-text a {
@@ -834,53 +834,57 @@ header {
 
 .courses-social-btns li {
   display: inline-block;
+  height: 16px;
+  margin-top: -1px;
 }
 
 .courses-vk-btn {
-  display: inline-block;
-  height: 24px;
-  margin-right: -9px;
+  margin-right: -10px;
   padding: 4px 7px 0 0;
-  vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #48729e;
   font-family: sans-serif;
-  font-size: 13px;
 }
 
-.courses-vk-btn_pic {
+.courses-vk-btn__pic {
   float: left;
   width: 10px;
   height: 25px;
-  margin: -6px 10px 0 8px;
+  margin: -8px 10px 0 9px;
   padding: 0;
   background: url("../img/sprite-main.png") -130px 0;
+  zoom:0.7;
+}
+
+.courses-vk-btn__number,
+.courses-fb-btn__number,
+.courses-tw-btn__number,
+.courses-google-btn__number {
+  font-size: 10px;
+  vertical-align: top;
+  line-height: 8px;
 }
 
 .courses-fb-btn {
-  height: 24px;
   margin: 0 0 -5px 10px;
-  padding: 2px 6px 0 0;
-  vertical-align: top;
+  padding: 4px 6px 0 0;
   color: #fff;
   border-radius: 3px;
   background: #3c5a98;
   font-size: 14px;
 }
 
-.courses-fb-btn-pic {
+.courses-fb-btn__pic {
   float: left;
   width: 7px;
   height: 20px;
-  margin: -1px 10px 0 8px;
-  background: url("../img/sprite-main.png") -141px 0;
+  margin: -1px 9px 0 8px;
+  background: url("../img/sprite-main.png") -141px 0;zoom:0.7;
 }
 
 .courses-tw-btn {
-  height: 24px;
   padding: 4px 6px 0 5px;
-  vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #00aced;
@@ -888,38 +892,34 @@ header {
   font-size: 13px;
 }
 
-.courses-tw-btn-pic {
+.courses-tw-btn__pic {
   float: left;
   width: 17px;
   height: 15px;
-  margin: 0 6px 0 0;
-  background: url("../img/sprite-main.png") -148px 0;
+  margin: 0 1px 0 0;
+  background: url("../img/sprite-main.png") -148px 0;zoom:0.7;
 }
 
 .courses-google-btn {
-  overflow: hidden;
-  height: 24px;
-  margin-bottom: -5px;
-  padding: 3px 4px 0 0;
-  vertical-align: top;
+  padding: 4px 4px 0 0;
   color: #fff;
   border-radius: 3px;
   background: #c25234;
   font-size: 13px;
 }
 
-.courses-google-btn_pic {
+.courses-google-btn__pic {
   float: left;
   width: 24px;
   height: 21px;
-  margin-right: 3px;
-  background: url("../img/sprite-main.png") -164px 0;
+  margin: -5px 6px 0px 0px;
+  background: url("../img/sprite-main.png") -165px 0;zoom:0.7;
 }
 
 .main-info-text__or {
   display: inline-block;
   float: left;
-  margin: 0 10px;
+  margin: -2px 15px 0 15px;
   color: #666;
   font-family: Arial;
   font-size: 13px;
@@ -928,14 +928,14 @@ header {
 
 .main-info-text__sharelink {
   display: inline-block;
-  margin-top: 6px;
+  margin: -1px 0px 0 1px;
   color: #666;
   font-size: 13px;
 }
 
 .main-info-text__sharelink input {
-  width: 260px;
-  height: 30px;
+  width: 256px;
+  height: 32px;
   padding: 7px;
   border: 1px solid #dcdcdc;
   border-radius: 2px;
