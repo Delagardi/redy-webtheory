@@ -1827,7 +1827,7 @@ header {
 }
 
 .sidebar-heading {
-  margin: 0;
+  margin: 18px 0 0;
   color: #333;
   font: 400 18px / normal "Open Sans", arial;
 }
