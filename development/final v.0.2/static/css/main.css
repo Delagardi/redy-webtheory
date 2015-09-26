@@ -1374,7 +1374,7 @@ header {
   float: left;
   width: 150px;
   height: 13px;
-  margin: 16px 0 0;
+  margin: 13px 0 0;
   color: #999;
   font: 400 13px Arial;
 }
@@ -1384,7 +1384,7 @@ header {
   float: right;
   width: 98px;
   height: 11px;
-  margin: 16px 25px 0 0;
+  margin: 12px 25px 0 0;
   color: #6082b1;
   font: 400 13px / 18px Arial;
 }
@@ -1401,7 +1401,7 @@ header {
   float: right;
   width: 93px;
   height: 13px;
-  margin: 17px 0 0;
+  margin: 12px 0 0;
   color: #6082b1;
   font: 400 13px / 18px Arial;
 }
@@ -1427,7 +1427,7 @@ header {
 .top-menu {
   width: 710px;
   height: 39px;
-  margin: 0;
+  margin: 30px 0 0;
   padding: 0;
   border-bottom: 1px solid #e3e3e3;
   background-color: #fafafa;
@@ -1455,7 +1455,7 @@ header {
 }
 
 .top-menu__item-number {
-  padding: 0 5px;
+  padding: 0 0 0 5px;
   color: #b5b5b5;
   font: 400 13px / 18px Arial;
 }
@@ -1486,20 +1486,20 @@ header {
 
 .publication-menu__btn {
   display: block;
-  padding: 8px;
+  height: 31px;
+  padding: 0 10px;
+  border: 1px solid transparent;
   color: #999;
   border-radius: 3px;
-  font: 400 13px / 18px Arial;
+  font: 400 13px / 31px Arial;
 }
 
 .publication-menu__btn:hover:not(.active2) {
-  padding: 7px 7px 7px 7px;
   border: 1px solid #dfdfdf;
   background-color: #f9f9f9;
 }
 
 .active2 {
-  padding: 7px 7px 7px 7px !important;
   border: 1px solid #dfdfdf;
   background-color: #f9f9f9;
 }
@@ -1508,7 +1508,7 @@ header {
   float: right;
   width: 73px;
   height: 11px;
-  margin-top: 25px;
+  margin-top: 20px;
   color: #999;
   font: 400 13px / 18px Arial;
 }
@@ -1696,6 +1696,7 @@ header {
 }
 
 .proflie-sidebar {
+  margin: 30px 0 0 0;
   float: left;
 }
 
@@ -1703,7 +1704,7 @@ header {
   overflow: hidden;
   width: 200px;
   height: 200px;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   background: red;
 }
 
@@ -1718,7 +1719,6 @@ header {
 .user-name {
   width: 200px;
   height: 50px;
-  margin: 0 0 20px 0;
   text-align: center;
   color: #333;
   font: 400 18px / normal "Open Sans", arial;
@@ -1733,8 +1733,7 @@ header {
 .user-salary {
   width: 200px;
   height: 50px;
-  margin: 0 0 15px 0;
-  padding: 11px 0 0 0;
+  padding: 11px 0 11px 13px;
   color: #690;
   border-bottom: 1px solid #eee;
   font: 400 14px / 14px "Open Sans", arial;
@@ -1754,8 +1753,8 @@ header {
 .user-rating {
   width: 200px;
   height: 50px;
-  margin: 0 0 20px 0;
-  padding: 8px 0 0 0;
+  margin: 0 0 20px 12px;
+  padding: 20px 0 11px 0;
   color: #777;
   font: 400 13px / 14px "Open Sans", arial;
 }
@@ -1804,7 +1803,7 @@ header {
   display: block;
   width: 200px;
   height: 40px;
-  margin: 0 0 40px 0;
+  margin: 0 0 30px 0;
   text-align: center;
   color: #9a9a9a;
   border-radius: 5px;
@@ -1819,18 +1818,18 @@ header {
 .followers {
   width: 200px;
   height: 235px;
-  margin: 0 0 40px 0;
+  margin: 0 0 32px 0;
 }
 
 .followers ul {
-  margin: 20px 0 0 0;
+  margin: 14px 0 0 0;
   padding: 0;
 }
 
 .sidebar-heading {
+  margin: 0;
   color: #333;
   font: 400 18px / normal "Open Sans", arial;
-  margin: 18px 0 0;
 }
 
 .sidebar-heading__count {
@@ -1856,10 +1855,11 @@ header {
 .subscriptions {
   width: 200px;
   height: 115px;
+  margin: 0 0 20px 0px;
 }
 
 .subscriptions ul {
-  margin: 20px 0 0 0;
+  margin: 14px 0 0 0;
   padding: 0;
 }
 
@@ -1895,10 +1895,14 @@ header {
   font: 400 13px / 40px "Open Sans", arial;
 }
 
+.skill-claimed {
+  margin: 5px 0 0;
+}
+
 .skill-claimed ul {
   width: 210px;
   height: 160px;
-  margin: 15px 0 0 0;
+  margin: 10px 0 0 0;
   padding: 0;
 }
 
@@ -1931,8 +1935,8 @@ header {
 
 .about-me {
   width: 200px;
-  height: 260px;
-  margin: 0;
+  height: 247px;
+  margin: 10px 0 0;
   padding: 0;
   color: #333;
 }
@@ -1994,8 +1998,8 @@ header {
 
 .contacts {
   width: 200px;
-  height: 200px;
-  margin: 15px 0 0;
+  height: 170px;
+  margin: 10px 0 0;
   padding: 0;
 }
 
@@ -2032,6 +2036,12 @@ header {
 }
 .contacts__item-icon4 {
   background: url("../img/sprite-main.png") -201px -43px ;
+}
+
+.trademark {
+  margin: 5px 0 0;
+  font: 400 12px Arial;
+  color: #666666;
 }
 
 .profile-footer {
