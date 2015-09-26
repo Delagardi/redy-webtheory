@@ -2276,7 +2276,7 @@ header {
   float: left;
   width: 230px;
   height: 220px;
-  margin: 0 10px 30px 0;
+  margin: 0 10px 25px 0;
 }
 
 .graphic-common-block:nth-child(3n+3) {
@@ -2287,7 +2287,7 @@ header {
   float: left;
   width: 230px;
   height: 172px;
-  margin: 0 0 15px 0;
+  margin: 0 0 9px 0;
   color: #333;
   font: 700 15px Arial;
 }
@@ -2369,7 +2369,7 @@ header {
 }
 
 .graphic-block__name {
-  margin: 13px 0 0 0;
+  margin: 7px 0 0 0;
   color: #929292;
   font: 400 11px HelveticaNeue, arial;
 }
@@ -2733,7 +2733,7 @@ header {
 }
 
 .liked-users__title {
-  margin: 0 0 25px 0;
+  margin: 0 0 20px 0;
   color: #333;
   font: 400 20px / normal "Open Sans", arial;
 }
@@ -2750,17 +2750,22 @@ header {
 .users-list {
   margin: 0;
   padding: 0;
+  width: 463px;
+  height: 240px;
 }
 
 .users-list li {
   float: left;
-  width: 90px;
-  height: 110px;
   margin: 0 3px 12px 0;
 }
 
 .users-list li:nth-child(5n) {
   margin: 0 0 12px 0;
+}
+
+.users-list__user {
+  width: 90px;
+  height: 110px;
 }
 
 .users-list__user img {
@@ -2843,8 +2848,8 @@ header {
 
 .new-message {
   width: 515px;
-  height: 375px;
-  padding: 28px 25px 20px;
+  height: 361px;
+  padding: 19px 25px 20px;
   border: 1px solid black;
   border-radius: 5px;
   background: #fff;
@@ -2901,8 +2906,8 @@ header {
   overflow: auto;
   width: 460px;
   height: 155px;
-  margin: 0 0 20px 0;
-  padding: 10px;
+  margin: 0 0 17px 0;
+  padding: 10px 10px 20px;
   cursor: text;
   color: #666;
   border: 1px solid #d7d7d7;
