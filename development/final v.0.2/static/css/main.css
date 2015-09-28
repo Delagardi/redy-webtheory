@@ -4504,6 +4504,7 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 710px;
   height: 562px;
+  margin: 24px 0px 0px 10px;
 }
 
 .article-add__block > h2 {
@@ -4630,7 +4631,7 @@ input[name="graphics-add-upload"] {
 .article-edit__block {
   width: 706px;
   height: 300px;
-  margin: 0 0 0 0;
+  margin: 5px 0 0 0;
   border: 1px solid #dbdbdb;
 }
 
@@ -4643,7 +4644,7 @@ input[name="graphics-add-upload"] {
 
 .article-edit__symbols-block-list {
   float: left;
-  margin: 0;
+  margin: -4px 0px 0px -4px !important;
   padding: 15px 0 0 15px;
 }
 
@@ -4769,14 +4770,7 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") 0 -25px;
 }
 
-.article-edit__symbols-block > span {
-  float: right;
-  width: 119px;
-  height: 11px;
-  margin: 14px 15px 0 0;
-  color: #666;
-  font: 12px Arial;
-}
+
 
 .article_input {
   width: 703px;
@@ -4796,9 +4790,9 @@ input[name="graphics-add-upload"] {
 .article_publish-btn {
   display: block;
   float: left;
-  width: 185px;
+  width: 183px;
   height: 40px;
-  margin: 18px 10px 0 0;
+  margin: 20px 10px 0 0;
   padding: 0 0 0 35px;
   color: #fff;
   border-radius: 3px;
@@ -4823,7 +4817,7 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 146px;
   height: 40px;
-  margin: 18px 10px 0 0;
+  margin: 20px 10px 0 0;
   padding: 0 0 0 35px;
   color: #fff;
   border-radius: 3px;
