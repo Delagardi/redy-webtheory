@@ -1,4 +1,4 @@
-﻿/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /*=======================================================*/
 /* Normalize.css & REDY.IO styleguide START */
@@ -4277,7 +4277,7 @@ header {
   float: left;
   width: 710px;
   height: 972px;
-  margin: -18px 0 0 0;
+  margin: 27px 0 0 0;
 }
 
 .article-add__block > h2 {
@@ -4308,6 +4308,7 @@ header {
   border-radius: 3px;
   font: 13px Arial;
   line-height: 34px;
+  margin-left: 10px;
 }
 
 .add-rules_btn:hover {
@@ -4330,7 +4331,7 @@ header {
   font: 400 13px /43px "Open Sans";
 }
 
-.add-article-heading2 {
+.add-article_heading2 {
   float: left;
   width: 706px;
   height: 45px;
@@ -4355,13 +4356,13 @@ header {
   background: url("../img/sprite-main.png") -193px -25px;
 }
 
-.tag_icon {
+.tag_icon1 {
   position: absolute;
   display: block;
   width: 16px;
   height: 16px;
-  margin: 90px 0 0 664px;
-  background: url(../img/sprite-2.png) 75px;
+  margin: 92px 0 0 683px;
+  background: url("../img/sprite-main.png") -210px -25px;
 }
 
 .choose-category_list1,
@@ -4401,7 +4402,7 @@ header {
 .cloud_img {
   width: 111px;
   height: 95px;
-  margin: 150px auto;
+  margin: 154px auto;
   background: url("../img/sprite-main.png") -286px -144px;
 }
 
@@ -4424,7 +4425,7 @@ header {
   overflow: hidden;
   width: 230px;
   height: 45px;
-  margin: 40px 0 0 240px;
+  margin: 24px 0 0 240px;
   color: #fff;
   border-radius: 3px;
   background: #4e79b3;
@@ -4446,18 +4447,11 @@ input[name="graphics-add-upload"] {
   opacity: 0;
 }
 
-.article-edit__block {
+.article-edit__block1 {
   width: 706px;
   height: 172px;
-  margin: 0 0 0 0;
+  margin: 16px 0 0 0;
   border: 1px solid #dbdbdb;
-}
-
-.article-edit__symbols-block {
-  width: 704px;
-  height: 44px;
-  border-bottom: 1px solid #dbdbdb;
-  background: #f4f4f4;
 }
 
 .article-edit__symbols-block > ul {
@@ -4466,136 +4460,12 @@ input[name="graphics-add-upload"] {
   padding: 15px 0 0 15px;
 }
 
-.article-edit__symbols-block > ul > li {
-  display: inline-block;
-  margin-right: 9px;
-}
-
-.symbol1 {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: url(../img/sprite-2.png) -183px 0;
-}
-
-.symbol2 {
-  display: inline-block;
-  width: 8px;
-  height: 10px;
-  background: url(../img/sprite-2.png) -175px 0;
-}
-
-.symbol3 {
-  display: inline-block;
-  width: 14px;
-  height: 10px;
-  background: url(../img/sprite-2.png) -161px -1px;
-}
-
-.symbol4 {
-  display: inline-block;
-  width: 10px;
-  height: 12px;
-  vertical-align: -1px;
-  background: url(../img/sprite-2.png) -151px 0;
-}
-
-.symbol10 {
-  display: inline-block;
-  width: 15px;
-  height: 12px;
-  background: url(../img/sprite-2.png) -68px 0;
-}
-
-.all-symbols {
-  float: right;
-  width: 120px;
-  height: 11px;
-  margin: 14px 15px 0 0;
-  color: #666;
-  font: 12px Arial;
-}
-
-.article_input {
+.article_input1 {
   overflow: auto;
   width: 703px;
   height: 125px;
   padding: 10px;
   border: none;
-}
-
-.article_input-size-slider {
-  position: absolute;
-  width: 7px;
-  height: 7px;
-  margin: -6px 0 0 697px;
-  background: url(../img/sprite-2.png) 50px -1px;
-}
-
-.article_publish-btn {
-  display: block;
-  float: left;
-  width: 185px;
-  height: 40px;
-  margin: 18px 10px 0 0;
-  padding: 11px 0 0 35px;
-  color: #fff;
-  border-radius: 3px;
-  background: #719bda;
-  font: 13px Arial;
-}
-
-.article_publish-btn:hover {
-  background: #4d8ed0;
-}
-
-.checkmark_icon {
-  position: absolute;
-  width: 16px;
-  height: 12px;
-  margin: 4px 0 0 -24px;
-  background: url(../img/sprite-2.png) 42px 0;
-}
-
-.article_preview-btn {
-  display: inline-block;
-  width: 146px;
-  height: 40px;
-  margin: 18px 10px 0 0;
-  padding: 11px 0 0 35px;
-  color: #fff;
-  border-radius: 3px;
-  background: #94cc2e;
-  font: 13px Arial;
-}
-
-.article_preview-btn:hover {
-  background: #96b825;
-}
-
-.view_icon {
-  position: absolute;
-  width: 18px;
-  height: 10px;
-  margin: 3px 0 0 -24px;
-  background: url(../img/sprite-2.png) 18px 0;
-}
-
-.add_by {
-  float: right;
-  width: 136px;
-  height: 40px;
-  margin: 15px 0 0 0;
-  padding: 0 0 0 23px;
-}
-
-.cancel_icon {
-  position: absolute;
-  display: block;
-  width: 10px;
-  height: 10px;
-  margin: 20px 0 0 -25px;
-  background: url(../img/sprite-2.png) 26px 0;
 }
 
 .wt_icon {
@@ -4610,10 +4480,6 @@ input[name="graphics-add-upload"] {
   margin: 16px 0 0 -5px;
   color: #333;
   font: 700 13px Arial;
-}
-
-.add_bottom_btns {
-  margin: 0 0 150px 0;
 }
 
 /*=======================================================*/
@@ -5040,20 +4906,21 @@ input[name="graphics-add-upload"] {
 
 #content {
   width: 720px;
+  height: 100%;
+  margin: 4px 0px 0px 0px;
 }
 
 
 .article-name {
-  display: inline;
   float: left;
-  width: 420px;
-  margin: 0 0 20px 0;
+  margin: 0px 0px 0px 0px;
   color: #333;
   font: 300 18px / 22px "Open Sans", arial;
 }
 
 .article1 {
   width: 720px;
+  margin: 0px 0px 0px 0px;
 }
 
 .article-name:after {
@@ -5072,6 +4939,7 @@ input[name="graphics-add-upload"] {
   float: right;
   margin: 0 7px 26px 0;
   list-style: none;
+  display: inline;
 }
 
 .tag {
