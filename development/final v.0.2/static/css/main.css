@@ -278,13 +278,13 @@ header {
   height: 60px;
   background: #496ea0;
   background: linear-gradient(to bottom, #2d6ea3 0%,
-                                         #2c6b9f 25%,
-                                         #296b9e 27%,
-                                         #2c699d 34%,
-                                         #29699c 36%,
-                                         #296597 56%,
-                                         #256495 64%,
-                                         #235f8e 100%);
+  #2c6b9f 25%,
+  #296b9e 27%,
+  #2c699d 34%,
+  #29699c 36%,
+  #296597 56%,
+  #256495 64%,
+  #235f8e 100%);
   box-shadow: 0 1px 3px rgba(8, 9, 9, .15);
 }
 
@@ -394,7 +394,7 @@ header {
   float: left;
   width: 22px;
   height: 16px;
-  margin: 0 0px 0px -1px;
+  margin: 0 0 0 -1px;
   background: url("../img/sprite-main.png") -331px 0 no-repeat;
 }
 
@@ -423,25 +423,25 @@ header {
 .user-data {
   display: inline-block;
   width: 150px;
-  margin-left: 1px;
-  margin-right: -2px;
   height: 60px;
+  margin-right: -2px;
+  margin-left: 1px;
   padding-top: 3px;
   background: #40608b;
   background: linear-gradient(to bottom, #27608e 0%,
-                                         #265d8b 25%,
-                                         #235d8a 27%,
-                                         #255b89 34%,
-                                         #205b87 42%,
-                                         #21537e 78%,
-                                         #1c537d 90%,
-                                         #1d527b 100%);
+  #265d8b 25%,
+  #235d8a 27%,
+  #255b89 34%,
+  #205b87 42%,
+  #21537e 78%,
+  #1c537d 90%,
+  #1d527b 100%);
 }
 
 .user-data__login {
   display: block;
-  width: 80px;
   float: left;
+  width: 80px;
   margin: 18px 0;
   padding-left: 16px;
   color: #fff;
@@ -497,9 +497,9 @@ header {
 .subheader-menu__item {
   display: inline-block;
   float: left;
+  padding-top: 2px;
   font-family: Arial;
   font-size: 13px;
-  padding-top: 2px;
 }
 
 .subheader-menu__link {
@@ -513,9 +513,9 @@ header {
 
 .leftfix {
   float: left;
-  padding-right: 8px;
-  padding-top: 1px;
   margin-bottom: 0;
+  padding-top: 1px;
+  padding-right: 8px;
 }
 
 .rightfix {
@@ -531,8 +531,8 @@ header {
 .courses-content {
   float: left;
   width: 720px;
-  padding-right: 10px;
   margin-top: 16px;
+  padding-right: 10px;
 }
 
 .table-up {
@@ -574,7 +574,7 @@ header {
 .table-course__dffclty {
   display: inline-block;
   margin: 4px 0 0 2px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   color: #999;
   font-family: Arial;
   font-size: 13px;
@@ -595,20 +595,20 @@ header {
 
 .main-article h1 {
   display: inline-block;
-  color: #333;
   margin: 10px 0;
+  color: #333;
   font-family: "Open Sans";
   font-size: 18px;
 }
 
 .main-article ul {
+  padding-top: 3px;
   padding-left: 20px;
   list-style: disc;
-  padding-top: 3px;
 }
 
 .main-article__edit {
-  margin: 0px 0 0px 21px;
+  margin: 0 0 0 21px;
   vertical-align: text-top;
   text-decoration: underline;
   color: #3676b1;
@@ -633,12 +633,12 @@ header {
 .main-article p,
 .main-article-text-list,
 .main-article-text__questions {
-  padding: 4px 8px 0px 0;
+  margin: 12px auto;
+  padding: 4px 8px 0 0;
   color: #666;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
   line-height: 18px;
-  margin: 12px auto;
 }
 
 .main-article-text__questions input {
@@ -727,7 +727,7 @@ header {
 
 .video-head {
   margin-top: 12px;
-  line-height: 0px;
+  line-height: 0;
 }
 
 .video-header {
@@ -808,15 +808,15 @@ header {
 }
 
 .main-info-text {
-  margin: 10px 0 0px 0;
+  margin: 10px 0 0 0;
   line-height: 17px;
 }
 
 .main-info-text p {
+  margin-bottom: 0;
   color: #666;
   font-family: Arial;
   font-size: 13px;
-  margin-bottom: 0;
 }
 
 .main-info-text a {
@@ -849,11 +849,11 @@ header {
 }
 
 .courses-btn__pic {
+  float: left;
   width: 18px;
   height: 18px;
-  background-image: url("../img/sprite-main.png");
-  float: left;
   margin: -4px 0 0 0;
+  background-image: url("../img/sprite-main.png");
 }
 
 .courses-vk {
@@ -877,9 +877,9 @@ header {
 .courses-fb-btn__number,
 .courses-tw-btn__number,
 .courses-google-btn__number {
+  text-align: center;
   font-size: 10px;
   line-height: 8px;
-  text-align: center;
 }
 
 .courses-fb-btn {
@@ -892,8 +892,8 @@ header {
 }
 
 .courses-tw-btn {
-  padding: 4px 6px 0 0px;
   margin-left: 1px;
+  padding: 4px 6px 0 0;
   color: #fff;
   border-radius: 3px;
   background: #00aced;
@@ -921,7 +921,7 @@ header {
 
 .main-info-text__sharelink {
   display: inline-block;
-  margin: -1px 0px 0 1px;
+  margin: -1px 0 0 1px;
   color: #666;
   font-size: 13px;
 }
@@ -1024,7 +1024,7 @@ header {
   float: right;
   width: 97px;
   height: 11px;
-  margin: -18px -7px 0 0px;
+  margin: -18px -7px 0 0;
   color: #7fa1ce;
   font: 400 11px / 18px Arial;
 }
@@ -1034,7 +1034,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0 0 -4px 0px;
+  margin: 0 0 -4px 0;
   background: url("../img/sprite-main.png") -241px -154px no-repeat;
 }
 
@@ -1052,7 +1052,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0px 0 -2px 0px;
+  margin: 0 0 -2px 0;
   background: url("../img/sprite-main.png") -260px -152px no-repeat;
 }
 
@@ -1075,7 +1075,7 @@ header {
   display: inline-block;
   width: 14px;
   height: 14px;
-  margin: 0px 0px -4px -2px;
+  margin: 0 0 -4px -2px;
   background: url("../img/sprite-main.png") -260px -152px no-repeat;
 }
 
@@ -1096,13 +1096,13 @@ header {
 
 .main-article-test-btns__back {
   display: inline-block;
+  margin: 14px 0 0 11px;
   padding: 11px 14px;
   color: #fff;
   border-radius: 3px;
   background: #b44f4f;
   font-family: "Open Sans", arial;
   font-size: 13px;
-  margin: 14px 0px 0 11px;
 }
 
 .main-article-test-btns__back:hover {
@@ -1164,10 +1164,10 @@ header {
 
 .sidebar-header {
   display: inline-block;
+  margin-bottom: 5px;
   color: #333;
   font-family: "Open Sans";
   font-size: 16px;
-  margin-bottom: 5px;
 }
 
 /*.class li, because it using for many pages*/
@@ -1230,8 +1230,8 @@ header {
   display: inline-block;
   width: 220px;
   height: 40px;
-  padding: 13px 50px 10px 54px;
   margin-top: 7px;
+  padding: 13px 50px 10px 54px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1289,8 +1289,8 @@ header {
 }
 
 .sidebar-best li {
-  border-bottom: 1px solid #f0f0f0;
   margin-top: -4px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .sidebar-best__links {
@@ -1327,10 +1327,10 @@ header {
 
 .sidebar-course-discription__text {
   width: 220px;
+  margin-top: 21px;
   color: #666;
   font-family: Arial;
   font-size: 13px;
-  margin-top: 21px;
   line-height: 20px;
 }
 
@@ -1481,8 +1481,8 @@ header {
   display: block;
   height: 31px;
   padding: 0 10px;
-  border: 1px solid transparent;
   color: #999;
+  border: 1px solid transparent;
   border-radius: 3px;
   font: 400 13px / 31px Arial;
 }
@@ -1689,8 +1689,8 @@ header {
 }
 
 .proflie-sidebar {
-  margin: 30px 0 0 0;
   float: left;
+  margin: 30px 0 0 0;
 }
 
 .proflie-sidebar-wrapper {
@@ -1848,7 +1848,7 @@ header {
 .subscriptions {
   width: 200px;
   height: 115px;
-  margin: 0 0 20px 0px;
+  margin: 0 0 20px 0;
 }
 
 .subscriptions ul {
@@ -2033,8 +2033,8 @@ header {
 
 .trademark {
   margin: 5px 0 0;
+  color: #666;
   font: 400 12px Arial;
-  color: #666666;
 }
 
 .profile-footer {
@@ -2447,7 +2447,7 @@ header {
 
 .user-menu-item__photo {
   float: left;
-  margin: 0px 0 0px 0;
+  margin: 0 0 0 0;
 }
 
 .user-menu-item-header {
@@ -2457,7 +2457,7 @@ header {
 
 .user-menu-item__name {
   float: left;
-  margin: 9px 0px 0 2px;
+  margin: 9px 0 0 2px;
   color: #5a81b7;
   font: 700 12px / normal arial;
 }
@@ -2496,10 +2496,10 @@ header {
   position: absolute;
   top: 42px;
   left: 79px;
+  margin-bottom: 0;
   color: #999;
   font-family: Arial;
   font-size: 10px;
-  margin-bottom: 0;
 }
 
 .user-menu-time {
@@ -2509,7 +2509,7 @@ header {
 
 .user-menu-reply {
   position: relative;
-  margin: 0px 0 0px 17px;
+  margin: 0 0 0 17px;
   color: #999;
 }
 
@@ -2521,8 +2521,8 @@ header {
   width: 3px;
   height: 3px;
   -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
   background: #999;
 }
 
@@ -2741,10 +2741,10 @@ header {
 }
 
 .users-list {
-  margin: 0;
-  padding: 0;
   width: 463px;
   height: 240px;
+  margin: 0;
+  padding: 0;
 }
 
 .users-list li {
@@ -3080,7 +3080,7 @@ header {
 }
 
 .pop-up-window__step {
-  margin: 0px 11px 0 -6px;
+  margin: 0 11px 0 -6px;
   padding: 1px 6px 1px 6px;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -3272,7 +3272,7 @@ header {
 }
 
 .pop-up-name-field__descr {
-  margin: 9px 0px -9px 21px;
+  margin: 9px 0 -9px 21px;
   color: #999;
   font-family: "Open Sans", arial;
   font-size: 12px;
@@ -3330,31 +3330,31 @@ header {
   top: 60px;
   width: 200px;
   height: 156px;
-  margin: 0px 0 0px 627px;
+  margin: 0 0 0 627px;
   padding: 0;
   border-radius: 5px;
   background: #fff;
 }
 
 .graphics-user-menu__list {
-  padding-top: 5px;
   margin: 0;
+  padding-top: 5px;
 }
 
 .graphics-user-menu__item {
-  height: 39px;
   width: 200px;
-  padding-left: 43px;
+  height: 39px;
   margin-bottom: -3px;
+  padding-left: 43px;
 }
 
 .graphics-user-menu__link {
   display: block;
   width: 200px;
   height: 40px;
+  padding-left: 4px;
   color: #333;
   font: 400 13px / 40px Arial;
-  padding-left: 4px;
 }
 
 .graphics-user-menu__item:hover {
@@ -3434,10 +3434,10 @@ header {
 .subheader-slider {
   width: 800px;
   height: 140px;
-  padding: 0;
   margin: 20px 0 16px -9px;
+  margin: 19px 0 0 -9px;
+  padding: 0;
   list-style: none;
-  margin: 19px 0px 0 -9px;
 }
 
 .slide1,
@@ -3462,8 +3462,8 @@ header {
 
 .next-btn {
   position: absolute;
-  right: 0;
   top: 42px;
+  right: 0;
   width: 35px;
   height: 140px;
   text-align: center;
@@ -3612,8 +3612,8 @@ header {
 .graphics-content {
   width: 710px;
   height: 1475px;
-  border-bottom: 2px solid #e2e2e2;
   padding: 35px 0 0 0;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .content-item {
@@ -3829,7 +3829,7 @@ header {
 }
 
 .sidebar-navigation {
-  margin: 5px 0 0; 
+  margin: 5px 0 0;
   padding: 0;
   list-style: none;
   color: #333;
@@ -3944,7 +3944,7 @@ header {
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: 1px solid #f0f0f0;
-  font:400 13px / 36px "Open Sans", arial;
+  font: 400 13px / 36px "Open Sans", arial;
 }
 
 .sidebar-navigation__links:hover {
@@ -3971,18 +3971,18 @@ header {
 }
 
 .sidebar-sorting {
+  margin: 12px 0 34px 0;
   padding: 0;
   list-style: none;
   color: #333;
   font: 400 18px "Open Sans", arial;
-  margin: 12px 0 34px 0;
 }
 
 .sidebar-sorting__item {
   height: 20px;
-  font: 400 13px / 20px "Open Sans", arial;
-  margin: 0; 
+  margin: 0;
   color: #333;
+  font: 400 13px / 20px "Open Sans", arial;
 }
 
 .sidebar-sorting__links {
@@ -4003,9 +4003,9 @@ header {
 .select-cover {
   overflow: hidden;
   width: 220px;
-  padding: 0 0 0 5px;
   height: 36px;
   margin: 8px 0 16px;
+  padding: 0 0 0 5px;
   color: #707070;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
@@ -4102,15 +4102,15 @@ header {
   float: right;
   width: 15px;
   height: 13px;
-  margin: 5px 0 0; 
+  margin: 5px 0 0;
   background: url("../img/sprite-main.png") -202px -98px;
 }
 
 .sidebar-help {
+  margin: 0 0 28px;
   padding: 0;
   list-style: none;
   font: 400 18px / .9em "Open Sans", arial;
-  margin: 0 0 28px;
 }
 
 .sidebar-help__description {
@@ -4146,11 +4146,11 @@ header {
 }
 
 .sidebar-social {
+  margin: 5px 0 16px 0;
   padding: 0;
   list-style: none;
   color: #333;
   font-family: "Open Sans";
-  margin: 5px 0 16px 0;
 }
 
 .sidebar-social__icon1,
@@ -4226,8 +4226,8 @@ header {
 
 .footer {
   width: 220px;
-  padding: 0;
   margin: 26px 0 0 0;
+  padding: 0;
   list-style: none;
   text-align: center;
   color: #999;
@@ -4236,8 +4236,8 @@ header {
 }
 
 .makers {
-  margin: 0 0 6px 0;
   width: 220px;
+  margin: 0 0 6px 0;
   text-align: center;
   color: #999;
 }
@@ -4296,12 +4296,12 @@ header {
   display: inline-block;
   width: 145px;
   height: 34px;
+  margin-left: 10px;
   text-align: center;
   color: #747d8a;
   border-radius: 3px;
   font: 13px Arial;
   line-height: 34px;
-  margin-left: 10px;
 }
 
 .add-rules_btn:hover {
@@ -4497,7 +4497,7 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 710px;
   height: 562px;
-  margin: 24px 0px 0px 10px;
+  margin: 24px 0 0 10px;
 }
 
 .article-add__block > h2 {
@@ -4637,7 +4637,7 @@ input[name="graphics-add-upload"] {
 
 .article-edit__symbols-block-list {
   float: left;
-  margin: -4px 0px 0px -4px !important;
+  margin: -4px 0 0 -4px !important;
   padding: 15px 0 0 15px;
 }
 
@@ -4894,20 +4894,20 @@ input[name="graphics-add-upload"] {
 #content {
   width: 720px;
   height: 100%;
-  margin: 38px 0px 0px 0px;
+  margin: 38px 0 0 0;
 }
 
 
 .article-name {
   float: left;
-  margin: 0px 0px 0px 0px;
+  margin: 0 0 0 0;
   color: #333;
   font: 300 18px / 22px "Open Sans", arial;
 }
 
 .article1 {
   width: 720px;
-  margin: 0px 0px 0px 0px;
+  margin: 0 0 0 0;
 }
 
 .article-name:after {
@@ -4923,10 +4923,10 @@ input[name="graphics-add-upload"] {
 }
 
 .article-tags li {
+  display: inline;
   float: right;
   margin: 0 7px 26px 0;
   list-style: none;
-  display: inline;
 }
 
 .tag {
@@ -5050,14 +5050,14 @@ input[name="graphics-add-upload"] {
   width: 15px;
   height: 15px;
   margin: 10px 0 0 12px;
-  background: url("../img/sprite-main.png") -316px -0px;
+  background: url("../img/sprite-main.png") -316px -0;
 }
 
 .like:hover .like-thumb-up {
   width: 16px;
   height: 20px;
   margin: 9px 0 0 12px;
-  background: url("../img/sprite-main.png") -369px -0px;
+  background: url("../img/sprite-main.png") -369px -0;
 }
 
 
@@ -5104,7 +5104,7 @@ input[name="graphics-add-upload"] {
   width: 18px;
   height: 15px;
   margin: 0 10px -3px 15px;
-  background: url("../img/sprite-main.png") -285px 0px;
+  background: url("../img/sprite-main.png") -285px 0;
 }
 
 .views-number {
@@ -5121,7 +5121,7 @@ input[name="graphics-add-upload"] {
   width: 14px;
   height: 11px;
   margin: 0 10px 0 0;
-  background: url("../img/sprite-main.png") -271px 0px;
+  background: url("../img/sprite-main.png") -271px 0;
 }
 
 .comments-number {
@@ -5166,7 +5166,7 @@ input[name="graphics-add-upload"] {
   height: 25px;
   margin: -6px 5px 0 8px;
   padding: 0;
-  background: url("../img/sprite-main.png") -128px 0px;
+  background: url("../img/sprite-main.png") -128px 0;
 }
 
 .fb-btn {
@@ -5183,7 +5183,7 @@ input[name="graphics-add-upload"] {
   float: right;
   width: 7px;
   height: 20px;
-  background: url("../img/sprite-main.png") -141px 0px;
+  background: url("../img/sprite-main.png") -141px 0;
 }
 
 .tw-btn {
@@ -5203,7 +5203,7 @@ input[name="graphics-add-upload"] {
   width: 17px;
   height: 15px;
   margin: 0 6px 0 0;
-  background: url("../img/sprite-main.png") -148px 0px;
+  background: url("../img/sprite-main.png") -148px 0;
 }
 
 .google-btn {
@@ -5221,7 +5221,7 @@ input[name="graphics-add-upload"] {
   float: right;
   width: 24px;
   height: 21px;
-  background: url("../img/sprite-main.png") -165px 0px;
+  background: url("../img/sprite-main.png") -165px 0;
 }
 
 .comments_block {
@@ -5265,7 +5265,7 @@ input[name="graphics-add-upload"] {
 }
 
 .comment_content {
-  margin: 0px 0 0 65px;
+  margin: 0 0 0 65px;
 }
 
 .commenter_name {
@@ -5683,7 +5683,7 @@ input[name="graphics-add-upload"] {
   width: 7px;
   height: 20px;
   margin: -2px 8px 0 8px;
-  background: url("../img/sprite-main.png") -141px 0px;
+  background: url("../img/sprite-main.png") -141px 0;
 }
 
 .google-btn2 {
@@ -5704,7 +5704,7 @@ input[name="graphics-add-upload"] {
   width: 24px;
   height: 21px;
   margin: 0 4px 0 -5px;
-  background: url("../img/sprite-main.png") -165px 0px;
+  background: url("../img/sprite-main.png") -165px 0;
 }
 
 .bottom-line {
@@ -5724,7 +5724,6 @@ input[name="graphics-add-upload"] {
 .content_bottom {
   height: 100px;
   margin: 64px 0 0 0;
-
 }
 
 .previous-page {
