@@ -2562,6 +2562,7 @@ header {
 .profile_update-photo {
   width: 515px;
   height: 490px;
+  margin: 665px 0 0 382px;
 }
 
 .error {
@@ -2577,7 +2578,7 @@ header {
   font: 400 13px / 18px Arial;
 }
 
-.cancel {
+.canc3el {
   display: block;
   float: right;
   width: 10px;
@@ -4883,7 +4884,7 @@ input[name="graphics-add-upload"] {
   float: right;
   width: 0;
   height: 0;
-  margin: 8px 0 0 -20px;
+  margin: 8px 0 0 -15px;
   transform: rotate(-28deg);
   border-top: 7px solid #d3d3d3;
   border-right: 3px solid transparent;
@@ -4893,7 +4894,7 @@ input[name="graphics-add-upload"] {
 #content {
   width: 720px;
   height: 100%;
-  margin: 4px 0px 0px 0px;
+  margin: 38px 0px 0px 0px;
 }
 
 
@@ -5024,7 +5025,7 @@ input[name="graphics-add-upload"] {
 
 .article_bottom-nav {
   width: 710px;
-  margin: 28px 0 0 -10px;
+  margin: 28px 0 -10px;
 }
 
 .likes-block {
@@ -5225,8 +5226,7 @@ input[name="graphics-add-upload"] {
 
 .comments_block {
   width: 710px;
-  /* margin-top: 18px; */
-  /* border-top: 1px solid #ececec; */
+  margin-top: 31px;
 }
 
 .comments_heading {
