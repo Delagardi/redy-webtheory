@@ -1838,7 +1838,6 @@ header {
   width: 64px;
   height: 64px;
   margin: 0 4px 4px 0;
-  background: green;
 }
 
 .follower-profile:nth-child(3n+3) {
@@ -3740,7 +3739,9 @@ header {
 .content-item__author img {
   float: left;
   margin: 0 8px 0 0;
+  width: 15px;
 }
+
 .content-item__author-link {
   float: left;
   color: #6493cf;
@@ -4163,13 +4164,14 @@ header {
 .sidebar-social__icon4,
 .sidebar-social__icon5 {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 0;
   width: 16px;
   height: 16px;
 }
 
 .sidebar-social__icon1 {
+  top:10px;
   height: 18px;
   background: url("../img/sprite-main.png") no-repeat -190px 0;
 }
