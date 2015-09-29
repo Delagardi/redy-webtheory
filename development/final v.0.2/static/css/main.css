@@ -1709,6 +1709,25 @@ header {
   background: url("../img/sprite-main.png") no-repeat 0 -40px;
 }
 
+.redact {
+  display: block;
+  margin: 0 -35px 0  0; 
+  width: 40px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0);
+  font: 400 11px Arial;
+  color: #9d9d9d;
+  float: right;
+}
+
+.redact-icon {
+  display: inline-block;
+  margin: 0 0 0 6px;
+  width: 10px;
+  height: 10px;
+  background: url("../img/sprite-main.png") no-repeat -378px -76px;
+}
+
 .user-name {
   width: 200px;
   height: 50px;
