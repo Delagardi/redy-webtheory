@@ -3048,7 +3048,7 @@ header {
 }
 
 .pop-up-window-registration {
-  width: 380px;
+  width: 450px;
   height: 425px;
   margin: 10% auto;
   border-radius: 3px;
@@ -3080,7 +3080,7 @@ header {
 }
 
 .pop-up-window__step {
-  margin: 0 11px 0 -6px;
+  margin: 0 11px 0 1px;
   padding: 1px 6px 1px 6px;
   border: 2px solid #fff;
   border-radius: 50%;
@@ -3130,6 +3130,7 @@ header {
 }
 
 .invite-rules {
+  position: relative;
   margin: 3px 5px 12px 0;
   text-align: center;
 }
@@ -3145,9 +3146,9 @@ header {
 
 
 .link-for-invite {
-  width: 342px;
-  height: 42px;
-  margin: 22px auto 5px auto;
+  width: 408px;
+  height: 46px;
+  margin: 10px auto 5px auto;
   border: 1px solid #d4d4d4;
   border-radius: 3px;
   background: #f5f5f5;
@@ -3176,26 +3177,29 @@ header {
 .invite-checkbox:not(checked) {
   position: absolute;
   opacity: 0;
+  top: 10px;
+  left: 36px;
 }
 
 .invite-checkbox:not(checked) + label {
   position: relative;
-  padding: 0 0 0 30px;
+  display: block;
   line-height: 25px;
+  padding: 7px 0 0 31px;
 }
 
 .invite-checkbox:not(checked) + label:before {
   content: "";
   position: absolute;
-  top: 1px;
-  left: 6px;
+  top: 12px;
+  left: 34px;
   width: 15px;
   height: 15px;
-  background: url("../img/sprite-main.png") -200px -112px no-repeat;
+  background: url("../img/sprite-main.png") -205px -135px no-repeat;
 }
 
 .invite-checkbox:checked + label:before {
-  background: url("../img/sprite-main.png") -200px -127px no-repeat;
+  background: url("../img/sprite-main.png") -205px -119px no-repeat;
 }
 
 .invite-text {
@@ -3219,12 +3223,12 @@ header {
 }
 
 .pop-up-name-field {
-  margin: 10px 19px -7px 19px;
+  margin: 10px 19px -7px 21px;
 }
 
 .pop-up-name-field-input {
   overflow: hidden;
-  width: 301px;
+  width: 370px;
   height: 40px;
   margin: 10px auto;
   padding: 0 0 0 14px;
@@ -3279,7 +3283,7 @@ header {
 }
 
 .link-for-signup {
-  width: 342px;
+  width: 408px;
   height: 42px;
   margin: 13px auto;
   /* margin-top: 17px; */
