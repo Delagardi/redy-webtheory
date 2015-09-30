@@ -5031,7 +5031,6 @@ input[name="graphics-add-upload"] {
 }
 
 .article-text h4::before {
-  content: url("../img/sprite-main.png") -220px -120px;
   width: 24px;
   height: 28px;
   margin: 0 12px 0 -40px;
@@ -5554,103 +5553,14 @@ input[name="graphics-add-upload"] {
   font: 300 18px / 22px "Open Sans";
 }
 
-.article1 {
-  width: 720px;
-}
-
-.article-name:after {
-  content: "Урок";
-  display: inline-block;
-  margin: 0 0 5px 11px;
-  padding: 1px 5px;
-  vertical-align: top;
-  color: #fff;
-  border-radius: 3px;
-  background-color: #71a7da;
-  font: 400 13px / 20px Arial;
-}
-
 .article-tags {
   float: right;
   width: 290px;
   margin: 0 -10px 0 0;
 }
 
-.article-tags li {
-  float: right;
-  margin: 0 7px 26px 0;
-  list-style: none;
-}
-
-.tag {
-  padding: 4px 10px;
-  color: #868686;
-  border: 1px solid #e3e3e3;
-  border-radius: 3px;
-  background-color: #f8f8f8;
-  font: 400 13px / 22px Arial;
-}
-
-.tag:hover {
-  padding: 4px 10px;
-  color: #fff;
-  border: 1px solid #e3e3e3;
-  border-radius: 3px;
-  background-color: #71a6da;
-  font: 400 13px / 22px Arial;
-}
-
-
 .article-tags li:nth-child(2) {
   clear: right;
-}
-
-.article-author {
-  float: left;
-  clear: left;
-  width: 180px;
-  margin: 0 0 20px 0;
-}
-
-.article-author-pic {
-  border-radius: 3px;
-}
-
-.article-author-name {
-  display: inline-block;
-  margin-left: 5px;
-  vertical-align: top;
-  color: #3b3b3b;
-  font: 700 13px Arial;
-}
-
-.article_post-time {
-  display: block;
-  float: right;
-  margin: -24px 42px 0 0;
-  color: #757575;
-  font: 12px Arial;
-}
-
-.article-text {
-  clear: left;
-  width: 710px;
-  margin: 0 0 0 0;
-  color: #484747;
-  font: 400 13px / 22px "Open Sans", arial;
-}
-
-.article-text_lists {
-  padding: 0;
-  list-style: none;
-}
-
-.article-text a {
-  color: #3676b1;
-}
-
-.article-text a:hover {
-  text-decoration: underline;
 }
 
 .article_bottom-nav {
