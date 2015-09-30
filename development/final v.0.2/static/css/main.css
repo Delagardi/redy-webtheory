@@ -8,7 +8,6 @@ html {
   /* REDY.IO styleguide 10.3 */
   box-sizing: border-box;
   font-family: sans-serif;
-
       -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -97,9 +96,9 @@ small {
 sub,
 sup {
   position: relative;
-  vertical-align: baseline;
   font-size: 75%;
   line-height: 0;
+  vertical-align: baseline;
 }
 
 sup {
@@ -145,8 +144,8 @@ optgroup,
 select,
 textarea {
   margin: 0; /* 3 */
-  color: inherit; /* 1 */
   font: inherit; /* 2 */
+  color: inherit; /* 1 */
 }
 
 button {
@@ -320,10 +319,10 @@ header {
 }
 
 .header-navigation-list__link {
-  color: #acc5db;
   font-family: "Open Sans", arial;
   font-size: 13px;
   line-height: 60px;
+  color: #acc5db;
 }
 
 .header-navigation-list__link:hover {
@@ -362,12 +361,12 @@ header {
   width: 140px;
   height: 30px;
   margin: 30px 0 0 -60px;
+  font: 400 12px/30px "Open Sans", arial;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background: rgba(0,0,0,.85);
   box-shadow: 0 3px 9px rgba(0,0,0,.25);
-  font: 400 12px/30px "Open Sans", arial;
 }
 
 .pop-up__triangle {
@@ -411,13 +410,13 @@ header {
   width: 16px;
   height: 16px;
   margin-left: 6px;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 16px;
   text-align: center;
   color: #fff;
   border-radius: 2px;
   background: #e14c64;
-  font-family: Arial;
-  font-size: 11px;
-  line-height: 16px;
 }
 
 .user-data {
@@ -444,9 +443,9 @@ header {
   width: 80px;
   margin: 18px 0;
   padding-left: 16px;
-  color: #fff;
   font-family: "Open Sans", arial;
   font-size: 13px;
+  color: #fff;
 }
 
 .user-data__photo {
@@ -547,9 +546,9 @@ header {
 
 .table-up-header {
   margin-top: 18px;
-  color: #333;
   font-family: "Open Sans"; /*Articles has sidebar header in OS*/
   font-size: 18px;
+  color: #333;
 }
 
 .table-course {
@@ -565,19 +564,19 @@ header {
 .table-course__name {
   display: block;
   margin: 7px 0 0 1px;
-  color: #333;
   font-family: Arial;
   font-size: 14px;
   font-weight: 800;
+  color: #333;
 }
 
 .table-course__dffclty {
   display: inline-block;
   margin: 4px 0 0 2px;
   margin-bottom: 0;
-  color: #999;
   font-family: Arial;
   font-size: 13px;
+  color: #999;
 }
 
 .table-down {
@@ -586,9 +585,9 @@ header {
 }
 
 .table-down-header {
-  color: #333;
   font-family: "Open Sans"; /*Articles has sidebar header in OS*/
   font-size: 18px;
+  color: #333;
 }
 
 /* Below styles for Courses-What-To-Learn page */
@@ -596,9 +595,9 @@ header {
 .main-article h1 {
   display: inline-block;
   margin: 10px 0;
-  color: #333;
   font-family: "Open Sans";
   font-size: 18px;
+  color: #333;
 }
 
 .main-article ul {
@@ -609,25 +608,25 @@ header {
 
 .main-article__edit {
   margin: 0 0 0 21px;
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  font-size: 12px;
   vertical-align: text-top;
   text-decoration: underline;
   color: #3676b1;
-  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
-  font-size: 12px;
 }
 
 .main-article h2 {
   margin: 45px 0;
-  color: #666;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 18px;
   font-weight: 100;
+  color: #666;
 }
 
 .main-article h3 {
-  color: #333;
   font-family: "Open Sans", arial;
   font-size: 14px;
+  color: #333;
 }
 
 .main-article p,
@@ -635,10 +634,10 @@ header {
 .main-article-text__questions {
   margin: 12px auto;
   padding: 4px 8px 0 0;
-  color: #666;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
   line-height: 18px;
+  color: #666;
 }
 
 .main-article-text__questions input {
@@ -717,7 +716,7 @@ header {
 }
 
 /* Below styles for Courses-full page */
-.courses-content .video  {
+.courses-content .video {
   margin-top: 14px;
 }
 
@@ -765,9 +764,9 @@ header {
   display: block;
   margin: 10px 19px 10px 0;
   padding-bottom: 10px;
-  color: #999;
   font-family: Arial;
   font-size: 13px;
+  color: #999;
 }
 
 .main-info-tab__link:hover {
@@ -798,9 +797,9 @@ header {
   display: block;
   margin: 10px 0 10px 21px;
   padding-bottom: 10px;
-  color: #4f87c7;
   font-family: Arial;
   font-size: 13px;
+  color: #4f87c7;
 }
 
 .main-info-like__link:hover {
@@ -814,9 +813,9 @@ header {
 
 .main-info-text p {
   margin-bottom: 0;
-  color: #666;
   font-family: Arial;
   font-size: 13px;
+  color: #666;
 }
 
 .main-info-text a {
@@ -842,10 +841,10 @@ header {
 .courses-vk-btn {
   margin-right: -10px;
   padding: 4px 7px 0 0;
+  font-family: sans-serif;
   color: #fff;
   border-radius: 3px;
   background: #48729e;
-  font-family: sans-serif;
 }
 
 .courses-btn__pic {
@@ -877,53 +876,53 @@ header {
 .courses-fb-btn__number,
 .courses-tw-btn__number,
 .courses-google-btn__number {
-  text-align: center;
   font-size: 10px;
   line-height: 8px;
+  text-align: center;
 }
 
 .courses-fb-btn {
   margin-left: 12px;
   padding: 4px 6px 0 0;
+  font-size: 14px;
   color: #fff;
   border-radius: 3px;
   background: #3c5a98;
-  font-size: 14px;
 }
 
 .courses-tw-btn {
   margin-left: 1px;
   padding: 4px 6px 0 0;
+  font-family: sans-serif;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #00aced;
-  font-family: sans-serif;
-  font-size: 13px;
 }
 
 .courses-google-btn {
   padding: 4px 6px 0 0;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #c25234;
-  font-size: 13px;
 }
 
 .main-info-text__or {
   display: inline-block;
   float: left;
   margin: -2px 15px 0 15px;
-  color: #666;
   font-family: Arial;
   font-size: 13px;
   line-height: 37px;
+  color: #666;
 }
 
 .main-info-text__sharelink {
   display: inline-block;
   margin: -1px 0 0 1px;
-  color: #666;
   font-size: 13px;
+  color: #666;
 }
 
 .main-info-text__sharelink input {
@@ -942,8 +941,8 @@ header {
 
 .comments-heading {
   margin: 30px 0 30px 0;
-  color: #333;
   font: 600 16px / 18px Arial;
+  color: #333;
 }
 
 .comment-input {
@@ -951,9 +950,9 @@ header {
   height: 50px;
   margin: 0 0 0 14px;
   padding: 0 0 15px 10px;
+  font: 400 12px / 18px Arial;
   color: #999;
   border: 1px solid #dcdcdc;
-  font: 400 12px / 18px Arial;
 }
 
 .comment-person {
@@ -981,26 +980,26 @@ header {
 
 .commenter-name {
   display: block;
-  color: #4f7ab4;
   font: 700 12px / 18px Arial;
+  color: #4f7ab4;
 }
 
 .commenter-name:after {
   content: "15:29, 18 сен";
   margin-left: 12px;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .comment-text {
-  color: #666;
   font: 400 12px / 18px Arial;
+  color: #666;
 }
 
 .comment-menu a {
   display: inline-block;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .point {
@@ -1025,8 +1024,8 @@ header {
   width: 97px;
   height: 11px;
   margin: -18px -7px 0 0;
-  color: #7fa1ce;
   font: 400 11px / 18px Arial;
+  color: #7fa1ce;
 }
 
 .ilike-btn-pressed::after {
@@ -1043,8 +1042,8 @@ header {
   width: 97px;
   height: 11px;
   margin: -18px -8px 0 0;
-  color: #b1c0c8;
   font: 400 11px / 18px Arial;
+  color: #b1c0c8;
 }
 
 .ilike-btn::after {
@@ -1061,8 +1060,8 @@ header {
   width: 118px;
   height: 11px;
   margin: -19px -15px 0 0;
-  color: #b1c0c8;
   font: 400 11px / 18px Arial;
+  color: #b1c0c8;
 }
 
 .ilike-btn-number span {
@@ -1083,11 +1082,11 @@ header {
 .main-article-test-btns__go {
   display: inline-block;
   padding: 11px 12px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #64b44f;
-  font-family: "Open Sans", arial;
-  font-size: 13px;
 }
 
 .main-article-test-btns__go:hover {
@@ -1098,11 +1097,11 @@ header {
   display: inline-block;
   margin: 14px 0 0 11px;
   padding: 11px 14px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #b44f4f;
-  font-family: "Open Sans", arial;
-  font-size: 13px;
 }
 
 .main-article-test-btns__back:hover {
@@ -1113,11 +1112,11 @@ header {
   display: inline-block;
   margin-top: 20px;
   padding: 11px 38px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
-  font-family: "Open Sans", arial;
-  font-size: 13px;
 }
 
 .main-article-test-btns__next:hover {
@@ -1128,11 +1127,11 @@ header {
   display: inline-block;
   margin-top: 10px;
   padding: 11px 32px;
+  font-family: "Open Sans", arial;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
-  font-family: "Open Sans", arial;
-  font-size: 13px;
 }
 
 .main-article-test-btns__answ:hover {
@@ -1142,9 +1141,9 @@ header {
 .main-article-headerblock__number {
   display: inline;
   margin-left: 5px;
-  color: #999;
   font-family: "Open Sans", Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 13px;
+  color: #999;
 }
 
 /*=======================================================*/
@@ -1165,9 +1164,9 @@ header {
 .sidebar-header {
   display: inline-block;
   margin-bottom: 5px;
-  color: #333;
   font-family: "Open Sans";
   font-size: 16px;
+  color: #333;
 }
 
 /*.class li, because it using for many pages*/
@@ -1183,18 +1182,18 @@ header {
   display: inline-block;
   float: right;
   margin: 17px 0 0 0;
-  color: #666;
   font-family: Arial;
   font-size: 13px;
+  color: #666;
 }
 
 .sidebar-navigation__lesson {
   position: absolute;
   top: 0;
   left: 0;
-  color: #999;
   font-family: Arial;
   font-size: 13px;
+  color: #999;
 }
 
 .sidebar-navigation__number-active {
@@ -1202,12 +1201,12 @@ header {
   width: 19px;
   height: 19px;
   margin: 10px 2px 0 0;
+  font-size: 12px;
+  line-height: 19px;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background: #74aded;
-  font-size: 12px;
-  line-height: 19px;
 }
 
 .sidebar-navigation__number {
@@ -1215,11 +1214,11 @@ header {
   width: 19px;
   height: 19px;
   margin: 10px 2px 0 0;
+  font-size: 12px;
+  line-height: 19px;
   text-align: center;
   border-radius: 3px;
   background: transparent;
-  font-size: 12px;
-  line-height: 19px;
 }
 
 .btn-next {
@@ -1232,11 +1231,11 @@ header {
   height: 40px;
   margin-top: 7px;
   padding: 13px 50px 10px 54px;
+  font-family: "Open Sans", Arial;
+  font-size: 13px;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
-  font-family: "Open Sans", Arial;
-  font-size: 13px;
 }
 
 .btn-nextvideo:hover {
@@ -1265,12 +1264,12 @@ header {
   width: 220px;
   height: 38px;
   padding-left: 30px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: none;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .sidebar-navigation__links-last:hover {
@@ -1283,9 +1282,9 @@ header {
 
 .sidebar-best-header {
   display: inline-block;
-  color: #333;
   font-family: "Open Sans";
   font-size: 18px;
+  color: #333;
 }
 
 .sidebar-best li {
@@ -1299,11 +1298,11 @@ header {
   box-sizing: border-box;
   width: 220px;
   height: 38px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: underline;
   color: #3676b1;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .sidebar-best li:last-child {
@@ -1312,26 +1311,26 @@ header {
 
 .sidebar-course-discription h2 {
   margin-top: 35px;
-  color: #333;
   font-family: Arial;
   font-size: 18px;
+  color: #333;
 }
 
 .sidebar-course-discription__dffclty,
 .sidebar-course-discription__skills {
   margin-top: 10px;
-  color: #333;
   font-family: Arial;
   font-size: 13px;
+  color: #333;
 }
 
 .sidebar-course-discription__text {
   width: 220px;
   margin-top: 21px;
-  color: #666;
   font-family: Arial;
   font-size: 13px;
   line-height: 20px;
+  color: #666;
 }
 
 .sidebar-course-discription__skills a {
@@ -1340,9 +1339,9 @@ header {
 }
 
 .sidebar-course-discription__dffclty span {
-  color: #cfa913;
   font-family: Arial;
   font-size: 13px;
+  color: #cfa913;
 }
 
 
@@ -1368,8 +1367,8 @@ header {
   width: 150px;
   height: 13px;
   margin: 13px 0 0;
-  color: #999;
   font: 400 13px Arial;
+  color: #999;
 }
 
 .statistics {
@@ -1378,8 +1377,8 @@ header {
   width: 98px;
   height: 11px;
   margin: 12px 25px 0 0;
-  color: #6082b1;
   font: 400 13px / 18px Arial;
+  color: #6082b1;
 }
 
 .statistics::after {
@@ -1395,8 +1394,8 @@ header {
   width: 93px;
   height: 13px;
   margin: 12px 0 0;
-  color: #6082b1;
   font: 400 13px / 18px Arial;
+  color: #6082b1;
 }
 
 .statistics:hover,
@@ -1431,26 +1430,26 @@ header {
   float: left;
   height: 40px;
   padding: 0 8px;
+  font: 400 13px / 40px Arial;
   text-align: center;
   color: #999;
   border-right: 1px solid transparent;
   border-left: 1px solid transparent;
-  font: 400 13px / 40px Arial;
 }
 
 .top-menu__item:hover:not(.active) {
   height: 38px;
+  font: 400 13px / 37px Arial;
   border-top: 2px solid #4f87c7;
   border-right: 1px solid #e3e3e3;
   border-left: 1px solid #e3e3e3;
   background: #fff;
-  font: 400 13px / 37px Arial;
 }
 
 .top-menu__item-number {
   padding: 0 0 0 5px;
-  color: #b5b5b5;
   font: 400 13px / 18px Arial;
+  color: #b5b5b5;
 }
 
 .active {
@@ -1481,10 +1480,10 @@ header {
   display: block;
   height: 31px;
   padding: 0 10px;
+  font: 400 13px / 31px Arial;
   color: #999;
   border: 1px solid transparent;
   border-radius: 3px;
-  font: 400 13px / 31px Arial;
 }
 
 .publication-menu__btn:hover:not(.active2) {
@@ -1502,19 +1501,19 @@ header {
   width: 73px;
   height: 11px;
   margin-top: 20px;
-  color: #999;
   font: 400 13px / 18px Arial;
+  color: #999;
 }
 
 .wright-message {
   width: 710px;
   height: 42px;
   padding: 10px 0 0 10px;
+  font: 400 12px / 18px Arial;
   resize: none;
   color: #98a7b6;
   border: 2px solid #d9dfe5;
   border-radius: 3px;
-  font: 400 12px / 18px Arial;
 }
 
 .pre-top-menu__folder-icon {
@@ -1543,20 +1542,20 @@ header {
 
 .commenter-name {
   display: block;
-  color: #4f7ab4;
   font: 700 12px / 18px Arial;
+  color: #4f7ab4;
 }
 
 .commenter-name::after {
   content: "Онлайн";
   margin-left: 12px;
-  color: #b4b4b4;
   font: 400 12px Arial;
+  color: #b4b4b4;
 }
 
 .comment-text {
-  color: #666;
   font: 400 12px / 18px Arial;
+  color: #666;
 }
 
 .comment-text a {
@@ -1566,14 +1565,14 @@ header {
 
 .entrance-date {
   display: inline-block;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .leave-comment {
   display: inline-block;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .point {
@@ -1597,11 +1596,11 @@ header {
   height: 45px;
   margin: 15px 0;
   padding-top: 12px;
+  font: 400 12px / 18px Arial;
   text-align: center;
   color: #8495a5;
   border-radius: 3px;
   background: #e7eaee;
-  font: 400 12px / 18px Arial;
 }
 
 .show-more-cmnts_btn:hover {
@@ -1619,11 +1618,11 @@ header {
   width: 645px;
   height: 35px;
   padding: 0 0 0 10px;
+  font: 400 12px / 35px Arial;
   resize: none;
   color: #98a7b6;
   border: 2px solid #d9dfe5;
   border-radius: 3px;
-  font: 400 12px / 35px Arial;
 }
 
 .folder_icon {
@@ -1649,12 +1648,12 @@ header {
   width: 710px;
   height: 45px;
   padding-top: 10px;
+  font: 400 13px / 18px Arial;
   text-align: center;
   color: #8495a5;
   border: 2px solid #d9dfe5;
   border-radius: 3px;
   background: rgba(231, 234, 238, 0);
-  font: 400 13px / 18px Arial;
 }
 
 .show-more-notations:hover {
@@ -1675,9 +1674,9 @@ header {
 
 .invite-entrance__item {
   float: left;
+  font: 400 13px / 60px arial;
   text-decoration: underline;
   color: #fff;
-  font: 400 13px / 60px arial;
 }
 
 .invite-entrance__item:hover {
@@ -1715,9 +1714,9 @@ header {
   width: 40px;
   height: 10px;
   margin: 0 -35px 0  0;
+  font: 400 11px Arial;
   color: #9d9d9d;
   background: rgba(0, 0, 0, 0);
-  font: 400 11px Arial;
 }
 
 .redact-icon {
@@ -1731,24 +1730,24 @@ header {
 .user-name {
   width: 200px;
   height: 50px;
+  font: 400 18px / normal "Open Sans", arial;
   text-align: center;
   color: #333;
-  font: 400 18px / normal "Open Sans", arial;
 }
 
 .user-status__bottom {
+  font: 400 13px / normal "Open Sans", arial;
   text-align: center;
   color: #999;
-  font: 400 13px / normal "Open Sans", arial;
 }
 
 .user-salary {
   width: 200px;
   height: 50px;
   padding: 11px 0 11px 13px;
+  font: 400 14px / 14px "Open Sans", arial;
   color: #690;
   border-bottom: 1px solid #eee;
-  font: 400 14px / 14px "Open Sans", arial;
 }
 
 .user-salary:before {
@@ -1767,8 +1766,8 @@ header {
   height: 50px;
   margin: 0 0 20px 12px;
   padding: 20px 0 11px 0;
-  color: #777;
   font: 400 13px / 14px "Open Sans", arial;
+  color: #777;
 }
 
 .user-rating:before {
@@ -1782,8 +1781,8 @@ header {
 }
 
 .user-rating__bottom {
-  color: #9d9e9c;
   font: 400 11px / normal "Open Sans", arial;
+  color: #9d9e9c;
 }
 
 .user-rating__link {
@@ -1800,11 +1799,11 @@ header {
   width: 200px;
   height: 40px;
   margin: 0 0 10px 0;
+  font: 400 13px / 40px "Open Sans", arial;
   text-align: center;
   color: #fff;
   border-radius: 5px;
   background: #5380bd;
-  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .send-message:hover {
@@ -1816,11 +1815,11 @@ header {
   width: 200px;
   height: 40px;
   margin: 0 0 30px 0;
+  font: 400 13px / 40px "Open Sans", arial;
   text-align: center;
   color: #9a9a9a;
   border-radius: 5px;
   background: #eee;
-  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .unsubscribe:hover {
@@ -1840,14 +1839,14 @@ header {
 
 .sidebar-heading {
   margin: 18px 0 0;
-  color: #333;
   font: 400 18px / normal "Open Sans", arial;
+  color: #333;
 }
 
 .sidebar-heading__count {
   float: right;
-  color: #999;
   font: 400 14px / 24px "Open Sans", arial;
+  color: #999;
 }
 
 .follower-profile {
@@ -1888,22 +1887,22 @@ header {
 
 .skill-from-curses {
   margin: 15px 0 0 0;
-  color: #666;
   font: 900 13px / normal "Open Sans", arial;
+  color: #666;
 }
 
 .skill-from-curses__item {
   width: 200px;
   height: 40px;
+  font: 400 13px / 40px "Open Sans", arial;
   color: #8b97aa;
   border-bottom: 1px solid #dedede;
-  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .skill-from-curses__item-percent {
   float: right;
-  color: #666;
   font: 400 13px / 40px "Open Sans", arial;
+  color: #666;
 }
 
 .skill-claimed {
@@ -1928,8 +1927,8 @@ header {
 }
 
 .skill-claimed__link {
-  color: #7f8897;
   font: 400 12px / 30px "Open Sans", arial;
+  color: #7f8897;
 }
 
 .skill-claimed__item-count {
@@ -1937,11 +1936,11 @@ header {
   height: 30px;
   margin: 0 0 0 10px;
   padding: 0 10px;
+  font: 400 12px / 30px "Open Sans", arial;
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
   background: #c9d1de;
-  font: 400 12px / 30px "Open Sans", arial;
 }
 
 .about-me {
@@ -1955,9 +1954,9 @@ header {
 .about-me__item {
   width: 200px;
   height: 35px;
+  font: 400 13px / 35px "Open Sans", arial;
   color: #808b9c;
   border-bottom: 1px solid #e3e3e3;
-  font: 400 13px / 35px "Open Sans", arial;
 }
 
 .about-me__item-icon1 {
@@ -1995,16 +1994,16 @@ header {
 .about-me__item:last-child {
   height: 100%;
   margin: 10px 0 0 0;
+  font: 400 13px / normal "Open Sans", arial;
   color: #666;
   border-bottom: none;
-  font: 400 13px / normal "Open Sans", arial;
 }
 
 .contacts__title {
   display: block;
   margin: 0 0 0 0;
-  color: #333;
   font: 400 16px / normal "Open Sans", arial;
+  color: #333;
 }
 
 .contacts {
@@ -2021,8 +2020,8 @@ header {
 }
 
 .contacts__item {
-  color: #5794d0;
   font: 400 13px / normal "Open Sans", arial;
+  color: #5794d0;
 }
 
 .contacts__item-icon1,
@@ -2051,8 +2050,8 @@ header {
 
 .trademark {
   margin: 5px 0 0;
-  color: #666;
   font: 400 12px Arial;
+  color: #666;
 }
 
 .profile-footer {
@@ -2067,8 +2066,8 @@ header {
 }
 
 .profile-footer__item {
-  color: #666;
   font: 400 11px / normal "Open Sans", arial;
+  color: #666;
 }
 
 .profile-footer__item:hover {
@@ -2115,8 +2114,8 @@ header {
   width: 92px;
   height: 13px;
   margin-top: 25px;
-  color: #999;
   font: 400 13px / 18px Arial;
+  color: #999;
 }
 
 .publications_desc {
@@ -2129,10 +2128,10 @@ header {
   float: left;
   clear: left;
   height: 14px;
-  text-transform: uppercase;
-  color: #5685c5;
   font: 700 17px / 18px Arial;
   line-height: 30px;
+  text-transform: uppercase;
+  color: #5685c5;
 }
 
 .heading-amount {
@@ -2142,11 +2141,11 @@ header {
   height: 19px;
   margin: 18px 0 0 15px;
   padding: 0 5px;
+  font: 400 13px / 19px Arial;
   text-align: center;
   color: #fff;
   border-radius: 2px;
   background-color: #b9c3d2;
-  font: 400 13px / 19px Arial;
 }
 
 .hide_btn {
@@ -2154,8 +2153,8 @@ header {
   width: 56px;
   height: 10px;
   margin: 15px 0 0 0;
-  color: #b7b7b7;
   font: 400 13px HelveticaNeue;
+  color: #b7b7b7;
 }
 
 .hide_btn:hover {
@@ -2174,8 +2173,8 @@ header {
   width: 160px;
   height: 17px;
   margin: 17px 0 25px 0;
-  color: #333;
   font: 500 18px Arial;
+  color: #333;
 }
 
 .article-tags {
@@ -2188,8 +2187,8 @@ header {
 .article-tags li {
   display: inline-block;
   margin: 0 20px 0 20px;
-  color: #828282;
   font: 400 13px / 18px Arial;
+  color: #828282;
 }
 
 .article-tag__item-icon1,
@@ -2217,8 +2216,8 @@ header {
 
 .article-text-menu p {
   margin-top: 25px;
-  color: #666;
   font: 400 13px / 20px "Open Sans";
+  color: #666;
 }
 
 .article-bottom {
@@ -2230,20 +2229,20 @@ header {
 
 .article-bottom li {
   display: inline-block;
-  color: #bebebe;
   font: 400 13px HelveticaNeue;
+  color: #bebebe;
 }
 
 .read-more__btn {
   display: block;
   width: 111px;
   height: 35px;
+  font: 700 12px Arial;
+  line-height: 34px;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background: #74aded;
-  font: 700 12px Arial;
-  line-height: 34px;
 }
 
 .read-more__btn:hover {
@@ -2299,8 +2298,8 @@ header {
   width: 230px;
   height: 172px;
   margin: 0 0 9px 0;
-  color: #333;
   font: 700 15px Arial;
+  color: #333;
 }
 
 .graphic-block:hover .graphic-block__hover {
@@ -2326,9 +2325,9 @@ header {
   width: 230px;
   height: 172px;
   padding: 75px 0 0 0;
+  font: 900 18px "Open Sans", arial;
   color: #fff;
   background: transparent;
-  font: 900 18px "Open Sans", arial;
 }
 
 .activity-list {
@@ -2375,14 +2374,14 @@ header {
 
 .graphic-block__title {
   margin: 15px 0 0 0;
-  color: #333;
   font: 900 13px HelveticaNeue, arial;
+  color: #333;
 }
 
 .graphic-block__name {
   margin: 7px 0 0 0;
-  color: #929292;
   font: 400 11px HelveticaNeue, arial;
+  color: #929292;
 }
 
 .show-me-more {
@@ -2390,10 +2389,10 @@ header {
   float: left;
   width: 710px;
   height: 45px;
+  line-height: 45px;
   text-align: center;
   color: #97a5b2;
   border: 1px solid #edeff0;
-  line-height: 45px;
 }
 
 .show-me-more:hover {
@@ -2432,20 +2431,20 @@ header {
   float: left;
   margin-top: 24px;
   margin-left: 18px;
-  color: #333;
   font-family: Arial;
   font-size: 16px;
   font-weight: 200;
+  color: #333;
 }
 
 .user-menu-header__unread {
   float: right;
   margin-top: 28px;
   margin-right: 15px;
-  text-decoration: underline;
-  color: #5a81b7;
   font-family: Arial;
   font-size: 12px;
+  text-decoration: underline;
+  color: #5a81b7;
 }
 
 .user-menu-item {
@@ -2454,9 +2453,9 @@ header {
   width: 340px;
   height: 72px;
   padding: 10px 20px 0 20px;
+  font: 400 13px / 40px "Open Sans", arial;
   color: #333;
   border-top: 1px solid #ddd;
-  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .user-menu-item:hover {
@@ -2476,16 +2475,16 @@ header {
 .user-menu-item__name {
   float: left;
   margin: 9px 0 0 2px;
-  color: #5a81b7;
   font: 700 12px / normal arial;
+  color: #5a81b7;
 }
 
 .user-menu-item__friend {
   position: relative;
   float: left;
   margin: 9px 0 0 18px;
-  color: #a6adb6;
   font: 700 12px/normal arial;
+  color: #a6adb6;
 }
 
 .user-menu-item__friend:before {
@@ -2505,9 +2504,9 @@ header {
   position: absolute;
   top: 23px;
   left: 82px;
-  color: #666;
   font-family: Arial;
   font-size: 12px;
+  color: #666;
 }
 
 .user-menu-msg-footer {
@@ -2515,9 +2514,9 @@ header {
   top: 42px;
   left: 79px;
   margin-bottom: 0;
-  color: #999;
   font-family: Arial;
   font-size: 10px;
+  color: #999;
 }
 
 .user-menu-time {
@@ -2539,8 +2538,8 @@ header {
   width: 3px;
   height: 3px;
   -webkit-border-radius: 50px;
-     -moz-border-radius: 50px;
-          border-radius: 50px;
+   -moz-border-radius: 50px;
+  border-radius: 50px;
   background: #999;
 }
 
@@ -2556,11 +2555,11 @@ header {
   width: 340px;
   height: 67px;
   padding-top: 26px;
+  font-family: Arial;
+  font-size: 12px;
   color: #a3a3a3;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  font-family: Arial;
-  font-size: 12px;
 }
 
 .user-menu-allmsg__link:hover {
@@ -2589,11 +2588,11 @@ header {
   height: 45px;
   margin-bottom: 15px;
   padding-top: 13px;
+  font: 400 13px / 18px Arial;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background: #d7565f;
-  font: 400 13px / 18px Arial;
 }
 
 .canc3el {
@@ -2615,8 +2614,8 @@ header {
 
 .photo-upload {
   margin-left: 20px;
-  color: #333;
   font: 400 20px / 18px "Open Sans";
+  color: #333;
 }
 
 .photo-upload-link {
@@ -2630,8 +2629,8 @@ header {
 
 .photo-upload p {
   margin: 20px;
-  color: #666;
   font: 400 13px / 18px "Open Sans";
+  color: #666;
 }
 
 .update-photo_field {
@@ -2652,15 +2651,15 @@ header {
 
 .drag_here {
   padding-left: 130px;
-  color: #a7b5c2;
   font: 400 14px / 14px Arial;
+  color: #a7b5c2;
 }
 
 .or {
   padding-top: 10px;
   padding-left: 218px;
-  color: #c3c8cc;
   font: 400 14px / 14px Arial;
+  color: #c3c8cc;
 }
 
 .update-file {
@@ -2682,12 +2681,12 @@ header {
   height: 45px;
   margin-top: 20px;
   margin-left: 120px;
+  font: 400 13px / 14px Arial;
+  line-height: 45px;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background-color: #4e79b3;
-  font: 400 13px / 14px Arial;
-  line-height: 45px;
 }
 
 /*=======================================================*/
@@ -2704,16 +2703,16 @@ header {
   width: 450px;
   height: 180px;
   margin: 20% auto;
+  font: 400 13px / normal "Open Sans", arial;
   text-align: center;
   color: #666;
-  font: 400 13px / normal "Open Sans", arial;
 }
 
 .oops {
   display: block;
+  font: 400 48px / normal "Open Sans", arial;
   text-align: center;
   color: #4978cd;
-  font: 400 48px / normal "Open Sans", arial;
 }
 
 .unlucky-user {
@@ -2725,10 +2724,10 @@ header {
   width: 175px;
   height: 40px;
   margin: 20px auto;
+  font: 400 13px / 40px "Open Sans", arial;
   color: #666;
   border-radius: 5px;
   background: #f7f7f7;
-  font: 400 13px / 40px "Open Sans", arial;
 }
 
 .back-to-main:hover {
@@ -2745,8 +2744,8 @@ header {
 
 .liked-users__title {
   margin: 0 0 20px 0;
-  color: #333;
   font: 400 20px / normal "Open Sans", arial;
+  color: #333;
 }
 
 .close-icon {
@@ -2788,9 +2787,9 @@ header {
   display: block;
   width: 90px;
   height: 20px;
+  font: 400 11px / normal "Open Sans", arial;
   text-align: center;
   color: #666;
-  font: 400 11px / normal "Open Sans", arial;
 }
 
 .show-more-users {
@@ -2798,11 +2797,11 @@ header {
   clear: left;
   width: 460px;
   height: 45px;
+  font: 400 12px / 45px "Open Sans", arial;
   text-align: center;
   color: #8495a5;
   border-radius: 5px;
   background: #e7eaee;
-  font: 400 12px / 45px "Open Sans", arial;
 }
 
 .show-more-users:hover {
@@ -2822,10 +2821,10 @@ header {
   height: 45px;
   margin: 0 0 15px 0;
   padding: 0 0 0 10px;
+  font: 400 13px / 45px "Open Sans", arial;
   color: #fff;
   border-radius: 5px;
   background: #d7565f;
-  font: 400 13px / 45px "Open Sans", arial;
 }
 
 .message-done {
@@ -2833,10 +2832,10 @@ header {
   height: 45px;
   margin: 0 0 15px 0;
   padding: 0 0 0 10px;
+  font: 400 13px / 45px "Open Sans", arial;
   color: #fff;
   border-radius: 5px;
   background: #5693d7;
-  font: 400 13px / 45px "Open Sans", arial;
 }
 
 .close-mini {
@@ -2870,8 +2869,8 @@ header {
   width: 465px;
   height: 20px;
   margin: 0 0 25px 0;
-  color: #333;
   font: 400 20px / 20px "Open Sans", arial;
+  color: #333;
 }
 
 .close {
@@ -2897,20 +2896,20 @@ header {
 }
 
 .user-info__name {
-  color: #333;
   font: 400 15px / normal "Open Sans", arial;
+  color: #333;
 }
 
 .user-info__profession {
-  color: #919191;
   font: 400 13px / normal "Open Sans", arial;
+  color: #919191;
 }
 
 .user-info__status {
   float: right;
   margin: -20px  0 0;
-  color: #919191;
   font: 400 11px / normal "Open Sans", arial;
+  color: #919191;
 }
 
 .message-text {
@@ -2919,11 +2918,11 @@ header {
   height: 155px;
   margin: 0 0 17px 0;
   padding: 10px 10px 20px;
+  font: 400 13px / normal "Open Sans", arial;
   cursor: text;
   color: #666;
   border: 1px solid #d7d7d7;
   box-shadow: 0 0 2px #d7d7d7 inset;
-  font: 400 13px / normal "Open Sans", arial;
 }
 
 .close2 {
@@ -2938,9 +2937,9 @@ header {
 .new-message-footer {
   width: 460px;
   height: 35px;
+  font: 400 13px / 35px "Open Sans", arial;
   text-align: right;
   color: #9a9a9a;
-  font: 400 13px / 35px "Open Sans", arial;
 }
 
 .new-message-footer__send {
@@ -2948,11 +2947,11 @@ header {
   float: left;
   width: 110px;
   height: 35px;
+  font: 400 13px / 35px "Open Sans", arial;
   text-align: center;
   color: #fff;
   border-radius: 5px;
   background: #4a7bba;
-  font: 400 13px / 35px "Open Sans", arial;
 }
 
 .new-message-footer__send:hover {
@@ -2977,20 +2976,20 @@ header {
 }
 
 .redirect-main-header {
+  font-weight: 700;
   text-transform: uppercase;
   color: #333;
-  font-weight: 700;
 }
 
 .redirect-main-link {
-  color: #74aded;
   font-size: 14px;
+  color: #74aded;
 }
 
 .redirect-main-text {
-  color: #727272;
   font-size: 14px;
   line-height: 25px;
+  color: #727272;
 }
 
 .redirect-btns {
@@ -3015,8 +3014,8 @@ header {
 .redirect-btn-back__link {
   display: block;
   margin-top: 11px;
-  color: #fff;
   font-size: 14px;
+  color: #fff;
 }
 
 .redirect-btn-go {
@@ -3034,8 +3033,8 @@ header {
 .redirect-btn-go__link {
   display: block;
   margin-top: 11px;
-  color: #ccc;
   font-size: 14px;
+  color: #ccc;
 }
 
 /*=======================================================*/
@@ -3078,19 +3077,19 @@ header {
   width: 100%;
   height: 50px;
   padding: 0 0 0 19px;
+  font: 14px/51px "Open Sans", arial;
   text-align: left;
   color: #fff;
   border-radius: 3px 3px 0 0;
   background: url("../img/error-window-header.jpg");
-  font: 14px/51px "Open Sans", arial;
 }
 
 .pop-up-window__header-comeback {
   float: right;
   padding: 0 26px 0 0;
+  font: 13px/50px "Open Sans", arial;
   text-decoration: none;
   color: #fff;
-  font: 13px/50px "Open Sans", arial;
 }
 
 .pop-up-window__header-comeback:hover {
@@ -3112,23 +3111,23 @@ header {
   height: 40px;
   margin: 20px auto;
   padding: 0 0 0 12px;
+  font: 13px/40px "Open Sans", arial;
   text-align: left;
   color: #666;
   border: 1px solid #e293d3;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0 0 15px rgba(163, 70, 146,.25), inset 0 1px 3px rgba(0,0,0,.05);
-  font: 13px/40px "Open Sans", arial;
 }
 
 .link-todo {
   width: 410px;
   height: 30px;
   margin: 0 auto 30px;
+  font: 12px/14px "Open Sans", arial;
   text-align: center;
   color: #666;
   border-top: 1px solid #e2e2e2;
-  font: 12px/14px "Open Sans", arial;
 }
 
 .forget-link {
@@ -3136,11 +3135,11 @@ header {
   width: 410px;
   height: 30px;
   margin: 0 auto;
+  font: 12px/19px "Open Sans", arial;
   text-align: center;
   text-decoration: underline solid #d9e2f0;
   color: #427ec1;
   border-top: 1px solid #e2e2e2;
-  font: 12px/19px "Open Sans", arial;
 }
 
 .forget-link:hover {
@@ -3154,8 +3153,8 @@ header {
 }
 
 .invite-checkbox__label {
-  color: #666;
   font: 12px "Open Sans", arial;
+  color: #666;
 }
 
 .invite-rules__link {
@@ -3179,13 +3178,13 @@ header {
 .link-for-invite__link,
 .link-for-photo {
   display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #666;
   font-family: Arial;
   font-size: 13px;
   font-weight: bold;
   line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
 }
 
 .invite-checkbox + label {
@@ -3223,10 +3222,10 @@ header {
 .invite-text {
   width: 410px;
   margin: 0 auto;
-  text-align: center;
-  color: #666;
   font-family: "Open Sans", arial;
   font-size: 12px;
+  text-align: center;
+  color: #666;
 }
 
 .invite-link-forgot {
@@ -3234,10 +3233,10 @@ header {
 }
 
 .invite-link-for__link {
-  text-decoration: underline;
-  color: #427ec1;
   font-family: "Open Sans", arial;
   font-size: 12px;
+  text-decoration: underline;
+  color: #427ec1;
 }
 
 .pop-up-name-field {
@@ -3250,6 +3249,7 @@ header {
   height: 40px;
   margin: 10px auto;
   padding: 0 0 0 14px;
+  font: 13px/40px "Open Sans", arial;
   text-align: left;
   color: #666;
   border: 1px solid #d5d5d5;
@@ -3257,7 +3257,6 @@ header {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background: #fff;
-  font: 13px/40px "Open Sans", arial;
 }
 
 .pop-up-name-field-iconblock {
@@ -3295,9 +3294,9 @@ header {
 
 .pop-up-name-field__descr {
   margin: 9px 0 -9px 21px;
-  color: #999;
   font-family: "Open Sans", arial;
   font-size: 12px;
+  color: #999;
 }
 
 .link-for-signup {
@@ -3317,13 +3316,13 @@ header {
 
 .link-for-end {
   display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
   font-family: "Open Sans", arial;
   font-size: 13px;
   font-weight: bold;
   line-height: 45px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
 }
 
 /*=======================================================*/
@@ -3375,8 +3374,8 @@ header {
   width: 200px;
   height: 40px;
   padding-left: 4px;
-  color: #333;
   font: 400 13px / 40px Arial;
+  color: #333;
 }
 
 .graphics-user-menu__item:hover {
@@ -3444,8 +3443,8 @@ header {
 
 .subheader-best-of-date__heading {
   margin: 0;
-  color: #fff;
   font: 400 16px / normal "Open Sans light", arial;
+  color: #fff;
 }
 
 .date {
@@ -3488,10 +3487,10 @@ header {
   right: 0;
   width: 35px;
   height: 140px;
-  text-align: center;
-  background: rgba(0,0,0,.3);
   font-size: 30px;
   line-height: 140px;
+  text-align: center;
+  background: rgba(0,0,0,.3);
 }
 
 .next-btn__icon {
@@ -3524,10 +3523,10 @@ header {
 
 .subheader-content h2 {
   margin-top: 35px;
-  color: #fff;
   font-family: "Open Sans light", arial;
   font-size: 16px;
   line-height: 16px;
+  color: #fff;
 }
 
 .item {
@@ -3540,8 +3539,8 @@ header {
 .item-header,
 .person__name {
   float: left;
-  color: #fff;
   font: 700 13px / normal Arial;
+  color: #fff;
 }
 
 .item-rating {
@@ -3550,18 +3549,18 @@ header {
   display: inline-block;
   margin-left: 10px;
   padding-left: 8px;
-  color: #a4c549;
   font-family: "Arial";
   font-size: 12px;
+  color: #a4c549;
 }
 
 .item-rating__number {
   position: absolute;
   top: -12px;
   margin-left: 10px;
-  color: #a4c549;
   font-family: "Arial";
   font-size: 12px;
+  color: #a4c549;
 }
 
 .item-rating:before {
@@ -3589,9 +3588,9 @@ header {
 
 .item-category__link,
 .person__amount {
-  color: #c4c7ca;
   font-family: "Arial";
   font-size: 12px;
+  color: #c4c7ca;
 }
 
 .graphics-authors {
@@ -3684,9 +3683,9 @@ header {
   float: left;
   width: 55px;
   height: 13px;
+  font: 900 12px / 13px arial;
   color: #e45e77;
   background: #fff;
-  font: 900 12px / 13px arial;
 }
 
 .content-item__like:before {
@@ -3703,9 +3702,9 @@ header {
   float: left;
   width: 65px;
   height: 13px;
+  font: 400 12px / 13px arial;
   color: #8a8a8a;
   background: #fff;
-  font: 400 12px / 13px arial;
 }
 
 .content-item__views:before {
@@ -3722,9 +3721,9 @@ header {
   float: left;
   width: 65px;
   height: 13px;
+  font: 400 12px / 13px arial;
   color: #8a8a8a;
   background: #fff;
-  font: 400 12px / 13px arial;
 }
 
 .content-item__comments:before {
@@ -3763,30 +3762,30 @@ header {
 
 .content-item__author-link {
   float: left;
-  color: #6493cf;
   font: 400 13px / normal arial;
+  color: #6493cf;
 }
 
 .content-item__title {
   display: inline-block;
   margin: 8px 0 0 0;
+  font: 900 14px / normal arial;
   text-transform: capitalize;
   color: #333;
-  font: 900 14px / normal arial;
 }
 
 .content-item__date {
   display: inline-block;
   margin: 8px 0 0 0;
-  color: #929292;
   font: 900 12px / normal arial;
+  color: #929292;
 }
 
 .content-item__preview {
   display: inline-block;
   margin: 8px 0 0 0;
-  color: #929292;
   font: 400 12px / normal arial;
+  color: #929292;
 }
 
 .content-item__btn {
@@ -3794,11 +3793,11 @@ header {
   width: 220px;
   height: 40px;
   margin: 8px 0 0 0;
+  font: 400 13px / 40px arial;
   text-align: center;
   color: #f4f6f8;
   border-radius: 5px;
   background: #71a0da;
-  font: 400 13px / 40px arial;
 }
 
 .content-item__btn:hover {
@@ -3811,16 +3810,17 @@ header {
   float: left;
   width: 109px;
   height: 31px;
+  font: 400 13px / 30px Arial;
   text-align: center;
   color: #acacac;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background: #f5f5f5;
-  font: 400 13px / 30px Arial;
 }
 
 .previous-page:hover,
 .next-page:hover {
+  font: 400 13px / 30px Arial;
   text-align: center;
   color: #fff;
   color: #fff;
@@ -3828,7 +3828,6 @@ header {
   border: 1px solid #71a5da;
   border-radius: 3px;
   background: #71a5da;
-  font: 400 13px / 30px Arial;
 }
 
 
@@ -3836,8 +3835,8 @@ header {
   display: block;
   width: 20px;
   height: 30px;
-  color: #333;
   font: 400 13px / 30px Arial;
+  color: #333;
 }
 
 
@@ -3855,9 +3854,9 @@ header {
 .sidebar-navigation {
   margin: 5px 0 0;
   padding: 0;
+  font: 400 18px "Open Sans", arial;
   list-style: none;
   color: #333;
-  font: 400 18px "Open Sans", arial;
 }
 
 .sidebar-navigation__icon1 {
@@ -3874,12 +3873,12 @@ header {
   width: 19px;
   height: 19px;
   margin: 10px 0 0 0;
+  font-size: 12px;
+  line-height: 19px;
   text-align: center;
   color: #fff;
   border-radius: 3px;
   background: #74aded;
-  font-size: 12px;
-  line-height: 19px;
 }
 
 .sidebar-navigation__number {
@@ -3887,11 +3886,11 @@ header {
   width: 19px;
   height: 19px;
   margin: 10px 2px 0 0;
+  font-size: 12px;
+  line-height: 19px;
   text-align: center;
   border-radius: 3px;
   background: transparent;
-  font-size: 12px;
-  line-height: 19px;
 }
 
 .sidebar-navigation__icon2 {
@@ -3964,11 +3963,11 @@ header {
   width: 220px;
   height: 36px;
   padding-left: 30px;
+  font: 400 13px / 36px "Open Sans", arial;
   text-align: left;
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: 1px solid #f0f0f0;
-  font: 400 13px / 36px "Open Sans", arial;
 }
 
 .sidebar-navigation__links:hover {
@@ -3982,12 +3981,12 @@ header {
   width: 220px;
   height: 38px;
   padding-left: 30px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: none;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .sidebar-navigation__links-last:hover {
@@ -3997,16 +3996,16 @@ header {
 .sidebar-sorting {
   margin: 12px 0 34px 0;
   padding: 0;
+  font: 400 18px "Open Sans", arial;
   list-style: none;
   color: #333;
-  font: 400 18px "Open Sans", arial;
 }
 
 .sidebar-sorting__item {
   height: 20px;
   margin: 0;
-  color: #333;
   font: 400 13px / 20px "Open Sans", arial;
+  color: #333;
 }
 
 .sidebar-sorting__links {
@@ -4016,12 +4015,12 @@ header {
   width: 220px;
   height: 38px;
   padding-left: 30px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: 1px solid #f0f0f0;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .select-cover {
@@ -4041,11 +4040,11 @@ header {
   width: 240px;
   height: 36px;
   margin: 0;
+  font-size: 13px;
   color: #707070;
   border: none;
   border-radius: 5px;
   background: transparent;
-  font-size: 13px;
 }
 
 .triangle {
@@ -4062,9 +4061,9 @@ header {
 .sidebar-activity {
   margin: 10px 0 26px 0;
   padding: 0;
+  font: 400 18px / normal "Open Sans", arial;
   list-style: none;
   color: #333;
-  font: 400 18px / normal "Open Sans", arial;
 }
 
 .sidebar-activity__item {
@@ -4081,9 +4080,9 @@ header {
 .sidebar-activity__item-nikname {
   display: inline-block;
   margin: 8px 0 12px 0;
+  font: 400 13px / normal arial;
   text-decoration: underline;
   color: #3676b1;
-  font: 400 13px / normal arial;
 }
 
 .sidebar-activity__item-nikname:hover {
@@ -4093,15 +4092,15 @@ header {
 .sidebar-activity__item-author {
   overflow: hidden;
   height: 20px;
-  color: #666;
   font: 400 13px / 20px arial;
+  color: #666;
 }
 
 .sidebar-activity__item-text {
   margin: 3px 0 0 0;
   padding: 0 0 0 30px;
-  color: #666;
   font: 400 12px / normal arial;
+  color: #666;
 }
 
 .sidebar-activity__item-author img {
@@ -4113,8 +4112,8 @@ header {
   overflow: hidden;
   height: 20px;
   margin: 0 0 8px 0;
-  color: #666;
   font: 400 13px / 20px arial;
+  color: #666;
 }
 
 .sidebar-activity__item-author-like img {
@@ -4133,28 +4132,28 @@ header {
 .sidebar-help {
   margin: 0 0 28px;
   padding: 0;
-  list-style: none;
   font: 400 18px / .9em "Open Sans", arial;
+  list-style: none;
 }
 
 .sidebar-help__description {
   width: 220px;
   margin: 15px 0 15px 0;
-  color: #333;
   font-size: 13px;
+  color: #333;
 }
 
 .sidebar-help__donate {
   display: block;
   width: 220px;
   height: 45px;
+  font-size: 13px;
+  line-height: 45px;
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   border-radius: 5px;
   background: #8ecf6e;
-  font-size: 13px;
-  line-height: 45px;
 }
 
 .sidebar-help__donate:hover {
@@ -4172,9 +4171,9 @@ header {
 .sidebar-social {
   margin: 5px 0 16px 0;
   padding: 0;
+  font-family: "Open Sans";
   list-style: none;
   color: #333;
-  font-family: "Open Sans";
 }
 
 .sidebar-social__icon1,
@@ -4218,12 +4217,12 @@ header {
   width: 220px;
   height: 36px;
   padding-left: 30px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: none;
   color: #666;
   border-bottom: 1px solid #f0f0f0;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .sidebar-social__item:hover {
@@ -4237,12 +4236,12 @@ header {
   width: 220px;
   height: 38px;
   padding-left: 30px;
+  font-size: 13px;
+  line-height: 38px;
   text-align: left;
   text-decoration: none;
   color: #666;
   border-bottom: none;
-  font-size: 13px;
-  line-height: 38px;
 }
 
 .sidebar-social__item-last:hover {
@@ -4253,11 +4252,11 @@ header {
   width: 220px;
   margin: 26px 0 0 0;
   padding: 0;
+  font-family: "Open Sans";
+  font-size: 13px;
   list-style: none;
   text-align: center;
   color: #999;
-  font-family: "Open Sans";
-  font-size: 13px;
 }
 
 .makers {
@@ -4271,9 +4270,9 @@ header {
   float: left;
   margin: 0 10px 0 0;
   margin: 0 -20px 0 33px;
+  font-size: 11px;
   text-decoration: none;
   color: #999;
-  font-size: 11px;
 }
 
 .footer__link:hover {
@@ -4301,20 +4300,20 @@ header {
 .article-add__block > h2 {
   width: 186px !important;
   height: 18px;
-  color: #333;
   font: 18px "Open Sans";
+  color: #333;
 }
 
 .add-form_btn {
   float: left;
   width: 145px;
   height: 34px;
+  font: 400 13px Arial;
+  line-height: 34px;
   text-align: center;
   color: #747d8a;
   border-radius: 3px;
   background-color: #e3e8ee;
-  font: 400 13px Arial;
-  line-height: 34px;
 }
 
 .add-rules_btn {
@@ -4322,11 +4321,11 @@ header {
   width: 145px;
   height: 34px;
   margin-left: 10px;
+  font: 13px Arial;
+  line-height: 34px;
   text-align: center;
   color: #747d8a;
   border-radius: 3px;
-  font: 13px Arial;
-  line-height: 34px;
 }
 
 .add-rules_btn:hover {
@@ -4344,9 +4343,9 @@ header {
   height: 45px;
   margin: 22px 0 0 0;
   padding: 0 0 0 16px;
+  font: 400 13px /43px "Open Sans";
   resize: none;
   border: 1px solid #dbdbdb;
-  font: 400 13px /43px "Open Sans";
 }
 
 .add-article_heading2 {
@@ -4355,14 +4354,14 @@ header {
   height: 45px;
   margin: 8px 0 0 0;
   padding: 0 0 0 16px;
+  font: 400 13px/43px "Open Sans";
   resize: none;
   border: 1px solid #dbdbdb;
-  font: 400 13px/43px "Open Sans";
 }
 
 ::-webkit-input-placeholder {
-  color: #666;
   font: 400 13px "Open Sans";
+  color: #666;
 }
 
 .list_icon {
@@ -4390,10 +4389,10 @@ header {
   width: 239px;
   height: 45px;
   margin: 22px 0 0 8px;
+  font: 13px "Open Sans";
   color: #707070;
   border: 1px solid #dbdbdb;
   background-color: #f8f8f8;
-  font: 13px "Open Sans";
 }
 
 .select-category__menu {
@@ -4401,12 +4400,12 @@ header {
   width: 260px;
   height: 45px;
   padding: 0 0 0 15px;
+  font-size: 13px;
   cursor: pointer;
   color: #707070;
   border: none;
   border-radius: 5px;
   background: transparent;
-  font-size: 13px;
 }
 
 .img-upload_field {
@@ -4428,14 +4427,14 @@ header {
   width: 207px;
   height: 40px;
   margin: -130px 0 0 248px;
+  font: 14px Arial;
   text-align: center;
   color: #93a4b5;
-  font: 14px Arial;
 }
 
 .upload_description span {
-  color: #c3c8cc;
   font: 14px Arial;
+  color: #c3c8cc;
 }
 
 .input-wrapper {
@@ -4444,16 +4443,16 @@ header {
   width: 230px;
   height: 45px;
   margin: 24px 0 0 240px;
+  font: 400 13px / 14px Arial;
   color: #fff;
   border-radius: 3px;
   background: #4e79b3;
   box-shadow: 0 1px 1px #3e689f;
-  font: 400 13px / 14px Arial;
 }
 
 .choose-phography {
-  text-align: center;
   font: 400 13px/45px arial;
+  text-align: center;
 }
 
 input[name="graphics-add-upload"] {
@@ -4496,8 +4495,8 @@ input[name="graphics-add-upload"] {
   width: 67px;
   height: 13px;
   margin: 16px 0 0 -5px;
-  color: #333;
   font: 700 13px Arial;
+  color: #333;
 }
 
 /*=======================================================*/
@@ -4528,31 +4527,31 @@ input[name="graphics-add-upload"] {
 .article-add__block > h2 {
   width: 170px;
   height: 18px;
-  color: #333;
   font: 18px "Open Sans";
+  color: #333;
 }
 
 .add-form_btn {
   float: left;
   width: 145px;
   height: 34px;
+  font: 400 13px Arial;
+  line-height: 34px;
   text-align: center;
   color: #747d8a;
   border-radius: 3px;
   background-color: #e3e8ee;
-  font: 400 13px Arial;
-  line-height: 34px;
 }
 
 .add-rules_btn {
   display: inline-block;
   width: 145px;
   height: 34px;
+  font: 13px Arial;
+  line-height: 34px;
   text-align: center;
   color: #747d8a;
   border-radius: 3px;
-  font: 13px Arial;
-  line-height: 34px;
 }
 
 .add-rules_btn:hover {
@@ -4570,8 +4569,8 @@ input[name="graphics-add-upload"] {
   height: 45px;
   margin: 22px 0 0 0;
   padding: 0 0 0 16px;
-  border: 1px solid #dbdbdb;
   font: 13px "Open Sans";
+  border: 1px solid #dbdbdb;
 }
 
 .add-article-heading2 {
@@ -4580,13 +4579,13 @@ input[name="graphics-add-upload"] {
   height: 45px;
   margin: 8px 0 0 0;
   padding: 0 0 0 16px;
-  border: 1px solid #dbdbdb;
   font: 13px "Open Sans";
+  border: 1px solid #dbdbdb;
 }
 
 ::-webkit-input-placeholder {
-  color: #666;
   font: 400 13px "Open Sans";
+  color: #666;
 }
 
 .list_icon {
@@ -4612,10 +4611,10 @@ input[name="graphics-add-upload"] {
   width: 239px;
   height: 45px;
   margin: 22px 0 0 8px;
+  font: 13px "Open Sans";
   color: #707070;
   border: 1px solid #dbdbdb;
   background-color: #f8f8f8;
-  font: 13px "Open Sans";
 }
 
 .choose-category_list2 {
@@ -4627,12 +4626,12 @@ input[name="graphics-add-upload"] {
   width: 260px;
   height: 45px;
   padding: 0 0 0 15px;
+  font-size: 13px;
   cursor: pointer;
   color: #707070;
   border: none;
   border-radius: 5px;
   background: transparent;
-  font-size: 13px;
 }
 
 .triangle-content {
@@ -4676,8 +4675,8 @@ input[name="graphics-add-upload"] {
   width: 120px;
   height: 45px;
   margin: 0 15px 0 0;
-  color: #666;
   font: 400 12px / 45px arial;
+  color: #666;
 }
 
 .symbol1 {
@@ -4812,10 +4811,10 @@ input[name="graphics-add-upload"] {
   height: 40px;
   margin: 20px 10px 0 0;
   padding: 0 0 0 35px;
+  font: 400 13px / 40px Arial;
   color: #fff;
   border-radius: 3px;
   background: #719bda;
-  font: 400 13px / 40px Arial;
 }
 
 .article_publish-btn:hover {
@@ -4837,10 +4836,10 @@ input[name="graphics-add-upload"] {
   height: 40px;
   margin: 20px 10px 0 0;
   padding: 0 0 0 35px;
+  font: 400 13px / 40px Arial;
   color: #fff;
   border-radius: 3px;
   background: #94cc2e;
-  font: 400 13px / 40px Arial;
 }
 
 .article_preview-btn:hover {
@@ -4881,8 +4880,8 @@ input[name="graphics-add-upload"] {
   width: 67px;
   height: 13px;
   margin: 16px 0 0 -5px;
-  color: #333;
   font: 700 13px Arial;
+  color: #333;
 }
 
 /*=======================================================*/
@@ -4899,9 +4898,9 @@ input[name="graphics-add-upload"] {
   height: 60px;
   margin: 0 0 -60px 155px;
   padding: 20px 0 0 30px;
+  font: 400 13px "Open Sans";
   color: #fff;
   background-color: rgba(0, 0, 0, .13);
-  font: 400 13px "Open Sans";
 }
 
 .triangle-rotated {
@@ -4926,8 +4925,8 @@ input[name="graphics-add-upload"] {
 .article-name {
   float: left;
   margin: 0 0 0 0;
-  color: #333;
   font: 300 18px / 22px "Open Sans", arial;
+  color: #333;
 }
 
 .article1 {
@@ -4940,11 +4939,11 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   margin: 0 0 5px 11px;
   padding: 1px 5px;
+  font: 400 13px / 20px Arial;
   vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background-color: #71a7da;
-  font: 400 13px / 20px Arial;
 }
 
 .article-tags li {
@@ -4956,20 +4955,20 @@ input[name="graphics-add-upload"] {
 
 .tag {
   padding: 4px 10px;
+  font: 400 13px / 22px Arial;
   color: #868686;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background-color: #f8f8f8;
-  font: 400 13px / 22px Arial;
 }
 
 .tag:hover {
   padding: 4px 10px;
+  font: 400 13px / 22px Arial;
   color: #fff;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background-color: #71a6da;
-  font: 400 13px / 22px Arial;
 }
 
 .article-author {
@@ -4986,25 +4985,25 @@ input[name="graphics-add-upload"] {
 .article-author-name {
   display: inline-block;
   margin-left: 5px;
+  font: 700 13px Arial;
   vertical-align: top;
   color: #3b3b3b;
-  font: 700 13px Arial;
 }
 
 .article_post-time {
   display: block;
   float: right;
   margin: -24px 42px 0 0;
-  color: #757575;
   font: 12px Arial;
+  color: #757575;
 }
 
 .article-text {
   clear: left;
   width: 710px;
   margin: 0 0 0 0;
-  color: #484747;
   font: 400 13px / 22px "Open Sans", arial;
+  color: #484747;
 }
 
 .article-text a {
@@ -5021,13 +5020,13 @@ input[name="graphics-add-upload"] {
 }
 
 .article-text h3 {
-  color: #448acd;
   font: 20px / 22px "Open Sans", arial;
+  color: #448acd;
 }
 
 .article-text h4 {
-  color: #6e7987;
   font: 700 13px / 22px "Open Sans", arial;
+  color: #6e7987;
 }
 
 .article-text h4::before {
@@ -5037,14 +5036,14 @@ input[name="graphics-add-upload"] {
 }
 
 .task1_text {
-  color: #6e7987;
   font: 400 13px / 20px "Open Sans", arial;
+  color: #6e7987;
 }
 
 .task_solution {
+  font: 400 13px / 22px "Open Sans", arial;
   color: #4985d1;
   border-bottom: 1px dashed #4084c4;
-  font: 400 13px / 22px "Open Sans", arial;
 }
 
 .article_bottom-nav {
@@ -5091,11 +5090,11 @@ input[name="graphics-add-upload"] {
   height: 38px;
   margin: -1px 0 0 0;
   padding-top: 8px;
+  font: 700 13px / 22px Arial;
   text-align: center;
   color: #5fac39;
   border: 1px solid #e3e3e3;
   background-color: #fff;
-  font: 700 13px / 22px Arial;
 }
 
 .dislike {
@@ -5135,8 +5134,8 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   width: 83px;
   height: 11px;
-  color: #a3a1a1;
   font: 400 13px / 22px Arial;
+  color: #a3a1a1;
 }
 
 .comments-number:before {
@@ -5153,8 +5152,8 @@ input[name="graphics-add-upload"] {
   width: 46px;
   height: 11px;
   margin-left: 8px;
-  color: #a3a1a1;
   font: 400 13px / 22px Arial;
+  color: #a3a1a1;
 }
 
 .social-btns {
@@ -5176,12 +5175,12 @@ input[name="graphics-add-upload"] {
   height: 24px;
   margin-right: -9px;
   padding: 4px 0 0 0;
+  font-family: sans-serif;
+  font-size: 13px;
   vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #48729e;
-  font-family: sans-serif;
-  font-size: 13px;
 }
 
 .vk-btn_pic {
@@ -5214,12 +5213,12 @@ input[name="graphics-add-upload"] {
   width: 40px;
   height: 24px;
   padding: 4px 0 0 5px;
+  font-family: sans-serif;
+  font-size: 13px;
   vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #00aced;
-  font-family: sans-serif;
-  font-size: 13px;
 }
 
 .tw-btn-pic {
@@ -5255,8 +5254,8 @@ input[name="graphics-add-upload"] {
 
 .comments_heading {
   margin: 28px 0 30px 0;
-  color: #333;
   font: 600 16px / 18px Arial;
+  color: #333;
 }
 
 .comment_input {
@@ -5264,9 +5263,9 @@ input[name="graphics-add-upload"] {
   height: 50px;
   margin: 0 0 0 14px;
   padding: 0 0 18px 10px;
+  font: 400 12px / 18px Arial;
   color: #999;
   border: 1px solid #dcdcdc;
-  font: 400 12px / 18px Arial;
 }
 
 .comment_person {
@@ -5294,26 +5293,26 @@ input[name="graphics-add-upload"] {
 
 .commenter_name {
   display: block;
-  color: #4f7ab4;
   font: 700 12px / 18px Arial;
+  color: #4f7ab4;
 }
 
 .commenter_name::after {
   content: "15:29, 18 сен";
   margin-left: 12px;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .comment_text {
-  color: #666;
   font: 400 12px / 18px Arial;
+  color: #666;
 }
 
 .comment_menu > a {
   display: inline-block;
-  color: #999;
   font: 400 11px / 18px Arial;
+  color: #999;
 }
 
 .point {
@@ -5350,8 +5349,8 @@ input[name="graphics-add-upload"] {
 
 .edit-delete_btns a {
   margin: 0 0 0 0;
-  color: #7396c1;
   font: 400 13px / 22px Arial;
+  color: #7396c1;
 }
 
 .delete_btn:hover,
@@ -5382,8 +5381,8 @@ input[name="graphics-add-upload"] {
   width: 110px;
   height: 11px;
   margin: -18px 0 0 0;
-  color: #b1c0c8;
   font: 400 11px / 18px Arial;
+  color: #b1c0c8;
 }
 
 .ilike_btn-number span {
@@ -5434,10 +5433,10 @@ input[name="graphics-add-upload"] {
 
 .subheader-content h2 {
   margin-top: 35px;
-  color: #fff;
   font-family: "Open Sans light", arial;
   font-size: 16px;
   line-height: 16px;
+  color: #fff;
 }
 
 .item {
@@ -5459,18 +5458,18 @@ input[name="graphics-add-upload"] {
   display: inline-block;
   margin-left: 10px;
   padding-left: 8px;
-  color: #a4c549;
   font-family: "Arial";
   font-size: 12px;
+  color: #a4c549;
 }
 
 .item-rating__number {
   position: absolute;
   top: -12px;
   margin-left: 10px;
-  color: #a4c549;
   font-family: "Arial";
   font-size: 12px;
+  color: #a4c549;
 }
 
 .item-rating:before {
@@ -5494,9 +5493,9 @@ input[name="graphics-add-upload"] {
 
 .item-category__link,
 .person__amount {
-  color: #c4c7ca;
   font-family: "Arial";
   font-size: 12px;
+  color: #c4c7ca;
 }
 
 .authors {
@@ -5549,8 +5548,8 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 420px;
   margin: 0 0 20px 0;
-  color: #333;
   font: 300 18px / 22px "Open Sans";
+  color: #333;
 }
 
 .article-tags {
@@ -5572,10 +5571,10 @@ input[name="graphics-add-upload"] {
   width: 150px;
   height: 40px;
   padding: 12px 12px 12px 12px;
+  font: 400 13px / 22px Arial;
   color: #fff;
   border-radius: 3px;
   background: #71a5da;
-  font: 400 13px / 22px Arial;
 }
 
 .read-continue:hover {
@@ -5605,12 +5604,12 @@ input[name="graphics-add-upload"] {
   height: 24px;
   margin: 0 0 0 10px;
   padding: 4px 4px 0 4px;
+  font-family: sans-serif;
+  font-size: 13px;
   vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #3c5a98;
-  font-family: sans-serif;
-  font-size: 13px;
 }
 
 .fb-btn-pic2 {
@@ -5626,12 +5625,12 @@ input[name="graphics-add-upload"] {
   width: 40px;
   height: 24px;
   padding: 4px 0 0 5px;
+  font-family: sans-serif;
+  font-size: 13px;
   vertical-align: top;
   color: #fff;
   border-radius: 3px;
   background: #c25234;
-  font-family: sans-serif;
-  font-size: 13px;
 }
 
 .google-btn_pic2 {
@@ -5666,31 +5665,31 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 109px;
   height: 31px;
+  font: 400 13px / 30px Arial;
   text-align: center;
   color: #acacac;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background: #f5f5f5;
-  font: 400 13px / 30px Arial;
 }
 
 .previous-page:hover {
   width: 109px;
   height: 31px;
+  font: 400 13px / 30px Arial;
   text-align: center;
   color: #fff;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background: #71a5da;
-  font: 400 13px / 30px Arial;
 }
 
 .page_btn {
   display: block;
   width: 20px;
   height: 30px;
-  color: #333;
   font: 400 13px / 30px Arial;
+  color: #333;
 }
 
 .page-numbers {
@@ -5726,12 +5725,12 @@ input[name="graphics-add-upload"] {
   float: left;
   width: 109px;
   height: 33px;
+  font: 400 13px / 33px Arial;
   text-align: center;
   color: #acacac;
   border: 1px solid #e3e3e3;
   border-radius: 3px;
   background: #f5f5f5;
-  font: 400 13px / 33px Arial;
 }
 
 .next-page:hover {
