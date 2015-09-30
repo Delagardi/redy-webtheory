@@ -1711,20 +1711,20 @@ header {
 
 .redact {
   display: block;
-  margin: 0 -35px 0  0; 
+  float: right;
   width: 40px;
   height: 10px;
+  margin: 0 -35px 0  0;
+  color: #9d9d9d;
   background: rgba(0, 0, 0, 0);
   font: 400 11px Arial;
-  color: #9d9d9d;
-  float: right;
 }
 
 .redact-icon {
   display: inline-block;
-  margin: 0 0 0 6px;
   width: 10px;
   height: 10px;
+  margin: 0 0 0 6px;
   background: url("../img/sprite-main.png") no-repeat -378px -76px;
 }
 
@@ -3194,16 +3194,16 @@ header {
 
 .invite-checkbox:not(checked) {
   position: absolute;
-  opacity: 0;
   top: 10px;
   left: 36px;
+  opacity: 0;
 }
 
 .invite-checkbox:not(checked) + label {
   position: relative;
   display: block;
-  line-height: 25px;
   padding: 7px 0 0 31px;
+  line-height: 25px;
 }
 
 .invite-checkbox:not(checked) + label:before {
@@ -3757,8 +3757,8 @@ header {
 
 .content-item__author img {
   float: left;
-  margin: 0 8px 0 0;
   width: 15px;
+  margin: 0 8px 0 0;
 }
 
 .content-item__author-link {
@@ -4190,7 +4190,7 @@ header {
 }
 
 .sidebar-social__icon1 {
-  top:10px;
+  top: 10px;
   height: 18px;
   background: url("../img/sprite-main.png") no-repeat -190px 0;
 }
