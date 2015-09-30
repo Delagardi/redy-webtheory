@@ -1,10 +1,12 @@
 @font-face {
   font-family: "PFBeauSansPro";
+
   src: url("../fonts/PFBeauSansPro.ttf");
 }
 
 @font-face {
   font-family: "Open Sans";
+
   src: url("../fonts/OpenSans.ttf");
 }
 

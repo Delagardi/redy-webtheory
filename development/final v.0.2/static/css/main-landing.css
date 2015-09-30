@@ -371,8 +371,8 @@ header {
   height: 35px;
   margin: 75px auto 0;
   font: bold 27px / 38px "Open Sans", arial;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
 } 
 
@@ -456,8 +456,8 @@ header {
 }
 
 .content-list-item__img1 {
-  background: url("../img/sprite-lp.png") 0 0;
   margin-left: 110px;
+  background: url("../img/sprite-lp.png") 0 0;
 }
 
 .content-list-item__img2 {
@@ -467,14 +467,14 @@ header {
 
 .content-list-item__img3 {
   width: 105px;
-  background: url("../img/sprite-lp.png") -199px 0;
   margin-left: 112px;
+  background: url("../img/sprite-lp.png") -199px 0;
 }
 
 .content-list-item__img4 {
   width: 96px;
   height: 129px;
-  margin-left: 107px; 
+  margin-left: 107px;
   background: url("../img/sprite-lp.png") -304px 0;
 }
 
@@ -541,12 +541,12 @@ header {
   width: 310px;
   height: 130px;
   margin: 0 auto;
-  background: #fff;
-  text-align: center;
-  border: 1px solid #e3eaed;
   padding: 20px 15px;
   font: 400 13px "Open Sans", arial;
+  text-align: center;
   color: #666;
+  border: 1px solid #e3eaed;
+  background: #fff;
 }
 
 .education-video-text__heading {
@@ -556,15 +556,15 @@ header {
 
 .education-about {
   float: right;
-  height: 345px;
   width: 370px;
+  height: 345px;
   font: 400 13px / 1.5em "Open Sans", arial;
 }
 
 .education-about ul {
-  list-style: disc;
-  padding: 0 0 0 25px;
   margin: 15px 0;
+  padding: 0 0 0 25px;
+  list-style: disc;
 }
 
 .education-about__title-main {
@@ -652,8 +652,8 @@ header {
 .landing-footer {
   min-width: 960px;
   height: 40px;
-  padding: 0;
   margin: 63px 0 0 0;
+  padding: 0;
   border-top: 1px solid #e4e4e4;
   background: #f5f5f5;
 }
@@ -767,7 +767,7 @@ input[name="password"] {
   background: url("../img/sprite-lp.png") no-repeat -670px 0 ;
 }
 
-.email-icon:before  {
+.email-icon:before {
   content: " ";
   display: block;
   width: 12px;
