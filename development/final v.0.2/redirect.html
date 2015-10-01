@@ -2,23 +2,23 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>hmmm</title>
+  <title>Cсылка ведет на подозрительный сайт | webtheory </title>
   <link rel="stylesheet" href="static/css/main.css">
 </head>
 <body>
-  <div class="redirect-main">
-    <h1 class="redirect-main-header">Подозрительный сайт</h1>
-    <a class="redirect-main-link" href="#">http://mysite.ucoz.com</a>
-    <p class="redirect-main-text">
+  <div class="redirect-wrapper">
+    <h1 class="redirect-header">Подозрительный сайт</h1>
+    <span class="redirect-link">http://mysite.ucoz.com</span>
+    <p class="redirect-text">
       Данный сайт может содержать вирусы и различные вредоносные программы. 
       Администрация сайта webtheory.net не несёт ответственности за контент данного сайта.
       Кроме того, мы рекомендуем не указывать ваши данные, имеющие отношение к webtheory 
       (имя пользователя, пароль), на сторонних сайтах.
     </p>
-    <div class="redirect-btns">
-      <div class="redirect-btn-back"><a class="redirect-btn-back__link" href="#">Вернуться назад</a></div>
-      <div class="redirect-btn-go"><a class="redirect-btn-go__link" href="#">Перейти на сайт</a></div>
-    </div>
+    <ul class="redirect-actions">
+      <li class="redirect-action-cancel"><a class="redirect-action-cancel__link" href="#">Вернуться назад</a></li>
+      <li class="redirect-action-confirm"><a class="redirect-action-confirm__link" href="http://mysite.ucoz.com">Перейти на сайт</a></li>
+    </ul>
   </div>
 </body>
 </html>

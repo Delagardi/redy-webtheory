@@ -2969,36 +2969,36 @@ header {
 /*=======================================================*/
 
 
-.redirect-main {
+.redirect-wrapper {
   width: 650px;
   margin: 21% auto;
   text-align: center;
 }
 
-.redirect-main-header {
+.redirect-header {
   font-weight: 700;
   text-transform: uppercase;
   color: #333;
 }
 
-.redirect-main-link {
+.redirect-link {
   font-size: 14px;
   color: #74aded;
 }
 
-.redirect-main-text {
+.redirect-text {
   font-size: 14px;
   line-height: 25px;
   color: #727272;
 }
 
-.redirect-btns {
+.redirect-actions {
   width: 390px;
   margin: 0 auto;
   padding-top: 20px;
 }
 
-.redirect-btn-back {
+.redirect-action-cancel {
   display: inline-block;
   float: left;
   width: 180px;
@@ -3007,18 +3007,18 @@ header {
   background: #74aded;
 }
 
-.redirect-btn-back:hover {
+.redirect-action-cancel:hover {
   background: #5c91ce;
 }
 
-.redirect-btn-back__link {
+.redirect-action-cancel__link {
   display: block;
   margin-top: 11px;
   font-size: 14px;
   color: #fff;
 }
 
-.redirect-btn-go {
+.redirect-action-confirm {
   display: inline-block;
   width: 180px;
   height: 45px;
@@ -3026,11 +3026,11 @@ header {
   border-radius: 3px;
 }
 
-.redirect-btn-go:hover {
+.redirect-action-confirm:hover {
   background: #f1f1f1;
 }
 
-.redirect-btn-go__link {
+.redirect-action-confirm__link {
   display: block;
   margin-top: 11px;
   font-size: 14px;
@@ -3038,7 +3038,7 @@ header {
 }
 
 /*=======================================================*/
-/* Redirect START */
+/* Redirect END */
 /*=======================================================*/
 
 
