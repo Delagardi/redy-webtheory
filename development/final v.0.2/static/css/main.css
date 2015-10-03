@@ -2576,35 +2576,25 @@ header {
 /* Profile-update-photo, --//-- error START*/
 /*=======================================================*/
 
-.profile_update-photo {
+.dialogue-box {
   width: 515px;
   height: 490px;
-  margin: 665px 0 0 382px;
+  margin: 0 auto;
 }
 
-.error {
+.dialogue-error {
   display: block;
+  margin: 0 auto 15px;
+  padding: 0 0 0 19px;
   width: 515px;
   height: 45px;
-  margin-bottom: 15px;
-  padding-top: 13px;
-  font: 400 13px / 18px Arial;
-  text-align: center;
+  font: 400 13px / 45px Arial;
   color: #fff;
   border-radius: 3px;
   background: #d7565f;
 }
 
-.canc3el {
-  display: block;
-  float: right;
-  width: 10px;
-  height: 10px;
-  margin: 4px 22px 0 0;
-  background: url("../img/CLOSE-copy.png");
-}
-
-.update-photo {
+.upload-photo {
   width: 515px;
   height: 430px;
   border: 1px solid #404b67;
@@ -2612,13 +2602,13 @@ header {
   background-color: #fff;
 }
 
-.photo-upload {
-  margin-left: 20px;
+.upload-photo__title {
+  margin: 22px 0 0 20px;
   font: 400 20px / 18px "Open Sans";
   color: #333;
 }
 
-.photo-upload-link {
+.upload-photo__close {
   display: block;
   float: right;
   width: 14px;
@@ -2627,46 +2617,44 @@ header {
   background: url("../img/CLOSE.png");
 }
 
-.photo-upload p {
-  margin: 20px;
+.upload-photo p {
+  margin: 20px 0 25px 23px;
   font: 400 13px / 18px "Open Sans";
   color: #666;
 }
 
-.update-photo_field {
-  width: 461px;
-  height: 276px;
+.upload-photo_area {
+  width: 462px;
+  height: 280px;
   margin: auto;
   border: 2px dashed #e6ecf1;
   border-radius: 3px;
   background-color: rgba(230, 236, 241, .4);
-}
-
-.cloud_icon {
-  width: 111px;
-  height: 95px;
-  margin: 30px auto;
-  background: url("../img/-UPLOAD-copy.png");
+  text-align: center;
 }
 
 .drag_here {
-  padding-left: 130px;
+  width: 111px;
+  height: 95px;
+  margin: 25px auto 20px;
+  background: url("../img/sprite-main.png") -286px -144px;
+}
+
+.upload-photo__area-hint {
   font: 400 14px / 14px Arial;
   color: #a7b5c2;
 }
 
-.or {
-  padding-top: 10px;
-  padding-left: 218px;
-  font: 400 14px / 14px Arial;
+.choice {
+  font: 400 14px / 40px Arial;
   color: #c3c8cc;
 }
 
-.update-file {
+.upload-photo__form {
   position: relative;
 }
 
-.update-file-input {
+.update-photo-input {
   position: absolute;
   width: 230px;
   height: 45px;
@@ -2675,12 +2663,11 @@ header {
   opacity: 0;
 }
 
-.upload_btn {
+.upload-photo__button {
   display: block;
   width: 230px;
   height: 45px;
-  margin-top: 20px;
-  margin-left: 120px;
+  margin: 5px auto 0;
   font: 400 13px / 14px Arial;
   line-height: 45px;
   text-align: center;
@@ -4862,12 +4849,12 @@ input[name="graphics-add-upload"] {
   padding: 0 0 0 23px;
 }
 
-.cancel_icon {
-  position: absolute;
+.dialogue-error__close {
   display: block;
+  float: right;
   width: 10px;
   height: 10px;
-  margin: 20px 0 0 -25px;
+  margin: 18px 28px 0 0;
   background: url("../img/sprite-main.png") -258px -25px;
 }
 
