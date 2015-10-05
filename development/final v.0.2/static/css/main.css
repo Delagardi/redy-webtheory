@@ -381,7 +381,8 @@ header {
   border-left: 5px solid transparent;
 }
 
-.user-msg {
+.user-msg,
+.user-notification {
   display: block;
   float: left;
   width: 50px;
@@ -397,14 +398,15 @@ header {
   background: url("../img/sprite-main.png") -331px 0 no-repeat;
 }
 
-.user-msg__icon2 {
+.user-notification__icon {
   float: left;
   width: 15px;
   height: 17px;
   background: url("../img/sprite-main.png") -281px -42px no-repeat;
 }
 
-.user-msg__unread {
+.user-msg__unread,
+.user-notification__unread {
   display: inline-block;
   float: left;
   width: 16px;
