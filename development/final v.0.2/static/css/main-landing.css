@@ -348,25 +348,16 @@ header {
   margin: 0 10px 0 0;
 }
 
-.landing-subheader-bg {
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  width: 1280px;
-  height: 500px;
-  margin-left: -660px;
-  background: url("../img/lp-under-bg.png") no-repeat;
-}
-
 .landing-subheader {
   overflow: hidden;
   width: 100%;
   height: 500px;
-  margin: 0 auto 50px;
-  background: rgba(47, 56, 68,.99);
+  margin: 0 auto;
+  background: url("../img/lp-under-bg.png") 100% 100%;
+  background-size: cover;
 }
 
-.landing-slogan__main {
+.landing-slogan__primary {
   width: 520px;
   height: 35px;
   margin: 75px auto 0;
@@ -401,11 +392,17 @@ header {
   background: #3c6295;
 }
 
-.landing-back-page {
+/*.landing-back-page {
   width: 800px;
   height: 245px;
   margin: 0 auto;
-  background: url("../img/lp-example-page.png");
+   background: url("../img/lp-example-page.png"); 
+}*/
+
+.content-list__header {
+  margin: 0 auto;
+  text-align: center;
+  font: 400 24px / normal "Open Sans", arial;
 }
 
 .content-list {
@@ -424,16 +421,12 @@ header {
   text-align: center;
 }
 
-.content-list-item:first-child {
-  float: left;
-  width: 400px;
-  height: 35px;
-  margin: 0 0 0 280px;
+.content-list2:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
-.content-list-item:nth-child(2) {
-  clear: left;
-}
 
 .content-list-item {
   float: left;
@@ -442,6 +435,10 @@ header {
   margin: 50px 0 0 0;
   font: 400 24px / normal "Open Sans", arial;
   background: #fff;
+}
+
+.content-list-item:first-child {
+  background-position: 125px 0;
 }
 
 .content-list-item__img1,
@@ -457,7 +454,7 @@ header {
 
 .content-list-item__img1 {
   margin-left: 110px;
-  background: url("../img/sprite-lp.png") 0 0;
+  background: url("../img/sprite-lp.png") 0 0; 
 }
 
 .content-list-item__img2 {
@@ -552,6 +549,7 @@ header {
 .education-video-text__heading {
   font: 400 14px "Open Sans", arial;
   color: #333;
+  margin-bottom: 10px;
 }
 
 .education-about {
@@ -594,11 +592,6 @@ header {
   color: #333;
 }
 
-.statistics-item:first-child {
-  float: none;
-  margin: 0 auto 20px;
-  font: 400 24px / 70px "Open Sans", arial;
-}
 
 .statistics-item:nth-child(2) {
   clear: left;
@@ -611,6 +604,7 @@ header {
 .statistics-number {
   font: 900 36px / normal "Open Sans", arial;
   color: #4f7ab4;
+  display: block;
 }
 
 .invite-bottom {
@@ -933,4 +927,9 @@ input[name="your-email"] {
   border-top: none;
   border-radius: 0 0 5px 5px;
   background: #f1f1f1;
+}
+
+.copyright {
+  float: left;
+  margin-top: 0px;
 }
