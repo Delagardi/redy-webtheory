@@ -6,14 +6,6 @@
   <link href="static/css/main.css" rel="stylesheet">
 </head>
 <body>
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Артемка Алаяров</title>
-  <link href="static/css/main.css" rel="stylesheet">
-</head>
-<body>
 <header>
    <div class="header-content">
     <nav class="header-nav">
@@ -28,9 +20,9 @@
       </ul>
     </nav>
     <div class="user">
-      <div class="user-msg">
-        <a class="user-msg__icon2" href="#"></a>
-        <a class="user-msg__unread" href="#">1</a>
+      <div class="user-notification">
+        <a href="#" class="user-notification__icon"></a>
+        <a href="#" class="user-notification__unread">1</a>
       </div>
       <a class="user-iconmenu" href="#">
         <span class="pop-up"><span class="pop-up__triangle"></span>Добавление контента</span></a>
@@ -43,9 +35,43 @@
         <a href="#"><img class="user-data__photo" alt="user photo" src="upload/2015-09/users/uid18/1442366510_40x40.jpg"></a>
       </div>
     </div>
+    <!-- Pop-Up user window
+    <div class="user-menu">
+      <div class="triangle-white"></div>
+      <h2 class="user-menu-header">Уведомления</h2>
+      <a class="user-menu-header__unread" href="#">Пометить как прочитанные</a>
+      <ul class="user-menu-list">
+        <li class="user-menu-item clearfix">
+          <img class="user-menu-item__photo" src="upload/2015-09/users/uid8/1442366510_50x50.jpg" alt="" width="50" height="50">
+          <div class="user-menu-item-header">
+            <a class="user-menu-item__name" href="#">Никита Архипов</a>
+            <span class="user-menu-item__friend">Даниилу Крамару</span>
+          </div>
+          <div class="user-menu-msg clearfix">Ты свободен сейчас?</div>
+          <div class="user-menu-msg-footer">
+            <div class="user-menu-time">3 часа назад</div>
+            <a class="user-menu-reply" href="#">Ответить</a>
+          </div>
+        </li>
+        <li class="user-menu-item clearfix">
+          <img class="user-menu-item__photo" src="upload/2015-09/users/uid9/1442366510_50x50.jpg" alt="" width="50" height="50">
+          <div class="user-menu-item-header">
+            <a class="user-menu-item__name" href="#">Даниил Крамер</a>
+          </div>
+          <div class="user-menu-msg clearfix">Да, конечно</div>
+          <div class="user-menu-msg-footer">
+            <div class="user-menu-time">12 минут назад</div>
+            <a class="user-menu-reply" href="#">Ответить</a>
+          </div>
+        </li>
+      </ul>
+      <div class="user-menu-allmsg"><a class="user-menu-allmsg__link" href="#">Показать все уведомления</a></div>
+    </div>
+     -->
 </div>
 </header>
-<div class="sub_header">
+<div class="profile-subheader">
+  
 </div>
 <div class="main">
 <div class="profile-sidebar">
@@ -136,44 +162,11 @@
       <li class="wall-menu__item"><a class="wall-menu__portfolio" href="#">Портфолио <span class="wall-menu__portfolio-amount">32</span></a></li>
       <li class="wall-menu__item"><a class="wall-menu__about-me" href="#">Обо мне</a></li>
     </ul>
-    <div class="pre-top-menu">
-     <ul class="publication-menu-btns">
-       <li><a class="publication-menu__btn active2" href="#">Все публикации</a></li>
-       <li><a class="publication-menu__btn" href="#">Статьи</a></li>
-       <li><a class="publication-menu__btn" href="#">Графика</a></li>
-       <li><a class="publication-menu__btn" href="#" >Курсы</a></li>
-     </ul>
-    <div class="publications_amount">Публикаций: 8</div>
-    <div class="publications_desc">
-    <h2 class="heading">Статьи</h2>
-    <div class="heading-amount">1</div>
-    <a class="hide_btn" href="#">спрятать</a>
-    </div>
-    </div>
-    <div class="article-text-menu">
-      <h4 class="article-heading">Новости webtheory</h4>
-      <ul class="article-tags">
-        <li><div class="article-tag__item-icon1"></div>Новости</li>
-        <li><div class="article-tag__item-icon2"></div>webtheory</li>
-        <li><div class="article-tag__item-icon3"></div>Сегодня, 02:31</li>
-      </ul>
-      <p>
-        Скоро мы начнем заполнять сайт качественным контентом и нам прийдется поставить модерацию на публикуемый контент, чтобы выводились только достойные публикации. Тесты и курсы также появятся в ближайшее время, мы работаем над их созданием. <br><br>
-        Чтобы сделать обучение максимально интересным и увлекательным мы запланировали сделать очередное глобальное обновление, чтобы достичь этой цели. Структура сайта во многом поменяется и думаю, что вы это оцените, но сейчас мы не будем вдаваться в подробности :) <br><br>
-        Баги, которые вы сейчас часто замечаете будут исправлены, нужно лишь время. 
-      </p>
-    </div>
-    <ul class="article-bottom">
-      <li><a class="read-more__btn" href="#">Читать далее</a></li>
-      <li><div class="article-bottom__icon1"></div>88,129</li>
-      <li><div class="article-bottom__icon2"></div>973</li>
-      <li><div class="article-bottom__icon3"></div>64</li>
+     <ul class="wall-filter">
+      <li class="wall-filter__item"><a class="wall-filter__all-posts" href="#">Все публикации</a></li>
+      <li class="wall-filter__item"><a class="wall-filter__personal-posts" href="#">Личные записи</a></li>
     </ul>
-    <div class="publications_dskill-claimedesc">
-    <h2 class="heading">Графика</h2>
-    <div class="heading-amount">6</div>
-    <a class="hide_btn" href="#">спрятать</a>
-    </div>
+    <span class="posts-amount">Публикаций: 8</span>
     <div class="graphics-blocks">
       <div class="graphic-common-block">
         <div class="graphic-block">
