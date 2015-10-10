@@ -472,7 +472,7 @@ header {
 /* Courses START */
 /*=======================================================*/
 
-.subheader-courses {
+.subheader {
   min-width: 960px;
   height: 40px;
   background: #f4f4f4;
@@ -5397,7 +5397,7 @@ input[name="graphics-add-upload"] {
 
 /* Subheader's styles are below */
 
-.subheader {
+.articles-subheader {
   display: block;
   min-width: 960px;
   height: 250px;
