@@ -483,31 +483,23 @@ header {
   margin: 0 auto;
 }
 
-.subheader-menu-list {
+.subheader-menu__list {
+  margin: 0;
+  padding: 0;
   height: 40px;
-  margin-top: 0;
-  padding-left: 0;
-  line-height: 40px;
-}
-
-.subheader-menu-list:nth-of-type(2) {
-  margin-right: 250px;
-  margin-bottom: 0;
-}
-
-.subheader-menu__item {
-  display: inline-block;
-  float: left;
-  padding-top: 2px;
-  font-family: Arial;
-  font-size: 13px;
 }
 
 .subheader-menu__link {
+  display: block;
+  float: left;
+  height: 40px;
+  font: 400 13px / 40px Arial;
   color: #6f6f6f;
+  margin: 0 20px 0 0; 
 }
 
 .course-checked,
+.subheader-menu__link-active,
 .subheader-menu__link:hover {
   color: #3676b1;
 }
@@ -524,46 +516,45 @@ header {
   padding-left: 16px;
 }
 
-.courses-main {
+.courses {
   width: 960px;
   margin: 0 auto;
 }
 
-.courses-content {
+.wrapper {
   float: left;
   width: 720px;
   margin-top: 16px;
   padding-right: 10px;
 }
 
-.table-up {
+.course-section {
   width: 710px;
   height: 500px;
 }
 
-.table-course-list {
+.course-section__list {
   width: 710px;
   padding-left: 0;
 }
 
-.table-up-header {
+.course-section__header {
   margin-top: 18px;
-  font-family: "Open Sans"; /*Articles has sidebar header in OS*/
-  font-size: 18px;
+  font:400 18px Arial; /*Articles has sidebar header in OS*/
   color: #333;
 }
 
-.table-course {
+.course-section__item {
   float: left;
   width: 234px;
   margin: 0 4px 21px 0;
 }
 
-.table-course:nth-child(3n) {
+.course-section__item:nth-child(3n) {
   margin-right: 0;
 }
 
-.table-course__name {
+.course-section__item-title {
   display: block;
   margin: 7px 0 0 1px;
   font-family: Arial;
@@ -572,7 +563,7 @@ header {
   color: #333;
 }
 
-.table-course__dffclty {
+.course-section__item-difficulty {
   display: inline-block;
   margin: 4px 0 0 2px;
   margin-bottom: 0;
@@ -581,15 +572,13 @@ header {
   color: #999;
 }
 
-.table-down {
-  display: inline-block;
-  margin-top: 11px;
-}
-
-.table-down-header {
-  font-family: "Open Sans"; /*Articles has sidebar header in OS*/
-  font-size: 18px;
-  color: #333;
+.default-img {
+  width: 234px;
+  height: 160px;
+  background: #e7edf1;
+  color: #97a5ae;
+  font: bold 14px / 160px arial;
+  text-align: center;
 }
 
 /* Below styles for Courses-What-To-Learn page */
@@ -718,7 +707,7 @@ header {
 }
 
 /* Below styles for Courses-full page */
-.courses-content .video {
+.wrapper .video {
   margin-top: 14px;
 }
 
@@ -1318,7 +1307,7 @@ header {
   color: #333;
 }
 
-.sidebar-course-discription__dffclty,
+.sidebar-course-discription-difficulty,
 .sidebar-course-discription__skills {
   margin-top: 10px;
   font-family: Arial;
@@ -1340,11 +1329,6 @@ header {
   color: #4f7ab4;
 }
 
-.sidebar-course-discription__dffclty span {
-  font-family: Arial;
-  font-size: 13px;
-  color: #cfa913;
-}
 
 
 /*=======================================================*/
