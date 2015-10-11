@@ -708,7 +708,7 @@ header {
   background: #466fa7;
 }
 
-.close {
+.dialogue-landing__close {
   display: block;
   float: right;
   width: 55px;
@@ -717,7 +717,7 @@ header {
   color: #a9bed9;
 }
 
-.close:hover {
+.dialogue-landing__close:hover {
   text-decoration: underline;
 }
 
@@ -811,7 +811,7 @@ input[name="password"] {
   color: #666;
 }
 
-.get-invite-window {
+.dialogue-landing {
   width: 600px;
   height: 300px;
   margin: 0 auto;
@@ -819,7 +819,7 @@ input[name="password"] {
   border-radius: 5px;
 }
 
-.get-invite-window-header {
+.dialogue-landing__header {
   width: 599px;
   height: 50px;
   margin: 0 0 20px 0;
@@ -830,7 +830,7 @@ input[name="password"] {
   background: #466fa7;
 }
 
-.get-invite-forms-cover {
+.request-invite__form {
   width: 560px;
   margin: 0 auto;
 }
