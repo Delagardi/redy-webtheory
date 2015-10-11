@@ -273,14 +273,23 @@ ul {
   clear: both;
 }
 
+
 header {
   position: relative;
   z-index: 2;
+  width: 100%;
   min-width: 960px;
   height: 60px;
   background: #496ea0;
-  background: linear-gradient(to bottom,  #496ea0 0%,#3e5f8b 100%);
-  box-shadow: 0 1px 3px #080909;
+  background: linear-gradient(to bottom, #2d6ea3 0%,
+  #2c6b9f 25%,
+  #296b9e 27%,
+  #2c699d 34%,
+  #29699c 36%,
+  #296597 56%,
+  #256495 64%,
+  #235f8e 100%);
+  box-shadow: 0 1px 3px rgba(8, 9, 9, .15);
 }
 
 .header-content {
@@ -289,40 +298,66 @@ header {
   margin: 0 auto;
 }
 
-.header-content__logo {
+.header-nav__logo {
   display: block;
   float: left;
   width: 114px;
   height: 24px;
-  margin-top: 20px;
+  margin: 20px 44px 0 0;
   background: url("../img/logo.png") 0 0;
 }
 
-.header-navigation {
+.header-nav {
+  width: 600px;
   display: inline-block;
   float: left;
   height: 60px;
-  margin-left: 46px;
 }
 
-.header-navigation-list {
+.header-nav-list {
   margin-top: 0;
 }
 
-.header-navigation-list__item {
+.header-nav__item {
   float: left;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
-.header-navigation-list__link {
-  font-family: "Open sans", arial;
+.header-nav__link {
+  font-family: "Open Sans", arial;
   font-size: 13px;
   line-height: 60px;
   color: #acc5db;
 }
 
-.header-navigation-list__link:hover {
+.header-navt__link:hover {
   color: #fff;
+}
+
+.header-nav__active {
+  color: #fff;
+}
+
+.user {
+  float: right;
+  height: 60px;
+}
+
+.user-icons {
+  line-height: 16px;
+}
+
+.user-iconmenu {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin: 22px 17px 0 0;
+  background: url("../img/sprite-main.png") -353px 0 no-repeat;
+}
+
+.user-iconmenu:hover .pop-up {
+  display: block;
 }
 
 .invite-entrance {
@@ -413,22 +448,8 @@ header {
   text-align: center;
 }
 
-.content-list2 {
-  width: 960px;
-  height: 390px;
-  margin: 15px auto 0;
-  padding: 0;
-  text-align: center;
-}
-
-.content-list2:after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-
 .content-list-item {
+  position: relative;
   float: left;
   width: 320px;
   height: 270px;
@@ -441,48 +462,52 @@ header {
   background-position: 125px 0;
 }
 
-.content-list-item__img1,
-.content-list-item__img2,
-.content-list-item__img3,
-.content-list-item__img4,
-.content-list-item__img5,
-.content-list-item__img6 {
+.icon-sitebuliding:after,
+.icon-smartpeople:after,
+.icon-chat:after,
+.icon-thoughts:after,
+.icon-feedback:after,
+.icon-confederate:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 90px;
   height: 110px;
-  margin: 0 auto 45px;
 }
 
-.content-list-item__img1 {
+.icon-sitebuliding:after {
   margin-left: 110px;
   background: url("../img/sprite-lp.png") 0 0; 
 }
 
-.content-list-item__img2 {
+.icon-smartpeople:after {
+  margin-left: 110px;
   width: 109px;
   background: url("../img/sprite-lp.png") -90px 0;
 }
 
-.content-list-item__img3 {
+.icon-chat:after {
   width: 105px;
   margin-left: 112px;
   background: url("../img/sprite-lp.png") -199px 0;
 }
 
-.content-list-item__img4 {
+.icon-thoughts:after {
   width: 96px;
   height: 129px;
   margin-left: 107px;
   background: url("../img/sprite-lp.png") -304px 0;
 }
 
-.content-list-item__img5 {
+.icon-feedback:after {
   width: 129px;
   height: 129px;
   margin: -1px 0 45px 96px;
   background: url("../img/sprite-lp.png") -400px 0;
 }
 
-.content-list-item__img6 {
+.icon-confederate:after {
   width: 129px;
   height: 129px;
   margin: -1px 0 45px 101px;
@@ -490,7 +515,7 @@ header {
 }
 
 .content-list-item__name {
-  margin: 0 0 20px;
+  margin: 145px 0 28px;
   font: 400 14px / 1.5em "Open Sans", arial;
   text-align: center;
   color: #333;
@@ -625,22 +650,6 @@ header {
   font: 400 14px / normal "Open Sans", arial;
   text-align: center;
   color: #666;
-}
-
-.get-invite2 {
-  display: block;
-  width: 180px;
-  height: 40px;
-  margin: 20px auto 20px;
-  font: 400 14px / 40px "Open Sans", arial;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  background: #4f7ab4;
-}
-
-.get-invite2:hover {
-  background: #3c6295;
 }
 
 .landing-footer {
@@ -933,3 +942,6 @@ input[name="your-email"] {
   float: left;
   margin-top: 0px;
 }
+
+
+
