@@ -906,7 +906,7 @@ input[name="applicant-email"] {
   background-repeat: no-repeat;
 }
 
-.choose-btn:before {
+.select-cover:before {
   position: absolute;
   content: "";
   top: 0px;
@@ -919,13 +919,11 @@ input[name="applicant-email"] {
   background: #f5f5f5;
 }
 
-.triangle:after {
+.select-cover:after {
   content: "";
   position: absolute;
   top: 0;
   left: -49px;
-  /* right: 0px; */
-  /* float: right; */
   width: 0;
   height: 0;
   margin: 16px 15px 0 195px;
