@@ -948,7 +948,7 @@ input[name="applicant-email"] {
   background: #fff;
 }
 
-.request-invite__symbols-counter {
+.text-field__footer {
   float: left;
   width: 558px;
   height: 35px;
