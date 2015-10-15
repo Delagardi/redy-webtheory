@@ -2873,7 +2873,7 @@ header {
 /*=======================================================*/
 
 
-.dialogue {
+.profile-banned {
   width: 450px;
   height: 180px;
   margin: 20% auto;
@@ -2882,18 +2882,18 @@ header {
   color: #666;
 }
 
-.oops {
+.profile-banned__title {
   display: block;
   font: 400 48px / normal "Open Sans", arial;
   text-align: center;
   color: #4978cd;
 }
 
-.unlucky-user {
+.profile-banned__unlucky-user {
   color: #333;
 }
 
-.back-to-main {
+.profile-banned__back {
   display: block;
   width: 175px;
   height: 40px;
@@ -2904,7 +2904,7 @@ header {
   background: #f7f7f7;
 }
 
-.back-to-main:hover {
+.profile-banned__back:hover {
   background: #d4d4d4;
 }
 
