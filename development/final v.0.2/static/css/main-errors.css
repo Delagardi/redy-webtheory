@@ -10,20 +10,14 @@
   src: url("../fonts/OpenSans.ttf");
 }
 
-html {
+.http-error {
   height: 100%;
-  background: url("../img/error-bg.jpg") 100% 100% / cover no-repeat;
+  margin: 0;
+  background: url("../img/error-bg.jpg") 100% 100% / cover;
 }
 
-.error {
-  position: absolute;
-  top: 42%;
-  left: 39%;
-  width: 300px;
-  height: 200px;
-}
-
-.error-code[data-code="403"] {
+.http-error__message[data-code="403"]:before {
+  content: "";
   float: left;
   width: 255px;
   height: 105px;
@@ -31,38 +25,30 @@ html {
   background: url("../img/sprite-error.png") no-repeat ;
 }
 
-.error-code[data-code="404"] {
+.http-error__message[data-code="404"]:before {
+  content: "";
   float: left;
   width: 255px;
   height: 105px;
-  margin: 0 0 20px 0;
+  margin: 0 0 20px 26px;
   background: url("../img/sprite-error.png") no-repeat -257px 0;
 }
 
-.error-code[data-code="503"] {
+.http-error__message[data-code="505"]:before {
+  content: "";
   float: left;
   width: 255px;
   height: 105px;
-  margin: 0 0 20px 15px;
+  margin: 0 0 20px 10px;
   background: url("../img/sprite-error.png") no-repeat -512px 0;
 }
 
-.error-message {
-  float: left;
+.http-error__message {
+  position: absolute;
+  top: 42%;
+  left: 39%;
   width: 306px;
-  margin-left: 5px;
   font: 31px PFBeauSansPro, arial;
-  text-align: left;
-  text-transform: lowercase;
-  color: #fff;
-}
-
-.error404-message {
-  float: left;
-  width: 306px;
-  margin-left: -15px;
-  font: 31px PFBeauSansPro, arial;
-  text-align: left;
   text-transform: lowercase;
   color: #fff;
 }
