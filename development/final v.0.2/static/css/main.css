@@ -582,14 +582,6 @@ header {
   float: left;
 }
 
-.pathway-article__heading {
-  display: inline-block;
-  margin: 10px 0;
-  font-family: "Open Sans";
-  font-size: 18px;
-  color: #333;
-}
-
 .pathway-article ul {
   padding-top: 3px;
   padding-left: 20px;
@@ -597,10 +589,8 @@ header {
 }
 
 .pathway-article__heading-edit {
-  margin: 0 0 0 21px;
-  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
-  font-size: 12px;
-  vertical-align: text-top;
+  margin: 0 0 0 17px;
+  font: 400 12px Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   text-decoration: underline;
   color: #3676b1;
 }
