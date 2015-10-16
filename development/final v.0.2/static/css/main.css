@@ -1370,14 +1370,14 @@ header {
   padding-top: 13px;
 }
 
-.subscribers {
+.sidebar-heading {
   color: #333333;
   font: 400 16px Arial;
   margin: 36px 0 0 0;
   display: block;
 }
 
-.subscribers:hover {
+.sidebar-heading:hover {
   opacity: 0.8;
 }
 
@@ -1386,6 +1386,10 @@ header {
   font: 400 14px Arial;
   float: right;
   margin-top: 1px;
+}
+
+.subscribers-photos {
+  margin-bottom: -7px;
 }
 
 .subscribers-photos__item {
@@ -1399,17 +1403,6 @@ header {
   opacity: 0.9;
 }
 
-.subscriptions {
-  color: #333333;
-  font: 400 16px Arial;
-  margin-top: 29px;
-  display: block;
-}
-
-.subscriptions:hover {
-  opacity: 0.8;
-}
-
 .subscriptions-amount {
   display: inline-block;
   content: "2";
@@ -1417,6 +1410,10 @@ header {
   font: 400 14px Arial;
   float: right;
   margin-top: 1px;
+}
+
+.subscriptions-photos {
+  margin-bottom: -2px;
 }
 
 .subscriptions-photos__item {
@@ -1428,12 +1425,6 @@ header {
 
 .subscriptions-photos__item:hover {
   opacity: 0.9;
-}
-
-.skills {
-  color: #333333;
-  font: 400 16px Arial;
-  margin-top: 34px;
 }
 
 .skills-edit {
@@ -1491,7 +1482,7 @@ header {
 }
 
 .skills-stated-rating {
-  margin: -5px 0 0 0;
+  margin: -5px 0 -11px 0;
 }
 
 .skills-stated-rating__item {
@@ -1545,18 +1536,16 @@ header {
   content: "37"
 }
 
-.profile-description {
-  color: #333333;
-  font: 400 16px Arial;
-  margin-top: 25px;
-}
-
 .profile-description__edit {
   width: 10px;
   height: 10px;
   background: url("../img/sprite-main.png") no-repeat -378px -76px;
   float: right;
   padding: 10px 0px 10px 0px;
+}
+
+.profile-description-data {
+  margin-top: 21px;
 }
 
 .profile-description-data__item {
@@ -1629,9 +1618,7 @@ header {
 }
 
 .profile-contacts {
-  color: #333333;
-  font: 400 16px Arial;
-  margin-top: 37px;
+  margin-top: 22px;
 }
 
 .profile-contacts__edit {
