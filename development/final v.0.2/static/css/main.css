@@ -516,15 +516,9 @@ header {
   padding-left: 16px;
 }
 
-.courses {
-  width: 960px;
-  margin: 0 auto;
-}
-
 .wrapper {
-  float: left;
-  width: 720px;
-  margin-top: 16px;
+  width: 960px;
+  margin: 16px auto 0;
   padding-right: 10px;
 }
 
@@ -583,7 +577,12 @@ header {
 
 /* Below styles for Courses-What-To-Learn page */
 
-.main-article h1 {
+.pathway-article {
+  width: 720px;
+  float: left;
+}
+
+.pathway-article__heading {
   display: inline-block;
   margin: 10px 0;
   font-family: "Open Sans";
@@ -591,13 +590,13 @@ header {
   color: #333;
 }
 
-.main-article ul {
+.pathway-article ul {
   padding-top: 3px;
   padding-left: 20px;
   list-style: disc;
 }
 
-.main-article__edit {
+.pathway-article__heading-edit {
   margin: 0 0 0 21px;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   font-size: 12px;
@@ -620,7 +619,7 @@ header {
   color: #333;
 }
 
-.main-article p,
+.pathway-article p,
 .main-article-text-list,
 .main-article-text__questions {
   margin: 12px auto;
@@ -660,7 +659,7 @@ header {
   background: url("../img/sprite-main.png") -214px -226px no-repeat;
 }
 
-.main-article-linktag {
+.pathway-article__highlighted {
   padding: 2px;
   border-radius: 3px;
 }
@@ -701,7 +700,7 @@ header {
   background: #ecc3c3;
 }
 
-.main-article-link__simple {
+.pathway-article__link {
   text-decoration: underline;
   color: #3676b1;
 }
