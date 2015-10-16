@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <title>Landing authorization</title>
   <meta charset="UTF-8">
-  <link href="static/css/main-landing.css" rel="stylesheet" >
+  <title>Авторизация | webtheory</title>
+  <link href="static/css/main-landing.css" rel="stylesheet">
 </head>
 <body>
-  <div class="authorization-window">
-    <div class="authorization-window-header">
+  <div class="dialogue-landing auth">
+    <h4 class="dialogue-landing__header">
       Авторизация
-      <a class="close" href="#">Закрыть</a>
-    </div>
-    <div class="authorization-form">
-      <div class="login-icon"></div>
-      <input type="text" name="login" size="10" placeholder="Логин:">
-    </div>
-    <div class="authorization-form">
-      <div class="password-icon"></div>
-      <input type="text" name="password" size="10" placeholder="Пароль:">
-    </div>
-    <a class="authorization-btn" href="#">Авторизоваться</a>
-    <a class="forgot-password" href="#">Забыли пароль?</a>
+      <span class="dialogue-landing__close" href="#">Закрыть</span>
+    </h4>
+    <ul>
+      <li class="auth-form icon-login">
+        <input type="text" name="auth-login" placeholder="Логин:">
+      </li>
+      <li class="auth-form password-icon">
+        <input type="password" name="auth-password" placeholder="Пароль:">
+      </li>
+      <li><a class="auth__submit-form" href="#">Авторизоваться</a></li>
+      <li><a class="auth__restore-password" href="#">Забыли пароль?</a></li>
+    </ul>
   </div>
 </body>
 </html>
+
