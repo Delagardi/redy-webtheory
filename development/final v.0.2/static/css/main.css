@@ -582,6 +582,14 @@ header {
   float: left;
 }
 
+.pathway-article__heading {
+  display: inline-block;
+  margin: 10px 0;
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: #333;
+}
+
 .pathway-article ul {
   padding-top: 3px;
   padding-left: 20px;
@@ -589,8 +597,10 @@ header {
 }
 
 .pathway-article__heading-edit {
-  margin: 0 0 0 17px;
-  font: 400 12px Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  margin: 0 0 0 21px;
+  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
+  font-size: 12px;
+  vertical-align: text-top;
   text-decoration: underline;
   color: #3676b1;
 }
@@ -2500,22 +2510,6 @@ header {
   margin: 7px 0 0 0;
   font: 400 11px HelveticaNeue, arial;
   color: #929292;
-}
-
-.show-me-more {
-  display: block;
-  float: left;
-  width: 710px;
-  height: 45px;
-  line-height: 45px;
-  text-align: center;
-  color: #97a5b2;
-  border: 1px solid #edeff0;
-}
-
-.show-me-more:hover {
-  color: #8a96a1;
-  border: 1px solid #d5d5d5;
 }
 
 .user-menu {
