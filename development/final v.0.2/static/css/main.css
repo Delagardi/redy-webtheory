@@ -1220,7 +1220,7 @@ header {
   margin: 30px 0px 0 -10px;
 }
 
-.profile-photo__edit {
+.profile-photo__frame {
   background: url("../img/sprite-main.png")  no-repeat 0 -40px;
   position: absolute;
   color: #9d9d9d;
@@ -1250,7 +1250,7 @@ header {
   margin-top: 2px;
 }
 
-.profile-name {
+.profile-heading {
   color: #333333;
   font: 600 18px Arial;
   margin: 24px 0 4px 0;
@@ -1371,11 +1371,10 @@ header {
   opacity: 0.8;
 }
 
-.subscribers-amount {
+.sidebar-heading__counter {
+  float: right;
   color: #999999;
   font: 400 14px Arial;
-  float: right;
-  margin-top: 1px;
 }
 
 .subscribers-photos {
@@ -1391,15 +1390,6 @@ header {
 
 .subscribers-photos__item:hover {
   opacity: 0.9;
-}
-
-.subscriptions-amount {
-  display: inline-block;
-  content: "2";
-  color: #999999;
-  font: 400 14px Arial;
-  float: right;
-  margin-top: 1px;
 }
 
 .subscriptions-photos {
@@ -1425,41 +1415,27 @@ header {
   padding: 10px 0 10px 10px;
 }
 
-.skills-courses {
+.skills-courses-heading {
   color: #666666;
   font: 700 13px Arial;
   margin-top: 19px;
 }
 
-.skills-courses-rating__html {
+.skills-courses-list {
+  margin: -12px 0 16px 0;
+}
+
+.skills-courses {
   color: #8b97aa;
   font: 400 13px Arial;
-  margin-top: -2px;
+  margin-top: 3px;
   padding-bottom: 11px;
-  padding-top: 10px
+  padding-top: 10px;
   border-bottom: 1px solid #dedede;
   
 }
 
-.skills-courses-rating__html:after {
-  display: inline-block;
-  content: "100%";
-  float: right;
-  color: #666666;
-  font: 400 13px Arial;
-}
-
-.skills-courses-rating__php {
-  color: #8b97aa;
-  font: 400 13px Arial;
-  margin-top: 14px;
-  padding-bottom: 11px;
-  border-bottom: 1px solid #dedede;
-}
-
-.skills-courses-rating__php:after {
-  display: inline-block;
-  content: "85%";
+.skills-courses-counter {
   float: right;
   color: #666666;
   font: 400 13px Arial;
@@ -1468,63 +1444,45 @@ header {
 .skills-stated {
   color: #666666;
   font: 700 13px Arial;
-  margin-top: -3px;
+  margin-top: -4px;
 }
 
-.skills-stated-rating {
-  margin: -5px 0 -11px 0;
+.skills-stated-list {
+  margin-top: -6px;
 }
 
-.skills-stated-rating__item {
+.skills-stated__item {
   display: inline-block;
   border-radius: 3px;
-  margin: 1px;
-  margin-top: -0.5px;
-  padding: 0px;
+  overflow: hidden;
   background-color: #e7ebf1;
+}
+
+.skills-stated__item:hover {
+  opacity: 0.8;
+}
+
+.skills-stated__link {
   color: #7f8897;
   font: 400 12px Arial;
-  overflow: hidden;
+  margin: 0px 0px 0px 10px;
+  padding: 7.5px 0 7.5px 0;
+  display: block;
 }
 
-.skills-stated-rating__item:hover {
-  opacity: 0.7;
-}
-
-.skills-stated-rating__item:after {
-  display: inline-block;
-  content: "0";
-  background-color: #c9d1de;
-  padding: 8px 12px 8px 12px;
+.skills-stated__counter {
+  background: #c9d1de;
   color: #ffffff;
   font: 700 12px Arial;
+  padding: 7px 11.5px 8px 11.5px;
+  float: right;
+  margin: -7px 0px 0 9px;
 }
 
-.skills-stated-rating__link {
-  padding: 8px;
-  color: #7f8897;
-  font: 400 12px Arial;
-}
 
-.photoshop:after{
-  display: inline-block;
-  content: "4"
-}
 
-.soc-marketing:after{
-  display: inline-block;
-  content: "2"
-}
 
-.node:after{
-  display: inline-block;
-  content: "2"
-}
 
-.html5:after{
-  display: inline-block;
-  content: "37"
-}
 
 .profile-description__edit {
   width: 10px;
@@ -1534,11 +1492,11 @@ header {
   padding: 10px 0px 10px 0px;
 }
 
-.profile-description-data {
+.profile-description {
   margin-top: 21px;
 }
 
-.profile-description-data__item {
+.profile-description__item {
   color: #808b9c;
   font: 400 13px Arial;
   border-bottom: 1px solid #e3e3e3;
@@ -2176,12 +2134,12 @@ header {
   margin-left: 9px;
 }
 
-.replied {
+.comment-replied-to {
   color: #94a1b4;
   font: 700 12px / 18px Arial;
 }
 
-.replied:before {
+.comment-replied-to:before {
   display: inline-block;
   content: "";
   width: 0px;
@@ -2205,47 +2163,43 @@ header {
   height: 290px;
   float: right;
   margin: 4px 0 25px 0;
-  cursor: pointer;
 }
 
 .post-content__img:hover {
   opacity: 0.95;
 }
 
-.post-content__img2 {
+.post-content__small-img {
   width: 460px;
   height: 290px;
   float: left;
   margin: -31px 0 25px 65px;
   clear: left;
-  cursor: pointer;
 }
 
-.post-content__img2:hover {
+.post-content__small-img:hover {
   opacity: 0.95;
 }
 
-.post-content__img3 {
+.post-content__square-img {
   width: 183px;
   height: 144px;
   float: right;
   margin: -31px 0 25px 0;
-  cursor: pointer;
 }
 
-.post-content__img3:hover {
+.post-content__square-img:hover {
   opacity: 0.95;
 }
 
-.post-content__img4 {
+.post-content__square-img-down {
   width: 183px;
   height: 144px;
   float: right;
   margin: -23px 0 25px 0;
-  cursor: pointer;
 }
 
-.post-content__img4:hover {
+.post-content__square-img-down:hover {
   opacity: 0.95;
 }
 
@@ -2322,6 +2276,7 @@ header {
 .post-likes__btn {
   color: #8ca7be;
   margin-right: -2px;
+  float: left;
 }
 
 .post-likes__btn:hover {
