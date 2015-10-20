@@ -3,25 +3,24 @@
 <head>
   <title>Message-error</title>
   <meta charset="UTF-8">
-  <link href="static/css/main.css" rel="stylesheet" >
+  <link href="static/css/main.css" rel="stylesheet">
 </head>
 <body>
-  <div class="message-all">
-    <div class="message-error">Ошибка: текст сообщения не введен <a class="close-mini" href="#"></a>
+  <div class="dialogue-box">
+   <div class="new-message-error">Ошибка: текст сообщения не введен <a class="close-mini" href="#"></a>
     </div>
-    <div class="new-message">
-      <div class="new-message__title">Новое сообщение<a class="close" href="#"></a></div>
-      <div class="user-info">
-        <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg">
-        <span class="user-info__name">Артемка Аллаяров</span><br>
-        <span class="user-info__profession">Веб-дизайнер</span>
-        <span class="user-info__status">Был в сети 15 минут назад</span>
+     <div class="new-message">
+      <h1 class="new-message__title">Новое сообщение<span class="message-close"></span></h1>
+      <div class="new-message__user-info">
+        <img class="new-message-user-info__avatar" src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="user" width="50px" height="50px">
+        <h2 class="new-message-user-info__name"><a class="new-message-user-info__name" href="#">Артемка Аллаяров</a></h2>
+        <span class="new-message-user-info__profession">Веб-дизайнер</span>
+        <span class="new-message-user-info__status">Был в сети 15 минут назад</span>
       </div>
-      <div class="message-text" contenteditable="true" placeholder="текст"></div>
-      <a class="close2" href="#"></a>
-      <div class="new-message-footer">
-        <a class="new-message-footer__send" href="#">Отправить</a>
-        shift+enter для отправки сообщения
+      <div class="new-message__content"></div>
+      <div class="new-message__actions">
+        <a class="new-message__actions-send" href="#">Отправить</a>
+      <span new-message__actions-hint>shift+enter для отправки сообщения</span>
       </div>
     </div>
   </div>
