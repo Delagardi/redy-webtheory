@@ -5082,11 +5082,18 @@ input[name="graphics-add-upload"] {
   float: left;
 }
 
+.acticle-wrapper {
+  float: left;
+  border-bottom: 1px solid #e3e3e3;
+  margin: 0 0 40px 0;
+}
+
 .article-heading {
   color: #333333;
   font: 300 20px / 22px Open Sans;
   margin: 0;
   float: left;
+  max-width: 530px;
 }
 
 .article-heading-tag {
@@ -5180,8 +5187,8 @@ input[name="graphics-add-upload"] {
 
 .article-bottom-section {
   float: left;
-  width: 432px;
   height: 40px;
+  margin-bottom: 18px;
 }
 
 .continue-reading-btn {
@@ -5282,57 +5289,190 @@ input[name="graphics-add-upload"] {
 
 .article-social {
   float: right;
-  margin: 24px 41px 0 0;
+  margin: 24px 0px 0 0;
 }
 
 .article-social-item {
   display: inline-block;
-  position: relative;
-  color: #fff;
-  margin-left: 3px;
-  font-family: sans-serif;
-  font-size: 13px;
-  color: #fff;
+}
+
+.article-social-vk {
+  display: block;
+  background: #48729e;
+  float: left;
+  min-width: 24px;
+  height: 24px;
+  background: #48729e;
   border-radius: 3px;
 }
 
-.vk {
-  background: #48729e;
-  float: left;
-  padding: 0px 3px 2px 5px;
+.article-social-vk:hover {
+  opacity: .9;
 }
 
-.vk:before {
+.article-social-vk:before {
   content: "";
   display: inline-block;
   width: 12px;
   height: 21px;
   background: url("../img/sprite-main.png") -128px 0;
-  margin: -2px 0 0 0;
+  margin: -2px 0px 0 7px;
 }
 
-.article-social-counter {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0px 4px 0px 11px;
-  margin: -7px 0 0px 0;
-}
-
-.fb {
+.article-social-fb {
+  display: block;
+  float: left;
   background: #3c5a98;
-  position: absolute;
+  min-width: 24px;
   height: 24px;
-  
+  border-radius: 3px;
 }
 
-.fb:before {
+.article-social-fb:hover {
+  opacity: .9;
+}
+
+.article-social-fb:before {
   content: "";
   display: inline-block;
   width: 7px;
   height: 20px;
   background: url("../img/sprite-main.png") -141px 0;
+  margin: 2px 0px 0 10px;
 }
 
+.article-social-tw {
+  display: block;
+  float: left;
+  background: #00aced;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.article-social-tw:hover {
+  opacity: .9;
+}
+
+.article-social-tw:before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 15px;
+  margin: 4px 0px 0 5px;
+  background: url("../img/sprite-main.png") -148px 0;
+}
+
+.article-social-google {
+  display: block;
+  float: left;
+  background: #c25234;
+  min-width: 24px;
+  height: 24px;
+  border-radius: 3px;
+}
+
+.article-social-google:hover {
+  opacity: .9;
+}
+
+.article-social-google:before {
+  content: "";
+  display: inline-block;
+  width: 23px;
+  height: 21px;
+  background: url("../img/sprite-main.png") -165px 0;
+  margin: 3px 0 0 0
+}
+
+.article-social-counter {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 5px 5px 10px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.content_bottom {
+  height: 100px;
+  margin: 64px 0 0 0;
+}
+
+.previous-page-btn {
+  display: block;
+  float: left;
+  width: 109px;
+  height: 31px;
+  font: 400 13px / 30px Arial;
+  text-align: center;
+  color: #acacac;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  background: #f5f5f5;
+}
+
+.previous-page-btn:hover {
+  width: 109px;
+  height: 31px;
+  font: 400 13px / 30px Arial;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  background: #71a5da;
+}
+
+.page-btn {
+  display: block;
+  width: 20px;
+  height: 30px;
+  font: 400 13px / 30px Arial;
+  color: #333;
+}
+
+.page-numbers {
+  float: left;
+  width: 286px;
+  height: 32px;
+  margin: -5px 24px 0 22px;
+  padding: 0;
+  list-style: none;
+  border-bottom: 2px solid #d9e0e8;
+}
+
+.page-numbers-item {
+  float: left;
+  padding: 0 3px;
+  text-align: center;
+}
+
+.page-numbers-item:hover {
+  border-bottom: 2px solid #609ad4;
+}
+
+.active-page {
+  border-bottom: 2px solid #609ad4;
+}
+
+.next-page {
+  display: block;
+  float: left;
+  width: 109px;
+  height: 33px;
+  font: 400 13px / 33px Arial;
+  text-align: center;
+  color: #acacac;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  background: #f5f5f5;
+}
+
+.next-page:hover {
+  color: #fff;
+  border: 1px solid #e3e3e3;
+  background: #719bda;
+}
 
 
 
