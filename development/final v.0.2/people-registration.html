@@ -1,48 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>People registration</title>
   <link href="static/css/main.css" rel="stylesheet">
 </head>
 <body>
-<div class="pop-up-bg">
   <div class="pop-up-window-registration">
     <div class="pop-up-window__header">
       Регистрация
     </div>
-    <form action="#">
-      <div class="pop-up-name-field">
-        <div class="pop-up-name-field-iconblock">
-          <a class="pop-up-name-field-iconblock__icon surname" href="#"></a>
-        </div>
-        <input class="pop-up-name-field-input" type="text" value="Фамилия: ">
+    <form class="registration" action="#">
+      <div class="pop-up-name-field surname">
+        <input class="pop-up-name-field-input" type="text" placeholder="Фамилия: ">
       </div>
       <div class="pop-up-name-field__descr">
         Фамилия будет использоваться в вашем профиле
       </div>
-      <div class="pop-up-name-field">
-        <div class="pop-up-name-field-iconblock">
-          <a class="pop-up-name-field-iconblock__icon login" href="#"></a>
-        </div>
-        <input class="pop-up-name-field-input" type="text" value="Логин: ">
+      <div class="pop-up-name-field login">
+        <input class="pop-up-name-field-input" type="text" placeholder="Логин: ">
       </div>
       <div class="pop-up-name-field__descr">
         Логин необходим для авторизации на сайте
       </div>
-      <div class="pop-up-name-field">
-        <div class="pop-up-name-field-iconblock">
-          <a class="pop-up-name-field-iconblock__icon password" href="#"></a>
-        </div>
-        <input class="pop-up-name-field-input" type="text" value="Пароль: ">
+      <div class="pop-up-name-field password">
+        <input class="pop-up-name-field-input" type="text" placeholder="Пароль: ">
       </div>
       <div class="pop-up-name-field__descr">
         Пароль для авторизации
       </div>
-      <div class="link-for-invite"><a class="link-for-photo" href="#">Выберите фотографию для профиля</a></div>
-      <div class="link-for-signup"><a class="link-for-end" href="#">Завершить регистрацию</a></div>
+      <a class="link-for-photo" href="#">Выберите фотографию для профиля</a>
+      <a class="link-for-end" href="#">Завершить регистрацию</a>
     </form>
   </div>
-</div>
 </body>
 </html>
