@@ -710,6 +710,10 @@ header {
   margin-top: 14px;
 }
 
+.video {
+  float: left;
+}
+
 .video iframe {
   border: none;
 }
@@ -719,10 +723,11 @@ header {
   line-height: 0;
 }
 
-.video-header {
+.video-title {
   display: inline-block;
   font-family: "Open Sans";
   font-size: 18px;
+  float: left;
 }
 
 .video-views {
@@ -741,16 +746,17 @@ header {
   border-bottom: 1px solid #e3e3e3;
 }
 
-.main-info-tabs {
+.videoaction-menu {
   margin-top: 8px;
+  float: left;
 }
 
-.main-info-tab {
+.video-actionmenu__item {
   display: inline-block;
   float: left;
 }
 
-.main-info-tab__link {
+.video-actionmenu__link {
   display: block;
   margin: 10px 19px 10px 0;
   padding-bottom: 10px;
@@ -764,26 +770,21 @@ header {
   border-bottom: 2px solid #4f87c7;
 }
 
-.checked {
+.video-actionmenu__link-active {
   color: #333;
   border-bottom: 2px solid #4f87c7;
 }
 
-.main-info-likes {
-  float: right;
-  margin-top: -8px;
-}
-
-.main-info-like {
+.videoaction-menu__item {
   display: inline-block;
   float: left;
 }
 
-.main-info-like__number {
+.videoaction-menu__counter {
   color: #666;
 }
 
-.main-info-like__link {
+.videoaction-menu__item-like {
   display: block;
   margin: 10px 0 10px 21px;
   padding-bottom: 10px;
@@ -792,23 +793,29 @@ header {
   color: #4f87c7;
 }
 
+.float-r {
+  float: right;
+}
+
 .main-info-like__link:hover {
   border-bottom: 2px solid #4f87c7;
 }
 
-.main-info-text {
+.video-description {
   margin: 10px 0 0 0;
   line-height: 17px;
+  float: left;
+  width: 710px;
 }
 
-.main-info-text p {
+.video-description p {
   margin-bottom: 0;
   font-family: Arial;
   font-size: 13px;
   color: #666;
 }
 
-.main-info-text a {
+.video-description a {
   text-decoration: underline;
   color: #4f87c7;
 }
