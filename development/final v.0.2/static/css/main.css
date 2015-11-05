@@ -525,6 +525,7 @@ header {
 .course-section {
   width: 710px;
   height: 500px;
+  float: left;
 }
 
 .course-section__list {
@@ -564,6 +565,10 @@ header {
   font-family: Arial;
   font-size: 13px;
   color: #999;
+}
+
+.course-section__paragraph {
+  font: 400 13px "Open Sans", arial;
 }
 
 .default-img {
@@ -718,11 +723,6 @@ header {
   border: none;
 }
 
-.video-head {
-  margin-top: 12px;
-  line-height: 0;
-}
-
 .video-title {
   display: inline-block;
   font-family: "Open Sans";
@@ -733,7 +733,6 @@ header {
 .video-views {
   display: inline-block;
   float: right;
-  margin-top: 12px;
   font-family: "Open Sans";
   font-size: 18px;
 }
@@ -765,7 +764,7 @@ header {
   color: #999;
 }
 
-.main-info-tab__link:hover {
+.video-actionmenu__link:hover {
   color: #333;
   border-bottom: 2px solid #4f87c7;
 }
@@ -778,6 +777,14 @@ header {
 .videoaction-menu__item {
   display: inline-block;
   float: left;
+}
+
+.video-actionmenu__item-test {
+  
+}
+
+.video-actionmenu__item-like {
+
 }
 
 .videoaction-menu__counter {
@@ -808,7 +815,7 @@ header {
   width: 710px;
 }
 
-.video-description p {
+.video-description__paragraph {
   margin-bottom: 0;
   font-family: Arial;
   font-size: 13px;
@@ -823,7 +830,6 @@ header {
 /* Social buttons, courses page tabs */
 .courses-social-btns {
   display: inline-block;
-  float: left;
   height: 24px;
   margin-top: 6px;
   margin-bottom: 0;
@@ -905,9 +911,8 @@ header {
   background: #c25234;
 }
 
-.main-info-text__or {
+.video-description__choice {
   display: inline-block;
-  float: left;
   margin: -2px 15px 0 15px;
   font-family: Arial;
   font-size: 13px;
@@ -915,7 +920,7 @@ header {
   color: #666;
 }
 
-.main-info-text__sharelink {
+.video-description__sharelink {
   display: inline-block;
   margin: -1px 0 0 1px;
   font-size: 13px;
@@ -931,7 +936,7 @@ header {
 }
 
 /* Courses.html test page */
-.main-article-test-btns__go {
+.course-section__start-btn {
   display: inline-block;
   padding: 11px 12px;
   font-family: "Open Sans", arial;
@@ -941,11 +946,11 @@ header {
   background: #64b44f;
 }
 
-.main-article-test-btns__go:hover {
+.course-section__start-btn:hover {
   background: #5ba747;
 }
 
-.main-article-test-btns__back {
+.course-section__back-btn {
   display: inline-block;
   margin: 14px 0 0 11px;
   padding: 11px 14px;
@@ -956,7 +961,7 @@ header {
   background: #b44f4f;
 }
 
-.main-article-test-btns__back:hover {
+.course-section__back-btn:hover {
   background: #923838;
 }
 
@@ -1030,16 +1035,15 @@ header {
   border-bottom: none;
 }*/
 
-.sidebar-navigation__videonumber {
+.sidebar-heading__counter {
   display: inline-block;
   float: right;
-  margin: 17px 0 0 0;
   font-family: Arial;
   font-size: 13px;
   color: #666;
 }
 
-.sidebar-navigation__lesson {
+.sidebar-navigation__lesson-number {
   position: absolute;
   top: 0;
   left: 0;
@@ -1073,10 +1077,6 @@ header {
   background: transparent;
 }
 
-.btn-next {
-  line-height: 13px;
-}
-
 .btn-nextvideo {
   display: inline-block;
   width: 220px;
@@ -1093,8 +1093,6 @@ header {
 .btn-nextvideo:hover {
   background: #3566a9;
 }
-
-
 
 .lesson {
   color: #666;
@@ -4132,7 +4130,7 @@ header {
   background: url("../img/sprite-main.png") no-repeat -112px 0;
 }
 
-.sidebar-navigation__links {
+.sidebar-navigation__link {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -4146,7 +4144,7 @@ header {
   border-bottom: 1px solid #f0f0f0;
 }
 
-.sidebar-navigation__links:hover {
+.sidebar-navigation__link:hover {
   background: #f0f0f0;
 }
 
