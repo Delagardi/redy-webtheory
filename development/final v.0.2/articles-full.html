@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Webtheory</title>
   <link href="static/css/main.css" rel="stylesheet">
+  <link href="rainbow-dev-custom/themes/github.css" rel="stylesheet">
+  <script src="/rainbow-dev-custom/rainbow.min.js"></script>
+  <script src="/rainbow-dev-custom/language/php.js"></script> 
 </head>
 <body>
 <header>
@@ -38,312 +41,185 @@
 </div>
 </header>
 <div class="main">
-<div class="sidebar">
-  <h3 class="sidebar-heading">Навигация</h3>
-  <ul class="sidebar-navigation">
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span  class="sidebar-navigation__icon1"></span>
-        Моя страница
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon2"></span>
-        Мои публикации
-        <span class="sidebar-navigation__number">19</span>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon3"></span>
-        Мои навыки
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon4"></span>
-        Мои сообщества
-        <span class="sidebar-navigation__number">82</span>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon5"></span>
-        Диалоги 
-        <span class="sidebar-navigation__number-active">2</span>
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon6"></span>
-        Добавить работу
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon7"></span>Настройки
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links-last">
-        <span class="sidebar-navigation__icon8"></span>
-        Выйти
-      </a>
-    </li>
-  </ul>
-  <h3 class="sidebar-heading">Сортировка</h3>
-  <ul class="sidebar-sorting">
-    <li class="sidebar-sorting__item">
-      Категория:
-    </li>
-    <li>
-      <div class="select-cover"><div class="triangle"></div>
-        <select class="sidebar-sorting__menu">
-          <option>Все категории</option>
-          <option>Все категории</option>
-          <option>Все категории</option>
-          <option>Все категории</option>
-          <option>Все категории</option>
-        </select>
-      </div>
-    </li>
-    <li class="sidebar-sorting__item">
-      Показывать:
-    </li>
-    <li>
-      <div class="select-cover">
-        <div class="triangle"></div>
-        <select class="sidebar-sorting__menu">
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-        </select>
-      </div>
-    </li>
-    <li class="sidebar-sorting__item">
-      Тип статей:
-    </li>
-    <li>
-      <div class="select-cover">
-        <div class="triangle"></div>
-        <select class="sidebar-sorting__menu">
-          <option>Любые</option>
-          <option>Любые</option>
-          <option>Любые</option>
-          <option>Любые</option>
-        </select>
-      </div>
-    </li>
-  </ul> 
-  <h3 class="sidebar-heading">Поможем проекту?</h3>
-  <ul class="sidebar-help"> 
-    <li class="sidebar-help__description">
-      Для поддержания и развития проекта необходимы денежные
-  средства, которые у нас заканчиваются.
-    </li>
-    <li>
-      <a href="#" class="sidebar-help__donate">
-        Помочь проекту
-        <span class="sidebar-help__donate-bag"></span>
-      </a>
-    </li>
-  </ul>
-  <h3 class="sidebar-heading">Мы в соц.сетях</h3>
-  <ul class="sidebar-social">
-    <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon1"></span>
-        Вконтакте
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon2"></span>
-        Facebook
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon3"></span>
-        Google+
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon4"></span>
-        YouTube
-      </a>
-    </li>
-    <li>
-      <a href="#" class="sidebar-social__item-last">
-        <span class="sidebar-social__icon5"></span>
-        Twitter
-      </a>
-    </li>
-  </ul>
-  <ul class="footer">
-    <li class="makers">webtheory.net © 2014</li>
-    <li><a href="#" class="footer__link">Правила</a></li>
-    <li><a href="#" class="footer__link">О нас</a></li>
-    <li><a href="#" class="footer__link">Контакты</a></li>
-  </ul>
-</div>
-<div id="content">
-  <div class="article1">
-    <h2 class="article-name">Изучение Ruby #1</h2>
-    <ul class="article-tags">
-      <li><a href="#" class="tag">Ruby</a></li>
-      <li><a href="#" class="tag">Урок</a></li>
-      <li><a href="#" class="tag">Веб-разработка</a></li>
-    </ul>    
+  <div class="articles-content">
+    <article class="acticle-wrapper">
+      <div class="article-heading-block">
+     <h2 class="article-heading">Изучение Ruby #1</h2>
+    <span class="article-heading-tag">Урок</span>
+    <a class="article-delete-btn" href="#">Удалить</a>
+    <a class="article-edit-btn" href="#">Редактировать</a>
+   </div>
     <div class="article-author">
-      <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="article-author-pic">
-      <a href="#" class="article-author-name">Глеб Цырульников</a>
-      <span class="article_post-time">12 минут назад</span>
+     <a class="link-to-profile" href="profile.html">
+       <img class="article-author-photo" src="upload/2015-09/users/uid3/1442366510_40x40.jpg" alt="user-photo">
+      <span>Глеб Цырульников</span>
+     </a>
+     <span class="article__date">12 минут назад</span>
     </div>
-    <div class="article-text"> И снова всем привет. Я продолжаю свою серию текстовых туториалов по изучению языка Ruby. Сегодня у нас в планах:
-      <ul class="article-text_lists">
+    <ul class="article-tags">
+      <li class="article-tags__item"><a class="article-tags__link" href="#">Веб-разработка</a></li>
+      <li class="article-tags__item"><a class="article-tags__link" href="#">Урок</a></li>
+      <li class="article-tags__item"><a class="article-tags__link" href="#">Ruby</a></li>
+    </ul>
+    <div class="article-content-text">И снова всем привет. Я продолжаю свою серию текстовых туториалов по изучению языка Ruby. Сегодня у нас в планах:
+     <br><br>
+      <ul class="article-content-text-list">
         <li>- Установить Ruby интерпретатор</li>
         <li>- Написать простенькую программу</li>
-      </ul> Начнем мы, естественно, с первого пункта. Как вы помните, основным сайтом ruby-разработчика является <a href="http://ruby-lang.org/">http://ruby-lang.org/</a>. Что ж, сегодня он нам понадобится.<br>
-      <br>
-      Переходим на данный сайт, нажимаем на кнопочку Downloads (Скачать). На открывшейся странице мы можем увидеть 3 разных подхода для инсталяции интерпретатора:
-      <ul class="article-text_lists">
-      <li>- Компиляция исходников </li>
-      <li>- Использование сторонних инструментов</li>
-      <li>- Установка через системы управления пакетами</li>
       </ul>
-      <h3>Windows</h3>
-      Для установки на операционных системах Windows нам понадобится утилита RubyInstaller. Официальный сайт - <a href="http://rubyinstaller.org/">http://rubyinstaller.org/</a>. Заходим на данный сайт, затем в раздел Downloads. Если вы знаете английский, то сможете понять, что нам рекомендуют установить Ruby версии 1.9.3. Устанавливаем данную версию. (У меня установлена именно эта версия).
-      <h3>UNIX-like OS</h3>
-      Для установки на unix-like ОС мы можем установить RVM (Ruby Version Manager). Команда:
-            <pre><code data-language="php">
-              ?php
-              function just_do_it() {
-              echo 'Test';
-              }
-            </code></pre>
-      Подведем итог:
-      <ul class="article-text_lists">
-        <li>- Сегодня мы установили интерпретатор Ruby</li>
+<br>
+Начнем мы, естественно, с первого пункта. Как вы помните, основным сайтом ruby-разработчика является <a class="article-content-link" href="http://ruby-lang.org/">http://ruby-lang.org/</a>. Что ж, сегодня он нам понадобится. 
+<br><br>
+Переходим на данный сайт, нажимаем на кнопочку Downloads (Скачать). На открывшейся странице мы можем увидеть 3 разных подхода для инсталяции интерпретатора:
+<br><br>
+       <ul class="article-content-text-list">
+         <li>- Компиляция исходников</li>
+        <li>- Использование сторонних инструментов</li>
+        <li>- Установка через системы управления пакетами</li>
+       </ul>
+    <h3 class="article-content-text-heading">Windows</h3>
+Для установки на операционных системах Windows нам понадобится утилита RubyInstaller. Официальный сайт- <a class="article-content-link" href="http://rubyinstaller.org/">http://rubyinstaller.org/</a>. Заходим на данный сайт, затем в раздел Downloads. Если вы знаете английский, то сможете понять, что нам рекомендуют установить Ruby версии 1.9.3. Устанавливаем данную версию. (У меня установлена именно эта версия).
+<br>
+    <h3 class="article-content-text-heading">UNIX-like OS</h3>
+
+    Для установки на unix-like ОС мы можем установить RVM (Ruby Version Manager). Команда:
+<br>
+    <pre class="article-code-example">
+          <code data-language="php">
+          ?php
+          function just_do_it() {
+          echo 'Test';
+          }
+          </code>
+        </pre>
+        Подведем итог:
+        <br><br>
+        <ul class="article-content-text-list">
+         <li>- Сегодня мы установили интерпретатор Ruby</li>
         <li>- Написали хеллоу ворлд</li>
-        <li>- Вскользь и тайно пробежались по следующему уроку (только цсс).</li>
-      </ul>
-      <ul>
-        <li><h4>Задание #1</h4></li>
-        <li class="task1_text">Напишите стандартную таблицу умножения от 1 до 10. Используйте циклы, манипуляторы. Совет: циклы можно вкладывать друг в друга как и операторы, используйте.</li>
-        <li><a class="task_solution"  href="#">Узнать решение</a>
-        </li>
-      </ul>
-      Я думаю, что это великолепный день. <b>Удачи в разработке! ;)</b>
-    </div>
-    <div class="article_bottom-nav"> 
-      <div class="likes-block">
-        <a href="#" class="like"><span class="like-thumb-up"></span></a>
-        <span class="likes-number">+97</span>
-        <a href="#" class="dislike"><span class="like-thumb-down"></span></a>
-      </div>
-      <div class="views-number">18 381</div>
-      <div class="comments-number">832</div>
-      <ul class="social-btns">
-        <li class="vk-btn">
-          <div class="vk-btn_pic"></div>11
-        </li>
-        <li class="fb-btn">
-          <div class="fb-btn-pic"></div>
-        </li>
-        <li class="tw-btn">
-          <div class="tw-btn-pic"></div>1
-        </li>
-        <li class="google-btn">
-          <div class="google-btn_pic"></div>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="comments_block">
-  <h2 class="comments_heading">Комментарии</h2>
-  <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="" class="comment_person">
-   <input type="text" class="comment_input" placeholder="Нажмите shift+enter для отправки комментария">
-   <div class="comment">
-    <a href="#">
-      <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="">
-    </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Никита Архипов</a>
-       <div class="comment_text">
-       Всем спасибо ;)
-       </div>
-       <div class="comment_menu">
-        <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-       <a class="ilike-btn" href="#">Мне нравиться</a>
-     </div>
-   </div>
-      <div class="comment">
-    <a href="#">
-      <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="">
-    </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Eva Bozhinsky</a>
-       <div class="comment_text">
-       Thank you very much!!! It helped me a lot!!!
-       </div>
-       <div class="comment_menu">
-        <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-     </div>
-     <a class="ilike-btn-pressed" href="#">Мне нравиться</a>
-   </div>
-      <div class="comment">
-    <a href="#">
-      <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="">
-    </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Анатолий Кураченко</a>
-       <div class="comment_text">
-       <a href="#" class="comment-for">Никита</a>, это все без сомнений, и даже (после просмотров видео и погуляв еще по сайту) я статьи прочел. Но я имел ввиду принудительного информирования пользователя ( как у вас сейчас уже и сделано) :)
-       </div>
-       <div class="comment_menu">
-        <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-     </div>
-     <a class="ilike-btn" href="#">Мне нравиться</a>
-   </div>
-      <div class="comment height">
-    <a href="#">
-      <img src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="">
-    </a>
-     <div class="comment_content">
-       <a class="commenter_name" href="#">Никита Архипов</a>
-       <div class="comment_text">
-       <a href="#" class="comment-for">Анатолий</a>, если прочитать все, что написано в блоке (а там написано мало), можно увидеть строку "Тест можно пройти только 1 раз, чтобы пройти тестирование заново - необходимо пройти весь курс."
-       </div>
-       <div class="comment_menu">
-        <a href="">Ответить</a>
-         <div class="point">
-         </div>
-         <a href="">Удалить</a>
-       </div>
-     </div>
-     <a class="ilike-btn-number" href="#">Мне нравиться
-     <span>2</span>
-     </a>
-   </div>
-  </div>
+        <li>- Вскользь и тайно пробежались по следующему уроку (только цсс).
+</li>
+       </ul>
+       <h4 class="article-task-heading">Задание #1</h4>
+       <p class="article-task-description">Напишите стандартную таблицу умножения от 1 до 10. Используйте циклы, манипуляторы. Совет: циклы можно вкладывать друг в друга как и операторы, используйте.
+       <a class="article-task-answer" href="#">Узнать решение</a>
+</p>
+ <span>Я думаю, что это великолепный день. <b>Удачи в разработке! ;)</b></span>
 </div>
+ <ul class="article-bottom-section">
+   <ul class="article-votes">
+     <li class="article-votes-item"><a class="article-like-btn" href="#"></a></li>
+     <li class="article-votes-item"><a class="article-likes-counter" href="#">+82</a></li>
+     <li class="article-votes-item"><a class="article-dislike-btn" href="#"></a></li>
+   </ul>
+   <li class="article__views-counter"><span>2 864</span></li>
+   <li class="article__comments-counter"><span>39</span></li>
+ </ul>
+ <ul class="article-share">
+   <li class="article-share__item">
+     <a class="article-share__vk" href="#"><span class="article-share__counter">12</span></a>
+   </li>
+   <li class="article-share__item">
+     <a class="article-share__fb" href="#"><span class="article-share__counter"></span></a>
+     </li>
+   <li class="article-share__item">
+     <a class="article-share__tw" href="#"><span class="article-share__counter">1</span></a>
+     </li>
+   <li class="article-share__item">
+     <a class="article-share__google" href="#"><span class="article-share__counter"></span></a>
+     </li>
+ </ul>
+    </article>
+    <h4>Комментарии</h4>
+    <div>
+      <a href="#">
+        <img src="upload/2015-09/users/uid10/1442366510_50x50.png" alt="">
+      </a>
+      <div class="comment-area" tabindex="1">
+        Нажмите shift+enter для отправки комментария
+      </div>
+    </div>
+    <div class="post">
+      <a href="#">
+        <img class="post-author__photo" src="upload/2015-09/users/uid10/1442366510_50x50.png" alt="">
+      </a>
+      <a class="post-author__name" href="#">Никита Архипов <span class="article-comment-date">15:29, 18 сен</span></a>
+      <div>
+        <p class="post-content">Всем спасибо ;)</p>
+      </div>
+      <ul class="post-info">
+        <li class="post-date">
+          <a class="comment-btn" href="#">Ответить</a>
+        </li>
+        <li class="comment-btn">
+          <a class="comment-btn" href="#">Удалить</a>
+        </li>
+      </ul>
+    </div>
+    <div class="post">
+      <a href="#">
+        <img class="post-author__photo" src="upload/2015-09/users/uid11/1442366510_50x50.png" alt="">
+      </a>
+      <a class="post-author__name" href="#">Eva Bozhinsky <span class="article-comment-date">15:12, 18 сен</span></a>
+      <div>
+        <p class="post-content">Thank you very much!!! It helped me a lot!!!</p>
+      </div>
+      <ul class="post-info">
+        <li class="post-date">
+          <a class="comment-btn" href="#">Ответить</a>
+        </li>
+        <li class="comment-btn">
+          <a class="comment-btn" href="#">Удалить</a>
+        </li>
+        <li class="post-likes">
+          <a class="post-likes__btn" href="#">Мне нравится<span class="post-likes__counter"></span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="post">
+      <a href="#">
+        <img class="post-author__photo" src="upload/2015-09/users/uid12/1442366510_50x50.png" alt="">
+      </a>
+      <a class="post-author__name" href="#">Анатолий Кураченко <span class="article-comment-date">23:56, 17 сен</span></a>
+      <div>
+        <p class="post-content"><a class="reply-to" href="/profile.html">Никита</a>
+        , это все без сомнений, и даже (после просмотров видео и погуляв еще по сайту) я статьи прочел. Но я имел ввиду принудительного информирования пользователя ( как у вас сейчас уже и сделано) :)
+        </p>
+      </div>
+      <ul class="post-info">
+        <li class="post-date">
+          <a class="comment-btn" href="#">Ответить</a>
+        </li>
+        <li class="comment-btn">
+          <a class="comment-btn" href="#">Удалить</a>
+        </li>
+        <li class="post-likes">
+          <a class="post-likes__btn" href="#">Мне нравится  <span class="post-likes__counter"></span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="post">
+      <a href="#">
+        <img class="post-author__photo" src="upload/2015-09/users/uid10/1442366510_50x50.png" alt="">
+      </a>
+      <a class="post-author__name" href="#">Никита Архипов <span class="article-comment-date">15:29, 18 сен</span></a>
+      <div>
+        <p class="post-content"><a class="reply-to" href="/profile.html">Анатолий</a>, если прочитать все, что написано в блоке (а там написано мало), можно увидеть строку "Тест можно пройти только 1 раз, чтобы пройти тестирование заново - необходимо пройти весь курс."</p>
+      </div>
+      <ul class="post-info">
+        <li class="post-date">
+          <a class="comment-btn" href="#">Ответить</a>
+        </li>
+        <li class="comment-btn">
+          <a class="comment-btn" href="#">Удалить</a>
+        </li>
+        <li class="post-likes">
+          <a class="post-likes__btn" href="#">Мне нравится  <span class="post-likes__counter">2</span></a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
 </div>
 </body>
 </html>

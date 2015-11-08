@@ -3015,8 +3015,9 @@ header {
   margin: 17px 10px 0 0;
 }
 
-.close-mini {
-  display: block;
+.new-message-error:after {
+  content: "";
+  display: inline-block;
   float: right;
   width: 10px;
   height: 10px;
@@ -3041,8 +3042,9 @@ header {
   color: #333;
 }
 
-.new-message-close {
-  display: block;
+.new-message__title:after {
+  content: "";
+  display: inline-block;
   float: right;
   width: 14px;
   height: 14px;
@@ -4675,10 +4677,8 @@ input[name="graphics-add-upload"] {
 
 
 
-/*=======================================================*/
-/* MAIN-ARTICLE-ADD PAGE START */
-/*=======================================================*/
 
+/* ARTICLE-ADD START */
 .main {
   width: 960px;
   margin: 0 auto;
@@ -4954,8 +4954,6 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") 0 -25px;
 }
 
-
-
 .article_input {
   width: 703px;
   height: 254px;
@@ -5050,21 +5048,14 @@ input[name="graphics-add-upload"] {
   font: 700 13px Arial;
   color: #333;
 }
-
-/*=======================================================*/
-/* MAIN-ARTICLE-ADD PAGE END */
-/*=======================================================*/
-
-
-
-
-
+/* ARTICLE-ADD END */
 
 
 /*=======================================================*/
 /*ARTICLES START*/
 /*=======================================================*/
 
+/* ARTICLES ADD-PREVIEW START */
 
 .go-back_btn {
   display: block;
@@ -5088,6 +5079,119 @@ input[name="graphics-add-upload"] {
   border-right: 3px solid transparent;
   border-left: 3px solid transparent;
 }
+
+/* ARTICLES ADD-PREVIEW END */
+
+
+/* ARTICLES FULL START */
+
+.article-edit-btn,
+.article-delete-btn {
+  color: #7396c1;
+  font: 400 13px / 22px Arial;
+  float: right;
+}
+
+.article-edit-btn:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/sprite-main.png") -254px -202px;
+  margin: 0 6px 0 0;
+}
+
+.article-edit-btn:hover {
+  opacity: .8;
+}
+
+.article-delete-btn:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url("../img/sprite-main.png") -254px -172px;
+  margin: 0 8px 0 14px;
+}
+
+.article-delete-btn:hover {
+  opacity: .8;
+}
+
+.article-content-text-heading {
+  color: #448acd;
+  font: 400 20px / 22px Open Sans;
+  margin-bottom: 25px;
+}
+
+.article-code-example {
+  height: 85px;
+  padding: 0;
+  margin-bottom: 13px;
+  margin-top: 10px;
+}
+
+.article-task-heading {
+  color: #6e7987;
+  font: 700 13px / 22px Open Sans;
+  margin-bottom: -12px;
+}
+
+.article-task-heading:before {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 28px;
+  background: url("../img/sprite-main.png") -224px -115px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.article-task-description {
+  width: 675px;
+  float: right;
+}
+
+.article-task-answer {
+  display: block;
+  width: 15.6%;
+  color: #4985d1;
+  font: 400 13px / 22px Open Sans;
+  border-bottom: 1px dashed #4985d1;
+  margin-bottom: 3px;
+}
+
+.article-content-text > span {
+  float: left;
+}
+
+.article-comment-date {
+  color: #999999;
+  font: 400 11px / 18px Arial;
+}
+
+.reply-to {
+  color: #4f7ab4;
+  font: 400 12px / 18px Arial;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  border-bottom: 1px solid #4f7ab4;
+}
+
+.comment-area {
+  width: 646px;
+  height: 48px;
+  float: right;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.2);
+  color: #999999;
+  font: 400 12px / 18px Arial;
+  padding: 5px 10px;
+}
+
+/* ARTICLES FULL END */
+
 
 .articles-content {
   width: 710px;
@@ -5225,7 +5329,6 @@ input[name="graphics-add-upload"] {
 
 .continue-reading-btn {
   float: left;
-  display: block;
   width: 150px;
   height: 40px;
   background: linear-gradient(0deg, #719bda 0%, #71a7da 100%);
@@ -5235,6 +5338,7 @@ input[name="graphics-add-upload"] {
   text-align: center;
   line-height: 42px;
   margin-top: -1px;
+  margin-right: 14px;
 }
 
 .continue-reading-btn:hover {
@@ -5245,7 +5349,7 @@ input[name="graphics-add-upload"] {
   width: 126px;
   height: 40px;
   float: left;
-  margin: -1px 0 0 14px;
+  margin: -1px 0 0 0px;
   background: linear-gradient(0deg, #f5f5f5 0%, #f7f7f7 100%);
   border-radius: 3px;
   border: 1px solid #e3e3e3;
