@@ -567,7 +567,7 @@ header {
   color: #999;
 }
 
-.course-section__paragraph {
+.course-section__test-description {
   font: 400 13px "Open Sans", arial;
 }
 
@@ -713,6 +713,17 @@ header {
 /* Below styles for Courses-full page */
 .wrapper .video {
   margin-top: 14px;
+}
+
+.test-title {
+  color: #333333;
+  font: 600 18px Arial;
+  margin: 24px 0 4px 0;
+}
+
+.test-subtitle {
+  color: #333333;
+  font: 400 16px Arial;
 }
 
 .video {
@@ -936,21 +947,32 @@ header {
 }
 
 /* Courses.html test page */
-.course-section__start-btn {
+.red {
+  background: #b44f4f;
+}
+
+.green {
+  background: #64b44f;
+}
+
+.course-section__btn-start {
   display: inline-block;
   padding: 11px 12px;
   font-family: "Open Sans", arial;
   font-size: 13px;
   color: #fff;
   border-radius: 3px;
-  background: #64b44f;
 }
 
-.course-section__start-btn:hover {
+.course-section__btn-start:hover {
   background: #5ba747;
 }
 
-.course-section__back-btn {
+.course-section__btn {
+  display: inline-block;
+}
+
+.course-section__btn-back {
   display: inline-block;
   margin: 14px 0 0 11px;
   padding: 11px 14px;
@@ -958,11 +980,10 @@ header {
   font-size: 13px;
   color: #fff;
   border-radius: 3px;
-  background: #b44f4f;
 }
 
-.course-section__back-btn:hover {
-  background: #923838;
+.course-section__btn-back:hover {
+  background: #9d4545;
 }
 
 .main-article-test-btns__next {
@@ -1159,22 +1180,46 @@ header {
   border-bottom: none;
 }
 
-.sidebar-course-discription h2 {
-  margin-top: 35px;
-  font-family: Arial;
-  font-size: 18px;
-  color: #333;
+.sidebar-course-description__summary{
+
 }
 
-.sidebar-course-discription-difficulty,
-.sidebar-course-discription__skills {
+.sidebar-course-description__list{
+
+}
+
+.sidebar-course-description__item {
   margin-top: 10px;
   font-family: Arial;
   font-size: 13px;
   color: #333;
 }
 
-.sidebar-course-discription__text {
+.sidebar-course-description__item-level {
+  color: #cfa913;
+}
+
+.sidebar-course-discription__item-link {
+  text-decoration: underline;
+  color: #4f7ab4;
+}
+
+.sidebar-course-description h2 {
+  margin-top: 35px;
+  font-family: Arial;
+  font-size: 18px;
+  color: #333;
+}
+
+.sidebar-course-description-difficulty,
+.sidebar-course-description__skills {
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 13px;
+  color: #333;
+}
+
+.sidebar-course-description__summary {
   width: 220px;
   margin-top: 21px;
   font-family: Arial;
@@ -1183,7 +1228,7 @@ header {
   color: #666;
 }
 
-.sidebar-course-discription__skills a {
+.sidebar-course-description__skills a {
   text-decoration: underline;
   color: #4f7ab4;
 }
@@ -4428,6 +4473,13 @@ header {
   color: #999;
 }
 
+.copyright {
+  width: 220px;
+  margin: 0 0 6px 0;
+  text-align: center;
+  color: #999;
+}
+
 .makers {
   width: 220px;
   margin: 0 0 6px 0;
@@ -5133,7 +5185,7 @@ input[name="graphics-add-upload"] {
 
 .article-task-heading {
   color: #6e7987;
-  font: 700 13px / 22px Open Sans;
+  font: 700 13px / 22px "Open Sans";
   margin-bottom: -12px;
 }
 
