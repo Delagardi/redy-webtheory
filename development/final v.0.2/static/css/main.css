@@ -626,7 +626,7 @@ header {
 
 .pathway-article p,
 .main-article-text-list,
-.main-article-text__questions {
+.course-section__questions {
   margin: 12px auto;
   padding: 4px 8px 0 0;
   font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
@@ -635,28 +635,12 @@ header {
   color: #666;
 }
 
-.main-article-text__questions input {
-  margin-top: 18px;
-}
-
-.test-radio-btn:not(checked) {
-  position: absolute;
-  opacity: 0;
-}
-
-.test-radio-btn:not(checked) + label {
-  position: relative;
-  padding: 0 0 0 30px;
-  line-height: 28px;
-}
-
-.test-radio-btn:not(checked) + label:before {
+.course-section__questions-label:before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
+  float: left;
+  display: block;
   background: url("../img/sprite-main.png") -200px -226px no-repeat;
 }
 
@@ -667,6 +651,38 @@ header {
 .pathway-article__highlighted {
   padding: 2px;
   border-radius: 3px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + .input-standin:before {
+  background: url("../img/sprite-main.png") -214px -226px no-repeat;
+}
+
+label[for^="radio"] {
+  padding-left: 18px;
+}
+
+label[for^="radio"]:before {
+  top: 3px;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: url("../img/sprite-main.png") -200px -226px no-repeat;
+}
+
+.input-standin {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.input-standin:before {
+  content: '';
+  display: block;
+  position: absolute;
 }
 
 .javascript {
@@ -723,7 +739,7 @@ header {
 
 .test-subtitle {
   color: #333333;
-  font: 400 16px Arial;
+  font: 400 14px Arial;
 }
 
 .video {
@@ -1001,7 +1017,7 @@ header {
   background: #3566a9;
 }
 
-.main-article-test-btns__answ {
+.course-section__answer-btn {
   display: inline-block;
   margin-top: 10px;
   padding: 11px 32px;
@@ -1012,15 +1028,14 @@ header {
   background: #4f7ab4;
 }
 
-.main-article-test-btns__answ:hover {
+.course-section__answer-btn:hover {
   background: #3b649a;
 }
 
-.main-article-headerblock__number {
+.test__number {
   display: inline;
   margin-left: 5px;
-  font-family: "Open Sans", Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
-  font-size: 13px;
+  font:400 13px "Open Sans", Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
   color: #999;
 }
 
@@ -1034,7 +1049,7 @@ header {
 /*=======================================================*/
 
 .sidebar-section {
-  
+
 }
 
 .lesson-fullpage {
