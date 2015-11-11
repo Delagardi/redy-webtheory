@@ -3452,6 +3452,10 @@ label[for^="radio"]:before {
   color: #427ec1;
 }
 
+.invitation-list-namefield {
+  margin: 0;
+}
+
 .registration-list-namefield {
   margin: 0 0 20px 0;
 }
