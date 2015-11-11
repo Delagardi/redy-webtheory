@@ -47,109 +47,78 @@
       </ul>
     </div>
   </div>
-  <div class="courses-main">
-    <div class="courses-content">
-      <article class="main-article">
-        <div class="main-article-headerblock">
-          <h1>Тест к уроку</h1>
-        </div>
-        <h3>Поздравляем!</h3>
-        <p>
-          Вы успешно прошли тест, ваши результаты:
-        </p>
-          <ul class="main-article-text-list">
-            <li>Процент выполнения: 80%</li>
-            <li>Правильных ответов: 4/5</li>
-            <li>Ваша оценка: 4</li>
-          </ul>
-        <p>
-          К вашему рейтингу добавлено +10 пунктов за хорошее выполнение теста
-        </p>
-        <div class="main-article-test-btns">
-          <a class="main-article-test-btns__next" href="#">Следующее видео</a>
-        </div>
-      </article>
-    </div>
-    <div class="sidebar">
-      <h2 class="sidebar-header">Уроки</h2>
-      <span class="sidebar-navigation__videonumber clearfix">9 видео</span>
-      <ul class="sidebar-navigation lesson-fullpage">
-        <li class="clearfix">
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">00</span>
-            Введение
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson lesson-checked">
-            <span  class="sidebar-navigation__lesson">01</span>
-            Установка компилятора
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">02</span>
-            Типы данных
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">03</span>
-            Операторы
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">04</span>
-            Функции
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">05</span>
-            Условия
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">06</span>
-            Циклы
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">07</span>
-            Классы
-          </a>
-        </li>
-        <li>
-          <a href="#" class="sidebar-navigation__links lesson">
-            <span  class="sidebar-navigation__lesson">08</span>
-            Практический пример
-          </a>
-        </li>
+<div class="wrapper">
+  <div class="course-section">
+    <h1 class="ui-h1 test-title">Тест к уроку</h1>
+    <h2 class="ui-h2 test-subtitle">Поздравляем!</h2>
+    <div class="test-info">
+      <p>Вы успешно прошли тест, ваши результаты:</p>
+      <ul class="test-result">
+        <li class="test-result__item">Процент выполнения: 80%</li>
+        <li class="test-result__item">Правильных ответов: 4/5</li>
+        <li class="test-result__item">Ваша оценка: 4</li>
       </ul>
-      <div class="btn-next"><a class="btn-nextvideo" href="#">Следующее видео</a>
-      </div>
-      <div class="sidebar-course-discription">
-        <h2>О курсе</h2>
-        <div class="sidebar-course-discription__dffclty">Уровень сложности: <span>средний</span>
-        </div>
-        <div class="sidebar-course-discription__skills">Необходимые навыки: <span><a href="#">Java Script</a></span>
-        </div>
-        <div class="sidebar-course-discription__text">
-          <p>
+      <p>К вашему рейтингу добавлено +10 пунктов за хорошее выполнение теста</p>
+    </div>
+    <a class="ui-btn-nextvideo" href="#">Следующее видео</a>
+  </div>
+  <div class="sidebar">
+    <div class="sidebar-section">
+      <h3 class="ui-h3 ">Уроки<span class="sidebar-heading__counter">9 видео</span></h3>
+      <ol class="sidebar-navigation" type="0">
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Введение</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link"> Установка компилятора</a>
+        </li>
+        <li class="sidebar-navigation__item"> 
+          <a href="#" class="sidebar-navigation__link">Типы данных</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Операторы</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Функции</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Условия</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Циклы</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Классы</a>
+        </li>
+        <li class="sidebar-navigation__item">
+          <a href="#" class="sidebar-navigation__link">Практический пример</a>
+        </li>
+        <li class="sidebar-navigation__item"><a class="ui-btn-nextvideo" href="#">Следующее видео</a>
+        </li>
+      </ol>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-course-description">
+        <h3 class="ui-h3">О курсе</h3>
+        <ul class="sidebar-course-description__list">
+          <li class="sidebar-course-description__item">Уровень сложности: <span class="sidebar-course-discription__item-level">средний</span></li>
+          <li class="sidebar-course-description__item">Необходимые навыки: <span><a class="sidebar-course-discription__item-link" href="#">Java Script</a></span>
+          </li>
+          <li class="sidebar-course-description__summary">
             Данный курс расчитан на аудиторию, которая знает что такое JavaScript. В данном курсе вы научитесь использовать CoffeeScript - компилируемый язык в JavaScript, который позволяет упростить и ускорить разработку.
-          </p>
-        </div>
+          </li>
+        </ul>
       </div>
+    </div>
+    <div class="sidebar-section">
       <ul class="footer">
-        <li class="makers">webtheory.net © 2014</li>
+        <li class="copyright">webtheory.net © 2014</li>
         <li><a href="#" class="footer__link">Правила</a></li>
-        <li><a href="#" class="footer__link">О нас</a></li>
+        <li><a href="#" class="footer__link">Конфиденциальность</a></li>
         <li><a href="#" class="footer__link">Контакты</a></li>
       </ul>
     </div>
   </div>
+</div>
 </body>
 </html>

@@ -610,22 +610,18 @@ header {
   color: #3676b1;
 }
 
-.main-article h2 {
-  margin: 45px 0;
-  font-family: Verdana, "Geneva CY", "DejaVu Sans", Sans-serif;
-  font-size: 18px;
-  font-weight: 100;
-  color: #666;
+.test-info {
+  color: #666666;
+  font: 400 14px "Open Sans", arial;
 }
 
-.main-article h3 {
-  font-family: "Open Sans", arial;
-  font-size: 14px;
-  color: #333;
+.test-result {
+  list-style: disc;
+  font-size: 13px;
+  padding: 0 0 0 20px;
 }
 
 .pathway-article p,
-.main-article-text-list,
 .course-section__questions {
   margin: 12px auto;
   padding: 4px 8px 0 0;
@@ -653,36 +649,30 @@ header {
   border-radius: 3px;
 }
 
-input[type="radio"] {
+.option-radio {
   display: none;
 }
 
-input[type="radio"]:checked + .input-standin:before {
+.option-radio:checked + .option-label:before {
   background: url("../img/sprite-main.png") -214px -226px no-repeat;
 }
 
-label[for^="radio"] {
+.option-label {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
   padding-left: 18px;
 }
 
-label[for^="radio"]:before {
+.option-label:before {
+  content: '';
+  display: block;
+  position: absolute;
   top: 3px;
   left: 0;
   width: 14px;
   height: 14px;
   background: url("../img/sprite-main.png") -200px -226px no-repeat;
-}
-
-.input-standin {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 5px;
-}
-
-.input-standin:before {
-  content: '';
-  display: block;
-  position: absolute;
 }
 
 .javascript {
@@ -1002,21 +992,6 @@ label[for^="radio"]:before {
   background: #9d4545;
 }
 
-.main-article-test-btns__next {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 11px 38px;
-  font-family: "Open Sans", arial;
-  font-size: 13px;
-  color: #fff;
-  border-radius: 3px;
-  background: #4f7ab4;
-}
-
-.main-article-test-btns__next:hover {
-  background: #3566a9;
-}
-
 .course-section__answer-btn {
   display: inline-block;
   margin-top: 10px;
@@ -1116,14 +1091,13 @@ label[for^="radio"]:before {
   background: transparent;
 }
 
-.btn-nextvideo {
+.ui-btn-nextvideo {
   display: inline-block;
   width: 220px;
   height: 40px;
   margin-top: 7px;
-  padding: 13px 50px 10px 54px;
-  font-family: "Open Sans", Arial;
-  font-size: 13px;
+  font: 400 13px/40px "Open Sans", Arial;
+  text-align: center;
   color: #fff;
   border-radius: 3px;
   background: #4f7ab4;
@@ -1133,17 +1107,8 @@ label[for^="radio"]:before {
   background: #3566a9;
 }
 
-.lesson {
-  color: #666;
-}
-
 .sidebar-navigation__links:hover {
   background: #f0f0f0;
-}
-
-.lesson-checked,
-.lesson:hover {
-  color: #4f83ca;
 }
 
 .sidebar-navigation__links-last {
@@ -4030,8 +3995,6 @@ label[for^="radio"]:before {
   color: #333;
 }
 
-
-
 .page_btn-active {
   border-bottom: 2px solid #609ad4;
 }
@@ -4046,8 +4009,12 @@ label[for^="radio"]:before {
   margin: 5px 0 0;
   padding: 0;
   font: 400 18px "Open Sans", arial;
-  list-style: none;
   color: #333;
+  list-style: decimal-leading-zero;
+}
+
+.sidebar-navigation__item:last-child {
+  list-style: none;
 }
 
 .head-icon:before {
