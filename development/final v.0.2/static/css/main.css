@@ -3380,7 +3380,7 @@ label[for^="radio"]:before {
   color: #427ec1;
 }
 
-.link-for-photo,
+.signup-btn__photo,
 .invitation-btn__link {
   width: 408px;
   height: 46px;
@@ -3398,7 +3398,7 @@ label[for^="radio"]:before {
   color: #666;
 }
 
-.link-for-photo:hover,
+.signup-btn__photo:hover,
 .invitation-btn__link:hover {
   background: #dedede;  
 }
@@ -3548,7 +3548,7 @@ label[for^="radio"]:before {
   color: #999;
 }
 
-.link-for-end {
+.signup-btn__submit {
   width: 408px;
   height: 42px;
   margin: 13px auto;
@@ -3566,7 +3566,7 @@ label[for^="radio"]:before {
   color: #fff;
 }
 
-.link-for-end:hover {
+.signup-btn__submit:hover {
   background: #763084;  
 }
 
