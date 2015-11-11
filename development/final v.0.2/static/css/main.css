@@ -3406,18 +3406,18 @@ label[for^="radio"]:before {
   background: #dedede;  
 }
 
+.signup-photo__sign {
+  margin-top: 0;
+  text-align: center;
+}
+
 .signup-photo__input {
   position: absolute;
   width: 408px;
   height: 46px;
   cursor: pointer;
   opacity: 0;
-}
-
-.signup-photo:after {
-  content: "Выберите фотографию";
-  display: block;
-  text-align: center;
+  margin-top: -60px;
 }
 
 .invitation-rules__checkbox + label {
