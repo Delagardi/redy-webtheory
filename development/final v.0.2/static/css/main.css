@@ -3380,7 +3380,7 @@ label[for^="radio"]:before {
   color: #427ec1;
 }
 
-.signup-btn__photo,
+.signup-photo,
 .invitation-btn__link {
   width: 408px;
   height: 46px;
@@ -3393,14 +3393,27 @@ label[for^="radio"]:before {
   font-size: 13px;
   font-weight: bold;
   line-height: 45px;
-  text-align: center;
   text-decoration: none;
   color: #666;
 }
 
-.signup-btn__photo:hover,
+.signup-photo:hover,
 .invitation-btn__link:hover {
   background: #dedede;  
+}
+
+.signup-photo__input {
+  position: absolute;
+  width: 408px;
+  height: 46px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.signup-photo:after {
+  content: "Выберите фотографию";
+  display: block;
+  text-align: center;
 }
 
 .invitation-rules__checkbox + label {
@@ -3548,7 +3561,7 @@ label[for^="radio"]:before {
   color: #999;
 }
 
-.signup-btn__submit {
+.signup-submit__btn {
   width: 408px;
   height: 42px;
   margin: 13px auto;
@@ -3566,7 +3579,7 @@ label[for^="radio"]:before {
   color: #fff;
 }
 
-.signup-btn__submit:hover {
+.signup-submit__btn:hover {
   background: #763084;  
 }
 
