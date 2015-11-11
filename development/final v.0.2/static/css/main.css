@@ -3282,7 +3282,7 @@ label[for^="radio"]:before {
   position: relative;
 }
 
-.registration-window {
+.signup-window {
   width: 450px;
   height: 425px;
   margin: 10% auto;
@@ -3291,7 +3291,7 @@ label[for^="radio"]:before {
   box-shadow: 0 0 1px rgba(0,0,0,.25);
 }
 
-.registration-window__header,
+.signup-window__header,
 .invitation-window__header {
   width: 100%;
   height: 50px;
@@ -3365,23 +3365,23 @@ label[for^="radio"]:before {
   text-decoration: underline solid #427ec1;
 }
 
-.invite-rules {
+.invitation-rules {
   position: relative;
   margin: 3px 5px 12px 0;
   text-align: center;
 }
 
-.invite-checkbox__label {
+.invitation-rules__label {
   font: 12px "Open Sans", arial;
   color: #666;
 }
 
-.invite-rules__link {
+.invitation-rules__link {
   color: #427ec1;
 }
 
 .link-for-photo,
-.link-for-invite__link {
+.invitation-btn__link {
   width: 408px;
   height: 46px;
   margin: 10px auto 5px auto;
@@ -3399,29 +3399,29 @@ label[for^="radio"]:before {
 }
 
 .link-for-photo:hover,
-.link-for-invite__link:hover {
+.invitation-btn__link:hover {
   background: #dedede;  
 }
 
-.invite-checkbox + label {
+.invitation-rules__checkbox + label {
   cursor: pointer;
 }
 
-.invite-checkbox:not(checked) {
+.invitation-rules__checkbox:not(checked) {
   position: absolute;
   top: 10px;
   left: 36px;
   opacity: 0;
 }
 
-.invite-checkbox:not(checked) + label {
+.invitation-rules__checkbox:not(checked) + label {
   position: relative;
   display: block;
   padding: 7px 0 0 31px;
   line-height: 25px;
 }
 
-.invite-checkbox:not(checked) + label:before {
+.invitation-rules__checkbox:not(checked) + label:before {
   content: "";
   position: absolute;
   top: 12px;
@@ -3431,11 +3431,11 @@ label[for^="radio"]:before {
   background: url("../img/sprite-main.png") -205px -135px no-repeat;
 }
 
-.invite-checkbox:checked + label:before {
+.invitation-rules__checkbox:checked + label:before {
   background: url("../img/sprite-main.png") -205px -119px no-repeat;
 }
 
-.invite-text {
+.invitation-text {
   width: 410px;
   margin: 0 auto;
   font-family: "Open Sans", arial;
@@ -3444,7 +3444,7 @@ label[for^="radio"]:before {
   color: #666;
 }
 
-.invite-link-for__link {
+.invitation-link-for__link {
   font-family: "Open Sans", arial;
   font-size: 12px;
   margin: 0 40px;
@@ -3452,19 +3452,21 @@ label[for^="radio"]:before {
   color: #427ec1;
 }
 
-.invitation-list-namefield {
+.invitation-fields {
   margin: 0;
 }
 
-.registration-list-namefield {
+.signup-fields {
   margin: 0 0 20px 0;
 }
 
-.namefield {
+.invitation-field,
+.signup-field {
   margin: 10px 19px -7px 21px;
 }
 
-.namefield-input {
+.invitation-field__input,
+.signup-field__input {
   overflow: hidden;
   width: 370px;
   height: 40px;
@@ -3478,16 +3480,19 @@ label[for^="radio"]:before {
   border-bottom-right-radius: 5px;
   background: #fff;
 }
-.namefield-input[type="text"]::-webkit-input-placeholder {  
+
+.invitation-field__input[type="text"]::-webkit-input-placeholder,
+.signup-field__input[type="text"]::-webkit-input-placeholder {  
   padding-top: 12px;
 }
 
-.namefield input[type="text"] {
+.invitation-field input[type="text"],
+.signup-field input[type="text"] {
   position: relative;
-
 }
 
-.namefield:before {
+.invitation-field:before,
+.signup-field:before {
   content: "";
   position: absolute;
   display: block;
@@ -3496,7 +3501,8 @@ label[for^="radio"]:before {
   left: 34px;
 }
 
-.namefield:after {
+.invitation-field:after,
+.signup-field:after {
   content: "";
   float: left;
   overflow: hidden;
@@ -3511,7 +3517,7 @@ label[for^="radio"]:before {
   background: #f5f5f5;
 }
 
-.registration {
+.signup-form {
   position: relative;
 }
 
@@ -3535,7 +3541,7 @@ label[for^="radio"]:before {
   background: url("../img/sprite-main.png") -227px -150px no-repeat;
 }
 
-.namefield__descr {
+.signup-field__description {
   margin: 7px 0 -9px 21px;
   font-family: "Open Sans", arial;
   font-size: 12px;
