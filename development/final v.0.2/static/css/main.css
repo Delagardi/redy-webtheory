@@ -1441,7 +1441,7 @@ label[for^="radio"]:before {
 .sidebar-heading {
   color: #333333;
   font: 400 16px Arial;
-  margin: 36px 0 0 0;
+  margin: 25px 0 0 0;
   display: block;
 }
 
@@ -4027,16 +4027,18 @@ label[for^="radio"]:before {
   color: #333;
 }
 
-.sidebar-navigation__icon1 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.head-icon:before {
+  content: "";
+  display: inline-block;
   width: 16px;
   height: 17px;
+  margin: -2px 10px 0px -29px;
+  padding-bottom: 4px;
+  vertical-align: middle;
   background: url("../img/sprite-main.png") no-repeat;
 }
 
-.sidebar-navigation__number-active {
+.sidebar-navigation__counter-active {
   float: right;
   width: 19px;
   height: 19px;
@@ -4049,7 +4051,7 @@ label[for^="radio"]:before {
   background: #74aded;
 }
 
-.sidebar-navigation__number {
+.sidebar-navigation__counter {
   float: right;
   width: 19px;
   height: 19px;
@@ -4061,88 +4063,99 @@ label[for^="radio"]:before {
   background: transparent;
 }
 
-.sidebar-navigation__icon2 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.list-icon:before {
+  content: "";
+  display: inline-block;
   width: 16px;
   height: 20px;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   background: url("../img/sprite-main.png") no-repeat -16px 0;
 }
 
-.sidebar-navigation__icon3 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.square-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 17px;
   background: url("../img/sprite-main.png") no-repeat -32px 0;
 }
 
-.sidebar-navigation__icon4 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.cube-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 17px;
   background: url("../img/sprite-main.png") no-repeat -48px 0;
 }
 
-.sidebar-navigation__icon5 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.envelope-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 17px;
   background: url("../img/sprite-main.png") no-repeat -64px 0;
 }
 
-.sidebar-navigation__icon6 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.cloud-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 17px;
   background: url("../img/sprite-main.png") no-repeat -80px 0;
 }
 
-.sidebar-navigation__icon7 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.gear-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 17px;
   background: url("../img/sprite-main.png") no-repeat -96px 0;
 }
 
-.sidebar-navigation__icon8 {
-  position: absolute;
-  top: 8px;
-  left: 0;
+.rocket-icon:before {
+  content: "";
+  display: inline-block;
+  margin: -2px 10px 0px -29px;
+  vertical-align: middle;
   width: 16px;
   height: 24px;
   background: url("../img/sprite-main.png") no-repeat -112px 0;
 }
 
+.sidebar-navigation-item {
+  padding-top: 7px;
+}
+
 .sidebar-navigation__link {
-  position: relative;
   display: block;
   box-sizing: border-box;
   width: 220px;
   height: 36px;
-  padding-left: 30px;
+  padding: 0px 0 0px 30px;
   font: 400 13px / 36px "Open Sans", arial;
   text-align: left;
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: 1px solid #f0f0f0;
+  margin-top: -6px;
 }
 
 .sidebar-navigation__link:hover {
   background: #f0f0f0;
 }
 
-.sidebar-navigation__links-last {
+.sidebar-navigation__link-last {
   position: relative;
   display: block;
   box-sizing: border-box;
@@ -4155,13 +4168,14 @@ label[for^="radio"]:before {
   text-decoration: none;
   color: #8f8f8f;
   border-bottom: none;
+  margin-top: -6px;
 }
 
-.sidebar-navigation__links-last:hover {
+.sidebar-navigation__link-last:hover {
   background: #f0f0f0;
 }
 
-.sidebar-sorting {
+.sidebar-sorting-list {
   margin: 12px 0 34px 0;
   padding: 0;
   font: 400 18px "Open Sans", arial;
@@ -4215,12 +4229,13 @@ label[for^="radio"]:before {
   background: transparent;
 }
 
-.triangle {
+.select-cover:after {
   position: absolute;
-  float: right;
+  content: "";
+  display: inline-block;
   width: 0;
   height: 0;
-  margin: 16px 15px 0 195px;
+  margin: -20px 15px 0 195px;
   border-top: 5px solid #d3d3d3;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
@@ -4245,7 +4260,7 @@ label[for^="radio"]:before {
   border-bottom: none;
 }
 
-.sidebar-activity__item-nikname {
+.sidebar-activity__item-nickname {
   display: inline-block;
   margin: 8px 0 12px 0;
   font: 400 13px / normal arial;
@@ -4253,7 +4268,7 @@ label[for^="radio"]:before {
   color: #3676b1;
 }
 
-.sidebar-activity__item-nikname:hover {
+.sidebar-activity__item-nickname:hover {
   text-decoration: none;
 }
 
@@ -4297,21 +4312,21 @@ label[for^="radio"]:before {
   background: url("../img/sprite-main.png") -202px -98px;
 }
 
-.sidebar-help {
+.sidebar-project-help {
   margin: 0 0 28px;
   padding: 0;
   font: 400 18px / .9em "Open Sans", arial;
   list-style: none;
 }
 
-.sidebar-help__description {
+.sidebar-project-help__description {
   width: 220px;
   margin: 15px 0 15px 0;
   font-size: 13px;
   color: #333;
 }
 
-.sidebar-help__donate {
+.sidebar-project-help__btn {
   display: block;
   width: 220px;
   height: 45px;
@@ -4322,13 +4337,16 @@ label[for^="radio"]:before {
   color: #fff;
   border-radius: 5px;
   background: #8ecf6e;
+  margin: -1px 0 0 0;
 }
 
-.sidebar-help__donate:hover {
+.sidebar-project-help__btn:hover {
   background: #7cb560;
 }
 
-.sidebar-help__donate-bag {
+.sidebar-project-help__btn:before {
+  content: "";
+  display: inline-block;
   float: left;
   width: 35px;
   height: 45px;
@@ -4337,53 +4355,68 @@ label[for^="radio"]:before {
 }
 
 .sidebar-social {
-  margin: 5px 0 16px 0;
+  margin: 11px 0 16px 0;
   padding: 0;
   font-family: "Open Sans";
   list-style: none;
   color: #333;
 }
 
-.sidebar-social__icon1,
-.sidebar-social__icon2,
-.sidebar-social__icon3,
-.sidebar-social__icon4,
-.sidebar-social__icon5 {
-  position: absolute;
-  top: 12px;
-  left: 0;
+.vk-icon:before {
+  content: "";
+  display: inline-block;
   width: 16px;
   height: 16px;
-}
-
-.sidebar-social__icon1 {
-  top: 10px;
-  height: 18px;
+  vertical-align: middle;
+  margin: -5px 10px 0 -28px;
   background: url("../img/sprite-main.png") no-repeat -190px 0;
 }
 
-.sidebar-social__icon2 {
+.fb-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -3px 10px 0 -28px;
   background: url("../img/sprite-main.png") no-repeat -207px 0;
 }
 
-.sidebar-social__icon3 {
+.g-plus-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -5px 10px 0 -28px;
   background: url("../img/sprite-main.png") no-repeat -223px 0;
 }
 
-.sidebar-social__icon4 {
+.yt-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -5px 10px 0 -28px;
   background: url("../img/sprite-main.png") no-repeat -239px 0;
 }
 
-.sidebar-social__icon5 {
+.tw-icon:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: -1px 10px 0 -28px;
   background: url("../img/sprite-main.png") no-repeat -255px 0;
 }
 
 .sidebar-social__item {
-  position: relative;
   display: block;
   box-sizing: border-box;
   width: 220px;
-  height: 36px;
+  height: 37px;
   padding-left: 30px;
   font-size: 13px;
   line-height: 38px;
@@ -4398,8 +4431,8 @@ label[for^="radio"]:before {
 }
 
 .sidebar-social__item-last {
-  position: relative;
   display: block;
+  margin-top: -4px;
   box-sizing: border-box;
   width: 220px;
   height: 38px;
@@ -4416,7 +4449,7 @@ label[for^="radio"]:before {
   background: #f0f0f0;
 }
 
-.footer {
+.sidebar-footer {
   width: 220px;
   margin: 26px 0 0 0;
   padding: 0;
@@ -4429,28 +4462,22 @@ label[for^="radio"]:before {
 
 .copyright {
   width: 220px;
-  margin: 0 0 6px 0;
+  margin: -2px 0px 7px 3px;
+  font-size: 12px;
   text-align: center;
   color: #999;
 }
 
-.makers {
-  width: 220px;
-  margin: 0 0 6px 0;
-  text-align: center;
-  color: #999;
-}
-
-.footer__link {
+.sidebar-footer__link {
   float: left;
   margin: 0 10px 0 0;
-  margin: 0 -20px 0 33px;
+  margin: 0 -20px 0 36px;
   font-size: 11px;
   text-decoration: none;
   color: #999;
 }
 
-.footer__link:hover {
+.sidebar-footer__link:hover {
   color: #333;
 }
 
