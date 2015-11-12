@@ -2929,6 +2929,8 @@ header {
   background: #d4d4d4;
 }
 
+/* PROFILE-LIKED-USERS START */
+
 .liked-users {
   width: 520px;
   height: 390px;
@@ -2937,43 +2939,43 @@ header {
   border-radius: 5px;
 }
 
-.liked-users__title {
+.liked-users__heading {
+  display: block;
   margin: 0 0 20px 0;
   font: 400 20px / normal "Open Sans", arial;
   color: #333;
 }
 
-.close-icon {
-  display: block;
+.liked-users__close {
   float: right;
   width: 14px;
   height: 14px;
-  margin: 7px 0 0 0;
+  margin: 7px 5px 0 0px;
   background: url("../img/sprite-main.png") -271px -100px;
 }
 
-.users-list {
+.liked-users__list {
   width: 463px;
   height: 240px;
   margin: 0;
   padding: 0;
 }
 
-.users-list li {
+.liked-users__item {
   float: left;
   margin: 0 3px 12px 0;
 }
 
-.users-list li:nth-child(5n) {
+.liked-users__item:nth-child(5n) {
   margin: 0 0 12px 0;
 }
 
-.users-list__user {
+.users-list__link {
   width: 90px;
   height: 110px;
 }
 
-.users-list__user img {
+.liked-users__img {
   width: 90px;
   height: 90px;
 }
@@ -3002,6 +3004,8 @@ header {
 .show-more-users:hover {
   background: #cddaeb;
 }
+
+/* PROFILE-LIKED-USERS END */
 
 .dialogue-box {
   width: 515px;
