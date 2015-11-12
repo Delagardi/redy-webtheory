@@ -38,86 +38,66 @@
 </div>
 </header>
 <div class="main">
-<div class="article-add__block">
-  <h2>Добавление статьи</h2>
-  <div>
-    <a href="" class="add-form_btn">Форма добавления</a>
-  </div>
-  <div>
-    <a href="" class="add-rules_btn">Правила публикации</a>
-  </div>   
-  <div class="pre-edit">
-    <form action="#">
-      <input type="text" class="add-article-heading1" placeholder="Заголовок статьи">
-      <div class="list_icon"></div>
-    </form>
-    <div class="choose-category_list1">
-        <div class="triangle-content"></div>
+    <div class="add-content__wrapper">
+  <h2 class="add-content__heading">Добавление статьи</h2>
+      <a class="add-content__form" href="#">Форма добавления</a>
+      <a class="add-content__publishing-rules" href="#">Правила публикации</a>
+    <div class="pre-edit">
+      <textarea class="add-content__title" placeholder="Заговолок статьи"></textarea>
+      <div class="select-category__btn triangle">
         <select class="select-category__menu">
           <option>Выберите категорию</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-        </select>
-      </div>
-    <form action="#">
-      <input type="text" class="add-article-heading2" placeholder="Введите два тега">
-      <div class="tag_icon"></div>
-    </form>
-    <div class="choose-category_list2">
-        <div class="triangle-content"></div>
-        <select class="select-category__menu">
           <option>Выберите категорию</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
-          <option>Новое</option>
+          <option>Выберите категорию</option>
+          <option>Выберите категорию</option>
         </select>
       </div>
-  </div>
-  <div class="article-edit__block">
-    <div class="article-edit__symbols-block">
-      <ul class="article-edit__symbols-block-list">
-        <li><a href="#" class="symbol1"></a></li>
-        <li><a href="#" class="symbol2"></a></li>
-        <li><a href="#" class="symbol3"></a></li>
-        <li><a href="#" class="symbol4"></a></li>
-        <li><a href="#" class="symbol5"></a></li>
-        <li><a href="#" class="symbol6"></a></li>
-        <li><a href="#" class="symbol7"></a></li>
-        <li><a href="#" class="symbol8"></a></li>
-        <li><a href="#" class="symbol9"></a></li>
-        <li><a href="#" class="symbol10"></a></li>
-        <li><a href="#" class="symbol11"></a></li>
-        <li><a href="#" class="symbol12"></a></li>
-        <li><a href="#" class="symbol13"></a></li>
-        <li><a href="#" class="symbol14"></a></li>
-        <li><a href="#" class="symbol15"></a></li>
-      </ul>
-      <div class="article-edit__symbols-block-symbols-count">Введено символов: 0</div>
+      <textarea class="add-content__tags-second" placeholder="Введите два тега"></textarea>
+      <div class="select-category__btn-second triangle">
+        <select class="select-category__menu">
+          <option>Тип статьи (необязательно)</option>
+          <option>Тип статьи (необязательно)</option>
+          <option>Тип статьи (необязательно)</option>
+          <option>Тип статьи (необязательно)</option>
+        </select>
+      </div>
     </div>
-    <form action="article-edit__symbols-block-symbols-count">
-      <input class="article_input" type="text" placeholder="Начните вводить текст...">
-      <a class="article_input-size-slider" href=""></a>
-    </form>
-  </div>
-  <div class="add_bottom_btns">
-    <a class="article_publish-btn" href="">
-      <span class="checkmark_icon"></span>
-      Опубликовать статью
-    </a>
-    <a class="article_preview-btn" href="">
-      <span class="view_icon"></span>
-      Предпросмотр
-    </a>
-    <div class="add_by">
-      <a class="cancel_icon" href="#"></a>
-      <a class="profile-login" href="#">webtheory</a>
-      <img class="profile-login__icon" src="upload/2015-09/users/uid16/1442366510_40x40.png" alt="">
+    <div class="text-edit__wrapper-second">
+      <div class="text-edit__styles-wrapper">
+        <ul class="text-edit__styles-list">
+          <li class="text-edit__styles-item"><a href="#" class="bold-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="italic-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="strikethough-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="underlined-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="unordered-list-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="ordered-list-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="h1-heading-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="h2-heading-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="arrows-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="entertainment-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="pic-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="movie-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="dialogue-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="head-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="diskette-icon"></a></li>
+        </ul>
+        <span class="typed-symbols__counter">Введено символов: 0</span>
+      </div>
+      <div class="text-add__input-second size-slider-second" contenteditable="true"></div>
+    </div>
+    <div class="add_bottom_btns">
+      <a class="content-publish__btn" href="#">
+        Опубликовать статью
+      </a>
+      <a class="content-preview__btn" href="#">
+        Предпросмотр
+      </a>
+      <div class="add-author">
+        <span class="add-author__name">webtheory</span>
+        <img class="add-author__photo" src="upload/2015-09/users/uid16/1442366510_40x40.png" alt="">
+      </div>
     </div>
   </div>
-</div>
 <div class="sidebar">
   <h3 class="sidebar-heading">Навигация</h3>
   <ul class="sidebar-navigation">

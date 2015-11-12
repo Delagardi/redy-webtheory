@@ -4557,6 +4557,18 @@ header {
   outline: none;
 }
 
+.add-content__tags-second {
+  float: left;
+  width: 459px;
+  height: 45px;
+  margin: 8px 0 0 0;
+  padding: 10px 0 0 16px;
+  font: 400 13px/43px "Open Sans";
+  resize: none;
+  border: 1px solid #dbdbdb;
+  outline: none;
+}
+
 ::-webkit-input-placeholder {
   font: 400 13px "Open Sans";
   color: #666;
@@ -4578,22 +4590,29 @@ header {
   background: url("../img/sprite-main.png") -210px -25px;
 }
 
+.select-category__btn {
+  margin: 22px 0 0px 8px !important;
+}
+
+.select-category__btn-second {
+  margin: 8px 0 0 8px;
+}
+
 .select-category__btn,
 .select-category__btn-second {
   float: left;
   overflow: hidden;
   width: 239px;
   height: 45px;
-  margin: 22px 0 0 8px;
   font: 13px "Open Sans";
   color: #707070;
   border: 1px solid #dbdbdb;
   background-color: #f8f8f8;
 }
 
-.select-category__btn:after {
+.triangle:after {
   position: absolute;
-  margin: -25px 0 0 190px;
+  margin: -25px 0 0 200px;
   content: "";
   display: inline-block;
   border: 5px solid transparent;
@@ -4611,6 +4630,7 @@ header {
   border: none;
   border-radius: 5px;
   background: transparent;
+  outline: none;
 }
 
 .img-upload__field {
@@ -4671,6 +4691,14 @@ input[name="graphics-add-upload"] {
   border: 1px solid #dbdbdb;
 }
 
+.text-edit__wrapper-second {
+  width: 706px;
+  height: 254px;
+  padding: 0 0 212px 0px;
+  border: none;
+  border: 1px solid #dbdbdb;
+}
+
 .text-edit__styles-wrapper {
   height: 45px;
   background: #f3f3f3;
@@ -4706,6 +4734,18 @@ input[name="graphics-add-upload"] {
   width: 10px;
   height: 10px;
   margin: 106px 0 0 685px;
+  background: url("../img/sprite-main.png") -233px -24px;
+  cursor: pointer;
+  outline: none;
+}
+
+.size-slider-second:after {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  margin: 198px 0 0 680px;
   background: url("../img/sprite-main.png") -233px -24px;
   cursor: pointer;
   outline: none;
@@ -4754,7 +4794,7 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") -151px -25px;
 }
 
-.symbol5 {
+.unordered-list-icon {
   display: inline-block;
   width: 13px;
   height: 13px;
@@ -4762,7 +4802,7 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") -138px -25px;
 }
 
-.symbol6 {
+.ordered-list-icon {
   display: inline-block;
   width: 13px;
   height: 14px;
@@ -4770,21 +4810,21 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") -125px -25px;
 }
 
-.symbol7 {
+.h1-heading-icon {
   display: inline-block;
   width: 14px;
   height: 8px;
   background: url("../img/sprite-main.png") -111px -25px;
 }
 
-.symbol8 {
+.h2-heading-icon {
   display: inline-block;
   width: 14px;
   height: 8px;
   background: url("../img/sprite-main.png") -97px -25px;
 }
 
-.symbol9 {
+.arrows-icon {
   display: inline-block;
   width: 14px;
   height: 8px;
@@ -4798,35 +4838,35 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") -68px -25px;
 }
 
-.symbol11 {
+.pic-icon {
   display: inline-block;
   width: 14px;
   height: 14px;
   background: url("../img/sprite-main.png") -54px -25px;
 }
 
-.symbol12 {
+.movie-icon {
   display: inline-block;
   width: 14px;
   height: 14px;
   background: url("../img/sprite-main.png") -40px -25px;
 }
 
-.symbol13 {
+.dialogue-icon {
   display: inline-block;
   width: 14px;
   height: 11px;
   background: url("../img/sprite-main.png") -26px -25px;
 }
 
-.symbol14 {
+.head-icon {
   display: inline-block;
   width: 12px;
   height: 16px;
   background: url("../img/sprite-main.png") -14px -25px;
 }
 
-.symbol15 {
+.diskette-icon {
   display: inline-block;
   width: 14px;
   height: 15px;
@@ -5501,7 +5541,7 @@ input[name="graphics-add-upload"] {
   background: url("../img/subheader-pattern.jpg") 100% 100% / 14% repeat;
 }
 
-.articles-subheader-content {
+.articles-subheader__wrapper {
   width: 960px;
   margin: 0 auto;
 }
@@ -5523,7 +5563,7 @@ input[name="graphics-add-upload"] {
   color: #fff;
 }
 
-.subheader-articles h2 {
+.articles-subheader__heading {
   margin-top: 35px;
   font-family: "Open Sans light", arial;
   font-size: 16px;
@@ -5574,14 +5614,6 @@ input[name="graphics-add-upload"] {
 .publication-authors {
   float: left;
   width: 220px;
-}
-
-.publication-authors h2 {
-  margin-top: 35px;
-  font-family: "Open Sans light", arial;
-  font-size: 16px;
-  line-height: 16px;
-  color: #fff;
 }
 
 .publication-authors-list {
