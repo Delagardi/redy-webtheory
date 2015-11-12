@@ -4863,13 +4863,6 @@ input[name="graphics-add-upload"] {
   background: url("../img/sprite-main.png") -26px -25px;
 }
 
-.head-icon {
-  display: inline-block;
-  width: 12px;
-  height: 16px;
-  background: url("../img/sprite-main.png") -14px -25px;
-}
-
 .diskette-icon {
   display: inline-block;
   width: 14px;
