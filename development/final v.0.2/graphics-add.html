@@ -38,18 +38,13 @@
 </div>
 </header>
   <div class="main">
-  <div class="article-add__block">
-  <h2>Добавление графики</h2>
-     <div>
-      <a href="#" class="add-form_btn">Форма добавления</a>
-    </div>
-    <div>
-      <a href="#" class="add-rules_btn">Правила публикации</a>
-    </div>
+    <div class="add-content__wrapper">
+  <h2 class="add-content__heading">Добавление графики</h2>
+      <a class="add-content__form" href="#">Форма добавления</a>
+      <a class="add-content__publishing-rules" href="#">Правила публикации</a>
     <div class="pre-edit">
-      <textarea class="add-article-heading1" placeholder="Введите название работы"></textarea>
-      <a class="list_icon" href="#"></a>
-      <div class="choose-category_list1">
+      <textarea class="add-content__title" placeholder="Введите название работы"></textarea>
+      <div class="select-category__btn">
         <span class="triangle"></span>
         <select class="select-category__menu">
           <option>Выберите категорию</option>
@@ -58,160 +53,140 @@
           <option>Выберите категорию</option>
         </select>
       </div>
-      <textarea class="add-article_heading2" placeholder="Добавьте 2-3 тега"></textarea>
-      <a class="tag_icon1" href="#"></a>
+      <textarea class="add-content__tags" placeholder="Добавьте 2-3 тега"></textarea>
     </div>
-    <div class="img-upload_field">
-      <div class=" cloud_img"></div>
-      <div class="upload_description">
+    <div class="img-upload__field">
+      <div class="cloud-img"></div>
+      <div class="img-upload__description">
        Перетащите сюда фотографию<br><br>
         <span>или</span>
       </div>
       <div class="input-wrapper">
-        <div class="choose-phography">Выбирите фотографию</div>
+        <div class="choose-photo__btn">Выбирите фотографию</div>
         <form action="#" method="GET">
           <input type="file" name="graphics-add-upload">
         </form>
       </div>
     </div>
-    <div class="article-edit__block1">
-      <div class="article-edit__symbols-block">
-        <ul>
-          <li><a href="#" class="symbol1"></a></li>
-          <li><a href="#" class="symbol2"></a></li>
-          <li><a href="#" class="symbol3"></a></li>
-          <li><a href="#" class="symbol4"></a></li>
-          <li><a href="#" class="symbol10"></a></li>
+    <div class="text-edit__wrapper">
+      <div class="text-edit__styles-wrapper">
+        <ul class="text-edit__styles-list">
+          <li class="text-edit__styles-item"><a href="#" class="bold-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="italic-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="strikethough-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="underlined-icon"></a></li>
+          <li class="text-edit__styles-item"><a href="#" class="entertainment-icon"></a></li>
         </ul>
-        <span class="all-symbols">Введено символов: 0</span>
+        <span class="typed-symbols__counter">Введено символов: 0</span>
       </div>
 
-      <div class="article_input1" contenteditable="true">
-      </div>
-       <a class="article_input-size-slider" href="#"></a>
-      
+      <div class="text-add__input size-slider" contenteditable="true"></div>
     </div>
     <div class="add_bottom_btns">
-      <a class="article_publish-btn" href="#">
-        <span class="checkmark_icon"></span>
+      <a class="content-publish__btn" href="#">
         Опубликовать статью
       </a>
-      <a class="article_preview-btn" href="#">
-        <span class="view_icon"></span>
+      <a class="content-preview__btn" href="#">
         Предпросмотр
       </a>
-      <div class="add_by">
-        <a class="cancel_icon" href="#"></a>
-        <span class="wt-text">webtheory</span>
-        <img class="wt_icon" src="upload/2015-09/users/uid2/1442366510_40x40.jpg" alt="">
+      <div class="add-author">
+        <span class="add-author__name">webtheory</span>
+        <img class="add-author__photo" src="upload/2015-09/users/uid16/1442366510_40x40.png" alt="">
       </div>
     </div>
   </div>
-  <div class="sidebar">
+    <div class="sidebar">
   <h3 class="sidebar-heading">Навигация</h3>
   <ul class="sidebar-navigation">
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span  class="sidebar-navigation__icon1"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link head-icon" href="#">
         Моя страница
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon2"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link list-icon" href="#">
         Мои публикации
-        <span class="sidebar-navigation__number">19</span>
+        <span class="sidebar-navigation__counter">19</span>
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon3"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link square-icon" href="#">
         Мои навыки
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon4"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link cube-icon" href="#">
         Мои сообщества
-        <span class="sidebar-navigation__number">82</span>
+        <span class="sidebar-navigation__counter">82</span>
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon5"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link envelope-icon" href="#">
         Диалоги 
-        <span class="sidebar-navigation__number-active">2</span>
+        <span class="sidebar-navigation__counter-active">2</span>
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon6"></span>
+    <li class="sidebar-navigation-item">
+      <a class="sidebar-navigation__link cloud-icon" href="#">
         Добавить работу
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links">
-        <span class="sidebar-navigation__icon7"></span>Настройки
+    <li class="sidebar-navigation-item">
+      <a href="#" class="sidebar-navigation__link gear-icon">
+      Настройки
       </a>
     </li>
-    <li>
-      <a href="#" class="sidebar-navigation__links-last">
-        <span class="sidebar-navigation__icon8"></span>
+    <li class="sidebar-navigation-item">
+      <a href="#" class="sidebar-navigation__link-last rocket-icon">
         Выйти
       </a>
     </li>
-  </ul>
+  </ul> 
   <h3 class="sidebar-heading">Поможем проекту?</h3>
-  <ul class="sidebar-help"> 
-    <li class="sidebar-help__description">
+  <ul class="sidebar-project-help"> 
+    <li class="sidebar-project-help__description">
       Для поддержания и развития проекта необходимы денежные
   средства, которые у нас заканчиваются.
     </li>
     <li>
-      <a href="#" class="sidebar-help__donate">
+      <a href="#" class="sidebar-project-help__btn">
         Помочь проекту
-        <span class="sidebar-help__donate-bag"></span>
       </a>
     </li>
   </ul>
-  <h3 class="sidebar-heading">Мы в соц. сетях</h3>
+  <h3 class="sidebar-heading">Мы в соц.сетях</h3>
   <ul class="sidebar-social">
     <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon1"></span>
+      <a href="#" class="sidebar-social__item vk-icon">
         Вконтакте
       </a>
     </li>
     <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon2"></span>
+      <a href="#" class="sidebar-social__item fb-icon">
         Facebook
       </a>
     </li>
     <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon3"></span>
+      <a href="#" class="sidebar-social__item g-plus-icon">
         Google+
       </a>
     </li>
     <li>
-      <a href="#" class="sidebar-social__item">
-        <span class="sidebar-social__icon4"></span>
+      <a href="#" class="sidebar-social__item yt-icon">
         YouTube
       </a>
     </li>
     <li>
-      <a href="#" class="sidebar-social__item-last">
-        <span class="sidebar-social__icon5"></span>
+      <a href="#" class="sidebar-social__item-last tw-icon">
         Twitter
       </a>
     </li>
   </ul>
-  <ul class="footer">
-    <li class="makers">webtheory.net © 2014</li>
-    <li><a href="#" class="footer__link">Правила</a></li>
-    <li><a href="#" class="footer__link">О нас</a></li>
-    <li><a href="#" class="footer__link">Контакты</a></li>
+  <ul class="sidebar-footer">
+    <li class="copyright">webtheory.net © 2014</li>
+    <li><a href="#" class="sidebar-footer__link">Правила</a></li>
+    <li><a href="#" class="sidebar-footer__link">О нас</a></li>
+    <li><a href="#" class="sidebar-footer__link">Контакты</a></li>
   </ul>
 </div>
 </div>
