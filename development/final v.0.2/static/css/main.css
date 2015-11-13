@@ -3713,7 +3713,7 @@ header {
   outline: 2px solid rgba(255,255,255,.3);
 }
 
-.next-btn {
+/*.next-btn {
   position: absolute;
   top: 42px;
   right: 0;
@@ -3723,7 +3723,7 @@ header {
   line-height: 140px;
   text-align: center;
   background: rgba(0,0,0,.3);
-}
+}*/
 
 .next-btn__icon {
   position: absolute;
@@ -3797,7 +3797,7 @@ header {
   border-bottom: 2px solid #e2e2e2;
 }
 
-.content-item {
+.graphics-content__item{
   position: relative;
   position: relative;
   float: left;
@@ -3809,11 +3809,11 @@ header {
   background: #fff;
 }
 
-.content-item:nth-child(3n+3) {
+.graphics-content__item:nth-child(3n+3) {
   margin: 0 0 25px 0;
 }
 
-.content-item:hover {
+.graphics-content__item:hover {
   position: relative;
   z-index: 500;
   box-sizing: content-box;
@@ -3824,22 +3824,22 @@ header {
   box-shadow: 0 3px 10px 10px rgba(0,0,0,.2);
 }
 
-.content-item:hover .content-item__add {
+.graphics-content__item:hover .graphics-content__item-attachment {
   display: block;
 }
 
-.content-item__img {
+.graphics-content__item-img {
   width: 220px;
   height: 160px;
 }
 
-.content-item ul {
+.graphics-content__item-details {
   margin: 16px 0 26px 0;
   padding: 0;
   list-style: none;
 }
 
-.content-item__like {
+.graphics-content__item-likes {
   float: left;
   width: 55px;
   height: 13px;
@@ -3848,7 +3848,7 @@ header {
   background: #fff;
 }
 
-.content-item__like:before {
+.graphics-content__item-likes:before {
   content: " ";
   display: block;
   float: left;
@@ -3858,7 +3858,7 @@ header {
   background: url("../img/sprite-main.png") -202px -98px;
 }
 
-.content-item__views {
+.graphics-content__item-views {
   float: left;
   width: 65px;
   height: 13px;
@@ -3867,7 +3867,7 @@ header {
   background: #fff;
 }
 
-.content-item__views:before {
+.graphics-content__item-views:before {
   content: " ";
   display: block;
   float: left;
@@ -3877,7 +3877,7 @@ header {
   background: url("../img/sprite-main.png") -217px -98px;
 }
 
-.content-item__comments {
+.graphics-content__item-comments {
   float: left;
   width: 65px;
   height: 13px;
@@ -3896,7 +3896,8 @@ header {
   background: url("../img/sprite-main.png") -236px -98px;
 }
 
-.content-item__add {
+.graphics-content__item-attachment {
+  content: "";
   display: block;
   display: none;
   float: right;
@@ -3905,7 +3906,7 @@ header {
   background: url("../img/sprite-main.png") -251px -98px;
 }
 
-.content-item__author {
+.graphics-content__item-author {
   display: inline-block;
   clear: left;
   overflow: hidden;
@@ -3914,19 +3915,19 @@ header {
   background: #fff;
 }
 
-.content-item__author img {
+.graphics-content__item-author-img {
   float: left;
   width: 15px;
   margin: 0 8px 0 0;
 }
 
-.content-item__author-link {
+.graphics-content__item-author{
   float: left;
   font: 400 13px / normal arial;
   color: #6493cf;
 }
 
-.content-item__title {
+.graphics-content__item-title {
   display: inline-block;
   margin: 8px 0 0 0;
   font: 900 14px / normal arial;
@@ -3934,21 +3935,21 @@ header {
   color: #333;
 }
 
-.content-item__date {
+.graphics-content__item-date {
   display: inline-block;
   margin: 8px 0 0 0;
   font: 900 12px / normal arial;
   color: #929292;
 }
 
-.content-item__preview {
+.graphics-content__item-description {
   display: inline-block;
   margin: 8px 0 0 0;
   font: 400 12px / normal arial;
   color: #929292;
 }
 
-.content-item__btn {
+.graphics-content__item-open--button {
   display: block;
   width: 220px;
   height: 40px;
@@ -3960,8 +3961,12 @@ header {
   background: #71a0da;
 }
 
-.content-item__btn:hover {
+.graphics-content__item-open--button:hover {
   background: #5e9cdb;
+}
+
+.graphics-content__item-open {
+  color: inherit;
 }
 
 .previous-page,
