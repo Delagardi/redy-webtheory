@@ -5448,16 +5448,12 @@ input[name="graphics-add-upload"] {
   font-size: 13px;
 }
 
-.content_bottom {
-  height: 100px;
-  margin: 64px 0 0 0;
-}
-
-.previous-page-btn {
+.pagination__item:first-child {
   display: block;
   float: left;
   width: 109px;
   height: 31px;
+  margin-right: 24px;
   font: 400 13px / 30px Arial;
   text-align: center;
   color: #acacac;
@@ -5466,7 +5462,7 @@ input[name="graphics-add-upload"] {
   background: #f5f5f5;
 }
 
-.previous-page-btn:hover {
+.pagination__item:first-child:hover {
   width: 109px;
   height: 31px;
   font: 400 13px / 30px Arial;
@@ -5477,43 +5473,48 @@ input[name="graphics-add-upload"] {
   background: #71a5da;
 }
 
-.page-btn {
+.pagination__item-link {
   display: block;
-  width: 20px;
-  height: 30px;
   font: 400 13px / 30px Arial;
-  color: #333;
+  color: inherit;
 }
 
-.page-numbers {
-  float: left;
-  width: 286px;
-  height: 32px;
-  margin: -5px 24px 0 22px;
+.pagination-list {
+  width: 600px;
+  height: 100px;
   padding: 0;
   list-style: none;
-  border-bottom: 2px solid #d9e0e8;
+  margin: 40px auto;
 }
 
-.page-numbers-item {
+.pagination__item {
   float: left;
   padding: 0 3px;
   text-align: center;
+  border-bottom: 2px solid #d9e0e8;
+  width: 30px;
+  height: 30px;
 }
 
-.page-numbers-item:hover {
+.pagination__item:hover {
   border-bottom: 2px solid #609ad4;
 }
 
-.active-page {
+.pagination__item--active {
+  float: left;
+  padding: 0 3px;
+  text-align: center;
   border-bottom: 2px solid #609ad4;
+  width: 25px;
+  height: 30px;
 }
 
-.next-page-btn {
+.pagination__item:last-child {
   display: block;
   float: left;
   width: 109px;
   height: 33px;
+  margin-left: 24px;
   font: 400 13px / 33px Arial;
   text-align: center;
   color: #acacac;
@@ -5522,7 +5523,7 @@ input[name="graphics-add-upload"] {
   background: #f5f5f5;
 }
 
-.next-page-btn:hover {
+.pagination__item:last-child:hover {
   color: #fff;
   border: 1px solid #e3e3e3;
   background: #719bda;
