@@ -5661,6 +5661,25 @@ input[name="graphics-add-upload"] {
   height: 40px;
 }
 
+/*.subheader-dark__top-graphics {
+  
+}*/
+
+.subheader-dark__heading--period {
+  color: #fff;
+  border-bottom: 1px dotted;
+}
+
+.subheader-dark__slider {
+  margin: 0;
+  padding: 0;
+}
+
+.subheader-dark__slide {
+  float: left;
+  margin-right: 10px;
+}
+
 /*=======================================================*/
 /* ARTICLES HEADER END */
 /*=======================================================*/
